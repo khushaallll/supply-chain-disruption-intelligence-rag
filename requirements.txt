@@ -1,0 +1,29 @@
+# Core agent framework
+langgraph==0.2.39
+langchain==0.3.7
+langchain-community==0.3.5
+
+# Graph
+networkx==3.4.2
+
+# Retrieval
+chromadb==0.5.20
+rank_bm25==0.2.2
+sentence-transformers==3.2.1
+
+# LLM / HuggingFace stack
+transformers==4.46.2
+torch==2.5.1
+huggingface_hub==0.26.2
+
+# NLI / faithfulness checking (Layer 5)
+# transformers + torch above cover this; no extra package needed for off-the-shelf DeBERTa-MNLI
+
+# Utilities
+pandas==2.2.3
+numpy==1.26.4
+python-dotenv==1.0.1
+requests==2.32.3
+
+# Notebooks (optional, for exploration/debugging)
+jupyter==1.1.1
