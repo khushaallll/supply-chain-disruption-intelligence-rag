@@ -1,0 +1,819 @@
+company_a,company_b,similarity_score,count_a,count_b
+abm investama lbk pt,abm investama tbk pt,100,2,2
+mitsui,mitsui high-tec,100,75,2
+mitsui,mitsui mining & smelting,100,75,3
+mitsui,mitsui osk lines,100,75,2
+mitsui,mitsui sumitomo metal mining brass & copper,100,75,1
+mitsui chemicals,mitsui chemicals & skc polyurethanes,100,11,2
+mitsui chemicals & skc polyurethanes,skc,100,2,48
+mitsui sumitomo metal mining brass & copper,sumitomo metal mining,100,1,66
+miwon,miwon chemicals,100,4,5
+miwon,miwon commercial,100,4,12
+miwon,miwon commercial cn,100,4,1
+miwon,miwon europe,100,4,1
+miwon,miwon spain sl sociedad unipersonal,100,4,1
+miwon,miwon specialty chemical co ltd/new,100,4,21
+miwon commercial,miwon commercial cn,100,12,1
+mmc norilsk nickel pjsc,norilsk,100,19,1
+mmg,mmg lkl,100,10,4
+mobase,mobase electronics,100,1,43
+mol hungarian oil & gas,mol hungarian oil g gas pic,100,1,1
+mitsui,mitsui matsushima,100,75,9
+mitsui,mitsui e&s,100,75,10
+posco,posco steeleon,100,273,9
+mitsui,mitsui chemicals & skc polyurethanes,100,75,2
+ls,ls mnm,100,20,2
+mahle,mahle behr gmbh & co kg,100,9,1
+mahle,mahle metal leve,100,9,3
+maruzen showa unyu,showa,100,1,1
+meglobal,meglobal canada ulc,100,1,1
+metallurgical corp of china,power construction corp of china,100,77,3
+mitani,mitani sangyo,100,1,6
+mitani,mitani sekisan,100,1,2
+mitsubishi,mitsubishi gas chemical,100,1,95
+mitsubishi,mitsubishi heavy industries,100,1,61
+mitsubishi,mitsubishi kakoki kaisha,100,1,1
+mitsubishi,mitsubishi logisnext,100,1,5
+mitsubishi,mitsubishi materials,100,1,51
+mitsubishi,mitsubishi motors,100,1,30
+mitsubishi,mitsubishi steel manufacturing,100,1,35
+mitsubishi,ps mitsubishi construction,100,1,3
+mitsui,mitsui chemicals,100,75,11
+morgan sindall,morgan sindall group pic,100,1,1
+munjal showa,showa,100,2,1
+nanshan,shenzhen nanshan power,100,1,1
+national petroleum,vietnam national petroleum,100,2,1
+pangang,pangang group panzhihua steel vanadium,100,1,2
+pangang,pangang group vanadium titanium & resources,100,1,2
+pelabuhan indonesia i persero pt,pelabuhan indonesia persero pt,100,1,1
+pelabuhan indonesia iii persero pt,pelabuhan indonesia persero pt,100,1,1
+pelabuhan indonesia iv persero pt,pelabuhan indonesia persero pt,100,3,1
+petro vietnam construction jsc,petro vietnam lpg jsc,100,3,3
+petroliam nasional bhd,petroliam nasional bhd 17) vector,100,10,1
+petrovietnam gas city investment and development jsc,petrovietnam gas jsc,100,1,60
+petrovietnam gas jsc,petrovietnam low pressure gas distribution jsc,100,60,7
+petrovietnam oil,petrovietnam oil nam dinh jsc,100,57,2
+petrovietnam oil,petrovietnam oil phu yen jsc,100,57,2
+petrovietnam oil,thai binh petrovietnam oil jsc,100,57,2
+posco,posco a&c,100,273,1
+posco,posco dx,100,273,8
+posco,posco eco & challenge,100,273,71
+posco,posco future m,100,273,51
+posco,posco mc materials,100,273,1
+pan american energy,pan american silver,100,1,10
+pacific national holdings pty,pacific national pty,100,1,2
+osaka soda,osaka soda co td,100,6,1
+noroo,noroo paint & coatings,100,6,3
+nec,nec networks & system integration,100,9,1
+nec,nec networks & system integration corn,100,9,1
+nec networks & system integration,nec networks & system integration corn,100,1,1
+nexen,nexen tire,100,5,8
+nichia,nichia steel works,100,3,18
+ningbo shanshan,shanshan,100,35,1
+nippon electric glass,nippon sheet glass,100,2,40
+northvolt ab,northvolt ett ab,100,9,1
+osaka organic chemical industry,osaka organic chemical industry lid,100,2,3
+ntpc,ntpc ge power services pvt,100,4,1
+nuclear power corp of india,power construction corp of china,100,2,3
+oci,oci co ltd/new,100,45,1
+oil & natural gas,oil the natural gas,100,34,3
+okabe,okabe co td,100,2,1
+omv,omv petrom,100,29,1
+ontic engineering & manufacturing,ontic engineering & manufacturing uk,100,1,1
+ls,ls cable & system,100,20,1
+lotte chemical titan holding bhd,lotte chemical titan tbk pt,100,2,2
+linde,linde plc/old,100,4,4
+inner mongolia baotou steel union,inner mongolia baotou stool union,100,9,24
+holcim,holcim liban sal,100,27,1
+holcim,holcim philippines,100,27,1
+huludao shougang donghua machinery,shougang,100,1,14
+hunan chendian international development,hunan development,100,1,1
+hwa shin,shin hwa dynamics,100,1,1
+hyosung,hyosung advanced materials,100,36,2
+hyundai mobis,hyundai mobis mexico s de rl de cv,100,31,2
+hyundai transys,hyundai transys georgia powertrain,100,5,1
+hyundai wia,hyundai wia automotive engine shandong,100,11,1
+iljin,iljin bearing,100,4,1
+impala,impala platinum,100,1,10
+ina-holding schaeffler gmbh & co kg,schaeffler,100,1,145
+indal aluminium industry tbk pt,indal aluminium industry tble pt,100,10,7
+industrias ch,industrias ch sab de cv,100,16,116
+industries qatar qsc,qatar electricity & water co qsc,100,3,4
+industries qatar qsc,qatar fuel qsc,100,3,1
+ineos,ineos styrolution ludwigshafen,100,6,2
+holcim,holcim ecuador,100,27,1
+holcim,holcim costa rica,100,27,1
+holcim,holcim argentina,100,27,1
+hd hyundai electric,hd hyundai infracore,100,1,3
+hd hyundai,hd hyundai and shell base oil,100,22,1
+hd hyundai,hd hyundai electric,100,22,1
+hd hyundai,hd hyundai heavy industries,100,22,8
+hd hyundai,hd hyundai infracore,100,22,3
+hd hyundai and shell base oil,hd hyundai electric,100,1,1
+hd hyundai and shell base oil,shell,100,1,83
+hd hyundai electric,hd hyundai heavy industries,100,1,8
+hdc,hdc hyundai development co-engineering & construction,100,6,2
+hoegh autoliners,hoegh autoliners asa,100,1,1
+hdc,hdc hyundai engineering plastics,100,6,9
+hiroca,hiroca holdings lid,100,2,4
+hitachi,hitachi air-conditioning & refrigerating products gua,100,42,1
+hitachi,hitachi astemo,100,42,6
+hitachi,hitachi zosen,100,42,2
+hitachi,tata hitachi construction machinery co pvt,100,42,1
+ho tung chemical,tung ho steel enterprise,100,1,9
+inland waterways authority of india,steel authority of india,100,1,1
+international aero engines,miu aero engines,100,1,7
+linde,linde india,100,4,1
+international aero engines,mtu aero engines,100,1,1
+korea national oil,national oil,100,11,1
+krakatau posco pt,posco,100,3,273
+kraton,kraton formosa polymers,100,4,1
+kuehne + nagel international,kuehne nagel international,100,1,1
+kumho mitsui chemicals,mitsui,100,7,75
+kumho mitsui chemicals,mitsui chemicals,100,7,11
+kuwait integrated petroleum industries,kuwait petroleum,100,1,2
+lg,lg chem,100,3,69
+lg,lg cns,100,3,2
+lg,lg display,100,3,6
+lg,lg electronics,100,3,20
+lg,lg energy solution,100,3,74
+lg,lg innotek,100,3,12
+lg,lg mma,100,3,3
+lg,lg uplus,100,3,2
+liebherr-international,liebherr-international deutschland,100,3,3
+linamar,linamar forgings,100,3,1
+koppers,sigdo koppers,100,4,29
+komatsu,komatsu koki kk,100,68,1
+kobelco wire,kobelco wire cd,100,2,3
+jinneng holding shanxi coal industry,jinneng holding shanxi electric power,100,3,3
+international aero engines,sinternational aero engines,100,1,1
+j resources asia pasific tbk pt,resources asia pasific tbk pt,100,2,2
+jfe,jfe systems,100,163,1
+jiangsu tongda power technology,tongda,100,5,1
+jiangsu yueda kia motors,kia,100,2,36
+jilin province tonghua iron & steel international trade,tonghua iron & steel,100,1,1
+jinneng holding coal,jinneng holding shanxi coal industry,100,16,3
+jinneng holding shanxi coal industry,shanxi coal international energy,100,3,4
+koatsu gas kogyo,koatsu kogyo,100,6,2
+jiuli,zhejiang jiuli hi-tech metals,100,1,1
+abu dhabi national energy co pjsc,abu dhabi national oil co for distribution pjsc,100,2,2
+jtekt,jtekt india,100,152,1
+k+s,k+s ng,100,2,4
+kcc,kcc glass,100,12,10
+keihin,keihin seimitsu kogyo,100,1,1
+kintetsu,kintetsu world express,100,4,2
+posco,posco planted,100,273,2
+potevio,potevio new energy,100,1,1
+hbis,hbis group hong kong,100,18,2
+taiyo,taiyo yuden,100,1,3
+tangshan beishiti iron & steel group fufeng steel,tangshan iron & steel,100,1,5
+tangshan caofeidian shiye port,tangshan port,100,1,1
+tata,tata chemicals,100,1,2
+tata,tata hitachi construction machinery co pvt,100,1,1
+tata,tata international metals uk,100,1,1
+tata,tata motors,100,1,34
+tata,tata power co ltd/the,100,1,2
+tata,tata sons pvt,100,1,2
+tata,tata steel long products,100,1,1
+tatung,tatung fine chemical,100,6,1
+techgen,techgen sa de cv,100,1,5
+ternium,ternium argentina,100,32,15
+ternium,ternium mexico sa de cv,100,32,3
+thyssenkrupp,thyssenkrupp materials & services,100,165,1
+tokai,tokai carbon,100,1,34
+tokai,tokai carbon korea,100,1,1
+tokai,tokai concrete industries,100,1,1
+tanaka,tanaka seimitsu kogyo,100,1,1
+taiyo,taiyo technolex,100,1,1
+power construction corp of china,shipping corp of india,100,3,2
+taiyo,taiyo kisokogyo,100,1,1
+sk,sk materials,100,85,28
+sk,sk materials airplus,100,85,4
+sk,sk multi utility,100,85,3
+sk,sk oceanplant,100,85,1
+sk,sk shipping,100,85,6
+sk,sk signet,100,85,4
+sk,sk telecom,100,85,15
+sk materials,sk materials airplus,100,28,4
+snt,snt motiv,100,41,1
+state development & investment,state power investment,100,2,10
+state grid corp of china,state grid corp of chirra,100,41,13
+state power investment,state power investment corp shanxi aluminum,100,10,1
+stellantis,stellantis hv,100,108,6
+ta,ta chen stainless pipe,100,2,35
+ta,ta chen stamless pipe,100,2,16
+ta,ta ya electric wire & cable,100,2,4
+ta,ta yih industrial,100,2,4
+tokai,tokai electronics,100,1,3
+tokai,tokai kisen,100,1,1
+tokai,tokai rika,100,1,8
+tokai carbon,tokai carbon korea,100,34,1
+vitol,vitol holding,100,2,3
+volvo ab,volvo car ab,100,79,48
+wanxiang,wanxiang qianchao,100,2,7
+wijaya karya bangunan gedung tbk pt,wijaya karya persero tbk pt,100,1,5
+wijaya karya before ibk pt,wijaya karya persero tbk pt,100,4,5
+wijaya karya beton tbk pt,wijaya karya persero tbk pt,100,2,5
+wonik,wonik cube,100,1,1
+wonik,wonik materials,100,1,2
+wonik,wonik pne,100,1,1
+wpd,wpd malleco,100,1,1
+xinjiang tianfu,xinjiang tianfu energy,100,1,1
+yamato,yamato kogyo,100,6,8
+ypf,ypf energia electrica,100,34,2
+yunnan copper,yunnan copper industry,100,58,6
+yunnan tin,yunnan tin group holding,100,4,1
+zhejiang cenway new materials,zhejiang power new energy,100,1,1
+zhejiang huahong new materials,zhejiang power new energy,100,1,1
+vitol,vitol asia pte,100,2,4
+vietnam - italy steel jsc,vietnam italy steel jsc,100,1,2
+vedanta,vedanta td,100,17,1
+towa,towa refractory engineering,100,1,1
+tokyo electron,tokyo electron device,100,2,2
+tokyo printing ink manufacturing,tokyo steel manufacturing,100,3,5
+tokyo radiator manufacturing,tokyo steel manufacturing,100,2,5
+tokyo rope manufacturing,tokyo steel manufacturing,100,18,5
+tomoe,tomoe works,100,9,1
+toshiba,toshiba mitsubishi-electric industrial systems,100,3,1
+toshiba,toshiba tec,100,3,1
+trafigura group pte,trafigura pte,100,13,3
+vale,vale indonesia tbk pt,100,52,9
+triumph,triumph motorcycles,100,1,1
+ts tech,ts tech north america,100,6,1
+tvs,tvs motor,100,1,1
+unigel,unigel participacoes s/a,100,1,1
+unigel,unigel uk,100,1,1
+uniper global commodities se,uniper se,100,1,4
+vale,vale inco sudbury,100,52,1
+sk,sk kaken,100,85,1
+sk,sk innovation,100,85,135
+sk,sk if technology,100,85,6
+shandong iron & steel,shandong iron and steel,100,2,3
+sanko,sanko metal industrial,100,1,10
+sanko,sanko seisakusyo,100,1,1
+sapura energy bhd,sapura industrial bhd,100,1,1
+sato,sato kogyo s pte,100,1,1
+sato,sato shoji,100,1,5
+sato,watanabe sato,100,1,1
+schaeffler,schaeffler india,100,145,1
+screen,tsuchiya screen kk,100,2,1
+seah,seah besteel,100,44,12
+seah,seah precision mexico sa de cv,100,44,1
+seah,seah special steel,100,44,6
+semiconductor manufacturing international,taiwan semiconductor manufacturing,100,1,15
+seoyon e-hwa,seoyon e-hwa automotive slovakia sro,100,1,1
+seoyon e-hwa,seoyon e-hwa summit automotive anantapur pvt,100,1,1
+seres,seres group co llu,100,6,1
+sewon,sewon e&c,100,1,18
+sewon,solaris sewon,100,1,1
+sanko,sanko gosei,100,1,1
+samindo resources tbk pi,samindo resources tbk pt,100,1,1
+samil,samil c&s,100,3,33
+qingdao seah precision metal,seah,100,1,44
+power construction corp of china,state grid corp of china,100,3,41
+power construction corp of china,state grid corp of chirra,100,3,13
+powerchip semiconductor manufacturing,semiconductor manufacturing international,100,1,1
+ptt exploration & production pcl,ptt pcl,100,4,44
+ptt global chemical pcl,ptt pcl,100,2,44
+ptt oil & retail business pcl,ptt pcl,100,2,44
+qingdao copton technology,qingdao copton technology co lill,100,1,1
+qinhuangdao shougang machinery,qinhuangdao shougang plate mill,100,1,1
+saic volkswagen automotive,volkswagen,100,8,152
+qinhuangdao shougang machinery,shougang,100,1,14
+qinhuangdao shougang plate mill,shougang,100,1,14
+rechi precision,rechi qingdao precision electromechanical,100,5,1
+renault,renault korea motors,100,72,8
+resonac,resonac holdinger,100,6,7
+rheinmetall,rheinmetall bae systems land,100,3,1
+robert bosch,robert bosch automotive steering,100,24,1
+shan xi hua yang group new energiv,shan xi hua yang group new energy,100,1,1
+shandong sunway chemical,sunway,100,2,1
+sk,sk ie technology,100,85,10
+shanghai airport,shanghai international airport,100,1,2
+shougang,shougang fushan resources,100,14,1
+shougang,shougang guiyang special steel,100,14,1
+shougang,shougang hierro peru s a a,100,14,1
+shougang,shougang shuicheng iron & steel,100,14,1
+shougang,suzhou shougang longxing steel processing distribution,100,14,1
+showa,showa manufacturing,100,1,1
+showa,showa precision tools,100,1,1
+sibanye stillwater,stillwater,100,15,1
+sichuan changhong new energy technology,sichuan new energy power,100,1,6
+sichuan faw toyota motor,toyota motor,100,3,176
+siemens,siemens gamesa renewable energy,100,55,8
+sk,sk advanced,100,85,14
+sk,sk chemicals,100,85,32
+sk,sk ecoplant,100,85,56
+sk,sk enpulse,100,85,2
+sk,sk gas,100,85,47
+sk,sk hynix,100,85,16
+shougang,shougang changzhi iron & steel,100,14,1
+shin hsiung natural gas,shin shin natural gas,100,1,1
+shenzhen sunway communication,sunway,100,2,1
+shanghai huayi construction,shanghai huayi engineering,100,1,1
+shanghai huayi,shanghai huayi acrylic acid,100,67,1
+shanghai huayi,shanghai huayi construction,100,67,1
+shanghai huayi,shanghai huayi engineering,100,67,1
+shanghai huayi,shanghai huayi group finance,100,67,1
+shanghai huayi,shanghai huayi polymer,100,67,1
+shanghai huayi acrylic acid,shanghai huayi construction,100,1,1
+shanghai huayi acrylic acid,shanghai huayi engineering,100,1,1
+shanghai huayi construction,shanghai huayi group finance,100,1,1
+shanxi coking,shanxi coking coal energy,100,1,3
+shanghai huayi construction,shanghai huayi polymer,100,1,1
+shanghai huayi engineering,shanghai huayi group finance,100,1,1
+shanghai huayi engineering,shanghai huayi polymer,100,1,1
+shanghai shougang steel & iron trading,shougang,100,1,14
+shanghai tiantan auxiliaries,shanghai tiantan auxiliaries co ltd 831,100,1,1
+shanxi coal import & export,shanxi coal international energy,100,4,4
+shanxi coal international energy,shanxi coking coal energy,100,4,3
+hbis,hbis resources,100,18,27
+zhejiang power new energy,zhejiang weixing new building materials,100,1,1
+asia pacific wire & cable,electric wire & cable,100,3,1
+baker hughes,baker hughes do brasil ltda,100,4,1
+beijing shougang alliance of xingang science & trade,shougang,100,1,14
+china national nuclear,china national nuclear power,100,1,9
+eagle,huizhou china eagle electronic technology,100,1,1
+dsr,dsr wire,100,2,1
+china national offshore oil,national oil,100,3,1
+china national petroleum,national petroleum,100,5,2
+china national petroleum,vietnam national petroleum,100,5,1
+dp world ltd/united arab emirates,emirates,100,1,1
+dow,dow corning toray,100,76,1
+doosan,doosan fuel cell,100,15,2
+doosan,doosan enerbility,100,15,27
+arkema,arkema hydrogen peroxide,100,11,1
+doosan,doosan bobcat,100,15,2
+asahi kasei,asahi kasei mitsubishi chemical ethylene,100,110,1
+asahi kasei mitsubishi chemical ethylene,mitsubishi,100,1,1
+china national united oil,national oil,100,3,1
+dongseo,is dongseo,100,1,1
+china nonferrous metal mining,china nonferrous mining,100,4,3
+beijing shougang alliance of xingang science & trade,beijing shougang construction,100,1,1
+asia pacific wire & cable,china wire & cable,100,3,5
+beijing shougang construction,chaoyang shougang beijing machinery,100,1,1
+dongkuk,dongkuk structures & construction,100,24,5
+dongkuk,dongkuk steel mill co ltd/new,100,24,4
+dongkuk,dongkuk refractories & steel,100,24,1
+dongfeng nissan diesel motor,nissan motor,100,1,56
+astra otoparts lbk pt,astra otoparts tbk pt,100,8,4
+atlas honda,honda atlas cars pakistan,100,1,1
+dongfeng motor,dongfeng nissan diesel motor,100,17,1
+dongfeng automobile,dongfeng peugeot citroen automobile,100,9,1
+china gas industry investment,petrovietnam gas city investment and development jsc,100,2,1
+ecopro,ecopro bm,100,16,12
+ecopro,ecopro hn,100,16,2
+emirates,emirates nuclear energy,100,1,1
+chengdu ningjiang showa autoparts,showa,100,1,1
+ap moller - maersk a/s,ap moller maersk a/s,100,4,1
+enel,enel destribucion peru sma,100,19,3
+chiyoda,chiyoda air-con parts,100,9,1
+enel,enel colombia sa esp,100,19,1
+chevron,chevron phillips chemical,100,75,1
+chia ta world,ta,100,2,2
+enel,enel chile,100,19,2
+arcelormittal,arcelormittal kryvyi rih pjsc,100,109,1
+enel,enel brasil,100,19,1
+enel,enel americas,100,19,7
+china changan automobile,chongqing changan automobile,100,4,51
+beijing shougang construction,beijing shougang gitane new materials,100,1,1
+electric wire & cable,tatsuta electric wire and cable,100,1,11
+ecopro,ecopro innovation,100,16,1
+electric wire & cable,tai-i electric wire & cable,100,1,3
+electric wire & cable,ta ya electric wire & cable,100,1,4
+electric wire & cable,skmi wire & cable tbk pt,100,1,2
+electric wire & cable,kmi wire & cable tbk pt,100,1,3
+arcelormittal,arcelormittal nippon steel india,100,109,4
+electric wire & cable,jiangsu tongguang electronic wire and cable,100,1,1
+electric wire & cable,hua eng wire & cable,100,1,3
+electric wire & cable,hold-key electric wire & cable,100,1,1
+electric wire & cable,evertop wire cable,100,1,2
+arcelormittal,arcelormittal south africa,100,109,1
+edf,edf renouvelables,100,1,1
+edf,edf energy nuclear generation,100,1,1
+ecopro,ecopro materials,100,16,1
+bae systems,rheinmetall bae systems land,100,51,1
+dongfeng automobile,dongfeng honda automobile,100,9,5
+enel,enel distribucion chile,100,19,13
+baosteel metal,shanghai baosteel & arcelor tailor metal,100,1,1
+china wire & cable,jiangsu tongguang electronic wire and cable,100,5,1
+beijing automotive,beijing hainachuan automotive parts,100,11,2
+beijing shougang,chaoyang shougang beijing machinery,100,84,1
+continental,continental motors,100,42,1
+continental,continental chemical corp pte,100,42,1
+beijing hyundai motor,hyundai motor,100,3,67
+conocophillips,conocophillips kuma,100,27,1
+commercial aircraft corp of china,power construction corp of china,100,2,3
+comex sab de cv,comex sab dk cv,100,7,8
+colas,hindustan colas,100,1,1
+beijing shougang,beijing shougang refractory & metallurgical burden,100,84,1
+coasia,coasia electronics,100,1,2
+coasia,coasia cm,100,1,1
+beijing shougang,beijing shougang oxygen factory,100,84,1
+china wire & cable,kmi wire & cable tbk pt,100,5,3
+beijing shougang,beijing shougang alliance of xingang science & trade,100,84,1
+citic pacific group special steel,citic pacific special steel,100,4,2
+beijing shougang,beijing shougang construction,100,84,1
+china wire & cable,skmi wire & cable tbk pt,100,5,2
+china wire & cable,ta ya electric wire & cable,100,5,4
+beijing shougang,beijing shougang gitane new materials,100,84,1
+cie automotive,cie automotive india,100,6,1
+beijing shougang,beijing shougang international engineering technolog,100,84,1
+beijing shougang,beijing shougang lujiashan limestone mine,100,84,1
+china wire & cable,tai-i electric wire & cable,100,5,3
+chongqing water,chongqing water conservancy investment,100,1,1
+chongqing three gorges water conservancy & electric power,chongqing water,100,2,1
+chongqing chang'an visteon engine control system,visteon,100,1,4
+china wire & cable,tatsuta electric wire and cable,100,5,11
+continental,continental resources inc/ok,100,42,2
+corning,dow corning toray,100,5,1
+corning,owens corning,100,5,4
+dana,dana brata luhur tbk pt,100,32,1
+dongbu,zhangjiagang dongbu high technology metal,100,3,1
+barito pacific tbk pt,barito pacific thk pt,100,1,4
+dong anh electrical equipment corp jsc,electrical equipment jsc,100,2,1
+dl,dl holdings co lirl,100,90,12
+dl,dl f&c,100,90,11
+dl,dl e&c,100,90,11
+china southern power grid,china southern power grid energy efficiency & clean energy,100,6,1
+china southern power grid,china southern power grid energy storage,100,6,3
+barito pacific thk pt,thk,100,4,1
+denso,denso corp oz,100,140,20
+denka,kanto denka kogyo,100,33,5
+china three gorges,china three gorges renewables,100,8,4
+china three gorges,chongqing three gorges water conservancy & electric power,100,8,2
+china wire & cable,dah san electric wire & cable,100,5,2
+cs,cs wind,100,1,10
+china wire & cable,electric wire & cable,100,5,1
+daicel,daicel carp,100,4,6
+china wire & cable,evertop wire cable,100,5,2
+dah san electric wire & cable,electric wire & cable,100,2,1
+beijing shougang,shougang,100,84,14
+daeduck,daeduck electronics co ltd / new,100,1,1
+be max trading,max,100,1,2
+daedong,daedong metals,100,3,2
+china wire & cable,hold-key electric wire & cable,100,5,1
+china wire & cable,hua eng wire & cable,100,5,3
+beijing automotive,beijing benz automotive,100,11,4
+cummins,cummins india,100,37,1
+csp - co siderurgica do pecem,csp co siderurgica do pecem,100,3,5
+ansteel,ansteel group mining,100,2,1
+chevron,chevron lubricants lanka,100,75,1
+enel,enel distribucion peru saa,100,19,1
+fujikura,fujikura kasei,100,6,4
+boeing,boeing co/the,100,1,15
+borealis,borealis brasil,100,2,1
+agnico eagle mines,eagle,100,1,1
+borouge,borouge pte,100,1,1
+aichi,aichi tokei denki,100,2,1
+general motors,said general motors,100,71,2
+general motors,saic general motors,100,71,8
+aikoku alpha,alpha,100,1,1
+bosch,robert bosch,100,4,24
+gem,gem services inc/tw,100,51,2
+geely automobile,zhejiang geely automobile parts purchasing,100,23,1
+ge power india,ge t&d india,100,65,1
+aker bp asa,bp,100,10,71
+ge power india,ge power systems india pvt,100,65,1
+bosch,robert bosch automotive steering,100,4,1
+gazprom pjsc,pjsc gazprom gazoraspredelentye ufa,100,95,1
+gazprom pjsc,pjsc gazprom gazoraspredeleniye ufa,100,95,3
+bp,bp castrol kk,100,71,2
+gazprom nett pjsc,gazprom pjsc,100,1,95
+gazprom neft pjsc,gazprom pjsc,100,1,95
+beijing shougang construction,beijing shougang refractory & metallurgical burden,100,1,1
+ganfeng lithium,ganfeng lithium group co lfd,100,25,5
+gac toyota motor,toyota motor,100,5,176
+furukawa,furukawa castec,100,5,1
+bp,formosa bp chemicals,100,71,4
+chaoyang shougang beijing machinery,shougang,100,1,14
+fujikura kasei,fujikura kasei coating tianjin,100,4,1
+fujikura,fujikura kaser coating foshan,100,6,1
+alcoa,alcoa of australia,100,13,2
+glencore,glencore peru sac,100,200,1
+gm,gm korea,100,1,7
+bmw brilliance automotive,brilliance china automotive,100,5,10
+beijing shougang oxygen factory,shougang,100,1,14
+hankook shell oil,shell,100,1,83
+abu dhabi national oil co for distribution pjsc,national oil,100,2,1
+beijing shougang construction,shougang,100,1,14
+beijing shougang gitane new materials,shougang,100,1,14
+acciona,corp acciona energias renovables,100,4,1
+guodian technology & environment,guodian technology m environment,100,3,3
+beijing shougang international engineering technolog,shougang,100,1,14
+gulf oil lubricants india,oil india,100,1,2
+adaro energy indonesia tbk pt,adaro minerals indonesia tbk pt,100,4,1
+guangzhou jfe steel sheet,jfe,100,2,163
+guangzhou industrial investment,guangzhou industrial investment holding,100,2,1
+beijing shougang lujiashan limestone mine,shougang,100,1,14
+guangzhou great power energy & technology,guangzhou great power energy w technology,100,2,4
+beijing shougang refractory & metallurgical burden,shougang,100,1,14
+gmb,gmb korea,100,10,2
+benxi beiying iron & steel,benxi iron & steel,100,5,1
+benxi iron & steel,benxi iron & steel international economic & trading,100,1,2
+berjing shougang,shougang,100,5,14
+guangdong xinhui meida nylon,guangdong xinhui meida nylon co lid,100,1,1
+adient,changchun faway adient automotive metal component,100,6,1
+bhp,bhp billiton mitsubishi alliance,100,36,1
+grupa azoty,grupa azoty zaklady chemiczne police,100,1,3
+groupement sonatrach agip,sonatrach,100,1,2
+bhp billiton mitsubishi alliance,mitsubishi,100,1,1
+great plains industries,great plains ventures,100,1,1
+gonvauto,gonvauto thueringen,100,1,1
+blue bird,blue bird tbk pt,100,3,1
+gonvauto,gonvauto navarra,100,1,1
+fujikura,fujikura kasei coating tianjin,100,6,1
+furukawa,furukawa battery co ltd/the,100,5,2
+fujikura,fujikura composites,100,6,1
+esab seah,seah,100,1,44
+formosa sumco technology,sumco,100,3,2
+canon,canon marketing japan,100,3,1
+fuji furukawa engineering & construction,furukawa,100,2,5
+beijing shougang construction,beijing shougang oxygen factory,100,1,1
+flame,shanxi blue flame holding,100,1,1
+faw volkswagen automotive,volkswagen,100,10,152
+beijing shougang construction,beijing shougang lujiashan limestone mine,100,1,1
+faw jiefang,faw jiefang qingdao automobile,100,11,1
+exedy,exedy vietnam,100,7,1
+alumnium corp of china,power construction corp of china,100,10,3
+escorts kubota,kubota,100,1,21
+cgn yulchon generation,yulchon,100,1,1
+chandra asri petrochemical ibk pt,chandra asri petrochemical tbk pt,100,7,4
+chang wah electromaterials,chang wah technology,100,3,4
+byd,byd electronic international,100,123,2
+engie,engie energia peru,100,4,1
+engie,engie energia chile,100,4,4
+engie,engie brasil energia,100,4,3
+aneka tambang ibk,aneka tambang tbk,100,6,39
+changan ford automobile,china changan automobile,100,7,4
+changqing changan automobile,china changan automobile,100,20,4
+enel chile,enel generacion chile,100,2,2
+enel chile,enel distribucion chile,100,2,13
+enel,enel generacion piura,100,19,2
+beijing shougang construction,beijing shougang international engineering technolog,100,1,1
+enel,enel generacion peru saa,100,19,10
+enel,enel generacion costanera,100,19,1
+enel,enel generacion chile,100,19,2
+byd,byd motors,100,123,1
+alumium corp of china,power construction corp of china,100,10,3
+chiyoda,chiyoda ute,100,9,1
+braskem,braskem idesa sapi,100,28,1
+fuji,fuji die,100,1,1
+bridgestone,brisa bridgestone sabanci sanayi ve ticaret as,100,18,4
+fuji,fuji hensokuki,100,1,1
+alpha,zero alpha solutions,100,1,1
+fuji,fuji kosan,100,1,1
+fuji,fuji oil,100,1,1
+fuji,fuji ps,100,1,2
+fuji,fuji seiko,100,1,2
+alpha,ljg green source energy alpha srl,100,1,2
+bumi resources minerals tbk pt,bumi resources tbk pt,100,1,4
+bup billion mitsubishi alliance,mitsubishi,100,1,1
+fuji,fuji corp/aichi,100,1,3
+bp,lightsource bp,100,71,1
+freightliner,freightliner trucks,100,1,1
+bx steel posco cold rolled sheet,posco,100,2,273
+aluminum corp of china,power construction corp of china,100,39,3
+freeport indonesia pt,freeport indonesia pt/delaware,100,2,1
+fuji,fuji furukawa engineering & construction,100,1,2
+state oil co of the azerbaijan republic,state oil co of the azerbaijan republic:,98.630135,7,2
+fomento de construcciones y contratas,formento de construcciones y contratas,98.55073,2,1
+opengembangan pariwisata indonesia persero pt,pengembangan pariwisata indonesia persero pt,98.50746,1,1
+twijaya karya bangunan gedung tbk pt,wijaya karya bangunan gedung tbk pt,98.24561,1,1
+zhejiang jiuli hi-tech metals,zhejiang juli hi-tech metals,98.24561,1,38
+mmi holdings ltd/singapore,vmmi holdings ltd/singapore,98.113205,1,1
+petroliam narsional bhd,petroliam nasional bhd,97.77778,5,10
+pelabuhan indonesia i persero pt,pelabuhan indonesia iv persero pt,97.674416,1,3
+singanore ing corn pte,singanore ng corn pte,97.674416,1,1
+opacific national pty,pacific national pty,97.560974,1,2
+ounited metallurgical co jsc,united metallurgical co jsc,97.560974,1,1
+engie energia chile,engike energia chile,97.4359,4,10
+namura shipbuilding,tnamura shipbuilding,97.4359,9,1
+jiangsu zhangsheng gaoke environmental,jiangsu zhongsheng gaoke environmental,97.36842,27,1
+thintech materials technology,tthintech materials technology,97.297295,10,1
+manchester airport,manchester airports,97.297295,1,1
+kosogorski metallurgicheski zavod dao,kosogorski metallurgicheski zavod oao,97.297295,2,1
+shun on electonic,shun on electronic,97.14286,3,1
+hanwina aerospace,thanwina aerospace,97.14286,14,1
+pjsc gazprom gazoraspredeleniye ufa,pjsc gazprom gazoraspredelentye ufa,97.14286,3,1
+delta duna makmur tbk pt,delta dunia makmur tbk pt,97.14286,5,1
+ossen innovation,tossen innovation,96.969696,2,1
+century aluminum,century alumminum,96.969696,4,2
+mitsubishi heavy industries,tmitsubishi heavy industries,96.969696,61,1
+amkor technology,oamkor technology,96.969696,3,1
+sociedad quimica y minera de chile,sociodad quimica y minera de chile,96.77419,27,4
+hana technology,hanma technology,96.77419,4,4
+matsuo electric,smatsuo electric,96.77419,2,1
+kaiser aluminium,kaiser aluminum,96.77419,4,1
+alumium corp of china,alumnium corp of china,96.77419,10,10
+aluminum corp of china,alumium corp of china,96.77419,39,10
+bayan resources tbk pt,ibayan resources tbk pt,96.77419,23,1
+terna - rete eletirica nazionale,terna - rete elettrica nazionale,96.666664,2,1
+shuangliang eco-energy systems,shuanglians eco-energy systems,96.666664,1,1
+hengdian group dmegc magnetics,hengdian group dmego magnetics,96.666664,2,1
+cec environmental protection,cecep environmental protection,96.55173,2,1
+keisei electric railway,tkeisei electric railway,96.55173,2,1
+kawasaki heavy industries,skawasaki heavy industries,96.55173,18,1
+kmi wire & cable tbk pt,skmi wire & cable tbk pt,96.55173,3,2
+yunnam chihong zinc&germanium,yunnam chihong zinckgermanium,96.55173,33,10
+yunnam chihong zinc&germanium,yunnan chihong zinc&germanium,96.55173,33,19
+china fineblanking technology,chuna fineblanking technology,96.55173,40,2
+hana technology,hna technology,96.55173,4,2
+angkasa pura i pt,angkasa pura ii pt persero,96.55173,2,1
+changqing changan automobile,changqing changar automobile,96.42857,20,12
+changqing changan automobile,chongqing changan automobile,96.42857,20,51
+bhyundai motor,hyundai motor,96.296295,1,67
+to technology,tol technology,96.296295,3,2
+nan pao resins chemical,nanpao resins,96.296295,2,1
+empresa electrica pehuenche,empresa flectrica pehuenche,96.296295,1,2
+hyosung advanced materials,osung advanced materials,96,2,1
+suzuki motor,suzuki motors,96,27,1
+lyondellbanell industries,lyondellbasell industries,96,11,16
+ps mitsubishi construction,ps mitubishi construction,96,3,3
+guanggi honda automobile,guangqi honda automobile,95.833336,1,4
+shaanxi coal industry,shanxi coal international energy,95.652176,6,4
+vestas wind systems a/s,vestas wind systems n/s,95.652176,61,5
+south east fuiian motor,south east fujian motor,95.652176,1,3
+rangsheng petrochemical,rongsheng petrochemical,95.652176,4,4
+shandong human smelting,shandong humon smelting,95.652176,9,8
+jolywood suzhou sunwalt,jolywood suzhou sunwatt,95.652176,2,2
+san-a obbli,san-ai obbli,95.652176,3,1
+multistrada arab sarana tbk pt,multistrada arah sarana tbk pt,95.652176,1,1
+thai oil pc,thai oil pcl,95.652176,4,2
+chuo spring,churo spring,95.652176,9,7
+east nippon expressway,west nippon expressway,95.454544,3,2
+taho chemical industry,toho chemical industry,95.454544,17,1
+pelabuhan indonesia i persero pt,pelabuhan indonesia iii persero pt,95.454544,1,1
+huaneng lancang river hydropower,huarieng lancang river hydropower,95.38461,3,3
+sf holding,sif holding,95.2381,3,11
+jiangxi special electric mobor,jiangxi special electric motor,95.2381,2,9
+cie plastic omnium se,cie plastic ompium se,95.2381,6,6
+sf holding,snf holding,95.2381,3,1
+myoung shin industrial,shin young,95.2381,1,1
+hindusian aeronautics,hindustan aeronautics,95.2381,4,1
+long green energy technology,longi green energy technology,95.2381,1,6
+philinnines department of transportation,philippines department of transportation,95,1,4
+human kaimeite gases,hunan kaimeite gases,95,3,2
+leatec fine ceramics,leated fine ceramics,95,2,1
+hengli petrochemical,hengyi petrochemical,95,7,1
+chsig inner mongolia chemical industry,cnsig inner mongolia chemical industry,95,5,5
+empresa nacional del petroleo,empresa nacional diet petroleo,94.91525,3,1
+orio tinto,rio tinto,94.73684,1,75
+indian oil,oil india,94.73684,67,2
+albemarle,albermarle,94.73684,53,1
+posco international,posso international,94.73684,64,21
+dr ing he f porsche,dr ing ho f porsche,94.73684,12,2
+dr ing hc f porsche,dr ing ho f porsche,94.73684,5,2
+dr ing hc f porsche,dr ing he f porsche,94.73684,5,12
+beijing jingyunbong technology,beijing jingyuntong technology,94.73684,1,1
+saic general motors,said general motors,94.73684,8,2
+samil c&s,tsamil c&s,94.73684,33,1
+hd hyundai,hyundai engineering h construction,94.73684,22,17
+vietnam electricity,vietram electricity,94.73684,18,9
+transpnevmatika dao,transpnevmatika oao,94.73684,1,1
+hd hyundai electric,hyundai engineering h construction,94.73684,1,17
+sembcorp industries,semboorp industries,94.73684,1,2
+hindalco industries,hindaloo industries,94.73684,3,3
+china yangize power,china yangtze power,94.73684,6,26
+grupo simec sab de cv,grupo simeo sab de cv,94.44444,30,24
+east japan railway,west japan railway,94.44444,12,7
+metain investments,metair investments,94.44444,1,10
+ding hc f porsche,dr ing hc f porsche,94.44444,1,5
+engie energia peru,engik energia peru,94.44444,1,3
+dangsung chemical,dongsung chemical,94.117645,7,2
+rm2 international,rpm international,94.117645,1,1
+gazprom neft pjsc,gazprom nett pjsc,94.117645,1,1
+hanwina aerospace,hauwina aerospace,94.117645,14,6
+bucher industries,buhler industries,94.117645,1,2
+hyundai engineering & construction,hyundai engineering h construction,94.117645,113,17
+volkerfitznatrick,volkerfitzpatrick,94.117645,1,1
+beigi foton motor,beiqi foton motor,94.117645,5,7
+manitowoc co inc/the,manitowoo co inc/the,94.117645,1,1
+gm korea,gmb korea,94.117645,7,2
+esco technologies,exco technologies,94.117645,1,1
+beijing shougang,berjing shougang,93.75,84,5
+miu aero engines,mtu aero engines,93.75,7,1
+claveland-cliffs,cleveland-cliffs,93.75,3,25
+dai hippon toryo,dai nippon toryo,93.75,6,3
+formosa plastics,formusa plastics,93.75,55,23
+yuki gosei kogyo,yuki goser kogyo,93.75,2,6
+aluminum corp of china,alumnium corp of china,93.75,39,10
+beijing shougang construction,berjing shougang,93.75,1,5
+sankei chemicals,sanker chemicals,93.75,3,2
+vietsovpetra jv,vietsovpetro jv,93.333336,2,2
+windershall dea,wintershall dea,93.333336,2,1
+swancor holding,swandor holding,93.333336,1,1
+anji technology,kaji technology,93.333336,1,1
+alco ltd/canada,atco ltd/canada,93.333336,49,15
+hanma technology,hna technology,93.333336,4,2
+jmc electronics,umc electronics,93.333336,1,3
+h green power,h2 green steel,93.333336,3,2
+maire techimont,maire tecnimont,93.333336,5,1
+shenzhen h&t intelligent control,shenzhen yitoa intelligent control,93.333336,1,1
+dae dong steel,daedong,93.333336,1,3
+pelabuhan indonesia iii persero pt,pelabuhan indonesia iv persero pt,93.333336,1,3
+yunnam chihong zinckgermanium,yunnan chihong zinc&germanium,93.10345,10,19
+ta chen stainless pipe,ta chen stamless pipe,93.023254,35,16
+taeyoung engineering & construction,young hwa construction & engineering,92.95775,11,1
+constellium se,constelluum se,92.85714,1,1
+taita chemical,tata chemicals,92.85714,17,2
+gcl technology,tcl technology,92.85714,1,50
+konecranes dyj,konecranes oyj,92.85714,1,1
+tiangi lithium,tianqi lithium,92.85714,1,1
+cie automotive,ise automotive,92.85714,6,1
+changqing changar automobile,chongqing changan automobile,92.85714,12,51
+stl technology,tcl technology,92.85714,1,50
+power engineering consulting jsc,power engineering consulting jsc no 4,92.753624,1,1
+larsen & toubra,larsen & toubro,92.30769,7,11
+lianyuan iron & steel,lingyuan iron & steel,92.30769,3,1
+osung advanced materials,pi advanced materials,92.30769,1,2
+nichia,nichias,92.30769,3,21
+enel destribucion peru sma,enel distribucion peru saa,92.30769,3,1
+daechang steel,daehan steel,92.30769,25,1
+petroleos mexicanos,petroleos mexicarios,92.30769,22,6
+morgan advanced materials,pi advanced materials,92.30769,12,2
+mercedes-banz,mercedes-benz,92.30769,22,113
+iintasa,intasa,92.30769,1,2
+fuji electric,xuji electric,92.30769,1,2
+wacker chemic,wacker chemie,92.30769,1,2
+iochpe maxion,tochpe maxion,92.30769,2,1
+hyosung advanced materials,pi advanced materials,92.30769,2,2
+ansteel engineering technology,baosteel engineering & technology,92.06349,1,3
+pingdingshan tianan coal mining,pingdingshan tratian coal mining,92.06349,27,3
+qatar electricity & water co qsc,qatar general electricity & water,92,4,1
+dongkuk industries,donglauk industries,91.89189,27,4
+changing wanli new energy,chongqing wanli new energy,91.89189,1,1
+esco technologies,vitesco technologies,91.89189,1,2
+hota industrial manufacturing,showa manufacturing,91.89189,2,1
+ev advanced material,highbroad advanced material hefei,91.89189,1,1
+cngr advanced material,ev advanced material,91.89189,44,1
+formosa bp chemicals,formosa chemicals & fibre,91.89189,4,38
+gs engineering & construction,sambu engineering & construction,91.803276,17,2
+taho kinzoku,toho kinzoku,91.666664,3,3
+karelgaz 0ao,karelgaz dao,91.666664,1,1
+transportadora de gas del sur,transportadora gas del norte,91.666664,1,6
+kl chemicals,sk chemicals,91.666664,1,32
+izhstal ojsc,izistal ojsc,91.666664,1,1
+taki chemical,tk chemical,91.666664,11,7
+cemex sab de cv,comex sab de cv,91.666664,5,7
+hauwina aerospace,thanwina aerospace,91.42857,6,1
+tokyu construction,toyo construction,91.42857,1,2
+tunghsu azure renewable energy,tungles azure renewable energy,91.304344,4,3
+neo performance materials,styrenix performance materials,91.304344,1,3
+neo performance materials,tridomain performance materials pt,91.304344,1,16
+faw volkswagen automotive,saic volkswagen automotive,91.304344,10,8
+anji technology,hangjin technology,90.90909,1,32
+hmt xiamen new technical materials,xtc new energy materials xiamen,90.90909,2,3
+toyo gosei,toyoda gosei,90.90909,2,76
+amada,yamada,90.90909,2,1
+kg chemical,tk chemical,90.90909,3,7
+mannoh industrial,sanoh industrial,90.90909,1,17
+korea line,korean air lines,90.90909,2,3
+snc-lavalin,snk-lavalin,90.90909,1,3
+mtar technologies,tat technologies,90.90909,7,1
+samsung sdi,samsung sds,90.90909,106,6
+toami,tonami,90.90909,2,2
+sif holding,snf holding,90.90909,11,1
+sichian new energy power,sichuan new energy power,90.90909,6,6
+shanxi coal international energy,shauxi coal international energy,90.90909,4,3
+china energy investment corp td,state power investment corp shanxi aluminum,90.90909,1,1
+china north industries,china south industries,90.90909,1,4
+tabkyung bk,taekyung bk,90.90909,1,1
+sankyu,sanyu,90.90909,1,6
+sangbo,sango,90.90909,2,1
+samsung sds,samsung sdt,90.90909,6,1
+samsung sdi,samsung sdt,90.90909,106,1
+daishin chemical,daistrin chemical,90.90909,3,4
+orano,organo,90.90909,1,1
+polar,polarx,90.90909,1,1
+nitta,nittan,90.90909,1,2
+nippon electric glass,nippon gas,90.90909,2,1
+nikkon,nikon,90.90909,1,2
+tomoe engineering,toyo engineering,90.90909,2,3
+gujarat narmada valley fertilizers & chemicals,gujarat state fertilizers & chemicals,90.625,1,1
+china petroleum & chemical,china petroleum of chemical,90.56604,215,4
+mitsubishi chemical,mitsubishi gas chemical,90.47619,55,95
+bk technologies,bwx technologies,90.32258,1,1
+hana technology,nanya technology,90.32258,4,1
+edom technology,eroom technology,90.32258,2,1
+topy industries,toray industries,90.32258,15,138
+ginar technology,nari technology,90.32258,1,1
+gi technologies,gsd technologies,90.32258,2,1
+mory industries,toray industries,90.32258,5,138
+intai technology,nari technology,90.32258,1,1
+nari technology,naura technology,90.32258,1,1
+rsea engineering,sia engineering,90.32258,2,1
+api technologies,gi technologies,90.32258,1,2
+oc oerlikon,ooerlikon,90,1,4
+wixi taiji industry,wuxi taiji industry,90,2,1
+ltk svobodny sokol 000,ltk svobodny sokol ooo,90,1,1
+liao ning oxiranchern,liaoning oxiranchem,90,1,3
+baic motor,saic motor,90,22,19
+sfc energy,sgc energy,90,10,38
+hoei metal,toei metal industry,90,1,1
+k&o energy,kco energy,90,1,1
+mge energy,oge energy,90,1,2
+shenzhen sunrise new energy,shenzier sunrise new energy,90,1,1
+powerchip technology,powertech technology,90,1,1
+tgc-1 pjsc,tgc-2 pjsc,90,21,2
+dgk-2 pjsc,ogk-2 pjsc,90,3,2
