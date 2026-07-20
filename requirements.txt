@@ -25,7 +25,7 @@ numpy==1.26.4
 python-dotenv==1.0.1
 requests==2.32.3
 matplotlib==3.11.0
-rapidfuzz==3.14.5
 
 # Notebooks (optional, for exploration/debugging)
 jupyter==1.1.1
+
