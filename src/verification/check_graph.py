@@ -2,7 +2,7 @@ import networkx as nx
 import pickle
 
 import pandas as pd
-from graph import find_suppliers
+from graph.build_graph import find_suppliers
 
 # load the saved graph
 with open("data/processed/graph_clean.pkl", "rb") as f:
