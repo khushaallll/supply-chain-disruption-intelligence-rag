@@ -14,7 +14,7 @@ from pathlib import Path
 import networkx as nx
 import pandas as pd
 
-from clean import RAW_CSV, clean_countries, normalize_company_name
+from graph.clean import RAW_CSV, clean_countries, normalize_company_name
 
 DECISIONS_CSV = Path("data/review/merge_decisions.csv")
 GRAPH_PKL = Path("data/processed/graph_clean.pkl")
