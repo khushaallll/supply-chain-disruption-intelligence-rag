@@ -29,3 +29,4 @@ matplotlib==3.11.0
 # Notebooks (optional, for exploration/debugging)
 jupyter==1.1.1
 
+geopy==2.5.0
