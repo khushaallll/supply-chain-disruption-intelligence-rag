@@ -1,0 +1,407 @@
+company,reason,notes,in_graph
+cpc corp/taiwan,mandatory,event epicenter,True
+coronado global resources,mandatory,event epicenter,True
+hesteel,mandatory,event epicenter,True
+gazprom pjsc,mandatory,event epicenter,True
+xiamen tungsten,mandatory,event epicenter,True
+chevron,mandatory,event epicenter,True
+yunnan aluminium,mandatory,event epicenter,True
+petrochina,mandatory,event epicenter,True
+aneka tambang tbk,mandatory,event epicenter,True
+s-oil,mandatory,event epicenter,True
+formosa plastics,mandatory,event epicenter,True
+aurizon,mandatory,event epicenter,True
+perusahaan perseroan persero pt perusahaan listrik negara,mandatory,event epicenter,True
+glencore,mandatory,event epicenter,True
+yunnan chihong zinc&germanium,mandatory,event epicenter,True
+nippon steel,mandatory,event epicenter,True
+bp,mandatory,event epicenter,True
+china steel,mandatory,event epicenter,True
+dow,mandatory,event epicenter,True
+mitsubishi materials,mandatory,event epicenter,True
+basf se,mandatory,event epicenter,True
+kyushu electric power,mandatory,event epicenter,True
+state grid corp of china,mandatory,event epicenter,True
+formosa petrochemical,mandatory,event epicenter,True
+exxon mobil,mandatory,event epicenter,True
+posco,mandatory,event epicenter,True
+united co rusal international pjsc,mandatory,event epicenter,True
+korea electric power,mandatory,event epicenter,True
+xinxiang tianli energy,mandatory,event epicenter,True
+bayerische motoren werke,oem,reachable from 21 of 30 events,True
+mercedes-benz,oem,reachable from 20 of 30 events,True
+stellantis,oem,reachable from 19 of 30 events,True
+toyota motor,oem,reachable from 18 of 30 events,True
+hyundai motor,oem,reachable from 17 of 30 events,True
+ford motor,oem,reachable from 16 of 30 events,True
+kia,oem,reachable from 16 of 30 events,True
+volkswagen,oem,reachable from 16 of 30 events,True
+great wall motor,oem,reachable from 15 of 30 events,True
+geely automobile,oem,reachable from 14 of 30 events,True
+hyundai mobis,oem,reachable from 14 of 30 events,True
+tesla,oem,reachable from 14 of 30 events,True
+volvo car ab,oem,reachable from 14 of 30 events,True
+chongqing changan automobile,oem,reachable from 13 of 30 events,True
+nio,oem,reachable from 13 of 30 events,True
+saic motor,oem,reachable from 13 of 30 events,True
+contemporary amperex technology,oem,reachable from 12 of 30 events,True
+general motors,oem,reachable from 12 of 30 events,True
+guangzhou automobile,oem,reachable from 12 of 30 events,True
+hero motocorp,oem,reachable from 12 of 30 events,True
+kg mobility,oem,reachable from 12 of 30 events,True
+lg energy solution,oem,reachable from 12 of 30 events,True
+nissan motor,oem,reachable from 12 of 30 events,True
+renault,oem,reachable from 12 of 30 events,True
+tata motors,oem,reachable from 12 of 30 events,True
+chery automobile,oem,reachable from 11 of 30 events,True
+china faw,oem,reachable from 11 of 30 events,True
+dongfeng motor,oem,reachable from 11 of 30 events,True
+honda motor,oem,reachable from 11 of 30 events,True
+mahindra & mahindra,oem,reachable from 11 of 30 events,True
+nexen tire,oem,reachable from 11 of 30 events,True
+robert bosch,oem,reachable from 11 of 30 events,True
+samsung sdi,oem,reachable from 11 of 30 events,True
+borgwarner,oem,reachable from 10 of 30 events,True
+bridgestone,oem,reachable from 10 of 30 events,True
+byd,oem,reachable from 10 of 30 events,True
+forvia se,oem,reachable from 10 of 30 events,True
+harley-davidson,oem,reachable from 10 of 30 events,True
+korea movenex,oem,reachable from 10 of 30 events,True
+mazda motor,oem,reachable from 10 of 30 events,True
+wooshin systems,oem,reachable from 10 of 30 events,True
+yeong motal,oem,reachable from 10 of 30 events,True
+aapico hitech pcl,oem,reachable from 9 of 30 events,True
+aisin,oem,reachable from 9 of 30 events,True
+baic bluepark new energy technology,oem,reachable from 9 of 30 events,True
+baic motor,oem,reachable from 9 of 30 events,True
+brilliance china automotive,oem,reachable from 9 of 30 events,True
+li auto,oem,reachable from 9 of 30 events,True
+nexteer automotive,oem,reachable from 9 of 30 events,True
+romeo power,oem,reachable from 9 of 30 events,True
+suzuki motor,oem,reachable from 9 of 30 events,True
+toyota industries,oem,reachable from 9 of 30 events,True
+xpeng,oem,reachable from 9 of 30 events,True
+zhejiang geely holding,oem,reachable from 9 of 30 events,True
+american axle & manufacturing,oem,reachable from 8 of 30 events,True
+gac toyota motor,oem,reachable from 8 of 30 events,True
+gotion high-tech,oem,reachable from 8 of 30 events,True
+jiangsu lixing general steel ball,oem,reachable from 8 of 30 events,True
+kumho tire,oem,reachable from 8 of 30 events,True
+magna international,oem,reachable from 8 of 30 events,True
+maruti suzuki india,oem,reachable from 8 of 30 events,True
+schaeffler,oem,reachable from 8 of 30 events,True
+sichuan haowu electromechanical,oem,reachable from 8 of 30 events,True
+tokai rika,oem,reachable from 8 of 30 events,True
+tong yang industry,oem,reachable from 8 of 30 events,True
+zf friedrichshafen,oem,reachable from 8 of 30 events,True
+adient,oem,reachable from 7 of 30 events,True
+autoliv,oem,reachable from 7 of 30 events,True
+canoo,oem,reachable from 7 of 30 events,True
+dr ing hc f porsche,oem,reachable from 7 of 30 events,True
+eicher motors,oem,reachable from 7 of 30 events,True
+faw volkswagen automotive,oem,reachable from 7 of 30 events,True
+fawer automotive parts,oem,reachable from 7 of 30 events,True
+hiroca holdings lid,oem,reachable from 7 of 30 events,True
+hyundai transys,oem,reachable from 7 of 30 events,True
+kyungchang industrial,oem,reachable from 7 of 30 events,True
+lucid,oem,reachable from 7 of 30 events,True
+rivian automotive,oem,reachable from 7 of 30 events,True
+saic volkswagen automotive,oem,reachable from 7 of 30 events,True
+saic-gm-wuling automobile,oem,reachable from 7 of 30 events,True
+sangsin brake,oem,reachable from 7 of 30 events,True
+seres,oem,reachable from 7 of 30 events,True
+shanghai jiao yun,oem,reachable from 7 of 30 events,True
+subaru,oem,reachable from 7 of 30 events,True
+sumitomo rubber industries,oem,reachable from 7 of 30 events,True
+toyoda gosei,oem,reachable from 7 of 30 events,True
+valeo se,oem,reachable from 7 of 30 events,True
+wanxiang qianchao,oem,reachable from 7 of 30 events,True
+zhejiang leapmotor technology,oem,reachable from 7 of 30 events,True
+astra otoparts tbk pt,oem,reachable from 6 of 30 events,True
+audi,oem,reachable from 6 of 30 events,True
+beijing automotive,oem,reachable from 6 of 30 events,True
+bmw brilliance automotive,oem,reachable from 6 of 30 events,True
+cars motorcycles and marine engine trade and import,oem,reachable from 6 of 30 events,True
+changan ford automobile,oem,reachable from 6 of 30 events,True
+china motor,oem,reachable from 6 of 30 events,True
+china south industries,oem,reachable from 6 of 30 events,True
+chuo spring,oem,reachable from 6 of 30 events,True
+dae won kang up,oem,reachable from 6 of 30 events,True
+dgenx,oem,reachable from 6 of 30 events,True
+garrett motion,oem,reachable from 6 of 30 events,True
+gestamp automocion,oem,reachable from 6 of 30 events,True
+haima automobile,oem,reachable from 6 of 30 events,True
+hota industrial manufacturing,oem,reachable from 6 of 30 events,True
+hudaco industries,oem,reachable from 6 of 30 events,True
+hyundai powertech,oem,reachable from 6 of 30 events,True
+jiangling motor holding,oem,reachable from 6 of 30 events,True
+koito manufacturing,oem,reachable from 6 of 30 events,True
+mitsubishi motors,oem,reachable from 6 of 30 events,True
+nok,oem,reachable from 6 of 30 events,True
+sanyang motor,oem,reachable from 6 of 30 events,True
+ta yih industrial,oem,reachable from 6 of 30 events,True
+triangle tyre,oem,reachable from 6 of 30 events,True
+umw holdings bhd,oem,reachable from 6 of 30 events,True
+vinfast auto,oem,reachable from 6 of 30 events,True
+vitesco technologies,oem,reachable from 6 of 30 events,True
+warxiano qiandiao co lid,oem,reachable from 6 of 30 events,True
+zf trw automotive,oem,reachable from 6 of 30 events,True
+zotye automobile,oem,reachable from 6 of 30 events,True
+aisan industry,oem,reachable from 5 of 30 events,True
+beijing benz automotive,oem,reachable from 5 of 30 events,True
+bosch,oem,reachable from 5 of 30 events,True
+changchun yidong clutch,oem,reachable from 5 of 30 events,True
+cnc driveline technology,oem,reachable from 5 of 30 events,True
+daedong metals,oem,reachable from 5 of 30 events,True
+dangfeng electronic technology co lb,oem,reachable from 5 of 30 events,True
+denso,oem,reachable from 5 of 30 events,True
+dongfeng automobile,oem,reachable from 5 of 30 events,True
+dongfeng honda automobile,oem,reachable from 5 of 30 events,True
+dongwon metal,oem,reachable from 5 of 30 events,True
+dy,oem,reachable from 5 of 30 events,True
+eurocharm,oem,reachable from 5 of 30 events,True
+farasis energy gan zhou,oem,reachable from 5 of 30 events,True
+fev,oem,reachable from 5 of 30 events,True
+fisker,oem,reachable from 5 of 30 events,True
+ford otomotiv sanayi as,oem,reachable from 5 of 30 events,True
+gac fiat chrysler automobiles,oem,reachable from 5 of 30 events,True
+getrag jiangxi transmission,oem,reachable from 5 of 30 events,True
+guangqi honda automobile,oem,reachable from 5 of 30 events,True
+hanjung natural connectivity system,oem,reachable from 5 of 30 events,True
+hl mando,oem,reachable from 5 of 30 events,True
+holley,oem,reachable from 5 of 30 events,True
+iav automotive engineering,oem,reachable from 5 of 30 events,True
+jardine strategic,oem,reachable from 5 of 30 events,True
+jiangxi changhe automobile,oem,reachable from 5 of 30 events,True
+jtekt,oem,reachable from 5 of 30 events,True
+kyb,oem,reachable from 5 of 30 events,True
+lordstown motors,oem,reachable from 5 of 30 events,True
+luminar technologies,oem,reachable from 5 of 30 events,True
+mobileye global,oem,reachable from 5 of 30 events,True
+munjal showa,oem,reachable from 5 of 30 events,True
+neooto,oem,reachable from 5 of 30 events,True
+nexen,oem,reachable from 5 of 30 events,True
+nissin kogyo,oem,reachable from 5 of 30 events,True
+polestar automotive holding uk,oem,reachable from 5 of 30 events,True
+pusan cast iron,oem,reachable from 5 of 30 events,True
+sapura industrial bhd,oem,reachable from 5 of 30 events,True
+selamat sempurna tbk pt,oem,reachable from 5 of 30 events,True
+shenyang jinbei automotive,oem,reachable from 5 of 30 events,True
+shun on electronic,oem,reachable from 5 of 30 events,True
+sichuan faw toyota motor,oem,reachable from 5 of 30 events,True
+sjm,oem,reachable from 5 of 30 events,True
+stellantis hv,oem,reachable from 5 of 30 events,True
+sumitomo electric industries,oem,reachable from 5 of 30 events,True
+tianjin faw toyota engine,oem,reachable from 5 of 30 events,True
+tieliu,oem,reachable from 5 of 30 events,True
+toyota boshoku,oem,reachable from 5 of 30 events,True
+transaxle manufacturing of america,oem,reachable from 5 of 30 events,True
+unitekno,oem,reachable from 5 of 30 events,True
+xinchen china power,oem,reachable from 5 of 30 events,True
+yeong hwa metal,oem,reachable from 5 of 30 events,True
+apam,oem,reachable from 4 of 30 events,True
+aptiv,oem,reachable from 4 of 30 events,True
+asti,oem,reachable from 4 of 30 events,True
+atlas honda,oem,reachable from 4 of 30 events,True
+beijing hyundai motor,oem,reachable from 4 of 30 events,True
+cayman engley industrial,oem,reachable from 4 of 30 events,True
+dana,oem,reachable from 4 of 30 events,True
+dongfeng electronic technology,oem,reachable from 4 of 30 events,True
+futaba industrial,oem,reachable from 4 of 30 events,True
+g-tekt corporation,oem,reachable from 4 of 30 events,True
+gb corp/eg,oem,reachable from 4 of 30 events,True
+gm korea,oem,reachable from 4 of 30 events,True
+grupo industrial saltillo sab de cv,oem,reachable from 4 of 30 events,True
+h-one,oem,reachable from 4 of 30 events,True
+hitachi astemo,oem,reachable from 4 of 30 events,True
+honda atlas cars pakistan,oem,reachable from 4 of 30 events,True
+hyundai wia,oem,reachable from 4 of 30 events,True
+iat automobile technology,oem,reachable from 4 of 30 events,True
+j-max,oem,reachable from 4 of 30 events,True
+jay ushin,oem,reachable from 4 of 30 events,True
+kaison green energy technology,oem,reachable from 4 of 30 events,True
+keihin,oem,reachable from 4 of 30 events,True
+kian shen,oem,reachable from 4 of 30 events,True
+linamar,oem,reachable from 4 of 30 events,True
+nemak sab de cv,oem,reachable from 4 of 30 events,True
+nisshinbo,oem,reachable from 4 of 30 events,True
+nvh korea,oem,reachable from 4 of 30 events,True
+nwtn,oem,reachable from 4 of 30 events,True
+piaggio & c,oem,reachable from 4 of 30 events,True
+right way industrial,bridge,connects an epicenter to a selected OEM,True
+akzo nobel,bridge,connects an epicenter to a selected OEM,True
+garuda metalindo tbk pt,bridge,connects an epicenter to a selected OEM,True
+posco future m,bridge,connects an epicenter to a selected OEM,True
+mitsubishi electric,bridge,connects an epicenter to a selected OEM,True
+kumkang kind,bridge,connects an epicenter to a selected OEM,True
+electra battery materials,bridge,connects an epicenter to a selected OEM,True
+yokohama rubber co ltd/the,bridge,connects an epicenter to a selected OEM,True
+zhejiang founder motor,bridge,connects an epicenter to a selected OEM,True
+hanjin transportation,bridge,connects an epicenter to a selected OEM,True
+bhp,bridge,connects an epicenter to a selected OEM,True
+ntn,bridge,connects an epicenter to a selected OEM,True
+steel pipe industry of indonesia pt,bridge,connects an epicenter to a selected OEM,True
+nhk spring,bridge,connects an epicenter to a selected OEM,True
+samsung c&t,bridge,connects an epicenter to a selected OEM,True
+guangzhou development,bridge,connects an epicenter to a selected OEM,True
+nippon steel trading,bridge,connects an epicenter to a selected OEM,True
+seojin system,bridge,connects an epicenter to a selected OEM,True
+daikin industries,bridge,connects an epicenter to a selected OEM,True
+vallourec saca,bridge,connects an epicenter to a selected OEM,True
+bh,bridge,connects an epicenter to a selected OEM,True
+rohm,bridge,connects an epicenter to a selected OEM,True
+ningbo shanshan,bridge,connects an epicenter to a selected OEM,True
+taita chemical,bridge,connects an epicenter to a selected OEM,True
+posco eco & challenge,bridge,connects an epicenter to a selected OEM,True
+globaltek fabrication,bridge,connects an epicenter to a selected OEM,True
+iron force industrial,bridge,connects an epicenter to a selected OEM,True
+rio tinto,bridge,connects an epicenter to a selected OEM,True
+sk innovation,bridge,connects an epicenter to a selected OEM,True
+nan ya plastics,bridge,connects an epicenter to a selected OEM,True
+ube,bridge,connects an epicenter to a selected OEM,True
+jui li enterprise,bridge,connects an epicenter to a selected OEM,True
+guangzhou tinci materials technology,bridge,connects an epicenter to a selected OEM,True
+beijing shougang,bridge,connects an epicenter to a selected OEM,True
+asahi kasei,bridge,connects an epicenter to a selected OEM,True
+hyundai rotem,bridge,connects an epicenter to a selected OEM,True
+vedanta,bridge,connects an epicenter to a selected OEM,True
+press kogyo,bridge,connects an epicenter to a selected OEM,True
+mitsubishi heavy industries,bridge,connects an epicenter to a selected OEM,True
+daido metal,bridge,connects an epicenter to a selected OEM,True
+kukdo chemical,bridge,connects an epicenter to a selected OEM,True
+sanoh industrial,bridge,connects an epicenter to a selected OEM,True
+samsung electronics,bridge,connects an epicenter to a selected OEM,True
+cummins,bridge,connects an epicenter to a selected OEM,True
+dongsung chemical,bridge,connects an epicenter to a selected OEM,True
+grupo antolin-irausa,bridge,connects an epicenter to a selected OEM,True
+okaya,bridge,connects an epicenter to a selected OEM,True
+asiana airlines,bridge,connects an epicenter to a selected OEM,True
+lucky cement,bridge,connects an epicenter to a selected OEM,True
+formosa chemicals & fibre,bridge,connects an epicenter to a selected OEM,True
+3m,bridge,connects an epicenter to a selected OEM,True
+stanley black & decker,bridge,connects an epicenter to a selected OEM,True
+maruichi steel tube,bridge,connects an epicenter to a selected OEM,True
+air water,bridge,connects an epicenter to a selected OEM,True
+kg eco technology service,bridge,connects an epicenter to a selected OEM,True
+oci,bridge,connects an epicenter to a selected OEM,True
+obayashi,bridge,connects an epicenter to a selected OEM,True
+snt,bridge,connects an epicenter to a selected OEM,True
+cia siderurgica nacional,bridge,connects an epicenter to a selected OEM,True
+daido steel,bridge,connects an epicenter to a selected OEM,True
+kg dongbusteel,bridge,connects an epicenter to a selected OEM,True
+hino motors,bridge,connects an epicenter to a selected OEM,True
+mobase electronics,bridge,connects an epicenter to a selected OEM,True
+uacj,bridge,connects an epicenter to a selected OEM,True
+ls electric,bridge,connects an epicenter to a selected OEM,True
+zhejiang huayou cobalt,bridge,connects an epicenter to a selected OEM,True
+topy industries,bridge,connects an epicenter to a selected OEM,True
+dl holdings co lirl,bridge,connects an epicenter to a selected OEM,True
+kawasaki heavy industries,bridge,connects an epicenter to a selected OEM,True
+shell,bridge,connects an epicenter to a selected OEM,True
+saudi arabian oil,bridge,connects an epicenter to a selected OEM,True
+ijtt,bridge,connects an epicenter to a selected OEM,True
+hd korea shipbuilding & offshore engineering,bridge,connects an epicenter to a selected OEM,True
+topre,bridge,connects an epicenter to a selected OEM,True
+nations technologies,bridge,connects an epicenter to a selected OEM,True
+hitachi,bridge,connects an epicenter to a selected OEM,True
+arcelormittal,bridge,connects an epicenter to a selected OEM,True
+jfe,bridge,connects an epicenter to a selected OEM,True
+gmb,bridge,connects an epicenter to a selected OEM,True
+lg electronics,bridge,connects an epicenter to a selected OEM,True
+ternium,bridge,connects an epicenter to a selected OEM,True
+unipres,bridge,connects an epicenter to a selected OEM,True
+toray industries,bridge,connects an epicenter to a selected OEM,True
+aluminum corp of china,bridge,connects an epicenter to a selected OEM,True
+grupo pochteca sab de cv,bridge,connects an epicenter to a selected OEM,True
+toagosei,bridge,connects an epicenter to a selected OEM,True
+hanwa,bridge,connects an epicenter to a selected OEM,True
+toyota tsusho,bridge,connects an epicenter to a selected OEM,True
+indian oil,bridge,connects an epicenter to a selected OEM,True
+lanxess,bridge,connects an epicenter to a selected OEM,True
+nichias,bridge,connects an epicenter to a selected OEM,True
+seah,bridge,connects an epicenter to a selected OEM,True
+apple,bridge,connects an epicenter to a selected OEM,True
+avient,bridge,connects an epicenter to a selected OEM,True
+hdc hyundai engineering plastics,bridge,connects an epicenter to a selected OEM,True
+eni,bridge,connects an epicenter to a selected OEM,True
+tokyo rope manufacturing,bridge,connects an epicenter to a selected OEM,True
+daechang steel,bridge,connects an epicenter to a selected OEM,True
+cngr advanced material,bridge,connects an epicenter to a selected OEM,True
+thyssenkrupp,bridge,connects an epicenter to a selected OEM,True
+tdk,bridge,connects an epicenter to a selected OEM,True
+nagase,bridge,connects an epicenter to a selected OEM,True
+corteva,bridge,connects an epicenter to a selected OEM,True
+yorozu,bridge,connects an epicenter to a selected OEM,True
+mitsubishi chemical,bridge,connects an epicenter to a selected OEM,True
+bakrie and brothers tbk pt,bridge,connects an epicenter to a selected OEM,True
+tata steel,bridge,connects an epicenter to a selected OEM,True
+jiangsu lopal tech,bridge,connects an epicenter to a selected OEM,True
+skf ab,bridge,connects an epicenter to a selected OEM,True
+umicore,bridge,connects an epicenter to a selected OEM,True
+daimler truck holding,bridge,connects an epicenter to a selected OEM,True
+thang long metal wares jsc,bridge,connects an epicenter to a selected OEM,True
+saudi basic industries,bridge,connects an epicenter to a selected OEM,True
+san shing fastech,bridge,connects an epicenter to a selected OEM,True
+sunwoda electronic,bridge,connects an epicenter to a selected OEM,True
+patec precision industry,bridge,connects an epicenter to a selected OEM,True
+minebea mitsumi,bridge,connects an epicenter to a selected OEM,True
+axalta coating systems,bridge,connects an epicenter to a selected OEM,True
+kumho petrochemical,bridge,connects an epicenter to a selected OEM,True
+konica minolta,bridge,connects an epicenter to a selected OEM,True
+kyowakogyosyo,bridge,connects an epicenter to a selected OEM,True
+hansol chemical,bridge,connects an epicenter to a selected OEM,True
+sk,bridge,connects an epicenter to a selected OEM,True
+hd hyundai heavy industries,bridge,connects an epicenter to a selected OEM,True
+tokyo nissan computer system,bridge,connects an epicenter to a selected OEM,True
+oct,bridge,connects an epicenter to a selected OEM,True
+dongil industries,bridge,connects an epicenter to a selected OEM,True
+hunan corun new energy,bridge,connects an epicenter to a selected OEM,True
+mitsui,bridge,connects an epicenter to a selected OEM,True
+sumitomo chemical,bridge,connects an epicenter to a selected OEM,True
+taeyang metal industrial,bridge,connects an epicenter to a selected OEM,True
+aichi steel,bridge,connects an epicenter to a selected OEM,True
+kajima,bridge,connects an epicenter to a selected OEM,True
+guangdong delian,bridge,connects an epicenter to a selected OEM,True
+tokai carbon,bridge,connects an epicenter to a selected OEM,True
+gem,bridge,connects an epicenter to a selected OEM,True
+hyundai engineering & construction,bridge,connects an epicenter to a selected OEM,True
+komatsu,bridge,connects an epicenter to a selected OEM,True
+zhejiang juhua,bridge,connects an epicenter to a selected OEM,True
+china petroleum & chemical,bridge,connects an epicenter to a selected OEM,True
+calb,bridge,connects an epicenter to a selected OEM,True
+mitsubishi steel manufacturing,bridge,connects an epicenter to a selected OEM,True
+kobe steel,bridge,connects an epicenter to a selected OEM,True
+aes corp/the,bridge,connects an epicenter to a selected OEM,True
+seah besteel,bridge,connects an epicenter to a selected OEM,True
+cx technology,bridge,connects an epicenter to a selected OEM,True
+mahle,bridge,connects an epicenter to a selected OEM,True
+murata manufacturing,bridge,connects an epicenter to a selected OEM,True
+eve energy,bridge,connects an epicenter to a selected OEM,True
+volvo ab,bridge,connects an epicenter to a selected OEM,True
+grupo simec sab de cv,bridge,connects an epicenter to a selected OEM,True
+taiwan cement,bridge,connects an epicenter to a selected OEM,True
+yokogawa bridge,bridge,connects an epicenter to a selected OEM,True
+jordan petroleum refinery,bridge,connects an epicenter to a selected OEM,True
+shanghai huayi,bridge,connects an epicenter to a selected OEM,True
+jsr,bridge,connects an epicenter to a selected OEM,True
+zeon,bridge,connects an epicenter to a selected OEM,True
+usa steel,bridge,connects an epicenter to a selected OEM,True
+panasonic,bridge,connects an epicenter to a selected OEM,True
+nsk,bridge,connects an epicenter to a selected OEM,True
+sony,bridge,connects an epicenter to a selected OEM,True
+eurogroup laminations,bridge,connects an epicenter to a selected OEM,True
+alcoa,bridge,connects an epicenter to a selected OEM,True
+alfa sab de cv,bridge,connects an epicenter to a selected OEM,True
+kiswire,bridge,connects an epicenter to a selected OEM,True
+baoshan iron & steel,bridge,connects an epicenter to a selected OEM,True
+e1,bridge,connects an epicenter to a selected OEM,True
+qst international,bridge,connects an epicenter to a selected OEM,True
+lg chem,bridge,connects an epicenter to a selected OEM,True
+china fineblanking technology,bridge,connects an epicenter to a selected OEM,True
+posco international,bridge,connects an epicenter to a selected OEM,True
+waskita karya persero tbk pt,fallback_1hop,no automotive OEM path from perusahaan perseroan persero pt perusahaan listrik negara; high-degree direct customer,True
+krakatau steel persero tbk pt,fallback_1hop,no automotive OEM path from perusahaan perseroan persero pt perusahaan listrik negara; high-degree direct customer,True
+gunung raja paksi tbk pt,fallback_1hop,no automotive OEM path from perusahaan perseroan persero pt perusahaan listrik negara; high-degree direct customer,True
+medco energi internasional tbk pt,fallback_1hop,no automotive OEM path from perusahaan perseroan persero pt perusahaan listrik negara; high-degree direct customer,True
+pp persero tbk pt,fallback_2hop,no automotive OEM path from perusahaan perseroan persero pt perusahaan listrik negara; high-degree 2-hop customer,True
+tenaris,fallback_2hop,no automotive OEM path from perusahaan perseroan persero pt perusahaan listrik negara; high-degree 2-hop customer,True

@@ -1,0 +1,403 @@
+company,city,country,lat,lon,status
+bayerische motoren werke,Munich,Germany,48.1371079,11.5753822,ok
+mercedes-benz,Stuttgart,Germany,48.7784485,9.1800132,ok
+toyota motor,Toyota City,Japan,35.083386,137.156412,ok
+volkswagen,Wolfsburg,Germany,52.4205588,10.7861682,ok
+tesla,Austin,United States,30.2711286,-97.7436995,ok
+robert bosch,Gerlingen,Germany,48.7983947,9.0624386,ok
+byd,Shenzhen,China,22.5445741,114.0545429,ok
+magna international,Aurora,Canada,43.99973,-79.467545,ok
+zf friedrichshafen,Friedrichshafen,Germany,47.6500279,9.4800858,ok
+hyundai mobis,Seoul,South Korea,37.5666791,126.9782914,ok
+posco future m,Pohang,South Korea,36.0189315,129.3429384,ok
+hansol chemical,Seoul,South Korea,37.5666791,126.9782914,ok
+kumho petrochemical,Seoul,South Korea,37.5666791,126.9782914,ok
+murata manufacturing,Nagaokakyo,Japan,34.9265292,135.6953718,ok
+asahi kasei,Tokyo,Japan,35.6768601,139.7638947,ok
+tokai carbon,Tokyo,Japan,35.6768601,139.7638947,ok
+nichias,Tokyo,Japan,35.6768601,139.7638947,ok
+sunwoda electronic,Shenzhen,China,22.5445741,114.0545429,ok
+zeon,Tokyo,Japan,35.6768601,139.7638947,ok
+nan ya plastics,Taipei,Taiwan,25.0375198,121.5636796,ok
+krakatau steel persero tbk pt,Cilegon,Indonesia,-6.017389,106.0537688,ok
+gunung raja paksi tbk pt,Cikarang,Indonesia,-6.2553138,107.1450733,ok
+waskita karya persero tbk pt,Jakarta,Indonesia,-6.1754049,106.827168,ok
+medco energi internasional tbk pt,Jakarta,Indonesia,-6.1754049,106.827168,ok
+tenaris,Luxembourg City,Luxembourg,49.601051,6.0639946,ok
+stellantis,Amsterdam,Netherlands,52.3730796,4.8924534,ok
+great wall motor,Baoding,China,38.8579735,115.490696,ok
+nio,Hefei,China,31.8665676,117.281428,ok
+guangzhou automobile,Guangzhou,China,23.1288429,113.2589581,ok
+nissan motor,Yokohama,Japan,35.4503381,139.6343802,ok
+china faw,Changchun,China,43.8844844,125.3181675,ok
+nexen tire,Yangsan,South Korea,35.3349979,129.0370582,ok
+forvia se,Nanterre,France,48.8924273,2.2071267,ok
+wooshin systems,Siheung,South Korea,37.3798891,126.8032255,ok
+baic bluepark new energy technology,Beijing,China,39.9057136,116.3912972,ok
+eicher motors,Chennai,India,13.0836939,80.270186,ok
+hyundai transys,Seosan,South Korea,36.784499,126.450317,ok
+saic volkswagen automotive,Shanghai,China,31.2312707,121.4700152,ok
+nexteer automotive,Auburn Hills,United States,42.6875323,-83.2341028,ok
+xpeng,Zhaoqing,China,23.0501661,112.4603629,ok
+gotion high-tech,Hefei,China,31.8665676,117.281428,ok
+schaeffler,Herzogenaurach,Germany,49.5738171,10.8926968,ok
+adient,Plymouth,United States,42.7369124,-96.2213607,ok
+valeo se,Paris,France,48.8534951,2.3483915,ok
+shanghai jiao yun,Shanghai,China,31.2312707,121.4700152,ok
+audi,Ingolstadt,Germany,48.7630165,11.4250395,ok
+denso,Kariya,Japan,34.974678,137.002791,ok
+kyb,Tokyo,Japan,35.6768601,139.7638947,ok
+toyota boshoku,Kariya,Japan,34.974678,137.002791,ok
+changan ford automobile,Chongqing,China,30.05518,107.8748712,ok
+guangqi honda automobile,Guangzhou,China,23.1288429,113.2589581,ok
+haima automobile,Haikou,China,20.0462328,110.1956502,ok
+jiangling motor holding,Nanchang,China,28.6472124,116.0348483,ok
+linamar,Guelph,Canada,43.5460516,-80.2493276,ok
+vinfast auto,Hai Phong,Vietnam,20.8830967,106.6790381,ok
+sanyang motor,Hsinchu,Taiwan,24.8066333,120.9686833,ok
+zotye automobile,Jinhua,China,29.1080344,119.6486487,ok
+dae won kang up,Cheonan,South Korea,36.8150283,127.1140654,ok
+changchun yidong clutch,Changchun,China,43.8844844,125.3181675,ok
+dy,Incheon,South Korea,37.456,126.7052,ok
+iav automotive engineering,Berlin,Germany,52.5173885,13.3951309,ok
+munjal showa,Gurugram,India,28.4646148,77.0299194,ok
+fisker,Graz,Austria,47.0708678,15.4382786,ok
+polestar automotive holding uk,Gothenburg,Sweden,57.7072326,11.9670171,ok
+shenyang jinbei automotive,Shenyang,China,41.8026095,123.4279105,ok
+atlas honda,Karachi,Pakistan,24.8546842,67.0207055,ok
+gm korea,Incheon,South Korea,37.456,126.7052,ok
+yeong hwa metal,Changwon,South Korea,35.227956,128.6818586,ok
+dongfeng electronic technology,Shanghai,China,31.2312707,121.4700152,ok
+honda atlas cars pakistan,Lahore,Pakistan,31.5656822,74.3141829,ok
+jay ushin,Gurugram,India,28.4646148,77.0299194,ok
+nwtn,Abu Dhabi,United Arab Emirates,24.4538352,54.3774014,ok
+topre,Tokyo,Japan,35.6768601,139.7638947,ok
+grupo simec sab de cv,Guadalajara,Mexico,20.6720375,-103.338396,ok
+vallourec saca,Belo Horizonte,Brazil,-19.9227318,-43.9450948,ok
+indian oil,New Delhi,India,28.6138954,77.2090057,ok
+ningbo shanshan,Ningbo,China,29.8622194,121.6203873,ok
+taiwan cement,Taipei,Taiwan,25.0375198,121.5636796,ok
+sumitomo chemical,Tokyo,Japan,35.6768601,139.7638947,ok
+daikin industries,Osaka,Japan,34.6937569,135.5014539,ok
+cx technology,Taipei,Taiwan,25.0375198,121.5636796,ok
+corteva,Indianapolis,United States,39.7683331,-86.1583502,ok
+nsk,Tokyo,Japan,35.6768601,139.7638947,ok
+minebea mitsumi,Tokyo,Japan,35.6768601,139.7638947,ok
+saudi basic industries,Jubail,Saudi Arabia,27.0006968,49.6532161,ok
+asiana airlines,Seoul,South Korea,37.5666791,126.9782914,ok
+taeyang metal industrial,Ansan,South Korea,37.3217152,126.8308604,ok
+hyundai rotem,Changwon,South Korea,35.227956,128.6818586,ok
+lucky cement,Karachi,Pakistan,24.8546842,67.0207055,ok
+lg electronics,Seoul,South Korea,37.5666791,126.9782914,ok
+shanghai huayi,Shanghai,China,31.2312707,121.4700152,ok
+eurogroup laminations,Baranzate,Italy,45.5278587,9.1113604,ok
+seah besteel,Gunsan,South Korea,35.9679984,126.7369036,ok
+press kogyo,Kawasaki,Japan,35.5306639,139.7037668,ok
+grupo pochteca sab de cv,Mexico City,Mexico,19.3207722,-99.1514678,ok
+dongil industries,Pohang,South Korea,36.0189315,129.3429384,ok
+kyowakogyosyo,Komatsu,Japan,36.4032931,136.4495465,ok
+zhejiang huayou cobalt,Tongxiang,China,30.6316971,120.5610365,ok
+alcoa,Pittsburgh,United States,40.4406968,-80.0025666,ok
+tata steel,Jamshedpur,India,22.8015194,86.2029579,ok
+cngr advanced material,Tongren,China,27.952938,108.584018,ok
+iron force industrial,New Taipei City,Taiwan,25.020096,121.4335,ok
+ternium,Monterrey,Mexico,25.6802019,-100.315258,ok
+hitachi,Tokyo,Japan,35.6768601,139.7638947,ok
+hyundai engineering & construction,Seoul,South Korea,37.5666791,126.9782914,ok
+unipres,Yokohama,Japan,35.4503381,139.6343802,ok
+china petroleum & chemical,Beijing,China,39.9057136,116.3912972,ok
+san shing fastech,Tainan,Taiwan,22.9912348,120.184982,ok
+e1,Seoul,South Korea,37.5666791,126.9782914,ok
+sony,Tokyo,Japan,35.6768601,139.7638947,ok
+seojin system,Bucheon,South Korea,37.5014422,126.7660139,ok
+hunan corun new energy,Changsha,China,28.1450774,113.2384362,ok
+pp persero tbk pt,Jakarta,Indonesia,-6.1754049,106.827168,ok
+hyundai motor,Ulsan,South Korea,35.5391697,129.3119136,ok
+geely automobile,Hangzhou,China,30.2489634,120.2052342,ok
+saic motor,Shanghai,China,31.2312707,121.4700152,ok
+hero motocorp,New Delhi,India,28.6138954,77.2090057,ok
+renault,Boulogne-Billancourt,France,48.8356649,2.240206,ok
+dongfeng motor,Wuhan,China,30.578891,114.2921197,ok
+samsung sdi,Yongin,South Korea,37.2405741,127.1785572,ok
+harley-davidson,Milwaukee,United States,43.0386475,-87.9090751,ok
+autoliv,Stockholm,Sweden,59.3251172,18.0710935,ok
+baic motor,Beijing,China,39.9057136,116.3912972,ok
+romeo power,Cypress,United States,33.8248235,-118.0399368,ok
+jiangsu lixing general steel ball,Rugao,China,32.3734658,120.5697741,ok
+zhejiang geely holding,Hangzhou,China,30.2489634,120.2052342,ok
+sichuan haowu electromechanical,Chengdu,China,30.659867,104.063315,ok
+kyungchang industrial,Daegu,South Korea,35.8713,128.6018,ok
+subaru,Ota,Japan,35.561206,139.715843,ok
+faw volkswagen automotive,Changchun,China,43.8844844,125.3181675,ok
+saic-gm-wuling automobile,Liuzhou,China,25.0009993,109.3414252,ok
+wanxiang qianchao,Hangzhou,China,30.2489634,120.2052342,ok
+koito manufacturing,Tokyo,Japan,35.6768601,139.7638947,ok
+vitesco technologies,Regensburg,Germany,49.0195333,12.0974869,ok
+china motor,Yangmei,Taiwan,24.9075751,121.1458735,ok
+ford otomotiv sanayi as,Golcuk,Turkey,40.7169247,29.819588,ok
+sumitomo electric industries,Osaka,Japan,34.6937569,135.5014539,ok
+hyundai wia,Changwon,South Korea,35.227956,128.6818586,ok
+nemak sab de cv,Monterrey,Mexico,25.6802019,-100.315258,ok
+beijing automotive,Beijing,China,39.9057136,116.3912972,ok
+beijing hyundai motor,Beijing,China,39.9057136,116.3912972,ok
+dongfeng automobile,Wuhan,China,30.578891,114.2921197,ok
+aisan industry,Obu,Japan,35.0165825,136.954545,ok
+futaba industrial,Okazaki,Japan,34.9548784,137.1728226,ok
+piaggio & c,Pontedera,Italy,43.6634536,10.6354851,ok
+grupo industrial saltillo sab de cv,Saltillo,Mexico,25.4230425,-100.9927509,ok
+lordstown motors,Lordstown,United States,41.1659755,-80.8574312,ok
+hota industrial manufacturing,Taichung,Taiwan,24.163162,120.6478282,ok
+shun on electronic,Taipei,Taiwan,25.0375198,121.5636796,ok
+ta yih industrial,Tainan,Taiwan,22.9912348,120.184982,ok
+jardine strategic,Hong Kong,China (Hong Kong),22.2003661,113.5760578,ok
+dgenx,Siheung,South Korea,37.3798891,126.8032255,ok
+cnc driveline technology,Zhuhai,China,22.273734,113.5721327,ok
+eurocharm,Vinh Yen,Vietnam,21.3064256,105.5985972,ok
+hanjung natural connectivity system,Yeongcheon,South Korea,35.98842,128.942,ok
+pusan cast iron,Busan,South Korea,35.1799528,129.0752365,ok
+neooto,Yesan,South Korea,36.6808989,126.8448742,ok
+transaxle manufacturing of america,Rock Hill,United States,34.9248667,-81.0250784,ok
+kaison green energy technology,Kaohsiung,Taiwan,22.6203348,120.3120375,ok
+formosa chemicals & fibre,Taipei,Taiwan,25.0375198,121.5636796,ok
+tdk,Tokyo,Japan,35.6768601,139.7638947,ok
+yokohama rubber co ltd/the,Tokyo,Japan,35.6768601,139.7638947,ok
+sk innovation,Seoul,South Korea,37.5666791,126.9782914,ok
+jsr,Tokyo,Japan,35.6768601,139.7638947,ok
+kukdo chemical,Seoul,South Korea,37.5666791,126.9782914,ok
+uacj,Tokyo,Japan,35.6768601,139.7638947,ok
+grupo antolin-irausa,Burgos,Spain,42.3448498,-3.6812477,ok
+cummins,Columbus,United States,39.9622601,-83.0007065,ok
+hanwa,Osaka,Japan,34.6937569,135.5014539,ok
+thang long metal wares jsc,Hanoi,Vietnam,21.0283334,105.854041,ok
+zhejiang juhua,Quzhou,China,28.973887,118.8540924,ok
+gmb,Osaka,Japan,34.6937569,135.5014539,ok
+yorozu,Yokohama,Japan,35.4503381,139.6343802,ok
+ntn,Osaka,Japan,34.6937569,135.5014539,ok
+avient,Avon Lake,United States,41.510033,-82.0185895,ok
+nations technologies,Shenzhen,China,22.5445741,114.0545429,ok
+mitsubishi chemical,Tokyo,Japan,35.6768601,139.7638947,ok
+globaltek fabrication,New Taipei City,Taiwan,25.020096,121.4335,ok
+hino motors,Hino,Japan,35.6713394,139.3949801,ok
+kobe steel,Kobe,Japan,34.6932379,135.1943764,ok
+lanxess,Cologne,Germany,50.938361,6.959974,ok
+panasonic,Kadoma,Japan,34.739496,135.5869107,ok
+tokyo nissan computer system,Tokyo,Japan,35.6768601,139.7638947,ok
+electra battery materials,Temiskaming Shores,Canada,47.512563,-79.675598,ok
+zhejiang founder motor,Lishui,China,28.4704064,119.9184297,ok
+jordan petroleum refinery,Zarqa,Jordan,32.0668425,36.0885771,ok
+daimler truck holding,Leinfelden-Echterdingen,Germany,48.6901796,9.1525725,ok
+tokyo rope manufacturing,Tokyo,Japan,35.6768601,139.7638947,ok
+hanjin transportation,Seoul,South Korea,37.5666791,126.9782914,ok
+kg eco technology service,Miryang,South Korea,35.503839,128.7466992,ok
+air water,Osaka,Japan,34.6937569,135.5014539,ok
+mitsubishi steel manufacturing,Tokyo,Japan,35.6768601,139.7638947,ok
+komatsu,Tokyo,Japan,35.6768601,139.7638947,ok
+kajima,Tokyo,Japan,35.6768601,139.7638947,ok
+vedanta,Mumbai,India,19.054999,72.8692035,ok
+jfe,Tokyo,Japan,35.6768601,139.7638947,ok
+bhp,Melbourne,Australia,-37.8142454,144.9631732,ok
+kg dongbusteel,Incheon,South Korea,37.456,126.7052,ok
+calb,Changzhou,China,31.8122623,119.9691539,ok
+ford motor,Dearborn,United States,42.3222599,-83.1763145,ok
+volvo car ab,Gothenburg,Sweden,57.7072326,11.9670171,ok
+contemporary amperex technology,Ningde,China,27.0143281,119.4385501,ok
+honda motor,Tokyo,Japan,35.6768601,139.7638947,ok
+suzuki motor,Hamamatsu,Japan,34.7109786,137.7259431,ok
+tata motors,Mumbai,India,19.054999,72.8692035,ok
+kg mobility,Pyeongtaek,South Korea,36.9924966,127.1127168,ok
+borgwarner,Auburn Hills,United States,42.6875323,-83.2341028,ok
+aapico hitech pcl,Ayutthaya,Thailand,14.3189468,100.5111681,ok
+korea movenex,Ulsan,South Korea,35.5391697,129.3119136,ok
+brilliance china automotive,Shenyang,China,41.8026095,123.4279105,ok
+american axle & manufacturing,Detroit,United States,42.3315509,-83.0466403,ok
+kumho tire,Gwangju,South Korea,35.1558147,126.8306362,ok
+tokai rika,Oguchi,Japan,35.3323912,136.9080051,ok
+sumitomo rubber industries,Kobe,Japan,34.6932379,135.1943764,ok
+zhejiang leapmotor technology,Jinhua,China,29.1080344,119.6486487,ok
+china south industries,Beijing,China,39.9057136,116.3912972,ok
+garrett motion,Rolle,Switzerland,46.4601563,6.3380469,ok
+mitsubishi motors,Okazaki,Japan,34.9548784,137.1728226,ok
+triangle tyre,Weihai,China,37.5120997,122.1152599,ok
+lucid,Casa Grande,United States,32.8772834,-111.7536818,ok
+canoo,Justin,United States,33.0848442,-97.2961286,ok
+sangsin brake,Daegu,South Korea,35.8713,128.6018,ok
+hl mando,Seongnam,South Korea,37.4201556,127.1262092,ok
+aptiv,Dublin,Ireland,53.3493795,-6.2605593,ok
+bmw brilliance automotive,Shenyang,China,41.8026095,123.4279105,ok
+beijing benz automotive,Beijing,China,39.9057136,116.3912972,ok
+dongfeng honda automobile,Wuhan,China,30.578891,114.2921197,ok
+gac fiat chrysler automobiles,Changsha,China,28.1450774,113.2384362,ok
+sichuan faw toyota motor,Chengdu,China,30.659867,104.063315,ok
+fawer automotive parts,Changchun,China,43.8844844,125.3181675,ok
+hudaco industries,Edenvale,South Africa,-26.1366667,28.1511111,ok
+luminar technologies,Orlando,United States,28.5421218,-81.379045,ok
+nexen,Gimhae,South Korea,35.2279109,128.8895378,ok
+warxiano qiandiao co lid,Hangzhou,China,30.2489634,120.2052342,ok
+daedong metals,Busan,South Korea,35.1799528,129.0752365,ok
+farasis energy gan zhou,Ganzhou,China,25.703866,115.348216,ok
+jiangxi changhe automobile,Jingdezhen,China,29.3582395,117.2735595,ok
+tianjin faw toyota engine,Tianjin,China,39.3032619,117.4163641,ok
+unitekno,Busan,South Korea,35.1799528,129.0752365,ok
+cayman engley industrial,Changchun,China,43.8844844,125.3181675,ok
+g-tekt corporation,Saitama,Japan,35.9754168,139.4160114,ok
+keihin,Tokyo,Japan,35.6768601,139.7638947,ok
+h-one,Saitama,Japan,35.9754168,139.4160114,ok
+iat automobile technology,Beijing,China,39.9057136,116.3912972,ok
+nisshinbo,Tokyo,Japan,35.6768601,139.7638947,ok
+lg chem,Seoul,South Korea,37.5666791,126.9782914,ok
+samsung c&t,Seoul,South Korea,37.5666791,126.9782914,ok
+sapura industrial bhd,Bandar Baru Bangi,Malaysia,2.9540793,101.7810018,ok
+shell,London,United Kingdom,51.5074456,-0.1277653,ok
+hd hyundai heavy industries,Ulsan,South Korea,35.5391697,129.3119136,ok
+posco international,Seoul,South Korea,37.5666791,126.9782914,ok
+apple,Cupertino,United States,37.3228934,-122.0322895,ok
+thyssenkrupp,Essen,Germany,51.4582235,7.0158171,ok
+arcelormittal,Luxembourg City,Luxembourg,49.601051,6.0639946,ok
+eni,Rome,Italy,41.8933203,12.4829321,ok
+mitsui,Tokyo,Japan,35.6768601,139.7638947,ok
+toray industries,Tokyo,Japan,35.6768601,139.7638947,ok
+skf ab,Gothenburg,Sweden,57.7072326,11.9670171,ok
+akzo nobel,Amsterdam,Netherlands,52.3730796,4.8924534,ok
+axalta coating systems,Philadelphia,United States,39.9527237,-75.1635262,ok
+mahle,Stuttgart,Germany,48.7784485,9.1800132,ok
+saudi arabian oil,Dhahran,Saudi Arabia,26.2966528,50.1202146,ok
+volvo ab,Gothenburg,Sweden,57.7072326,11.9670171,ok
+sk,Seoul,South Korea,37.5666791,126.9782914,ok
+aluminum corp of china,Beijing,China,39.9057136,116.3912972,ok
+mitsubishi heavy industries,Tokyo,Japan,35.6768601,139.7638947,ok
+3m,Maplewood,United States,45.0082216,-93.0456985,ok
+eve energy,Huizhou,China,23.1125153,114.4127007,ok
+daido metal,Nagoya,Japan,35.1851045,136.8998438,ok
+daido steel,Nagoya,Japan,35.1851045,136.8998438,ok
+seah,Pohang,South Korea,36.0189315,129.3429384,ok
+konica minolta,Tokyo,Japan,35.6768601,139.7638947,ok
+qst international,Tainan,Taiwan,22.9912348,120.184982,ok
+right way industrial,Tainan,Taiwan,22.92237783,120.2002558,ok
+ijtt,Tokyo,Japan,35.6768601,139.7638947,ok
+sanoh industrial,Tokyo,Japan,35.6768601,139.7638947,ok
+china fineblanking technology,Changhua,Taiwan,24.0755667,120.5444667,ok
+steel pipe industry of indonesia pt,Surabaya,Indonesia,-7.2462836,112.7377674,ok
+hdc hyundai engineering plastics,Dangjin,South Korea,36.8904083,126.6461833,ok
+beijing shougang,Caofeidian,China,39.1930418,118.4504956,ok
+nippon steel trading,Tokyo,Japan,35.6768601,139.7638947,ok
+obayashi,Tokyo,Japan,35.6768601,139.7638947,ok
+jiangsu lopal tech,Nanjing,China,32.0438284,118.7788631,ok
+garuda metalindo tbk pt,Jakarta,Indonesia,-6.1754049,106.827168,ok
+dongsung chemical,Busan,South Korea,35.1799528,129.0752365,ok
+kiswire,Busan,South Korea,35.1799528,129.0752365,ok
+kia,Hwaseong,South Korea,37.1994653,126.8312632,ok
+general motors,Detroit,United States,42.3315509,-83.0466403,ok
+lg energy solution,Seoul,South Korea,37.5666791,126.9782914,ok
+chery automobile,Wuhu,China,31.1800568,118.2141777,ok
+mahindra & mahindra,Mumbai,India,19.054999,72.8692035,ok
+bridgestone,Tokyo,Japan,35.6768601,139.7638947,ok
+mazda motor,Fuchu,Japan,35.6693751,139.4774094,ok
+aisin,Kariya,Japan,34.974678,137.002791,ok
+li auto,Changzhou,China,31.8122623,119.9691539,ok
+toyota industries,Kariya,Japan,34.974678,137.002791,ok
+gac toyota motor,Guangzhou,China,23.1288429,113.2589581,ok
+maruti suzuki india,Gurugram,India,28.4646148,77.0299194,ok
+dr ing hc f porsche,Stuttgart,Germany,48.7784485,9.1800132,ok
+rivian automotive,Normal,United States,40.5092961,-88.9843937,ok
+tong yang industry,Tainan,Taiwan,22.9912348,120.184982,ok
+toyoda gosei,Kiyosu,Japan,35.2002235,136.8531268,ok
+chuo spring,Nagoya,Japan,35.1851045,136.8998438,ok
+gestamp automocion,Madrid,Spain,40.416782,-3.703507,ok
+nok,Tokyo,Japan,35.6768601,139.7638947,ok
+hyundai powertech,Seosan,South Korea,36.784499,126.450317,ok
+seres,Chongqing,China,30.05518,107.8748712,ok
+jtekt,Osaka,Japan,34.6937569,135.5014539,ok
+dana,Maumee,United States,41.5628294,-83.6538244,ok
+holley,Bowling Green,United States,36.9929203,-86.4428677,ok
+mobileye global,Jerusalem,Israel,31.7788472,35.2257856,ok
+chongqing changan automobile,Chongqing,China,30.05518,107.8748712,ok
+zf trw automotive,Livonia,United States,42.36837,-83.3527097,ok
+hitachi astemo,Tokyo,Japan,35.6768601,139.7638947,ok
+nissin kogyo,Tomi,Japan,36.3594225,138.3305353,ok
+astra otoparts tbk pt,Jakarta,Indonesia,-6.1754049,106.827168,ok
+bosch,Gerlingen,Germany,48.7983947,9.0624386,ok
+umw holdings bhd,Shah Alam,Malaysia,3.0739429,101.5185278,ok
+selamat sempurna tbk pt,Jakarta,Indonesia,-6.1754049,106.827168,ok
+xinchen china power,Mianyang,China,31.4602714,104.7160723,ok
+getrag jiangxi transmission,Nanchang,China,28.6472124,116.0348483,ok
+fev,Aachen,Germany,50.776351,6.083862,ok
+dongwon metal,Gyeongsan,South Korea,35.825122,128.741329,ok
+nvh korea,Ulsan,South Korea,35.5391697,129.3119136,ok
+gb corp/eg,Cairo,Egypt,30.0443879,31.2357257,ok
+hiroca holdings lid,Dongguan,China,23.0183568,113.7452332,ok
+sjm,Ansan,South Korea,37.3217152,126.8308604,ok
+asti,Hamamatsu,Japan,34.7109786,137.7259431,ok
+j-max,Ogaki,Japan,35.3596449,136.6128847,ok
+kian shen,Taoyuan,Taiwan,24.9929995,121.3010003,ok
+dangfeng electronic technology co lb,Shanghai,China,31.2312707,121.4700152,ok
+tieliu,Hangzhou,China,30.2489634,120.2052342,ok
+cars motorcycles and marine engine trade and import,Athens,Greece,37.9755648,23.7348324,ok
+guangzhou development,Guangzhou,China,23.1288429,113.2589581,ok
+mitsubishi electric,Tokyo,Japan,35.6768601,139.7638947,ok
+stanley black & decker,New Britain,United States,41.6612104,-72.7795419,ok
+kumkang kind,Seoul,South Korea,37.5666791,126.9782914,ok
+mobase electronics,Suwon,South Korea,37.2633325,127.0287472,ok
+baoshan iron & steel,Shanghai,China,31.2312707,121.4700152,ok
+posco eco & challenge,Incheon,South Korea,37.456,126.7052,ok
+alfa sab de cv,Monterrey,Mexico,25.6802019,-100.315258,ok
+nagase,Osaka,Japan,34.6937569,135.5014539,ok
+nhk spring,Yokohama,Japan,35.4503381,139.6343802,ok
+topy industries,Tokyo,Japan,35.6768601,139.7638947,ok
+okaya,Nagoya,Japan,35.1851045,136.8998438,ok
+oci,Seoul,South Korea,37.5666791,126.9782914,ok
+ube,Ube,Japan,33.9518498,131.2472243,ok
+gem,Shenzhen,China,22.5445741,114.0545429,ok
+ls electric,Anyang,South Korea,37.3938528,126.9570605,ok
+taita chemical,Taipei,Taiwan,25.0375198,121.5636796,ok
+dl holdings co lirl,Seoul,South Korea,37.5666791,126.9782914,ok
+toyota tsusho,Nagoya,Japan,35.1851045,136.8998438,ok
+jui li enterprise,Kaohsiung,Taiwan,22.6203348,120.3120375,ok
+daechang steel,Incheon,South Korea,37.456,126.7052,ok
+yokogawa bridge,Tokyo,Japan,35.6768601,139.7638947,ok
+usa steel,Pittsburgh,United States,40.4406968,-80.0025666,ok
+guangdong delian,Foshan,China,23.0239788,113.1159558,ok
+cia siderurgica nacional,Volta Redonda,Brazil,-22.521856,-44.1040128,ok
+aichi steel,Tokai,Japan,35.0228927,136.9023574,ok
+bh,Incheon,South Korea,37.456,126.7052,ok
+kawasaki heavy industries,Kobe,Japan,34.6932379,135.1943764,ok
+maruichi steel tube,Osaka,Japan,34.6937569,135.5014539,ok
+aes corp/the,Arlington,United States,32.7355816,-97.1071186,ok
+guangzhou tinci materials technology,Guangzhou,China,23.1288429,113.2589581,ok
+rio tinto,London,United Kingdom,51.5074456,-0.1277653,ok
+bakrie and brothers tbk pt,Jakarta,Indonesia,-6.1754049,106.827168,ok
+hd korea shipbuilding & offshore engineering,Seongnam,South Korea,37.4201556,127.1262092,ok
+patec precision industry,Taipei,Taiwan,25.0375198,121.5636796,ok
+umicore,Brussels,Belgium,50.8467372,4.352493,ok
+samsung electronics,Suwon,South Korea,37.2633325,127.0287472,ok
+snt,Busan,South Korea,35.1799528,129.0752365,ok
+rohm,Kyoto,Japan,35.0115754,135.7681441,ok
+toagosei,Tokyo,Japan,35.6768601,139.7638947,ok
+petrochina,Jilin City,"Jilin, China",43.8349669,126.5438702,ok
+chevron,Richmond,"California, USA",37.9357576,-122.347748,ok
+dow,Texas Gulf Coast,USA,29.1042663,-95.4614946,ok
+xinxiang tianli energy,Henan province,China,34.0000001,113.9999999,ok
+coronado global resources,China / Australia,,-30.2924024,153.1251587,ok
+gazprom pjsc,Russia / Germany (Nord Stream 1),,54.1333,13.6833,ok
+yunnan chihong zinc&germanium,China,,34.5412252,108.9237067,ok
+korea electric power,South Korea (national),,36.3078573,126.8965712,ok
+glencore,Democratic Republic of Congo,,-15.4139213,28.289698,ok
+formosa petrochemical,Mailiao,"Yunlin County, Taiwan",23.753841,120.252043,ok
+kyushu electric power,Kyushu,Japan,32.6331585,130.2860775,ok
+nippon steel,Tohoku region,Japan,39.1736184,140.7319147,ok
+state grid corp of china,China (multi-province),,39.9042,116.4074,ok
+united co rusal international pjsc,Russia / global,,54.7767305,32.0497572,ok
+china steel,USA / global,,41.7177436,-72.6477176,ok
+mitsubishi materials,Yokkaichi,"Mie, Japan",34.9648428,136.624845,ok
+formosa plastics,Texas,USA,31.2638905,-98.5456116,ok
+cpc corp/taiwan,Kaohsiung,Taiwan,22.6203348,120.3120375,ok
+xiamen tungsten,China / Japan,,0.354999,32.5708333,ok
+bp,Gulf of Mexico,USA,42.0327068,-74.571895,ok
+yunnan aluminium,Yunnan province,China,25,102,ok
+aurizon,Queensland,Australia,-22.1646782,144.5844903,ok
+basf se,Ludwigshafen,Germany,49.4704113,8.4381568,ok
+s-oil,Ulsan,South Korea,35.5391697,129.3119136,ok
+posco,Pohang,South Korea,36.0189315,129.3429384,ok
+hesteel,Hebei province,China,39.0000001,116,ok
+aneka tambang tbk,Indonesia,,-2.4833826,117.8902853,ok
+perusahaan perseroan persero pt perusahaan listrik negara,Java,Indonesia,-7.3279694,109.613911,ok
+exxon mobil,Louisiana / Mississippi,USA,33.9757033,-89.6813683,ok
