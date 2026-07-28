@@ -1,0 +1,180 @@
+<SEC-DOCUMENT>0001628280-18-006996.txt : 20180518
+<SEC-HEADER>0001628280-18-006996.hdr.sgml : 20180518
+<ACCEPTANCE-DATETIME>20180518183754
+ACCESSION NUMBER:		0001628280-18-006996
+CONFORMED SUBMISSION TYPE:	4/A
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20161230
+FILED AS OF DATE:		20180518
+DATE AS OF CHANGE:		20180518
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Krouse Mark
+		CENTRAL INDEX KEY:			0001586289
+
+	FILING VALUES:
+		FORM TYPE:		4/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-09447
+		FILM NUMBER:		18848042
+
+	MAIL ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY
+		STREET 2:		SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAISER ALUMINUM CORP
+		CENTRAL INDEX KEY:			0000811596
+		STANDARD INDUSTRIAL CLASSIFICATION:	ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS [3350]
+		IRS NUMBER:				943030279
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+		BUSINESS PHONE:		949-614-1740
+
+	MAIL ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	KAISERTECH LTD
+		DATE OF NAME CHANGE:	19901122
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4/A
+<SEQUENCE>1
+<FILENAME>wf-form4a_152668306095658.xml
+<DESCRIPTION>FORM 4/A
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4/A</documentType>
+
+    <periodOfReport>2016-12-30</periodOfReport>
+
+    <dateOfOriginalSubmission>2017-01-04</dateOfOriginalSubmission>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000811596</issuerCik>
+        <issuerName>KAISER ALUMINUM CORP</issuerName>
+        <issuerTradingSymbol>KALU</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001586289</rptOwnerCik>
+            <rptOwnerName>Krouse Mark</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O KAISER ALUMINUM CORP.</rptOwnerStreet1>
+            <rptOwnerStreet2>27422 PORTOLA PARKWAY, SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>FOOTHILL RANCH</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92610</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>VP - Human Resources</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2016-12-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>557</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>77.69</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3742</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>1524</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Krouse Family Trust</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Shares withheld to satisfy the withholding tax obligations resulting from the recognition of income with respect to the outstanding grant of restricted stock to the reporting person effective March 5, 2014 under the Kaiser Aluminum Corporation 2006 Equity and Performance Incentive Plan, as amended, upon the reporting person reaching age 65 on December 30, 2016 and such shares no longer being subject to a substantial risk of forfeiture for tax purposes.</footnote>
+        <footnote id="F2">The acquisition of 1,395 shares was inadvertently reported as a grant of restricted stock on the reporting person's prior Form 4. Such shares were acquired pursuant to a grant of restricted stock units. These restricted stock units have the same vesting terms as previously reported.</footnote>
+    </footnotes>
+
+    <remarks>1,524 Shares reported on the Form 4, which this filing amends, and subsequent Form 4's filed on March 7, 2017, August 4, 2017 and March 7, 2018, as directly held by the reporting person were transferred to the Krouse Family Trust on June 6, 2016.</remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Cherrie I. Tsai, with power of attorney for Mark Krouse</signatureName>
+        <signatureDate>2018-05-18</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

@@ -1,0 +1,154 @@
+<SEC-DOCUMENT>0001209191-21-032662.txt : 20210514
+<SEC-HEADER>0001209191-21-032662.hdr.sgml : 20210514
+<ACCEPTANCE-DATETIME>20210514150904
+ACCESSION NUMBER:		0001209191-21-032662
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210514
+FILED AS OF DATE:		20210514
+DATE AS OF CHANGE:		20210514
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Stangl Rolf
+		CENTRAL INDEX KEY:			0001823910
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-39528
+		FILM NUMBER:		21924008
+
+	MAIL ADDRESS:	
+		STREET 1:		1900 W. FIELD COURT
+		CITY:			LAKE FOREST
+		STATE:			IL
+		ZIP:			60045
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Pactiv Evergreen Inc.
+		CENTRAL INDEX KEY:			0001527508
+		STANDARD INDUSTRIAL CLASSIFICATION:	PLASTICS, FOIL & COATED PAPER BAGS [2673]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1900 W. FIELD COURT
+		CITY:			LAKE FOREST
+		STATE:			IL
+		ZIP:			60045
+		BUSINESS PHONE:		(800) 879-5067
+
+	MAIL ADDRESS:	
+		STREET 1:		1900 W. FIELD COURT
+		CITY:			LAKE FOREST
+		STATE:			IL
+		ZIP:			60045
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Reynolds Group Holdings Ltd
+		DATE OF NAME CHANGE:	20110805
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-05-14</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001527508</issuerCik>
+        <issuerName>Pactiv Evergreen Inc.</issuerName>
+        <issuerTradingSymbol>PTVE</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001823910</rptOwnerCik>
+            <rptOwnerName>Stangl Rolf</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O PACTIV EVERGREEN INC.</rptOwnerStreet1>
+            <rptOwnerStreet2>1900 W. FIELD COURT</rptOwnerStreet2>
+            <rptOwnerCity>LAKE FOREST</rptOwnerCity>
+            <rptOwnerState>IL</rptOwnerState>
+            <rptOwnerZipCode>60045</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-05-14</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>7000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>14.60</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>16000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Steven Karl, as Attorney-in-Fact for Rolf Stangl</signatureName>
+        <signatureDate>2021-05-14</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

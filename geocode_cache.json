@@ -1,0 +1,1092 @@
+{
+  "Munich, Germany": {
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "status": "ok"
+  },
+  "Stuttgart, Germany": {
+    "lat": 48.7784485,
+    "lon": 9.1800132,
+    "status": "ok"
+  },
+  "Toyota City, Japan": {
+    "lat": 35.083386,
+    "lon": 137.156412,
+    "status": "ok"
+  },
+  "Wolfsburg, Germany": {
+    "lat": 52.4205588,
+    "lon": 10.7861682,
+    "status": "ok"
+  },
+  "Austin, United States": {
+    "lat": 30.2711286,
+    "lon": -97.7436995,
+    "status": "ok"
+  },
+  "Gerlingen, Germany": {
+    "lat": 48.7983947,
+    "lon": 9.0624386,
+    "status": "ok"
+  },
+  "Shenzhen, China": {
+    "lat": 22.5445741,
+    "lon": 114.0545429,
+    "status": "ok"
+  },
+  "Aurora, Canada": {
+    "lat": 43.99973,
+    "lon": -79.467545,
+    "status": "ok"
+  },
+  "Friedrichshafen, Germany": {
+    "lat": 47.6500279,
+    "lon": 9.4800858,
+    "status": "ok"
+  },
+  "Seoul, South Korea": {
+    "lat": 37.5666791,
+    "lon": 126.9782914,
+    "status": "ok"
+  },
+  "Pohang, South Korea": {
+    "lat": 36.0189315,
+    "lon": 129.3429384,
+    "status": "ok"
+  },
+  "Nagaokakyo, Japan": {
+    "lat": 34.9265292,
+    "lon": 135.6953718,
+    "status": "ok"
+  },
+  "Tokyo, Japan": {
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "status": "ok"
+  },
+  "Taipei, Taiwan": {
+    "lat": 25.0375198,
+    "lon": 121.5636796,
+    "status": "ok"
+  },
+  "Cilegon, Indonesia": {
+    "lat": -6.017389,
+    "lon": 106.0537688,
+    "status": "ok"
+  },
+  "Cikarang, Indonesia": {
+    "lat": -6.2553138,
+    "lon": 107.1450733,
+    "status": "ok"
+  },
+  "Jakarta, Indonesia": {
+    "lat": -6.1754049,
+    "lon": 106.827168,
+    "status": "ok"
+  },
+  "Luxembourg City, Luxembourg": {
+    "lat": 49.601051,
+    "lon": 6.0639946,
+    "status": "ok"
+  },
+  "Amsterdam, Netherlands": {
+    "lat": 52.3730796,
+    "lon": 4.8924534,
+    "status": "ok"
+  },
+  "Baoding, China": {
+    "lat": 38.8579735,
+    "lon": 115.490696,
+    "status": "ok"
+  },
+  "Hefei, China": {
+    "lat": 31.8665676,
+    "lon": 117.281428,
+    "status": "ok"
+  },
+  "Guangzhou, China": {
+    "lat": 23.1288429,
+    "lon": 113.2589581,
+    "status": "ok"
+  },
+  "Yokohama, Japan": {
+    "lat": 35.4503381,
+    "lon": 139.6343802,
+    "status": "ok"
+  },
+  "Changchun, China": {
+    "lat": 43.8844844,
+    "lon": 125.3181675,
+    "status": "ok"
+  },
+  "Yangsan, South Korea": {
+    "lat": 35.3349979,
+    "lon": 129.0370582,
+    "status": "ok"
+  },
+  "Nanterre, France": {
+    "lat": 48.8924273,
+    "lon": 2.2071267,
+    "status": "ok"
+  },
+  "Siheung, South Korea": {
+    "lat": 37.3798891,
+    "lon": 126.8032255,
+    "status": "ok"
+  },
+  "Beijing, China": {
+    "lat": 39.9057136,
+    "lon": 116.3912972,
+    "status": "ok"
+  },
+  "Chennai, India": {
+    "lat": 13.0836939,
+    "lon": 80.270186,
+    "status": "ok"
+  },
+  "Seosan, South Korea": {
+    "lat": 36.784499,
+    "lon": 126.450317,
+    "status": "ok"
+  },
+  "Shanghai, China": {
+    "lat": 31.2312707,
+    "lon": 121.4700152,
+    "status": "ok"
+  },
+  "Auburn Hills, United States": {
+    "lat": 42.6875323,
+    "lon": -83.2341028,
+    "status": "ok"
+  },
+  "Zhaoqing, China": {
+    "lat": 23.0501661,
+    "lon": 112.4603629,
+    "status": "ok"
+  },
+  "Herzogenaurach, Germany": {
+    "lat": 49.5738171,
+    "lon": 10.8926968,
+    "status": "ok"
+  },
+  "Plymouth, United States": {
+    "lat": 42.7369124,
+    "lon": -96.2213607,
+    "status": "ok"
+  },
+  "Paris, France": {
+    "lat": 48.8534951,
+    "lon": 2.3483915,
+    "status": "ok"
+  },
+  "Ingolstadt, Germany": {
+    "lat": 48.7630165,
+    "lon": 11.4250395,
+    "status": "ok"
+  },
+  "Kariya, Japan": {
+    "lat": 34.974678,
+    "lon": 137.002791,
+    "status": "ok"
+  },
+  "Chongqing, China": {
+    "lat": 30.05518,
+    "lon": 107.8748712,
+    "status": "ok"
+  },
+  "Haikou, China": {
+    "lat": 20.0462328,
+    "lon": 110.1956502,
+    "status": "ok"
+  },
+  "Nanchang, China": {
+    "lat": 28.6472124,
+    "lon": 116.0348483,
+    "status": "ok"
+  },
+  "Guelph, Canada": {
+    "lat": 43.5460516,
+    "lon": -80.2493276,
+    "status": "ok"
+  },
+  "Hai Phong, Vietnam": {
+    "lat": 20.8830967,
+    "lon": 106.6790381,
+    "status": "ok"
+  },
+  "Hsinchu, Taiwan": {
+    "lat": 24.8066333,
+    "lon": 120.9686833,
+    "status": "ok"
+  },
+  "Jinhua, China": {
+    "lat": 29.1080344,
+    "lon": 119.6486487,
+    "status": "ok"
+  },
+  "Cheonan, South Korea": {
+    "lat": 36.8150283,
+    "lon": 127.1140654,
+    "status": "ok"
+  },
+  "Incheon, South Korea": {
+    "lat": 37.456,
+    "lon": 126.7052,
+    "status": "ok"
+  },
+  "Berlin, Germany": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "status": "ok"
+  },
+  "Gurugram, India": {
+    "lat": 28.4646148,
+    "lon": 77.0299194,
+    "status": "ok"
+  },
+  "Graz, Austria": {
+    "lat": 47.0708678,
+    "lon": 15.4382786,
+    "status": "ok"
+  },
+  "Gothenburg, Sweden": {
+    "lat": 57.7072326,
+    "lon": 11.9670171,
+    "status": "ok"
+  },
+  "Shenyang, China": {
+    "lat": 41.8026095,
+    "lon": 123.4279105,
+    "status": "ok"
+  },
+  "Karachi, Pakistan": {
+    "lat": 24.8546842,
+    "lon": 67.0207055,
+    "status": "ok"
+  },
+  "Changwon, South Korea": {
+    "lat": 35.227956,
+    "lon": 128.6818586,
+    "status": "ok"
+  },
+  "Lahore, Pakistan": {
+    "lat": 31.5656822,
+    "lon": 74.3141829,
+    "status": "ok"
+  },
+  "Abu Dhabi, United Arab Emirates": {
+    "lat": 24.4538352,
+    "lon": 54.3774014,
+    "status": "ok"
+  },
+  "Guadalajara, Mexico": {
+    "lat": 20.6720375,
+    "lon": -103.338396,
+    "status": "ok"
+  },
+  "Belo Horizonte, Brazil": {
+    "lat": -19.9227318,
+    "lon": -43.9450948,
+    "status": "ok"
+  },
+  "New Delhi, India": {
+    "lat": 28.6138954,
+    "lon": 77.2090057,
+    "status": "ok"
+  },
+  "Ningbo, China": {
+    "lat": 29.8622194,
+    "lon": 121.6203873,
+    "status": "ok"
+  },
+  "Osaka, Japan": {
+    "lat": 34.6937569,
+    "lon": 135.5014539,
+    "status": "ok"
+  },
+  "Indianapolis, United States": {
+    "lat": 39.7683331,
+    "lon": -86.1583502,
+    "status": "ok"
+  },
+  "Jubail, Saudi Arabia": {
+    "lat": 27.0006968,
+    "lon": 49.6532161,
+    "status": "ok"
+  },
+  "Ansan, South Korea": {
+    "lat": 37.3217152,
+    "lon": 126.8308604,
+    "status": "ok"
+  },
+  "Baranzate, Italy": {
+    "lat": 45.5278587,
+    "lon": 9.1113604,
+    "status": "ok"
+  },
+  "Gunsan, South Korea": {
+    "lat": 35.9679984,
+    "lon": 126.7369036,
+    "status": "ok"
+  },
+  "Kawasaki, Japan": {
+    "lat": 35.5306639,
+    "lon": 139.7037668,
+    "status": "ok"
+  },
+  "Mexico City, Mexico": {
+    "lat": 19.3207722,
+    "lon": -99.1514678,
+    "status": "ok"
+  },
+  "Komatsu, Japan": {
+    "lat": 36.4032931,
+    "lon": 136.4495465,
+    "status": "ok"
+  },
+  "Tongxiang, China": {
+    "lat": 30.6316971,
+    "lon": 120.5610365,
+    "status": "ok"
+  },
+  "Pittsburgh, United States": {
+    "lat": 40.4406968,
+    "lon": -80.0025666,
+    "status": "ok"
+  },
+  "Jamshedpur, India": {
+    "lat": 22.8015194,
+    "lon": 86.2029579,
+    "status": "ok"
+  },
+  "Tongren, China": {
+    "lat": 27.952938,
+    "lon": 108.584018,
+    "status": "ok"
+  },
+  "New Taipei City, Taiwan": {
+    "lat": 25.020096,
+    "lon": 121.4335,
+    "status": "ok"
+  },
+  "Monterrey, Mexico": {
+    "lat": 25.6802019,
+    "lon": -100.315258,
+    "status": "ok"
+  },
+  "Tainan, Taiwan": {
+    "lat": 22.9912348,
+    "lon": 120.184982,
+    "status": "ok"
+  },
+  "Bucheon, South Korea": {
+    "lat": 37.5014422,
+    "lon": 126.7660139,
+    "status": "ok"
+  },
+  "Changsha, China": {
+    "lat": 28.1450774,
+    "lon": 113.2384362,
+    "status": "ok"
+  },
+  "Ulsan, South Korea": {
+    "lat": 35.5391697,
+    "lon": 129.3119136,
+    "status": "ok"
+  },
+  "Hangzhou, China": {
+    "lat": 30.2489634,
+    "lon": 120.2052342,
+    "status": "ok"
+  },
+  "Boulogne-Billancourt, France": {
+    "lat": 48.8356649,
+    "lon": 2.240206,
+    "status": "ok"
+  },
+  "Wuhan, China": {
+    "lat": 30.578891,
+    "lon": 114.2921197,
+    "status": "ok"
+  },
+  "Yongin, South Korea": {
+    "lat": 37.2405741,
+    "lon": 127.1785572,
+    "status": "ok"
+  },
+  "Milwaukee, United States": {
+    "lat": 43.0386475,
+    "lon": -87.9090751,
+    "status": "ok"
+  },
+  "Stockholm, Sweden": {
+    "lat": 59.3251172,
+    "lon": 18.0710935,
+    "status": "ok"
+  },
+  "Cypress, United States": {
+    "lat": 33.8248235,
+    "lon": -118.0399368,
+    "status": "ok"
+  },
+  "Rugao, China": {
+    "lat": 32.3734658,
+    "lon": 120.5697741,
+    "status": "ok"
+  },
+  "Chengdu, China": {
+    "lat": 30.659867,
+    "lon": 104.063315,
+    "status": "ok"
+  },
+  "Daegu, South Korea": {
+    "lat": 35.8713,
+    "lon": 128.6018,
+    "status": "ok"
+  },
+  "Ota, Japan": {
+    "lat": 35.561206,
+    "lon": 139.715843,
+    "status": "ok"
+  },
+  "Liuzhou, China": {
+    "lat": 25.0009993,
+    "lon": 109.3414252,
+    "status": "ok"
+  },
+  "Regensburg, Germany": {
+    "lat": 49.0195333,
+    "lon": 12.0974869,
+    "status": "ok"
+  },
+  "Yangmei, Taiwan": {
+    "lat": 24.9075751,
+    "lon": 121.1458735,
+    "status": "ok"
+  },
+  "Golcuk, Turkey": {
+    "lat": 40.7169247,
+    "lon": 29.819588,
+    "status": "ok"
+  },
+  "Obu, Japan": {
+    "lat": 35.0165825,
+    "lon": 136.954545,
+    "status": "ok"
+  },
+  "Okazaki, Japan": {
+    "lat": 34.9548784,
+    "lon": 137.1728226,
+    "status": "ok"
+  },
+  "Pontedera, Italy": {
+    "lat": 43.6634536,
+    "lon": 10.6354851,
+    "status": "ok"
+  },
+  "Saltillo, Mexico": {
+    "lat": 25.4230425,
+    "lon": -100.9927509,
+    "status": "ok"
+  },
+  "Lordstown, United States": {
+    "lat": 41.1659755,
+    "lon": -80.8574312,
+    "status": "ok"
+  },
+  "Taichung, Taiwan": {
+    "lat": 24.163162,
+    "lon": 120.6478282,
+    "status": "ok"
+  },
+  "Hong Kong, China (Hong Kong)": {
+    "lat": 22.2003661,
+    "lon": 113.5760578,
+    "status": "ok"
+  },
+  "Zhuhai, China": {
+    "lat": 22.273734,
+    "lon": 113.5721327,
+    "status": "ok"
+  },
+  "Vinh Yen, Vietnam": {
+    "lat": 21.3064256,
+    "lon": 105.5985972,
+    "status": "ok"
+  },
+  "Yeongcheon, South Korea": {
+    "lat": 35.98842,
+    "lon": 128.942,
+    "status": "ok"
+  },
+  "Busan, South Korea": {
+    "lat": 35.1799528,
+    "lon": 129.0752365,
+    "status": "ok"
+  },
+  "Yesan, South Korea": {
+    "lat": 36.6808989,
+    "lon": 126.8448742,
+    "status": "ok"
+  },
+  "Rock Hill, United States": {
+    "lat": 34.9248667,
+    "lon": -81.0250784,
+    "status": "ok"
+  },
+  "Kaohsiung, Taiwan": {
+    "lat": 22.6203348,
+    "lon": 120.3120375,
+    "status": "ok"
+  },
+  "Burgos, Spain": {
+    "lat": 42.3448498,
+    "lon": -3.6812477,
+    "status": "ok"
+  },
+  "Columbus, United States": {
+    "lat": 39.9622601,
+    "lon": -83.0007065,
+    "status": "ok"
+  },
+  "Hanoi, Vietnam": {
+    "lat": 21.0283334,
+    "lon": 105.854041,
+    "status": "ok"
+  },
+  "Quzhou, China": {
+    "lat": 28.973887,
+    "lon": 118.8540924,
+    "status": "ok"
+  },
+  "Avon Lake, United States": {
+    "lat": 41.510033,
+    "lon": -82.0185895,
+    "status": "ok"
+  },
+  "Hino, Japan": {
+    "lat": 35.6713394,
+    "lon": 139.3949801,
+    "status": "ok"
+  },
+  "Kobe, Japan": {
+    "lat": 34.6932379,
+    "lon": 135.1943764,
+    "status": "ok"
+  },
+  "Cologne, Germany": {
+    "lat": 50.938361,
+    "lon": 6.959974,
+    "status": "ok"
+  },
+  "Kadoma, Japan": {
+    "lat": 34.739496,
+    "lon": 135.5869107,
+    "status": "ok"
+  },
+  "Temiskaming Shores, Canada": {
+    "lat": 47.512563,
+    "lon": -79.675598,
+    "status": "ok"
+  },
+  "Lishui, China": {
+    "lat": 28.4704064,
+    "lon": 119.9184297,
+    "status": "ok"
+  },
+  "Zarqa, Jordan": {
+    "lat": 32.0668425,
+    "lon": 36.0885771,
+    "status": "ok"
+  },
+  "Leinfelden-Echterdingen, Germany": {
+    "lat": 48.6901796,
+    "lon": 9.1525725,
+    "status": "ok"
+  },
+  "Miryang, South Korea": {
+    "lat": 35.503839,
+    "lon": 128.7466992,
+    "status": "ok"
+  },
+  "Mumbai, India": {
+    "lat": 19.054999,
+    "lon": 72.8692035,
+    "status": "ok"
+  },
+  "Melbourne, Australia": {
+    "lat": -37.8142454,
+    "lon": 144.9631732,
+    "status": "ok"
+  },
+  "Changzhou, China": {
+    "lat": 31.8122623,
+    "lon": 119.9691539,
+    "status": "ok"
+  },
+  "Dearborn, United States": {
+    "lat": 42.3222599,
+    "lon": -83.1763145,
+    "status": "ok"
+  },
+  "Ningde, China": {
+    "lat": 27.0143281,
+    "lon": 119.4385501,
+    "status": "ok"
+  },
+  "Hamamatsu, Japan": {
+    "lat": 34.7109786,
+    "lon": 137.7259431,
+    "status": "ok"
+  },
+  "Pyeongtaek, South Korea": {
+    "lat": 36.9924966,
+    "lon": 127.1127168,
+    "status": "ok"
+  },
+  "Ayutthaya, Thailand": {
+    "lat": 14.3189468,
+    "lon": 100.5111681,
+    "status": "ok"
+  },
+  "Detroit, United States": {
+    "lat": 42.3315509,
+    "lon": -83.0466403,
+    "status": "ok"
+  },
+  "Gwangju, South Korea": {
+    "lat": 35.1558147,
+    "lon": 126.8306362,
+    "status": "ok"
+  },
+  "Oguchi, Japan": {
+    "lat": 35.3323912,
+    "lon": 136.9080051,
+    "status": "ok"
+  },
+  "Rolle, Switzerland": {
+    "lat": 46.4601563,
+    "lon": 6.3380469,
+    "status": "ok"
+  },
+  "Weihai, China": {
+    "lat": 37.5120997,
+    "lon": 122.1152599,
+    "status": "ok"
+  },
+  "Casa Grande, United States": {
+    "lat": 32.8772834,
+    "lon": -111.7536818,
+    "status": "ok"
+  },
+  "Justin, United States": {
+    "lat": 33.0848442,
+    "lon": -97.2961286,
+    "status": "ok"
+  },
+  "Seongnam, South Korea": {
+    "lat": 37.4201556,
+    "lon": 127.1262092,
+    "status": "ok"
+  },
+  "Dublin, Ireland": {
+    "lat": 53.3493795,
+    "lon": -6.2605593,
+    "status": "ok"
+  },
+  "Edenvale, South Africa": {
+    "lat": -26.1366667,
+    "lon": 28.1511111,
+    "status": "ok"
+  },
+  "Orlando, United States": {
+    "lat": 28.5421218,
+    "lon": -81.379045,
+    "status": "ok"
+  },
+  "Gimhae, South Korea": {
+    "lat": 35.2279109,
+    "lon": 128.8895378,
+    "status": "ok"
+  },
+  "Ganzhou, China": {
+    "lat": 25.703866,
+    "lon": 115.348216,
+    "status": "ok"
+  },
+  "Jingdezhen, China": {
+    "lat": 29.3582395,
+    "lon": 117.2735595,
+    "status": "ok"
+  },
+  "Tianjin, China": {
+    "lat": 39.3032619,
+    "lon": 117.4163641,
+    "status": "ok"
+  },
+  "Saitama, Japan": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "status": "ok"
+  },
+  "Bandar Baru Bangi, Malaysia": {
+    "lat": 2.9540793,
+    "lon": 101.7810018,
+    "status": "ok"
+  },
+  "London, United Kingdom": {
+    "lat": 51.5074456,
+    "lon": -0.1277653,
+    "status": "ok"
+  },
+  "Cupertino, United States": {
+    "lat": 37.3228934,
+    "lon": -122.0322895,
+    "status": "ok"
+  },
+  "Essen, Germany": {
+    "lat": 51.4582235,
+    "lon": 7.0158171,
+    "status": "ok"
+  },
+  "Rome, Italy": {
+    "lat": 41.8933203,
+    "lon": 12.4829321,
+    "status": "ok"
+  },
+  "Philadelphia, United States": {
+    "lat": 39.9527237,
+    "lon": -75.1635262,
+    "status": "ok"
+  },
+  "Dhahran, Saudi Arabia": {
+    "lat": 26.2966528,
+    "lon": 50.1202146,
+    "status": "ok"
+  },
+  "Maplewood, United States": {
+    "lat": 45.0082216,
+    "lon": -93.0456985,
+    "status": "ok"
+  },
+  "Huizhou, China": {
+    "lat": 23.1125153,
+    "lon": 114.4127007,
+    "status": "ok"
+  },
+  "Nagoya, Japan": {
+    "lat": 35.1851045,
+    "lon": 136.8998438,
+    "status": "ok"
+  },
+  "UNCERTAIN, Taiwan": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found"
+  },
+  "Changhua, Taiwan": {
+    "lat": 24.0755667,
+    "lon": 120.5444667,
+    "status": "ok"
+  },
+  "Surabaya, Indonesia": {
+    "lat": -7.2462836,
+    "lon": 112.7377674,
+    "status": "ok"
+  },
+  "Dangjin, South Korea": {
+    "lat": 36.8904083,
+    "lon": 126.6461833,
+    "status": "ok"
+  },
+  "Caofeidian, China": {
+    "lat": 39.1930418,
+    "lon": 118.4504956,
+    "status": "ok"
+  },
+  "Nanjing, China": {
+    "lat": 32.0438284,
+    "lon": 118.7788631,
+    "status": "ok"
+  },
+  "Hwaseong, South Korea": {
+    "lat": 37.1994653,
+    "lon": 126.8312632,
+    "status": "ok"
+  },
+  "Wuhu, China": {
+    "lat": 31.1800568,
+    "lon": 118.2141777,
+    "status": "ok"
+  },
+  "Fuchu, Japan": {
+    "lat": 35.6693751,
+    "lon": 139.4774094,
+    "status": "ok"
+  },
+  "Normal, United States": {
+    "lat": 40.5092961,
+    "lon": -88.9843937,
+    "status": "ok"
+  },
+  "Kiyosu, Japan": {
+    "lat": 35.2002235,
+    "lon": 136.8531268,
+    "status": "ok"
+  },
+  "Madrid, Spain": {
+    "lat": 40.416782,
+    "lon": -3.703507,
+    "status": "ok"
+  },
+  "Maumee, United States": {
+    "lat": 41.5628294,
+    "lon": -83.6538244,
+    "status": "ok"
+  },
+  "Bowling Green, United States": {
+    "lat": 36.9929203,
+    "lon": -86.4428677,
+    "status": "ok"
+  },
+  "Jerusalem, Israel": {
+    "lat": 31.7788472,
+    "lon": 35.2257856,
+    "status": "ok"
+  },
+  "Livonia, United States": {
+    "lat": 42.36837,
+    "lon": -83.3527097,
+    "status": "ok"
+  },
+  "Tomi, Japan": {
+    "lat": 36.3594225,
+    "lon": 138.3305353,
+    "status": "ok"
+  },
+  "Shah Alam, Malaysia": {
+    "lat": 3.0739429,
+    "lon": 101.5185278,
+    "status": "ok"
+  },
+  "Mianyang, China": {
+    "lat": 31.4602714,
+    "lon": 104.7160723,
+    "status": "ok"
+  },
+  "Aachen, Germany": {
+    "lat": 50.776351,
+    "lon": 6.083862,
+    "status": "ok"
+  },
+  "Gyeongsan, South Korea": {
+    "lat": 35.825122,
+    "lon": 128.741329,
+    "status": "ok"
+  },
+  "Cairo, Egypt": {
+    "lat": 30.0443879,
+    "lon": 31.2357257,
+    "status": "ok"
+  },
+  "Dongguan, China": {
+    "lat": 23.0183568,
+    "lon": 113.7452332,
+    "status": "ok"
+  },
+  "Ogaki, Japan": {
+    "lat": 35.3596449,
+    "lon": 136.6128847,
+    "status": "ok"
+  },
+  "Taoyuan, Taiwan": {
+    "lat": 24.9929995,
+    "lon": 121.3010003,
+    "status": "ok"
+  },
+  "Athens, Greece": {
+    "lat": 37.9755648,
+    "lon": 23.7348324,
+    "status": "ok"
+  },
+  "New Britain, United States": {
+    "lat": 41.6612104,
+    "lon": -72.7795419,
+    "status": "ok"
+  },
+  "Suwon, South Korea": {
+    "lat": 37.2633325,
+    "lon": 127.0287472,
+    "status": "ok"
+  },
+  "Ube, Japan": {
+    "lat": 33.9518498,
+    "lon": 131.2472243,
+    "status": "ok"
+  },
+  "Anyang, South Korea": {
+    "lat": 37.3938528,
+    "lon": 126.9570605,
+    "status": "ok"
+  },
+  "Foshan, China": {
+    "lat": 23.0239788,
+    "lon": 113.1159558,
+    "status": "ok"
+  },
+  "Volta Redonda, Brazil": {
+    "lat": -22.521856,
+    "lon": -44.1040128,
+    "status": "ok"
+  },
+  "Tokai, Japan": {
+    "lat": 35.0228927,
+    "lon": 136.9023574,
+    "status": "ok"
+  },
+  "Arlington, United States": {
+    "lat": 32.7355816,
+    "lon": -97.1071186,
+    "status": "ok"
+  },
+  "Brussels, Belgium": {
+    "lat": 50.8467372,
+    "lon": 4.352493,
+    "status": "ok"
+  },
+  "Kyoto, Japan": {
+    "lat": 35.0115754,
+    "lon": 135.7681441,
+    "status": "ok"
+  },
+  "Jilin City, Jilin, China": {
+    "lat": 43.8349669,
+    "lon": 126.5438702,
+    "status": "ok"
+  },
+  "Richmond, California, USA": {
+    "lat": 37.9357576,
+    "lon": -122.347748,
+    "status": "ok"
+  },
+  "Texas Gulf Coast, USA": {
+    "lat": 29.1042663,
+    "lon": -95.4614946,
+    "status": "ok"
+  },
+  "Henan province, China": {
+    "lat": 34.0000001,
+    "lon": 113.9999999,
+    "status": "ok"
+  },
+  "China / Australia": {
+    "lat": -30.2924024,
+    "lon": 153.1251587,
+    "status": "ok"
+  },
+  "Russia / Germany (Nord Stream 1)": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found"
+  },
+  "China": {
+    "lat": 34.5412252,
+    "lon": 108.9237067,
+    "status": "ok"
+  },
+  "South Korea (national)": {
+    "lat": 36.3078573,
+    "lon": 126.8965712,
+    "status": "ok"
+  },
+  "Democratic Republic of Congo": {
+    "lat": -15.4139213,
+    "lon": 28.289698,
+    "status": "ok"
+  },
+  "Mailiao, Yunlin County, Taiwan": {
+    "lat": 23.753841,
+    "lon": 120.252043,
+    "status": "ok"
+  },
+  "Kyushu, Japan": {
+    "lat": 32.6331585,
+    "lon": 130.2860775,
+    "status": "ok"
+  },
+  "Tohoku region, Japan": {
+    "lat": 39.1736184,
+    "lon": 140.7319147,
+    "status": "ok"
+  },
+  "China (multi-province)": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found"
+  },
+  "Russia / global": {
+    "lat": 54.7767305,
+    "lon": 32.0497572,
+    "status": "ok"
+  },
+  "USA / global": {
+    "lat": 41.7177436,
+    "lon": -72.6477176,
+    "status": "ok"
+  },
+  "Yokkaichi, Mie, Japan": {
+    "lat": 34.9648428,
+    "lon": 136.624845,
+    "status": "ok"
+  },
+  "Texas, USA": {
+    "lat": 31.2638905,
+    "lon": -98.5456116,
+    "status": "ok"
+  },
+  "China / Japan": {
+    "lat": 0.354999,
+    "lon": 32.5708333,
+    "status": "ok"
+  },
+  "Gulf of Mexico, USA": {
+    "lat": 42.0327068,
+    "lon": -74.571895,
+    "status": "ok"
+  },
+  "Yunnan province, China": {
+    "lat": 25.0,
+    "lon": 102.0,
+    "status": "ok"
+  },
+  "Queensland, Australia": {
+    "lat": -22.1646782,
+    "lon": 144.5844903,
+    "status": "ok"
+  },
+  "Ludwigshafen, Germany": {
+    "lat": 49.4704113,
+    "lon": 8.4381568,
+    "status": "ok"
+  },
+  "Hebei province, China": {
+    "lat": 39.0000001,
+    "lon": 116.0,
+    "status": "ok"
+  },
+  "Indonesia": {
+    "lat": -2.4833826,
+    "lon": 117.8902853,
+    "status": "ok"
+  },
+  "Java, Indonesia": {
+    "lat": -7.3279694,
+    "lon": 109.613911,
+    "status": "ok"
+  },
+  "Louisiana / Mississippi, USA": {
+    "lat": 33.9757033,
+    "lon": -89.6813683,
+    "status": "ok"
+  }
+}

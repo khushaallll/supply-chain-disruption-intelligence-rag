@@ -1,0 +1,204 @@
+<SEC-DOCUMENT>0001026655-21-000016.txt : 20210407
+<SEC-HEADER>0001026655-21-000016.hdr.sgml : 20210407
+<ACCEPTANCE-DATETIME>20210407145329
+ACCESSION NUMBER:		0001026655-21-000016
+CONFORMED SUBMISSION TYPE:	3
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210407
+FILED AS OF DATE:		20210407
+DATE AS OF CHANGE:		20210407
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Highfield James C
+		CENTRAL INDEX KEY:			0001853963
+
+	FILING VALUES:
+		FORM TYPE:		3
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-12505
+		FILM NUMBER:		21811835
+
+	MAIL ADDRESS:	
+		STREET 1:		800 MANOR PARK DRIVE
+		CITY:			COLUMBUS
+		STATE:			OH
+		ZIP:			43228
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CORE MOLDING TECHNOLOGIES INC
+		CENTRAL INDEX KEY:			0001026655
+		STANDARD INDUSTRIAL CLASSIFICATION:	PLASTICS PRODUCTS, NEC [3089]
+		IRS NUMBER:				311481870
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		800 MANOR PARK DRIVE
+		STREET 2:		P O BOX 28183
+		CITY:			COLUMBUS
+		STATE:			OH
+		ZIP:			43228
+		BUSINESS PHONE:		8006666960
+
+	MAIL ADDRESS:	
+		STREET 1:		800 MANOR PARK DR
+		STREET 2:		P O BOX 28183
+		CITY:			COLUMBUS
+		STATE:			OH
+		ZIP:			43228
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	CORE MATERIALS CORP
+		DATE OF NAME CHANGE:	19961107
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>3
+<SEQUENCE>1
+<FILENAME>wf-form3_161782157997000.xml
+<DESCRIPTION>FORM 3
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0206</schemaVersion>
+
+    <documentType>3</documentType>
+
+    <periodOfReport>2021-04-07</periodOfReport>
+
+    <noSecuritiesOwned>0</noSecuritiesOwned>
+
+    <issuer>
+        <issuerCik>0001026655</issuerCik>
+        <issuerName>CORE MOLDING TECHNOLOGIES INC</issuerName>
+        <issuerTradingSymbol>CMT</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001853963</rptOwnerCik>
+            <rptOwnerName>Highfield James C</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>800 MANOR PARK DRIVE</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>COLUMBUS</rptOwnerCity>
+            <rptOwnerState>OH</rptOwnerState>
+            <rptOwnerZipCode>43228</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>EVP, Sales and Marketing</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>20997</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Stock Appreciation Right</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>10.0</value>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <footnoteId id="F1"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2024-05-16</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>4812.0</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Granted as Stock Appreciation Rights (SARs) under the 2006 Long-Term Equity Incentive Plan. The SARs vest and become exercisable 1/3 on the first anniversary of the date of grant, 2/3 on the second anniversary of the date of grant, and 100% on the third anniversary of the date of grant.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ John P. Zimmer, as attorney-in-fact</signatureName>
+        <signatureDate>2021-04-07</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24
+<SEQUENCE>2
+<FILENAME>ex-24.htm
+<DESCRIPTION>HIGHFIELD POA
+<TEXT>
+<!-- Document created using Workiva -->
+<html>
+<body>
+<pre>
+LIMITED POWER OF ATTORNEY FOR
+SECTION 16 REPORTING OBLIGATIONS
+
+Know all by these presents, that the undersigned's hereby constitutes and appoints each of John P. Zimmer, and Alex J. Panda signing singly, the undersigned's true and lawful attorney-in-fact to:
+
+(1) Execute for and on behalf of the undersigned, in the undersigned's capacity as a officer of Core Molding Technologies, Inc. (the "Company") Forms 3, 4, and 5 (and any amendments thereto) in accordance with Section 16(a) of the Securities and Exchange Act of 1934 (the "Act") and the rules thereunder;
+
+(2) Do and perform any and all acts for and on behalf of the undersigned which may be necessary or desirable to complete and execute any such Forms 3, 4, and 5 and timely file such form with the United States Securities and Exchange Commission and any stock exchange or similar authority; and
+
+(3) Take any other action of any type whatsoever in connection with the foregoing which, in the opinion of such attorney-in-fact, may be of benefit to, in the best interest of, or legally required by, the undersigned, it being understood that the documents executed by such attorney-in-fact on behalf of the undersigned pursuant to this Power of Attorney shall be in such form and shall contain such terms and conditions as such attorney-in-fact may approve in such attorney-in-fact's discretion.
+
+The undersigned hereby grants to each such attorney-in-fact full power and authority to do and perform any and every act and thing whatsoever requisite, necessary, or proper to be done in the exercise of any of the rights and powers herein granted, as fully to all intents and purposes as the undersigned might or could do if personally present, with full power of substitution or revocation, hereby ratifying and confirming all that such attorney-in-fact, or such attorney-in-fact's substitute or substitutes, shall lawfully do or cause to be done by virtue of this power of attorney and the rights and powers herein granted. The undersigned acknowledges that the foregoing attorneys-in-fact, in serving in such capacity at the request of the undersigned, are not assuming, nor is the Company assuming, any of the undersigned's responsibilities to comply with Section 16 of the Act.
+
+This Power of Attorney shall remain in full force and effect until the undersigned is no longer required to file Forms 3, 4, and 5 with respect to the undersigned's holdings of and transactions in securities issued by the Company, unless earlier revoked by the undersigned in a signed writing delivered to the foregoing attorneys-in-fact.
+
+IN WITNESS WHEREOF, the undersigned has caused this Power of Attorney to be executed as of this 25th day of March, 2021.
+
+/s/ James C. Highfield
+Signature
+
+James C. Highfield
+Printed Name
+</pre>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

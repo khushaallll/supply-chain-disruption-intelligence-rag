@@ -1,0 +1,141 @@
+<SEC-DOCUMENT>0001628280-18-007929.txt : 20180615
+<SEC-HEADER>0001628280-18-007929.hdr.sgml : 20180615
+<ACCEPTANCE-DATETIME>20180615163845
+ACCESSION NUMBER:		0001628280-18-007929
+CONFORMED SUBMISSION TYPE:	3
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20180614
+FILED AS OF DATE:		20180615
+DATE AS OF CHANGE:		20180615
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			LIGGETT EMILY M
+		CENTRAL INDEX KEY:			0001231898
+
+	FILING VALUES:
+		FORM TYPE:		3
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-09447
+		FILM NUMBER:		18902668
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAISER ALUMINUM CORP
+		CENTRAL INDEX KEY:			0000811596
+		STANDARD INDUSTRIAL CLASSIFICATION:	ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS [3350]
+		IRS NUMBER:				943030279
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+		BUSINESS PHONE:		949-614-1740
+
+	MAIL ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	KAISERTECH LTD
+		DATE OF NAME CHANGE:	19901122
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>3
+<SEQUENCE>1
+<FILENAME>wf-form3_152909510919890.xml
+<DESCRIPTION>FORM 3
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0206</schemaVersion>
+
+    <documentType>3</documentType>
+
+    <periodOfReport>2018-06-14</periodOfReport>
+
+    <noSecuritiesOwned>1</noSecuritiesOwned>
+
+    <issuer>
+        <issuerCik>0000811596</issuerCik>
+        <issuerName>KAISER ALUMINUM CORP</issuerName>
+        <issuerTradingSymbol>KALU</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001231898</rptOwnerCik>
+            <rptOwnerName>LIGGETT EMILY M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O KAISER ALUMINUM CORP.</rptOwnerStreet1>
+            <rptOwnerStreet2>27422 PORTOLA PARKWAY SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>FOOTHILL RANCH</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92610</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable></nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Cherrie I. Tsai, with power
+of attorney for Emily M. Liggett</signatureName>
+        <signatureDate>2018-06-14</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24
+<SEQUENCE>2
+<FILENAME>liggettpowerofattorney.htm
+<DESCRIPTION>LIGGETT POA
+<TEXT>
+<!-- Document created using Workiva -->
+<html>
+<body>
+<pre>
+POWER OF ATTORNEY
+The undersigned hereby constitutes and appoints each of John M. Donnan, Cherrie I. Tsai and Troy B. Lewis, or any of them, signing singly, the undersigned's true and lawful attorney-in-fact to:
+1. to the extent the undersigned does not have the access codes necessary to file on EDGAR, execute for and on behalf of the undersigned a Form ID and any other form required to be filed or submitted in accordance with Regulation S-T promulgated by the United States Securities and Exchange Commission (the "Commission") in order to obtain such codes; and
+2. execute for and on behalf of the undersigned, in the undersigned's capacity as an officer and/or director of Kaiser Aluminum Corporation (the "Company"), Forms 3, 4 and 5 in accordance with Section 16(a) of the Securities Exchange Act of 1934 and the     rules thereunder;
+3. do and perform any and all acts for and on behalf of the undersigned that maybe necessary or desirable to complete and execute any such Form ID or Form 3, 4 or 5 and timely file any such form or forms with the Commission and any stock exchange or similar authority; and
+4. take any other action of any type whatsoever in connection with the foregoing that, in the opinion of such attorney-in-fact, may be of benefit to, in the best interest of, or legally required by the undersigned, it being understood that the documents executed by such attorney-in-fact on behalf of the undersigned pursuant to this power of attorney shall be in such form and shall contain such terms and conditions as such attorney-in-fact may approve in such attorney-in-fact's sole discretion.
+The undersigned hereby grants to each such attorney-in-fact and any of them full power and authority to do and perform any and every act and thing whatsoever, necessary or desirable to be done in the exercise of any of the rights and powers herein granted, as fully to all intents and purposes as the undersigned might or could do if personally present, with full power of substitution or revocation, hereby ratifying and confirming all that any such attorney-in-fact, or any such attorney-in-fact's substitute or substitutes, shall lawfully do or cause to be done by virtue of this power of attorney and the rights and powers herein granted.  The undersigned acknowledges that none of the foregoing attorneys-in-fact, in serving in such capacity at the request of the undersigned, are assuming, nor is the Company assuming, any of the undersigned's responsibilities to comply with Section 16 of the Securities Exchange Act of 1934.
+The execution by the undersigned of this power of attorney hereby expressly revokes and terminates any powers of attorney previously granted by the undersigned with respect to a Form ID or Forms 3, 4 and 5 involving Company securities.  This power of attorney shall remain in full force and effect until the undersigned is no longer required to file a Form ID or Forms 3, 4 and 5 with respect to the undersigned's holdings of and transactions in securities issued by the Company, unless earlier revoked by the undersigned in a signed writing delivered to the foregoing attorneys-in-fact.
+IN WITNESS WHEREOF, the undersigned has caused this power of attorney to be executed as of the 10 day of June, 2018.
+
+/s/ Emily M. Liggett
+Name:  Emily Liggett
+</pre>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

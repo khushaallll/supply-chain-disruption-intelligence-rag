@@ -1,0 +1,215 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ B2IDpjaq/OZSQ4TiW73BO/51ftGA7ESr0k6BzaKfEI74WkC8XenQPu2WTqUFiTty
+ PfxJ00mZxcjAKwjdoy3R/A==
+
+<SEC-DOCUMENT>0001288043-05-000056.txt : 20051108
+<SEC-HEADER>0001288043-05-000056.hdr.sgml : 20051108
+<ACCEPTANCE-DATETIME>20051108155440
+ACCESSION NUMBER:		0001288043-05-000056
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20051104
+FILED AS OF DATE:		20051108
+DATE AS OF CHANGE:		20051108
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			DIXIE GROUP INC
+		CENTRAL INDEX KEY:			0000029332
+		STANDARD INDUSTRIAL CLASSIFICATION:	CARPETS AND RUGS [2273]
+		IRS NUMBER:				620183370
+		STATE OF INCORPORATION:			TN
+		FISCAL YEAR END:			1225
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2208 S. HAMILTON STREET
+		CITY:			DALTON
+		STATE:			GA
+		ZIP:			307214974
+		BUSINESS PHONE:		7068765851
+
+	MAIL ADDRESS:	
+		STREET 1:		2208 S. HAMILTON STREET
+		CITY:			DALTON
+		STATE:			GA
+		ZIP:			307214974
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	DIXIE YARNS INC
+		DATE OF NAME CHANGE:	19920703
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	DIXIE MERCERIZING CO
+		DATE OF NAME CHANGE:	19670524
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			FRIERSON PAUL K
+		CENTRAL INDEX KEY:			0001196584
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-02585
+		FILM NUMBER:		051186337
+
+	BUSINESS ADDRESS:	
+		STREET 1:		736 MARKET ST
+		STREET 2:		STE 1100
+		CITY:			CHATTANOOGA
+		STATE:			TN
+		ZIP:			37402
+		BUSINESS PHONE:		423 265 8881
+
+	MAIL ADDRESS:	
+		STREET 1:		185 S INDUSTRIAL BLVD
+		CITY:			CALHOUND
+		STATE:			GA
+		ZIP:			30701
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2005-11-04</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000029332</issuerCik>
+        <issuerName>DIXIE GROUP INC</issuerName>
+        <issuerTradingSymbol>DXYN</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001196584</rptOwnerCik>
+            <rptOwnerName>FRIERSON PAUL K</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>141 BROW LAKE ROAD</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>LOOKOUT MOUNTAIN</rptOwnerCity>
+            <rptOwnerState>GA</rptOwnerState>
+            <rptOwnerZipCode>30750</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, $3 par value</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2005-11-04</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>592</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>15.19</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>50981</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock, $3 par value</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>5486</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By Trust</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock, $3 par value</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>6080</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By Wife</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Award of Performance Units (each representing one share of Common Stock) under the Issuer's Director Stock plan, as payment of one-half of non-employee director's annual retainer.</footnote>
+        <footnote id="F2">Includes 1,936 shares of Common Stock allocated to the Reporting Person's account under the Issuer's 401(k) plan.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>John F. Henry, by power of attorney for Paul K. Frierson</signatureName>
+        <signatureDate>2005-11-08</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----
