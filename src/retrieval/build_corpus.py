@@ -70,11 +70,10 @@ except ImportError:
 # ============================================================================
 
 USER_AGENT = os.getenv("USER_AGENT")
-
 GROUND_TRUTH = ["data/ground_truth/ground_truth_batch1.json",
                 "data/ground_truth/ground_truth_batch2.json",
                 "data/ground_truth/ground_truth_batch3.json"]
-EVENT_FILES = ["events_batch1.json", "events_batch2.json", "events_batch3.json"]
+EVENT_FILES = ["data/events/events_batch1.json", "data/events/events_batch2.json", "data/events/events_batch3.json"]
 COMPANY_LOOKUP = "data/ground_truth/company_lookup.csv"
 
 # Where to hunt for the input files, relative to the working directory.
@@ -209,23 +208,46 @@ def strip_html(t):
     return re.sub(r"[ \t]+", " ", re.sub(r"\n\s*\n+", "\n\n", t)).strip()
 
 
+MIN_SECTION_CHARS = 8_000        # a real Business/MD&A section is at least this long
+MAX_SECTION_CHARS = 500_000
+FALLBACK_RATIO = 0.15            # if we kept less than this share, keep the whole doc
+
+
 def extract_sections(text, form):
-    """Keep only Business / Risk Factors / MD&A. Fall back to whole doc."""
+    """
+    Keep only Business / Risk Factors / MD&A, falling back to the whole document
+    when extraction looks unreliable.
+
+    Two traps this guards against:
+
+    1. Table of contents. "Item 1. Business" appears there first, so we try each
+       occurrence from the last backwards and reject any that yields a short body.
+    2. Cross-references. Item 1 routinely says "see Item 2, Properties", which
+       would truncate the section immediately. So we only start looking for the
+       section end MIN_SECTION_CHARS after the heading.
+    """
     low = text.lower()
     keys = (["f_business", "f_risk", "f_mdna"] if form.startswith("20-F")
             else ["business", "risk_factors", "mdna"])
-    out, found = [], []
+    out = []
     for k in keys:
-        for m in re.finditer(SECTION_PATTERNS[k], low):
-            start = m.start()
+        starts = [m.start() for m in re.finditer(SECTION_PATTERNS[k], low)]
+        best = None
+        for s in reversed(starts):              # last heading is usually the real one
+            frm = s + MIN_SECTION_CHARS
             ends = [e.start() for pat in SECTION_ENDS
-                    for e in re.finditer(pat, low[start + 200:start + 900_000])]
-            stop = start + 200 + min(ends) if ends else min(start + 400_000, len(text))
-            body = text[start:stop]
-            if len(body) > 3000:                      # ignore table-of-contents hits
-                out.append((k, body)); found.append(k); break
-    if not out:
-        return [("full_document", text)], False
+                    for e in re.finditer(pat, low[frm:frm + MAX_SECTION_CHARS])]
+            stop = (frm + min(ends)) if ends else min(s + MAX_SECTION_CHARS, len(text))
+            body = text[s:stop]
+            if len(body) >= MIN_SECTION_CHARS:
+                best = body
+                break
+        if best:
+            out.append((k, best))
+
+    kept = sum(len(b) for _, b in out)
+    if not out or (kept < FALLBACK_RATIO * len(text) and kept < 25_000):
+        return [("full_document", text)], False     # unreliable, keep everything
     return out, True
 
 
@@ -322,7 +344,15 @@ def main():
     if "example.com" in USER_AGENT:
         sys.exit("Set USER_AGENT to your real name and email.")
 
-    for d in [OUT / "raw", OUT / "text", CACHE]:
+    # Keep the two modes in separate folders and files so you can build both
+    # and compare retrieval quality without one clobbering the other.
+    MODE = "fulltext" if a.full_text else "sections"
+    # IMPORTANT: this cache holds the FULL cleaned text, never the extracted
+    # sections. It is shared by both modes. If it held processed output, a
+    # second run would re-process already-processed text and the chunk count
+    # would drift upward every time - the run would not be reproducible.
+    TEXT_DIR = OUT / "text_clean"
+    for d in [OUT / "raw", TEXT_DIR, CACHE]:
         d.mkdir(parents=True, exist_ok=True)
 
     print("=" * 70)
@@ -408,14 +438,14 @@ def main():
 
     # ---- fetch, extract, chunk -------------------------------------------
     manifest, chunks_out, nchunk = [], [], 0
-    chunk_path = OUT / f"chunks_{a.chunk_size}_{a.overlap}.jsonl"
+    chunk_path = OUT / f"chunks_{a.chunk_size}_{a.overlap}_{MODE}.jsonl"
     cf = open(chunk_path, "w", encoding="utf-8")
 
     print(f"\nFetching and chunking {len(plan)} documents...")
     for n, (acc, meta) in enumerate(sorted(plan.items(), key=lambda kv: kv[1]["date"]), 1):
         doc_id = hashlib.sha256(acc.encode()).hexdigest()[:16]
         url = SEC_DOC.format(cik=meta["cik"], acc=acc.replace("-", ""), doc=meta["doc"])
-        txt_path = OUT / "text" / f"{doc_id}.txt"
+        txt_path = TEXT_DIR / f"{doc_id}.txt"
 
         if txt_path.exists():
             text, status = txt_path.read_text(encoding="utf-8"), "cached"
@@ -429,11 +459,14 @@ def main():
                 continue
             (OUT / "raw" / f"{doc_id}.html").write_text(raw, encoding="utf-8")
             text, status = strip_html(raw), "fetched"
+            # Save the FULL cleaned text, before any section extraction, so that
+            # re-runs and mode switches always start from the same input.
+            txt_path.write_text(text, encoding="utf-8")
 
+        # Section extraction always runs on the full text, never on a previous
+        # run's output. This is what makes repeated runs give identical results.
         secs, ok = ([("full_document", text)], False) if a.full_text \
             else extract_sections(text, meta["form"])
-        if status != "cached":
-            txt_path.write_text("\n\n".join(b for _, b in secs), encoding="utf-8")
 
         doc_chunks = 0
         for sec_name, body in secs:
@@ -493,13 +526,13 @@ def main():
     cf.close()
 
     # ---- write manifest + skip log ---------------------------------------
-    with open(OUT / "manifest.csv", "w", newline="", encoding="utf-8") as f:
+    with open(OUT / f"manifest_{MODE}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["doc_id", "company", "cik", "source_type", "form",
                     "published_date", "accession", "sections", "chars",
                     "n_chunks", "status", "url"])
         w.writerows(manifest)
-    with open(OUT / "skipped_companies.csv", "w", newline="", encoding="utf-8") as f:
+    with open(OUT / f"skipped_companies_{MODE}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["company", "reason", "detail"])
         w.writerows(skipped)
@@ -509,12 +542,12 @@ def main():
     print(f"Documents in corpus     : {len(ok_docs):,}   (failed: {len(manifest)-len(ok_docs)})")
     print(f"Chunks written          : {nchunk:,}")
     print(f"Companies covered       : {len({m[1] for m in ok_docs}):,}")
-    print(f"Companies not covered   : {len(skipped):,}  (see skipped_companies.csv)")
+    print(f"Companies not covered   : {len(skipped):,}  (see skipped_companies_{MODE}.csv)")
     if ok_docs:
         ds = sorted(m[5] for m in ok_docs)
         print(f"Publication dates       : {ds[0]} to {ds[-1]}")
     print("=" * 70)
-    print(f"\n  {chunk_path}\n  {OUT/'manifest.csv'}\n  {OUT/'skipped_companies.csv'}")
+    print(f"\n  {chunk_path}\n  {OUT/f'manifest_{MODE}.csv'}\n  {OUT/f'skipped_companies_{MODE}.csv'}")
     print("\nEvery chunk carries published_date. At query time, keep only chunks")
     print("where published_date <= the event date. That is your leakage guard.\n")
 
