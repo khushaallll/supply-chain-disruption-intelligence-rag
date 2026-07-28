@@ -1,0 +1,102 @@
+[
+  {
+    "event_id": "1_posco_2022",
+    "source_id": 1,
+    "description": "Super Typhoon Hinnamnor flooded POSCO's Pohang works with ~500mm of rain, forcing the first full shutdown of all three blast furnaces in 49 years plus an electrical-room fire.",
+    "date": "2022-09-06",
+    "location": "Pohang, South Korea",
+    "category": "Natural disaster",
+    "directly_affected": "posco",
+    "seed_source": "https://www.koreatimes.co.kr/business/companies/20220906/typhoon-floods-steel-mills-of-posco-hyundai-steel"
+  },
+  {
+    "event_id": "2_nippon_steel_2011",
+    "source_id": 2,
+    "description": "Magnitude 9.0 earthquake and tsunami struck northeastern Japan, destroying coastal industrial plant and triggering nationwide production stoppages across steel, auto and electronics supply chains.",
+    "date": "2011-03-11",
+    "location": "Tohoku region, Japan",
+    "category": "Natural disaster",
+    "directly_affected": "nippon steel",
+    "seed_source": "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami"
+  },
+  {
+    "event_id": "4_dow_2017",
+    "source_id": 4,
+    "description": "Hurricane Harvey made landfall as a Category 4 storm and dropped over 60 inches of rain on the Texas Gulf Coast, shutting a large share of US ethylene, polyethylene and chlor-alkali capacity for weeks.",
+    "date": "2017-08-25",
+    "location": "Texas Gulf Coast, USA",
+    "category": "Natural disaster",
+    "directly_affected": "dow",
+    "seed_source": "https://en.wikipedia.org/wiki/Hurricane_Harvey"
+  },
+  {
+    "event_id": "17_basf_se_2016",
+    "source_id": 17,
+    "description": "An explosion and fire in the North Harbour pipeline area killed several workers and forced shutdown of both steam crackers at the world's largest integrated chemical site, triggering force majeure on dozens of products.",
+    "date": "2016-10-17",
+    "location": "Ludwigshafen, Germany",
+    "category": "Industrial accident",
+    "directly_affected": "basf se",
+    "seed_source": "https://en.wikipedia.org/wiki/BASF"
+  },
+  {
+    "event_id": "18_chevron_2012",
+    "source_id": 18,
+    "description": "A crude unit failure caused a large fire at the Richmond refinery, sending 15,000 residents to hospital and cutting West Coast refining capacity for over a year.",
+    "date": "2012-08-06",
+    "location": "Richmond, California, USA",
+    "category": "Industrial accident",
+    "directly_affected": "chevron",
+    "seed_source": "https://en.wikipedia.org/wiki/Chevron_Richmond_Refinery_fire"
+  },
+  {
+    "event_id": "19_cpc_corp_taiwan_2014",
+    "source_id": 19,
+    "description": "A buried propene pipeline leak caused a series of underground gas explosions that tore up several kilometres of city streets, killing 32 and severing the Kaohsiung petrochemical distribution network.",
+    "date": "2014-07-31",
+    "location": "Kaohsiung, Taiwan",
+    "category": "Industrial accident",
+    "directly_affected": "cpc corp/taiwan",
+    "seed_source": "https://en.wikipedia.org/wiki/2014_Kaohsiung_gas_explosions"
+  },
+  {
+    "event_id": "33_kyushu_electric_power_2018",
+    "source_id": 33,
+    "description": "Kyushu Electric became the first mainland Japanese utility to curtail utility-scale solar output, repeatedly ordering generators offline to maintain grid stability during low-demand periods.",
+    "date": "2018-10-13",
+    "location": "Kyushu, Japan",
+    "category": "Energy / utility",
+    "directly_affected": "kyushu electric power",
+    "seed_source": "https://www.japantimes.co.jp/news/2018/10/13/business/kyushu-electric-suspends-solar-power/"
+  },
+  {
+    "event_id": "34_korea_electric_power_2011",
+    "source_id": 34,
+    "description": "A late-summer heatwave combined with reactor outages forced KEPCO into unannounced nationwide rolling blackouts affecting ~2 million households and industrial users.",
+    "date": "2011-09-15",
+    "location": "South Korea (national)",
+    "category": "Energy / utility",
+    "directly_affected": "korea electric power",
+    "seed_source": "https://en.wikipedia.org/wiki/Korea_Electric_Power_Corporation"
+  },
+  {
+    "event_id": "47_china_steel_2018",
+    "source_id": 47,
+    "description": "The US imposed Section 232 tariffs of 25% on steel and 10% on aluminium imports on national-security grounds, restructuring global steel trade flows and quota arrangements.",
+    "date": "2018-03-23",
+    "location": "USA / global",
+    "category": "Geopolitical / policy",
+    "directly_affected": "china steel",
+    "seed_source": "https://en.wikipedia.org/wiki/Trump_tariffs"
+  },
+  {
+    "event_id": "48_glencore_2025",
+    "source_id": 48,
+    "description": "The DRC suspended all cobalt exports for four months to arrest a price collapse, prompting force majeure declarations and stranding output at the world's dominant cobalt source.",
+    "date": "2025-02-22",
+    "location": "Democratic Republic of Congo",
+    "category": "Geopolitical / policy",
+    "directly_affected": "glencore",
+    "seed_source": "https://www.iea.org/policies/28969-temporary-suspension-of-cobalt-export-from-the-democratic-republic-of-congo"
+  }
+]
