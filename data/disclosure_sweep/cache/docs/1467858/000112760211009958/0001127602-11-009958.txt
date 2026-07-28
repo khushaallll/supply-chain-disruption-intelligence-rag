@@ -1,0 +1,139 @@
+<SEC-DOCUMENT>0001127602-11-009958.txt : 20110311
+<SEC-HEADER>0001127602-11-009958.hdr.sgml : 20110311
+<ACCEPTANCE-DATETIME>20110311110722
+ACCESSION NUMBER:		0001127602-11-009958
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20110310
+FILED AS OF DATE:		20110311
+DATE AS OF CHANGE:		20110311
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			KREBS ROBERT D
+		CENTRAL INDEX KEY:			0001194986
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34960
+		FILM NUMBER:		11680707
+
+	MAIL ADDRESS:	
+		STREET 1:		142 STONEGATE RD
+		CITY:			LAKE FOREST
+		STATE:			IL
+		ZIP:			60045
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			General Motors Co
+		CENTRAL INDEX KEY:			0001467858
+		STANDARD INDUSTRIAL CLASSIFICATION:	MOTOR VEHICLES & PASSENGER CAR BODIES [3711]
+		IRS NUMBER:				270756180
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+		BUSINESS PHONE:		313.556.5000
+
+	MAIL ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>form4.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0303</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2011-03-10</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001467858</issuerCik>
+        <issuerName>General Motors Co</issuerName>
+        <issuerTradingSymbol>GM</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001194986</rptOwnerCik>
+            <rptOwnerName>KREBS ROBERT D</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>300 RENAISSANCE CENTER</rptOwnerStreet1>
+            <rptOwnerStreet2>M/C: 482-C25-A36</rptOwnerStreet2>
+            <rptOwnerCity>DETROIT</rptOwnerCity>
+            <rptOwnerState>MI</rptOwnerState>
+            <rptOwnerZipCode>48265-3000</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2011-03-10</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>5000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>31.67</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>5000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes></footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Anne T. Larin, attorney-in-fact for Mr. Krebs</signatureName>
+        <signatureDate>2011-03-11</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

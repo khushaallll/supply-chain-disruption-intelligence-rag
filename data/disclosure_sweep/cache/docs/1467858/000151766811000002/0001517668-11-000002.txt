@@ -1,0 +1,212 @@
+<SEC-DOCUMENT>0001517668-11-000002.txt : 20110412
+<SEC-HEADER>0001517668-11-000002.hdr.sgml : 20110412
+<ACCEPTANCE-DATETIME>20110412183141
+ACCESSION NUMBER:		0001517668-11-000002
+CONFORMED SUBMISSION TYPE:	3/A
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20110331
+FILED AS OF DATE:		20110412
+DATE AS OF CHANGE:		20110412
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			General Motors Co
+		CENTRAL INDEX KEY:			0001467858
+		STANDARD INDUSTRIAL CLASSIFICATION:	MOTOR VEHICLES & PASSENGER CAR BODIES [3711]
+		IRS NUMBER:				270756180
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+		BUSINESS PHONE:		313.556.5000
+
+	MAIL ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			WILMINGTON TRUST CORP
+		CENTRAL INDEX KEY:			0000872821
+		STANDARD INDUSTRIAL CLASSIFICATION:	STATE COMMERCIAL BANKS [6022]
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		3/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34960
+		FILM NUMBER:		11755820
+
+	BUSINESS ADDRESS:	
+		STREET 1:		RODNEY SQUARE NORTH
+		STREET 2:		1100 NORTH MARKET ST
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-0001
+		BUSINESS PHONE:		3026518378
+
+	MAIL ADDRESS:	
+		STREET 1:		1100 NORTH MARKET STREET
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-0001
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Motors Liquidation Co GUC Trust
+		CENTRAL INDEX KEY:			0001517668
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		3/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34960
+		FILM NUMBER:		11755821
+
+	BUSINESS ADDRESS:	
+		STREET 1:		C/O WILMINGTON TRUST COMPANY
+		STREET 2:		RODNEY SQUARE NORTH, 1110 N. MARKET ST
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-1615
+		BUSINESS PHONE:		(302) 636-1615
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O WILMINGTON TRUST COMPANY
+		STREET 2:		RODNEY SQUARE NORTH, 1110 N. MARKET ST
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-1615
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>3/A
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0203</schemaVersion>
+
+    <documentType>3/A</documentType>
+
+    <periodOfReport>2011-03-31</periodOfReport>
+
+    <dateOfOriginalSubmission>2011-04-11</dateOfOriginalSubmission>
+
+    <noSecuritiesOwned>0</noSecuritiesOwned>
+
+    <issuer>
+        <issuerCik>0001467858</issuerCik>
+        <issuerName>General Motors Co</issuerName>
+        <issuerTradingSymbol>GM</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001517668</rptOwnerCik>
+            <rptOwnerName>Motors Liquidation Co GUC Trust</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O WILMINGTON TRUST COMPANY</rptOwnerStreet1>
+            <rptOwnerStreet2>RODNEY SQUARE NORTH, 1110 N. MARKET ST</rptOwnerStreet2>
+            <rptOwnerCity>WILMINGTON</rptOwnerCity>
+            <rptOwnerState>DE</rptOwnerState>
+            <rptOwnerZipCode>19890-1615</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0000872821</rptOwnerCik>
+            <rptOwnerName>WILMINGTON TRUST CORP</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>1100 NORTH MARKET STREET</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>WILMINGTON</rptOwnerCity>
+            <rptOwnerState>DE</rptOwnerState>
+            <rptOwnerZipCode>19890-0001</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Warrants</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>18.33</value>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <value>2009-07-10</value>
+            </exerciseDate>
+            <expirationDate>
+                <value>2019-07-10</value>
+                <footnoteId id="F1"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>136363635</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Dispositive power pursuant to GUC Trust Agreement</value>
+                    <footnoteId id="F2"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">As a result of a typo, the expiration date of these Warrants was reported incorrectly in the Form 3 filed on April 11, 2011.</footnote>
+        <footnote id="F2">Motors Liquidation Company GUC Trust and Wilmington Trust Company, not in its individual capacity but solely in its capacity as Trust administrator and trustee, may be deemed to beneficially own the securities reported on this Form 3 by virtue of the dispositive power they may exercise pursuant to the GUC Trust Agreement, dated as of March 30, 2011, among the Reporting Persons, Motors Liquidation Company, and the other parties thereto.  The securities reported on this Form 3 are held by Motors Liquidation Company.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>MOTORS LIQUIDATION COMPANY GUC TRUST, By: Wilmington Trust Company, not in its individual capacity, but solely in its capacity as Trust administrator and trustee of the Motors Liquidation Company GUC Trust, By: David A. Vanaskey, Jr., Vice President</signatureName>
+        <signatureDate>2011-04-12</signatureDate>
+    </ownerSignature>
+
+    <ownerSignature>
+        <signatureName>WILMINGTON TRUST COMPANY, not in its individual capacity but solely in its capacity as Trust administrator and trustee of the Motors Liquidation Company GUC Trust, By: David A. Vanaskey, Jr., Vice President</signatureName>
+        <signatureDate>2011-04-12</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

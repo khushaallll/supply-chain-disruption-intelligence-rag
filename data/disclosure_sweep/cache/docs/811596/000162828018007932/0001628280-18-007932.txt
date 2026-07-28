@@ -1,0 +1,190 @@
+<SEC-DOCUMENT>0001628280-18-007932.txt : 20180615
+<SEC-HEADER>0001628280-18-007932.hdr.sgml : 20180615
+<ACCEPTANCE-DATETIME>20180615164652
+ACCESSION NUMBER:		0001628280-18-007932
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20180614
+FILED AS OF DATE:		20180615
+DATE AS OF CHANGE:		20180615
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			LIGGETT EMILY M
+		CENTRAL INDEX KEY:			0001231898
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-09447
+		FILM NUMBER:		18902734
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAISER ALUMINUM CORP
+		CENTRAL INDEX KEY:			0000811596
+		STANDARD INDUSTRIAL CLASSIFICATION:	ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS [3350]
+		IRS NUMBER:				943030279
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+		BUSINESS PHONE:		949-614-1740
+
+	MAIL ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	KAISERTECH LTD
+		DATE OF NAME CHANGE:	19901122
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_152909559526572.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2018-06-14</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000811596</issuerCik>
+        <issuerName>KAISER ALUMINUM CORP</issuerName>
+        <issuerTradingSymbol>KALU</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001231898</rptOwnerCik>
+            <rptOwnerName>LIGGETT EMILY M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O KAISER ALUMINUM CORP.</rptOwnerStreet1>
+            <rptOwnerStreet2>27422 PORTOLA PARKWAY SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>FOOTHILL RANCH</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92610</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2018-06-14</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1001</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>1001</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2018-06-14</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>250</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>109.88</value>
+                    <footnoteId id="F3"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>1251</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Grant to the reporting person of restricted stock under the Kaiser Aluminum Corporation 2016 Equity and Incentive Compensation Plan. All restrictions will lapse on June 14, 2019.</footnote>
+        <footnote id="F2">Stock received by the reporting person under the Kaiser Aluminum Corporation 2016 Equity and Incentive Compensation Plan at such person's election in lieu of all or a portion of the reporting person's annual cash retainer for serving as a member of the Board of Directors of Kaiser Aluminum Corporation, lead independent director or chair of a committee of the Board of Directors.</footnote>
+        <footnote id="F3">Equal to the average of the closing prices of the Issuer's common stock as reported by the Nasdaq Stock Market, LLC for the twenty trading days prior to June 14, 2018.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Cherrie I. Tsai, with power
+of attorney for Emily M. Liggett</signatureName>
+        <signatureDate>2018-06-14</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

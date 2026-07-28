@@ -1,0 +1,170 @@
+<SEC-DOCUMENT>0001225208-17-017401.txt : 20171116
+<SEC-HEADER>0001225208-17-017401.hdr.sgml : 20171116
+<ACCEPTANCE-DATETIME>20171116161918
+ACCESSION NUMBER:		0001225208-17-017401
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20171115
+FILED AS OF DATE:		20171116
+DATE AS OF CHANGE:		20171116
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			NEWLIN STEPHEN D
+		CENTRAL INDEX KEY:			0001229313
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-37443
+		FILM NUMBER:		171208236
+
+	MAIL ADDRESS:	
+		STREET 1:		22 W FRONTAGE ROAD
+		CITY:			NORTHFIELD
+		STATE:			IL
+		ZIP:			60093
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Univar Inc.
+		CENTRAL INDEX KEY:			0001494319
+		STANDARD INDUSTRIAL CLASSIFICATION:	WHOLESALE-CHEMICALS & ALLIED PRODUCTS [5160]
+		IRS NUMBER:				261251958
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1210
+
+	BUSINESS ADDRESS:	
+		STREET 1:		3075 HIGHLAND PARKWAY
+		STREET 2:		SUITE 200
+		CITY:			DOWNERS GROVE
+		STATE:			IL
+		ZIP:			60515
+		BUSINESS PHONE:		331-777-6000
+
+	MAIL ADDRESS:	
+		STREET 1:		3075 HIGHLAND PARKWAY
+		STREET 2:		SUITE 200
+		CITY:			DOWNERS GROVE
+		STATE:			IL
+		ZIP:			60515
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2017-11-15</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001494319</issuerCik>
+        <issuerName>Univar Inc.</issuerName>
+        <issuerTradingSymbol>UNVR</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001229313</rptOwnerCik>
+            <rptOwnerName>NEWLIN STEPHEN D</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O UNIVAR INC.</rptOwnerStreet1>
+            <rptOwnerStreet2>3075 HIGHLAND PARKWAY, SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>DOWNERS GROVE</rptOwnerCity>
+            <rptOwnerState>IL</rptOwnerState>
+            <rptOwnerZipCode>60515</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <officerTitle>Chairman &amp; CEO</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2017-11-15</value>
+            </transactionDate>
+            <deemedExecutionDate>
+                <value>2017-11-15</value>
+            </deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>G</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>5333.0000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>274303.0000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>28892.0000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By Trust</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Mr. Newlin gifted shares to an irrevocable trust.  He has no control over the trust.</footnote>
+        <footnote id="F2">This is not a market transaction, thus no price  has been reported.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Jeffrey W. Carr, as attorney-in-fact for Stephen D. Newlin</signatureName>
+        <signatureDate>2017-11-15</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

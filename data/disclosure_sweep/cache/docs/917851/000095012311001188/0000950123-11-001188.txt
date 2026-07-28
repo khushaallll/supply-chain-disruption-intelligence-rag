@@ -1,0 +1,1046 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ NPwYZJ0OzB9Hs98eqxPr23++vrClmfjdWYdOXBQTGuPImoanHoj9OYuQRnImJC5t
+ 3MB0K1tvLttKy0+5zbufmQ==
+
+<SEC-DOCUMENT>0000950123-11-001188.txt : 20110107
+<SEC-HEADER>0000950123-11-001188.hdr.sgml : 20110107
+<ACCEPTANCE-DATETIME>20110107060049
+ACCESSION NUMBER:		0000950123-11-001188
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20110101
+FILED AS OF DATE:		20110107
+DATE AS OF CHANGE:		20110107
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Vale S.A.
+		CENTRAL INDEX KEY:			0000917851
+		STANDARD INDUSTRIAL CLASSIFICATION:	METAL MINING [1000]
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-15030
+		FILM NUMBER:		11515625
+
+	BUSINESS ADDRESS:	
+		STREET 1:		AVENIDA GRACA ARANHA #26
+		CITY:			RIO DE JANEIRO
+		STATE:			D5
+		ZIP:			20005-900
+		BUSINESS PHONE:		552138144540
+
+	MAIL ADDRESS:	
+		STREET 1:		AVENIDA GRACA ARANHA #26
+		CITY:			RIO DE JANEIRO
+		STATE:			D5
+		ZIP:			20005-900
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Companhia Vale do Rio Doce
+		DATE OF NAME CHANGE:	20051108
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	VALLEY OF THE RIO DOCE CO
+		DATE OF NAME CHANGE:	20020129
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	VALLEY OF THE DOCE RIVER CO
+		DATE OF NAME CHANGE:	19950602
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>c10689e6vk.htm
+<DESCRIPTION>FORM 6-K
+<TEXT>
+<HTML>
+<HEAD>
+<TITLE>Form 6-K</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<!-- PAGEBREAK -->
+<DIV style="font-family: 'Times New Roman',Times,serif; margin-left: .25in; width: 7.50in">
+
+<DIV style="width: 100%; border-bottom: 2pt solid black; font-size: 1pt">&nbsp;</DIV>
+<DIV style="width: 100%; border-bottom: 1pt solid black; font-size: 1pt">&nbsp;</DIV>
+
+
+
+
+<DIV align="center" style="font-size: 14pt; margin-top: 10pt"><B>United States<BR>
+Securities and Exchange Commission</B>
+</DIV>
+
+<DIV align="center" style="font-size: 12pt"><B>Washington, D.C. 20549</B>
+</DIV>
+
+<DIV align="center" style="font-size: 18pt; margin-top: 10pt"><B>FORM 6-K</B>
+</DIV>
+
+
+<DIV align="center" style="font-size: 12pt; margin-top: 10pt"><B>Report of Foreign Private Issuer<BR>
+Pursuant to Rule&nbsp;13a-16 or 15d-16<BR>
+of the<BR>
+Securities Exchange Act of 1934</B>
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>For the month of</B></DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>January&nbsp;2011</B></DIV>
+
+<DIV align="center" style="font-size: 24pt; margin-top: 10pt"><B>Vale S.A.</B>
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">Avenida Gra&#231;a Aranha, No.&nbsp;26<BR>
+20030-900 Rio de Janeiro, RJ, Brazil<BR>
+(Address of principal executive office)</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark whether the registrant files or will file annual reports under cover of
+Form 20-F or Form 40-F.)
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Form&nbsp;20-F&nbsp;<FONT face="Wingdings">&#254;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form&nbsp;40-F&nbsp;<FONT face="Wingdings">&#111;</FONT>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation&nbsp;S-T Rule&nbsp;101(b)(1))
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes&nbsp;<FONT face="Wingdings">&#111;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;<FONT face="Wingdings">&#254;</FONT>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation&nbsp;S-T Rule&nbsp;101(b)(7))
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes&nbsp;<FONT face="Wingdings">&#111;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;<FONT face="Wingdings">&#254;</FONT>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark whether the registrant by furnishing the information contained in this Form
+is also thereby furnishing information to the Commission pursuant to Rule&nbsp;12g3-2(b) under the
+Securities Exchange Act of 1934.)
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes&nbsp;<FONT face="Wingdings">&#111;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;<FONT face="Wingdings">&#254;</FONT>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt">(If &#147;Yes&#148; is marked, indicate below the file number assigned to the registrant in connection with
+Rule&nbsp;12g3-2(b). 82-<U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</U>.)
+</DIV>
+
+<DIV style="width: 100%; border-bottom: 1pt solid black; margin-top: 10pt; font-size: 1pt">&nbsp;</DIV>
+<DIV style="width: 100%; border-bottom: 2pt solid black; font-size: 1pt">&nbsp;</DIV>
+
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio --><!-- /Folio -->
+</DIV>
+
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always">&nbsp;</H5><P>
+
+
+<DIV style="font-family: 'Times New Roman',Times,serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>Signatures</B>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused
+this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+</DIV>
+
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0" style="font-size: 10pt">
+<TR>
+    <TD width="48%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="35%">&nbsp;</TD>
+    <TD width="15%">&nbsp;</TD>
+</TR>
+<TR>
+    <TD valign="top" align="left">&nbsp;</TD>
+    <TD colspan="3" align="left">Vale S.A.<BR>
+(Registrant)<BR>
+&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">&nbsp;</TD>
+    <TD valign="top">By:&nbsp;&nbsp;</TD>
+    <TD colspan="2" style="border-bottom: 1px solid #000000" align="left">/s/ Roberto Castello Branco
+&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">Date: January 06, 2011&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="2" align="left">Roberto Castello Branco&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="2" align="left">Director of Investor Relations&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR>
+    <TD colspan="5">&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio --><!-- /Folio -->
+</DIV>
+
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always">&nbsp;</H5><P>
+
+
+<DIV style="font-family: 'Times New Roman',Times,serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt"><IMG src="c10689p1068901.jpg" alt="(VALE LOGO)">
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt">Shares owned by Board Members, Fiscal Council, Executive Directors and principal shareholder on
+December&nbsp;31, 2010 (aggregate).
+</DIV>
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt"><B>Company: Vale S.A.<BR>
+Board Members</B>
+
+</DIV>
+<DIV align="center">
+<TABLE style="font-size: 10pt" cellspacing="0" border="0" cellpadding="0" width="100%">
+<!-- Begin Table Head --><TR valign="bottom">
+    <TD width="14%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="39%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="6" style="border-bottom: 1px solid #000000">%</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Same</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left">Type of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">class of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Total</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left" style="border-bottom: 1px solid #000000">security</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Characteristic of the security</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Quantity</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">shares</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">capital</TD>
+    <TD>&nbsp;</TD>
+</TR>
+
+<!-- End Table Head -->
+<!-- Begin Table Body -->
+<TR valign="bottom" style="background: #cceeff">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">PN</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">54,399</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">ON</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">1,050</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="background: #cceeff; padding-top: 1px">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Quotes</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">Investment Funds</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">0</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<!-- End Table Body --></TABLE>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt"><B>Company: Vale S.A.<BR>
+Executive Directors</B>
+
+</DIV>
+<DIV align="center">
+<TABLE style="font-size: 10pt" cellspacing="0" border="0" cellpadding="0" width="100%">
+<!-- Begin Table Head --><TR valign="bottom">
+    <TD width="14%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="39%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="6" style="border-bottom: 1px solid #000000">%</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Same</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left">Type of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">class of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Total</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left" style="border-bottom: 1px solid #000000">security</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Characteristic of the security</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Quantity</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">shares</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">capital</TD>
+    <TD>&nbsp;</TD>
+</TR>
+
+<!-- End Table Head -->
+<!-- Begin Table Body -->
+<TR valign="bottom" style="background: #cceeff">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">PN</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">1,090,938</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">0.03</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">0.01</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">ON</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">256.244</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<!-- End Table Body --></TABLE>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt"><B>Company: </B>Vale S.A.<BR>
+<B>Audit Committee Members</B>
+
+</DIV>
+<DIV align="center">
+<TABLE style="font-size: 10pt" cellspacing="0" border="0" cellpadding="0" width="100%">
+<!-- Begin Table Head --><TR valign="bottom">
+    <TD width="14%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="39%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="6" style="border-bottom: 1px solid #000000">%</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Same</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left">Type of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">class of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Total</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left" style="border-bottom: 1px solid #000000">security</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Characteristic of the security</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Quantity</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">shares</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">capital</TD>
+    <TD>&nbsp;</TD>
+</TR>
+
+<!-- End Table Head -->
+<!-- Begin Table Body -->
+<TR valign="bottom" style="background: #cceeff">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">PN</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">ON</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<!-- End Table Body --></TABLE>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt"><B>Company: Vale S.A.<BR>
+Technical Committee Members</B>
+
+</DIV>
+<DIV align="center">
+<TABLE style="font-size: 10pt" cellspacing="0" border="0" cellpadding="0" width="100%">
+<!-- Begin Table Head --><TR valign="bottom">
+    <TD width="14%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="39%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+ </TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="6" style="border-bottom: 1px solid #000000">%</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Same</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left">Type of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">class of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Total</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left" style="border-bottom: 1px solid #000000">security</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Characteristic of the security</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Quantity</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">shares</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">capital</TD>
+    <TD>&nbsp;</TD>
+</TR>
+
+<!-- End Table Head -->
+<!-- Begin Table Body -->
+<TR valign="bottom" style="background: #cceeff">
+    <TD><DIV style="margin-left:30px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">PN</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Quotes &#151; FGTS</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">1,755</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">&#151;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<!-- End Table Body --></TABLE>
+</DIV>
+
+
+<DIV align="left" style="font-size: 10pt; margin-top: 10pt"><B>Company: Vale S.A.<BR>
+Principal Shareholder (Valepar S.A.)</B>
+
+</DIV>
+<DIV align="center">
+<TABLE style="font-size: 10pt" cellspacing="0" border="0" cellpadding="0" width="100%">
+<!-- Begin Table Head --><TR valign="bottom">
+    <TD width="14%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="39%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="9%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="6" style="border-bottom: 1px solid #000000">%</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Same</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left">Type of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">class of</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2">Total</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR style="font-size: 10pt" valign="bottom">
+    <TD nowrap align="left" style="border-bottom: 1px solid #000000">security</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Characteristic of the security</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">Quantity</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">shares</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="center" colspan="2" style="border-bottom: 1px solid #000000">capital</TD>
+    <TD>&nbsp;</TD>
+</TR>
+
+<!-- End Table Head -->
+<!-- Begin Table Body -->
+<TR valign="bottom" style="background: #cceeff">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">ON</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="left">&nbsp;</TD>
+    <TD align="right">1,716,435,045</TD>
+    <TD nowrap>*</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">52.7</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">32.5</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD><DIV style="margin-left:15px; text-indent:-15px">Shares</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="3" align="center">PN</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">20,340,000</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">0.97</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="right">0.38</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<!-- End Table Body --></TABLE>
+</DIV>
+
+
+
+
+<TABLE width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt">
+<TR style="font-size: 6pt">
+    <TD width="3%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="96%">&nbsp;</TD>
+</TR>
+<TR valign="top">
+    <TD nowrap align="left">*</TD>
+    <TD>&nbsp;</TD>
+    <TD>13 shares were assigned to some of our board members</TD>
+</TR>
+
+</TABLE>
+
+
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio --><!-- /Folio -->
+</DIV>
+
+
+
+
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>2
+<FILENAME>c10689p1068901.jpg
+<DESCRIPTION>GRAPHIC
+<TEXT>
+begin 644 c10689p1068901.jpg
+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
+&&>!0!__9
+`
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

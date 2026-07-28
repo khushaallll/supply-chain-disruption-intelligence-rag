@@ -1,0 +1,206 @@
+<SEC-DOCUMENT>0001225208-17-017427.txt : 20171116
+<SEC-HEADER>0001225208-17-017427.hdr.sgml : 20171116
+<ACCEPTANCE-DATETIME>20171116180319
+ACCESSION NUMBER:		0001225208-17-017427
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20171114
+FILED AS OF DATE:		20171116
+DATE AS OF CHANGE:		20171116
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Byrne Mark John
+		CENTRAL INDEX KEY:			0001644764
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-37443
+		FILM NUMBER:		171209089
+
+	BUSINESS ADDRESS:	
+		BUSINESS PHONE:		3317776167
+
+	MAIL ADDRESS:	
+		STREET 1:		15165 VIA DEL SUR
+		CITY:			MONTE SERENO
+		STATE:			CA
+		ZIP:			95030
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Univar Inc.
+		CENTRAL INDEX KEY:			0001494319
+		STANDARD INDUSTRIAL CLASSIFICATION:	WHOLESALE-CHEMICALS & ALLIED PRODUCTS [5160]
+		IRS NUMBER:				261251958
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1210
+
+	BUSINESS ADDRESS:	
+		STREET 1:		3075 HIGHLAND PARKWAY
+		STREET 2:		SUITE 200
+		CITY:			DOWNERS GROVE
+		STATE:			IL
+		ZIP:			60515
+		BUSINESS PHONE:		331-777-6000
+
+	MAIL ADDRESS:	
+		STREET 1:		3075 HIGHLAND PARKWAY
+		STREET 2:		SUITE 200
+		CITY:			DOWNERS GROVE
+		STATE:			IL
+		ZIP:			60515
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2017-11-14</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001494319</issuerCik>
+        <issuerName>Univar Inc.</issuerName>
+        <issuerTradingSymbol>UNVR</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001644764</rptOwnerCik>
+            <rptOwnerName>Byrne Mark John</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>15165 VIA DEL SUR</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>MONTE SERENO</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>95030</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2017-11-14</value>
+            </transactionDate>
+            <deemedExecutionDate>
+                <value>2017-11-14</value>
+            </deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>23100.0000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>29.9427</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>27291.0000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Cypress Forest Capital LLC</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2017-11-15</value>
+            </transactionDate>
+            <deemedExecutionDate>
+                <value>2017-11-15</value>
+            </deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>27291.0000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>29.5472</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0.0000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Cypress Forest Capital LLC</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>14494.0000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes></footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Jeffrey W. Carr, as Attorney-in-fact for Mark J. Byrne</signatureName>
+        <signatureDate>2017-11-16</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

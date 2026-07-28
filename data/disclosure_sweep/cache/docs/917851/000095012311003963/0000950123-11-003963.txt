@@ -1,0 +1,1054 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ Bvnq2QB1qYXoyqBSi/+PBb3Ie47hrQsL5B1vJYrD/5G4aHFG6RtBRKKeA86WoTP9
+ 50oLNH8nOTLUiVD9E7mGRQ==
+
+<SEC-DOCUMENT>0000950123-11-003963.txt : 20110120
+<SEC-HEADER>0000950123-11-003963.hdr.sgml : 20110120
+<ACCEPTANCE-DATETIME>20110120080121
+ACCESSION NUMBER:		0000950123-11-003963
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20110101
+FILED AS OF DATE:		20110120
+DATE AS OF CHANGE:		20110120
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Vale S.A.
+		CENTRAL INDEX KEY:			0000917851
+		STANDARD INDUSTRIAL CLASSIFICATION:	METAL MINING [1000]
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-15030
+		FILM NUMBER:		11537270
+
+	BUSINESS ADDRESS:	
+		STREET 1:		AVENIDA GRACA ARANHA #26
+		CITY:			RIO DE JANEIRO
+		STATE:			D5
+		ZIP:			20005-900
+		BUSINESS PHONE:		552138144540
+
+	MAIL ADDRESS:	
+		STREET 1:		AVENIDA GRACA ARANHA #26
+		CITY:			RIO DE JANEIRO
+		STATE:			D5
+		ZIP:			20005-900
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Companhia Vale do Rio Doce
+		DATE OF NAME CHANGE:	20051108
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	VALLEY OF THE RIO DOCE CO
+		DATE OF NAME CHANGE:	20020129
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	VALLEY OF THE DOCE RIVER CO
+		DATE OF NAME CHANGE:	19950602
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>c11241e6vk.htm
+<DESCRIPTION>FORM 6-K
+<TEXT>
+<HTML>
+<HEAD>
+<TITLE>Form 6-K</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<!-- PAGEBREAK -->
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+
+<DIV style="width: 100%; border-bottom: 2pt solid black; font-size: 1pt">&nbsp;</DIV>
+<DIV style="width: 100%; border-bottom: 1pt solid black; font-size: 1pt">&nbsp;</DIV>
+
+
+
+
+<DIV align="center" style="font-size: 14pt; margin-top: 10pt"><B>United States<BR>
+Securities and Exchange Commission</B>
+</DIV>
+
+<DIV align="center" style="font-size: 12pt"><B>Washington, D.C. 20549</B>
+</DIV>
+
+<DIV align="center" style="font-size: 18pt; margin-top: 10pt"><B>FORM 6-K</B>
+</DIV>
+
+
+<DIV align="center" style="font-size: 12pt; margin-top: 10pt"><B>Report of Foreign Private Issuer<BR>
+Pursuant to Rule&nbsp;13a-16 or 15d-16<BR>
+of the<BR>
+Securities Exchange Act of 1934</B>
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>For the month of</B></DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>January&nbsp;2011</B></DIV>
+
+<DIV align="center" style="font-size: 24pt; margin-top: 10pt"><B>Vale S.A.</B>
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">Avenida Gra&#231;a Aranha, No.&nbsp;26<BR>
+20030-900 Rio de Janeiro, RJ, Brazil<BR>
+(Address of principal executive office)</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark whether the registrant files or will file annual reports under cover of
+Form 20-F or Form 40-F.)
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Form&nbsp;20-F <FONT face="Wingdings">&#254;</FONT> Form&nbsp;40-F <FONT face="Wingdings">&#111;</FONT></DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark if the registrant is submitting the Form 6-K in paper
+as permitted by Regulation S-T <font style="white-space: nowrap">Rule 101(b)(1))</font>
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes <FONT face="Wingdings">&#111;</FONT> No <FONT face="Wingdings">&#254;</FONT></DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark if the registrant is submitting the Form 6-K in paper
+as permitted by Regulation&nbsp;S-T <font style="white-space: nowrap">Rule&nbsp;101(b)(7))</font>
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes <FONT face="Wingdings">&#111;</FONT> No <FONT face="Wingdings">&#254;</FONT></DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark whether the registrant by furnishing the information contained in this Form
+is also thereby furnishing information to the Commission pursuant to Rule&nbsp;12g3-2(b) under the
+Securities Exchange Act of 1934.)
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes <FONT face="Wingdings">&#111;</FONT> No <FONT face="Wingdings">&#254;</FONT></DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(If &#147;Yes&#148; is marked, indicate below the file number assigned to the registrant in connection with
+Rule&nbsp;12g3-2(b). <font style="white-space: nowrap">82-_____.)</font>
+</DIV>
+
+<DIV style="width: 100%; border-bottom: 1pt solid black; margin-top: 10pt; font-size: 1pt">&nbsp;</DIV>
+<DIV style="width: 100%; border-bottom: 2pt solid black; font-size: 1pt">&nbsp;</DIV>
+
+
+
+
+
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+<!-- TOC -->
+<A name="toc"><DIV align="CENTER" style="page-break-before:always"><U><B>TABLE OF CONTENTS</B></U></DIV></A>
+
+<P><CENTER>
+<TABLE border="0" width="90%" cellpadding="0" cellspacing="0">
+<TR>
+	<TD width="3%"></TD>
+	<TD width="3%"></TD>
+	<TD width="3%"></TD>
+	<TD width="3%"></TD>
+	<TD width="3%"></TD>
+	<TD width="3%"></TD>
+	<TD width="3%"></TD>
+	<TD width="3%"></TD>
+	<TD width="76%"></TD>
+</TR>
+<TR><TD colspan="9"><A HREF="#000">Press Release</A></TD></TR>
+<TR><TD colspan="9"><A HREF="#001">Signature Page</A></TD></TR>
+</TABLE>
+</CENTER>
+<!-- /TOC -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+
+
+
+
+
+
+
+
+<!-- link1 "Press Release" -->
+<DIV align="left"><A NAME="000"></A></DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">
+<IMG src="c11241c1124101.gif" alt="(VALE LOGO)">
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>Vale approves Securities Trading Policy</B>
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">Rio de Janeiro, January&nbsp;19, 2011 &#151; Vale S.A. (Vale) announces that its Board of Directors approved
+the new Vale&#146;s Securities Trading Policy, which replaces the current policy approved on November
+13, 2002.
+</DIV>
+
+<DIV align="right" style="font-size: 10pt; margin-top: 10pt"><B>For further information, please contact:</B><BR>
+&#043;55-21-3814-4540<br>Roberto Castello
+Branco: roberto.castello.branco@vale.com<BR>
+Viktor Moszkowicz:
+viktor.moszkowicz@vale.com<br> Carla Albano
+Miller: carla.albano@vale.com<br> Andrea Gutman:
+andrea.gutman@vale.com<br> Fernando Frey:
+fernando.frey@vale.com<br> Marcio Loures Penna:
+marcio.penna@vale.com<br> Samantha Pons:
+samantha.pons@vale.com<br> Thomaz Freire:
+thomaz.freire@vale.com
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">This press release may contain statements that express management&#146;s expectations about future
+events or results rather than historical facts. These forward-looking statements involve risks and
+uncertainties that could cause actual results to differ materially from those projected in
+forward-looking statements, and Vale cannot give assurance that such statements will prove correct.
+These risks and uncertainties include factors: relating to the Brazilian and Canadian economy and
+securities markets, which exhibit volatility and can be adversely affected by developments in other
+countries; relating to the iron ore and nickel business and its dependence on the global steel
+industry, which is cyclical in nature; and relating to the highly competitive industries in which
+Vale operates. For additional information on factors that could cause Vale&#146;s actual results to
+differ from expectations reflected in forward-looking statements, please see Vale&#146;s reports filed
+with the Brazilian Comiss&#227;o de Valores Mobili&#225;rios and the U.S. Securities and Exchange Commission.
+</DIV>
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><IMG src="c11241c1124100.gif" alt="(VALE LOGO)">
+</DIV>
+
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>SHARE TRADING POLICY</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>INTRODUCTION</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">Vale S.A. (Vale) strongly believes it is praiseworthy to have its employees, directors and officers
+holding interest within Vale.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">The decision to invest one&#146;s savings over the long term in the securities issued by Vale, including
+stock and their derivatives, and/or debt securities, reflects commitment to and confidence in
+Vale&#146;s future.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">However, speculation in Vale-issued securities by its employees, officers and directors produces
+the opposite effect. The use of privileged information in the course of speculation in the Vale&#146;s
+securities, or for any other purpose, is illegal and detrimental to Vale and its shareholders,
+directors and officers and employees.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1. SCOPE AND PURPOSE</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.1. </B>The purpose of Vale&#146;s Securities Trading Policy (&#147;Trading Policy&#148;), developed in accordance
+with Instruction No.&nbsp;358/02 issued by the Brazilian Securities and Exchange Commission (CVM)&nbsp;and
+Vale&#146;s Code of Ethical Conduct, is to promote the responsible trading of the securities issued by
+Vale, or related to them, eliminating any presumption of the inappropriate use of information
+relating to a Material Event or Fact (Ato ou Fato Relevante) about Vale (&#147;Privileged Information&#148;).
+An Ato or Fato Relevante is an event or a fact that may significantly influence: (i)&nbsp;the market
+price of securities issued or guaranteed by Vale or (ii)&nbsp;the decisions of investors to purchase,
+sell or retain such said securities, or to exercise any rights they may have regarding such
+securities.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.2. </B>This Trading Policy also aims to promote compliance with the laws and regulations of the
+United States of America and Hong Kong, where Vale&#146;s shares are traded in stock markets in form of
+ADRs and HDRs, respectively, which prohibit insider trading/dealing (the use of privileged
+information for private benefit), included herein the use of tipping (furnishing of privileged
+information to third parties for their own benefit).
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.2.1 </B>For purposes of the laws and rules of United States of America, a person engages into
+practices of (i)&nbsp;insider trading if he purchases or sells securities holding relevant information
+not publicly disclosed (material non-public information) that has been obtained or used in breach
+of one&#146;s duty of trust and confidence, and (ii)&nbsp;tipping, by providing such information to a third
+party who uses it to commit insider trading.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.2.2 </B>For purposes of the laws and rules of Hong Kong, a person engages in practices of insider
+trading when, in possession of material non-public information, trades or encourages third parties
+to trade with securities issued by Vale, or in case it provides such information to third parties,
+knowing, or expecting, that they will trade with Vale&#146;s securities.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.3. </B>The Trading Policy applies to: Vale itself; its controlling shareholder, Valepar S.A.
+(Valepar); the representatives of the shareholders of Valepar S.A.; the members of the Board of
+Directors of Valepar S.A.; the members of the Board of Directors of Vale; the members of the Fiscal
+Council of Vale; the members of the Advisory Committees of the Board of Directors of Vale; the
+executive officers, global officers, departmental officers, general managers, executive
+coordinator,
+coordinator, managers, and other employees who are privy to privileged information as a result of
+their position or function in Vale or its controlled companies.
+</DIV>
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.4. </B>Publicly traded companies that are controlled by Vale shall adopt this Trading Policy and
+apply, where applicable, the prohibitions and other restrictions established herein.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.5. </B>All persons included in item 1.3 above shall be referred to, whether jointly or individually,
+as Affected Persons.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.6 </B>The prohibitions contained in this Trading Policy comprehend any acquisition, divestiture or
+transfer of securities issued or guaranteed by Vale.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.7. </B>The rules established in this Trading Policy shall also apply in all cases in which Affected
+Persons engage in trading for their direct and/or indirect benefit through the use, for example,
+of:
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(a) </B>companies in which they have direct or indirect control;
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(b) </B>third parties with whom the
+Affected Persons enter into a management agreement (Contrato de Gest&#227;o), trust agreement
+(Fideicomisso) or asset management agreement (Contrato de Administra&#231;&#227;o de Carteira de
+Investimentos em Ativos Financeiros);
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(c) </B>attorneys-in-fact or agents; or
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(d) </B>spouses from whom
+the Affected Persons are not legally separated (separados judicialmente); unmarried partners
+(companheiros), minor child and any dependents declared in an annual income tax return).
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.8.</B>The restrictions listed in item 1.7 above do not apply to trading carried out through
+investment funds in which the Affected Persons are shareholders, provided that:
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(a) </B>the investment
+funds are open, non-exclusive funds; and
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(b) </B>the trading decisions of the investment fund manager
+are not influenced by the fund&#146;s shareholders.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.9 </B>The Affected Persons shall also ensure, as far as possible, whenever prevented form trading,
+that natural persons or corporate entities mentioned in item 1.7, also abstain to do so.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>1.10 </B>The present Trading Policy also applies to any director or officer that may, by any chance, be
+discharged of duty before the public disclosure of a business or fact started within their term of
+office, and shall extend for the term of six months after its disengagement.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>2. THIRD-PARTY INFORMATION</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>2.1</B>. Affected Persons shall also be prohibited from trading securities issued by Vale if they are
+aware of the existence of material non-public information related to any other company that may
+affect the price of such securities as indicated in item 1 above, including subsidiaries,
+competitors, suppliers and customers of Vale.
+</DIV>
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>3. BLACKOUT PERIOD</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>3.1. </B>In addition to the prohibitions on trading set forth in CVM Instruction No.&nbsp;358/02, the
+Affected Persons shall not engage in the trading of securities issued by Vale and the publicly
+traded companies it controls:
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(a)&nbsp;</B>during the period that extends from thirty (30)&nbsp;days prior to the disclosure or publication of
+the quarterly or annual financial statements of Vale to 2 (two)&nbsp;days after such disclosure or
+publication;
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(b)&nbsp;</B>during the period between and including the decisions of the shareholders of Valepar (i)&nbsp;to
+modify Vale&#146;s share capital through stock issuances (subscri&#231;&#227;o de a&#231;&#245;es), (ii)&nbsp;to approve a Vale
+share acquisition or divestment program by the company itself; or (iii)&nbsp;to approve dividends or
+interest on the company&#146;s capital stock, stock approve, stock derivatives, or share splits; and the
+publication of relevant public notices (editais)&nbsp;and/or other press releases; and
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(c)&nbsp;</B>during any other period designated by Company&#146;s Executive Officer for Investor Relations, upon
+prior authorization by the Chairman of Vale&#146;s Board of Directors, as requested by the Chief
+Executive Officer.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>4. TRADING AUTHORIZATION</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>4.1. </B>Affected Persons may trade securities issued by Vale, subject to the blackout periods cited
+in item 3.1 above, with the objective of long-term investment, provided that this policy
+recommends that such securities be held for a minimum period of 6 (six)&nbsp;months.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>5. DISCLOSURE OF INFORMATION OF OFFICER&#146;S BUSINESSES</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>5.1 </B>The members of the Board of Directors, their Advisory Committees, the Executive Officers, and
+the members of the Fiscal Council of Vale, shall report, in writing, pursuant to article 11 of the
+CVM Instruction No.&nbsp;358/02, to the Executive Officer for Investors Relations and, though him, to
+the CVM and to the stock markets where Vale&#146;s securities are listed and traded:
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(a)&nbsp;</B>the number of securities issued by Vale or its controlled or controlling companies which are
+public, that they eventually hold, as well as the number held by their spouses, except if legally
+separated or separated in fact, unmarried partners, any dependents declared in an annual income
+tax return, and by companies directly or indirectly controlled by them;
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(b)&nbsp;</B>any change in the trading position referred to above.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>5.2 </B>The report provided for in item 5.1 above shall be made (i)&nbsp;on the first business day after
+its investiture; (ii)&nbsp;within the term of five (5)&nbsp;days after the closing of each trade, and
+shall contain, at least, the following information:
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(a)&nbsp;</B>name and personal qualification of the reporting person, indicating his registration
+number before the General Taxpayer&#146;s Registry (CPF), if domiciled in Brazil;
+</DIV>
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(b)&nbsp;</B>number, by kind and class, in case of shares, and other characteristics, in case of other
+securities, besides the identification of the issuer and the balance of the trading position held
+before and after the trade;
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>(c) </B>form, price and date of the transactions;
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>5.3 </B>The Executive Officer for Investors Relations, in turn, shall report to CVM and the stock
+markets the information obtained, individually and in the aggregate, as the case may be, within
+ten (10)&nbsp;days after the end of the month in which the changes in the trading position may be
+verified, or after the date of investiture in office.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>5.4 </B>The Affected Persons above, shall execute the respective Term of Acceptance (Termo de Ades&#227;o),
+pursuant to article 16 of the CVM Instruction No.&nbsp;358/02, in accordance to the template contained
+in Exhibit&nbsp;1 of this Trading Policy, that will be kept in file in Vale&#146;s headquarters insofar its
+signatory maintains its bond with Vale, and, for five years, at least, after the discharge of his
+or her professional duty.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>6. MISCELLANEOUS</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>6.1. </B>Any uncertainties relating to that provided by this Trading Policy, or the application of
+any provisions hereof, shall be directly addressed to the Vale&#146;s General Counsel, who shall
+provide appropriate clarification or guidance.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>6.2. </B>Any violation of this Trading Policy shall be considered a violation Vale&#146;s Code of Ethical
+Conduct and shall be subject to the procedures and penalties established therein, subjecting the
+violator to punishments provided by law, in addition to being held responsible for damages caused
+to the Vale and third parties.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>6.3. </B>The unauthorized disclosure of material non-public information about Vale is detrimental to
+the Company and is strictly prohibited.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><B>6.4. </B>This Trading Policy has been approved by Vale&#146;s Board of Directors, the only authorized
+corporate body which may approve any proposal to amend or revise it.
+</DIV>
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="right" style="font-size: 10pt; margin-top: 10pt"><B>Securities Trading Policy<BR> (GLOBAL)</B>
+</DIV>
+
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>TERM OF ACCEPTANCE</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">Hereby, Mr. &#091;Name&#093;, &#091;Qualification&#093;, resident and domiciled at &#091;Address&#093;, in the City of &#091;City&#093;,
+State of &#091;State&#093;, &#091;Country&#093;, registered before the General Taxpayer&#146;s Registry (CPF)&nbsp;under No.
+&#091;CPF&#093;, and bear of the ID No., issued by &#091;Issuing Entity&#093;, hereafter referred to as the &#147;Declaring
+Person&#148;, as &#091;Title&#093; of &#091;Entity&#093;, a company with its headquarters at &#091;Address&#093;, in the City of
+&#091;City&#093;, State of &#091;State&#093;, registered before the General Taxpayer&#146;s Registry (CNPJ)&nbsp;of the Ministry
+of Finance under No. &#091;CNPJ&#093;, declares, subject to the penalty of Law, that has received a copy and
+has full knowledge of the contents of Vale&#146;s Securities Trading Policy (the &#147;Trading Policy&#148;),
+binding himself, insofar maintaining its liason with Vale S.A. (&#147;Vale&#148;), and, until six (6)&nbsp;months
+after divestiture, to observe and guide its actions in accordance to the provisions contained in
+such Trading Policy, as well as CVM Instruction n&#186; 358, dated 01/03/2002.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">Declares, furthermore, having full knowledge that any eventual modification in his registration
+data, as well as, of the securities issued by Vale or its controlled or controlling entities
+publicly traded, or referred, shall be reported, in writing, and in observance to the terms
+provided for in the Trading Policy, to the Executive Officer for Investors Relations, without
+prejudice to the communication of the other competent bodies.
+</DIV>
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">The Declaring Person signs this Term of Acceptance in three (3)&nbsp;originals of identical content, in
+the presence of the two (2)&nbsp;witnesses undersigned.
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">Rio de Janeiro, &#091;Date&#093;
+</DIV>
+
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><DIV align="center"><DIV style="font-size: 1pt; margin-top: 10pt; width: 26%; border-top: 1px solid #000000">&nbsp;</DIV></DIV>
+&#091;Name&#093;<BR>
+&#091;Address&#093;
+</DIV>
+
+<DIV align="center">
+<TABLE style="font-size: 10pt" cellspacing="0" border="0" cellpadding="0" width="100%">
+<!-- Begin Table Head --><TR valign="bottom">
+    <TD width="1%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="35%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="5%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="0%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="35%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="10%">&nbsp;</TD>
+</TR>
+
+<!-- End Table Head -->
+<!-- Begin Table Body -->
+<TR valign="bottom">
+    <TD colspan="3" valign="top" align="left">Witnesses:</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="right" valign="top">&nbsp;</TD>
+    <TD align="right" valign="top">&nbsp;</TD>
+    <TD valign="top">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">&nbsp;</TD>
+</TR>
+<TR><TD align="left" valign="top">&nbsp;</TD></TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD valign="top"><DIV style="margin-left:0px; text-indent:-0px">1.
+</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top" style="font-size: 1pt; border-bottom: 1px solid #000000">&nbsp;
+</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap align="right" valign="top">&nbsp;</TD>
+    <TD align="right" valign="top">2.&nbsp;</TD>
+
+    <TD align="left" valign="top" style="font-size: 1pt; border-bottom: 1px solid #000000" colspan="3">&nbsp;
+
+</TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD colspan="3" valign="top" align="left">Name:</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap colspan="2" align="left" valign="top">Name:
+</TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">&nbsp;</TD>
+</TR>
+<TR valign="bottom" style="padding-top: 1px">
+    <TD colspan="3" valign="top" align="left">ID:</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD nowrap colspan="2" align="left" valign="top">ID:
+</TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">&nbsp;</TD>
+</TR>
+<!-- End Table Body --></TABLE>
+</DIV>
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always"><A HREF="#toc">Table of Contents</A></H5><P>
+
+<DIV style="font-family: Helvetica,Arial,sans-serif; margin-left: .25in; width: 7.50in">
+<!-- link1 "Signature Page" -->
+<DIV align="left"><A NAME="001"></A></DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>Signatures</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused
+this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+</DIV>
+
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0" style="font-size: 10pt">
+<TR>
+    <TD width="48%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="35%">&nbsp;</TD>
+    <TD width="15%">&nbsp;</TD>
+</TR>
+<TR>
+    <TD valign="top" align="left">&nbsp;</TD>
+    <TD colspan="3" align="left">Vale S.A.<BR>
+(Registrant)<BR>
+&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">Date: January 19, 2011&nbsp;</TD>
+    <TD valign="top">By:&nbsp;&nbsp;</TD>
+    <TD colspan="2" style="border-bottom: 1px solid #000000" align="left">/s/ Roberto Castello Branco
+&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="2" align="left">Roberto Castello Branco&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="2" align="left">Director of Investor Relations&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+<TR>
+    <TD colspan="5">&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>2
+<FILENAME>c11241c1124101.gif
+<DESCRIPTION>GRAPHIC
+<TEXT>
+begin 644 c11241c1124101.gif
+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
+`
+end
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>3
+<FILENAME>c11241c1124100.gif
+<DESCRIPTION>GRAPHIC
+<TEXT>
+begin 644 c11241c1124100.gif
+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
+<8Q-R>($"-X?A47E>P`!ZN$[PY@4:!$1D$P@`.S\_
+`
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

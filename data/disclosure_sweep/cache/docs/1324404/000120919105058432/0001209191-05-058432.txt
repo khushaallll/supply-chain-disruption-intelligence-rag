@@ -1,0 +1,166 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ O0+EaBelSK9e/dW1Q9pJmwc41A6i+HaC2C9FD1RXS8TQNFRKJPohajtR/nYhGEWi
+ xi9f8Hw/kXtNpwOuGy4KEg==
+
+<SEC-DOCUMENT>0001209191-05-058432.txt : 20051118
+<SEC-HEADER>0001209191-05-058432.hdr.sgml : 20051118
+<ACCEPTANCE-DATETIME>20051118170209
+ACCESSION NUMBER:		0001209191-05-058432
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20051118
+FILED AS OF DATE:		20051118
+DATE AS OF CHANGE:		20051118
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Koch Philipp P
+		CENTRAL INDEX KEY:			0001329559
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-32597
+		FILM NUMBER:		051215835
+
+	BUSINESS ADDRESS:	
+		BUSINESS PHONE:		847-438-9500
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O CF INDUSTRIES, INC.
+		STREET 2:		ONE SALEM LAKE DRIVE
+		CITY:			LONG GROVE
+		STATE:			IL
+		ZIP:			60047
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CF Industries Holdings, Inc.
+		CENTRAL INDEX KEY:			0001324404
+		STANDARD INDUSTRIAL CLASSIFICATION:	AGRICULTURE CHEMICALS [2870]
+		IRS NUMBER:				202697511
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		ONE SALEM LAKE DRIVE
+		CITY:			LONG GROVE
+		STATE:			IL
+		ZIP:			60047
+		BUSINESS PHONE:		(847)438-9500
+
+	MAIL ADDRESS:	
+		STREET 1:		ONE SALEM LAKE DRIVE
+		CITY:			LONG GROVE
+		STATE:			IL
+		ZIP:			60047
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2005-11-18</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001324404</issuerCik>
+        <issuerName>CF Industries Holdings, Inc.</issuerName>
+        <issuerTradingSymbol>CF</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001329559</rptOwnerCik>
+            <rptOwnerName>Koch Philipp P</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O CF INDUSTRIES HOLDINGS, INC.</rptOwnerStreet1>
+            <rptOwnerStreet2>ONE SALEM LAKE DRIVE</rptOwnerStreet2>
+            <rptOwnerCity>LONG GROVE</rptOwnerCity>
+            <rptOwnerState>IL</rptOwnerState>
+            <rptOwnerZipCode>60047</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>VP, Raw Materials Procurement</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2005-11-18</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>15.49</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>1000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Philipp P. Koch</signatureName>
+        <signatureDate>2005-11-18</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

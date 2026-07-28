@@ -1,0 +1,183 @@
+<SEC-DOCUMENT>0001127602-17-030794.txt : 20171101
+<SEC-HEADER>0001127602-17-030794.hdr.sgml : 20171101
+<ACCEPTANCE-DATETIME>20171101164913
+ACCESSION NUMBER:		0001127602-17-030794
+CONFORMED SUBMISSION TYPE:	5
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20170930
+FILED AS OF DATE:		20171101
+DATE AS OF CHANGE:		20171101
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			TEAL JANICE
+		CENTRAL INDEX KEY:			0001258631
+
+	FILING VALUES:
+		FORM TYPE:		5
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-211719
+		FILM NUMBER:		171169571
+
+	MAIL ADDRESS:	
+		STREET 1:		7575 PELICAN BAY BLVD.
+		STREET 2:		APT. 1504
+		CITY:			NAPLES
+		STATE:			FL
+		ZIP:			34108
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ASHLAND GLOBAL HOLDINGS INC
+		CENTRAL INDEX KEY:			0001674862
+		STANDARD INDUSTRIAL CLASSIFICATION:	WHOLESALE-CHEMICALS & ALLIED PRODUCTS [5160]
+		IRS NUMBER:				812587835
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1216
+
+	BUSINESS ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+		BUSINESS PHONE:		859-815-3333
+
+	MAIL ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>5
+<SEQUENCE>1
+<FILENAME>form5.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>5</documentType>
+
+    <periodOfReport>2017-09-30</periodOfReport>
+
+    <form3HoldingsReported>0</form3HoldingsReported>
+
+    <form4TransactionsReported>0</form4TransactionsReported>
+
+    <issuer>
+        <issuerCik>0001674862</issuerCik>
+        <issuerName>ASHLAND GLOBAL HOLDINGS INC</issuerName>
+        <issuerTradingSymbol>ASH</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001258631</rptOwnerCik>
+            <rptOwnerName>TEAL JANICE</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>7575 PELICAN BAY BLVD.</rptOwnerStreet1>
+            <rptOwnerStreet2>APT. 801</rptOwnerStreet2>
+            <rptOwnerCity>NAPLES</rptOwnerCity>
+            <rptOwnerState>FL</rptOwnerState>
+            <rptOwnerZipCode>34108</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Common Stock Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>5681</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>5681</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Restricted Stock Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F4"/>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <footnoteId id="F5"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F5"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>11428</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>11428</value>
+                    <footnoteId id="F6"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">1 for 1</footnote>
+        <footnote id="F2">Subject to any deferral election on timing of distribution by the reporting person under the Plan, the Common Stock Units are payable in Common Stock upon the reporting person's separation from service as a director.</footnote>
+        <footnote id="F3">Balance includes 30 additional Common Stock Units acquired in lieu of cash dividends (10 acquired on June 15, 2017, and 20 on September 15, 2017), pursuant to Ashland's Deferred Compensation Plan for Non-Employee Directors, and exempt under Rule 16b-3.</footnote>
+        <footnote id="F4">Each Restricted Stock Unit represents a right to receive one (1) share of Ashland Common Stock.</footnote>
+        <footnote id="F5">Grant of deferred Restricted Stock Units pursuant to Ashland's Deferred Compensation Plan for Non-Employee Directors, and exempt under Rule 16b-3.  The Restricted Stock Units will vest one year after date of grant.  (One (1) Restricted Stock Unit in the Deferred Compensation Plan for Non-Employee Directors is the equivalent of one (1) share of Ashland Common Stock.)  Subject to any deferral election on timing of distribution by the reporting person under the Plan, the reporting person may elect to receive the Restricted Stock Units in Common Stock or cash upon separation from service as a director.</footnote>
+        <footnote id="F6">Balance includes 61 additional Restricted Stock Units acquired in lieu of cash dividends (21 acquired on June 15, 2017, and 40 on September 15, 2017), pursuant to Ashland's Deferred Compensation Plan for Non-Employee Directors, and exempt under Rule 16b-3.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Jennifer I. Henkel, Attorney-in-Fact</signatureName>
+        <signatureDate>2017-11-01</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

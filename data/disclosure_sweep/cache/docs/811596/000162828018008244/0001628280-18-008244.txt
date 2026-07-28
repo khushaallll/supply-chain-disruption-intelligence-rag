@@ -1,0 +1,179 @@
+<SEC-DOCUMENT>0001628280-18-008244.txt : 20180622
+<SEC-HEADER>0001628280-18-008244.hdr.sgml : 20180622
+<ACCEPTANCE-DATETIME>20180622175643
+ACCESSION NUMBER:		0001628280-18-008244
+CONFORMED SUBMISSION TYPE:	4/A
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20180515
+FILED AS OF DATE:		20180622
+DATE AS OF CHANGE:		20180622
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			West Neal E
+		CENTRAL INDEX KEY:			0001330319
+
+	FILING VALUES:
+		FORM TYPE:		4/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-09447
+		FILM NUMBER:		18915500
+
+	MAIL ADDRESS:	
+		STREET 1:		7565 IRVINE CENTER DRIVE
+		CITY:			IRVINE
+		STATE:			CA
+		ZIP:			92618
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAISER ALUMINUM CORP
+		CENTRAL INDEX KEY:			0000811596
+		STANDARD INDUSTRIAL CLASSIFICATION:	ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS [3350]
+		IRS NUMBER:				943030279
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+		BUSINESS PHONE:		949-614-1740
+
+	MAIL ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	KAISERTECH LTD
+		DATE OF NAME CHANGE:	19901122
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4/A
+<SEQUENCE>1
+<FILENAME>wf-form4a_152970458785417.xml
+<DESCRIPTION>FORM 4/A
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4/A</documentType>
+
+    <periodOfReport>2018-05-15</periodOfReport>
+
+    <dateOfOriginalSubmission>2018-05-16</dateOfOriginalSubmission>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000811596</issuerCik>
+        <issuerName>KAISER ALUMINUM CORP</issuerName>
+        <issuerTradingSymbol>KALU</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001330319</rptOwnerCik>
+            <rptOwnerName>West Neal E</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O KAISER ALUMINUM CORP.</rptOwnerStreet1>
+            <rptOwnerStreet2>27422 PORTOLA PARKWAY SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>FOOTHILL RANCH</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92610</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>VP &amp; Chief Accounting Officer</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2018-05-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>725</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>103.40</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7084</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By West Family Trust</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3017</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Sales made pursuant to a 10b5-1 plan adopted by the reporting person on May 11, 2018 as part of the reporting person's financial planning to diversify his stockholdings. The plan contemplates the sale of a pre-determined amount of vested shares of common stock of the Registrant held by the reporting person in specified increments subject to designated floor prices.</footnote>
+        <footnote id="F2">Includes 3,017 shares acquired pursuant to grants of restricted stock units.</footnote>
+    </footnotes>
+
+    <remarks>10 Shares reported on the Form 4, which this filing amends, as directly held by the reporting person were transferred to the West Family Trust on May 2, 2018.</remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Cherrie I. Tsai, with power of attorney for Neal E. West</signatureName>
+        <signatureDate>2018-06-22</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

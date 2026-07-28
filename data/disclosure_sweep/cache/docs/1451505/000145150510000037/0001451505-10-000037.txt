@@ -1,0 +1,174 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ KCdS1zJl/gURqLZK/kOyAEWkHVMaeMVNYDfHp1owXYd3fQE2M8zRPDunRNb1Eyz+
+ DkTM38sKJJr6vaNoJtmuBA==
+
+<SEC-DOCUMENT>0001451505-10-000037.txt : 20100518
+<SEC-HEADER>0001451505-10-000037.hdr.sgml : 20100518
+<ACCEPTANCE-DATETIME>20100518155835
+ACCESSION NUMBER:		0001451505-10-000037
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20100514
+FILED AS OF DATE:		20100518
+DATE AS OF CHANGE:		20100518
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			CASON THOMAS W
+		CENTRAL INDEX KEY:			0001013579
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-53533
+		FILM NUMBER:		10842550
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Transocean Ltd.
+		CENTRAL INDEX KEY:			0001451505
+		STANDARD INDUSTRIAL CLASSIFICATION:	DRILLING OIL & GAS WELLS [1381]
+		IRS NUMBER:				980599916
+		STATE OF INCORPORATION:			V8
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		BLANDONNET INTERNATIONAL BUSINESS CENTER
+		STREET 2:		BLDG F, 7TH FLOOR, CHEMIN DE BLANDONNET
+		CITY:			VERNIER
+		STATE:			V8
+		ZIP:			1214
+		BUSINESS PHONE:		41-58-792-9243
+
+	MAIL ADDRESS:	
+		STREET 1:		BLANDONNET INTERNATIONAL BUSINESS CENTER
+		STREET 2:		BLDG F, 7TH FLOOR, CHEMIN DE BLANDONNET
+		CITY:			VERNIER
+		STATE:			V8
+		ZIP:			1214
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>edgar.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0303</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2010-05-14</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001451505</issuerCik>
+        <issuerName>Transocean Ltd.</issuerName>
+        <issuerTradingSymbol>RIG</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001013579</rptOwnerCik>
+            <rptOwnerName>CASON THOMAS W</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>10 CHEMIN DE BLANDONNET</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>VERNIER</rptOwnerCity>
+            <rptOwnerState>V8</rptOwnerState>
+            <rptOwnerZipCode>1214</rptOwnerZipCode>
+            <rptOwnerStateDescription>SWITZERLAND</rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Deferred Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>0</value>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2010-05-14</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3703</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F1"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F1"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Registered Shares</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>3703</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3703</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Deferred Units, which are 1-for-1 registered share equivalents, were acquired on May 14, 2010 pursuant to the issuer's long-term incentive plan.  Deferred Units vest in equal installments on May 14, 2011, 2012 and 2013.  The reporting person elected in 2009 for such Deferred Units to be payable in registered shares of the issuer upon the reporting person's death, disability or retirement from the Board.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Margaret C. Fitzgerald by Power of Attorney</signatureName>
+        <signatureDate>2010-05-18</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

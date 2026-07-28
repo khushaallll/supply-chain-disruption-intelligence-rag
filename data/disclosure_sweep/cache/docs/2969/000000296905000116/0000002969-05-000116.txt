@@ -1,0 +1,186 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ W2ek9JmoyoTzHJFvPwb87WbpwPIRX1umKi49VempB5r+Ra62ZQ1KhFJOuPN0vLOr
+ oGfntAla8VTk7uKhLS0+bg==
+
+<SEC-DOCUMENT>0000002969-05-000116.txt : 20051004
+<SEC-HEADER>0000002969-05-000116.hdr.sgml : 20051004
+<ACCEPTANCE-DATETIME>20051004160223
+ACCESSION NUMBER:		0000002969-05-000116
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20050930
+FILED AS OF DATE:		20051004
+DATE AS OF CHANGE:		20051004
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AIR PRODUCTS & CHEMICALS INC /DE/
+		CENTRAL INDEX KEY:			0000002969
+		STANDARD INDUSTRIAL CLASSIFICATION:	INDUSTRIAL INORGANIC CHEMICALS [2810]
+		IRS NUMBER:				231274455
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0930
+
+	BUSINESS ADDRESS:	
+		STREET 1:		7201 HAMILTON BLVD
+		CITY:			ALLENTOWN
+		STATE:			PA
+		ZIP:			18195-1501
+		BUSINESS PHONE:		6104814911
+
+	MAIL ADDRESS:	
+		STREET 1:		7201 HAMILTON BLVD
+		CITY:			ALLENTOWN
+		STATE:			PA
+		ZIP:			18195-1501
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			BAEZA MARIO
+		CENTRAL INDEX KEY:			0001097993
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-04534
+		FILM NUMBER:		051121733
+
+	BUSINESS ADDRESS:	
+		BUSINESS PHONE:		2127714508
+
+	MAIL ADDRESS:	
+		STREET 1:		200 PARK AVE
+		STREET 2:		STE 2100
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10166
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>bae264.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2005-09-30</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000002969</issuerCik>
+        <issuerName>AIR PRODUCTS &amp; CHEMICALS INC /DE/</issuerName>
+        <issuerTradingSymbol>APD</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001097993</rptOwnerCik>
+            <rptOwnerName>BAEZA MARIO</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>7201 HAMILTON BOULEVARD</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>ALLENTOWN</rptOwnerCity>
+            <rptOwnerState>PA</rptOwnerState>
+            <rptOwnerZipCode>18195</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Phantom Stock</value>
+                <footnoteId id="F1"/>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F2"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2005-09-30</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>142.5672</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>54.91</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <value>1988-08-08</value>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>1988-08-08</value>
+                <footnoteId id="F3"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>142.5672</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>8978.9591</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Phantom deferred stock units (Units) acquired under the Air Products Stock Account of the issuer's Deferred Compensation Program for Directors, of the Company's Long-Term Incentive Plan (the Plan).  Under the Plan, all non-employee directors are credited with Units for the portion of their Board retainer required to be received in this form and they are permitted to defer receiving payment of all or a portion of the remainder of their Board and Committee retainers and meeting fees.</footnote>
+        <footnote id="F2">Not applicable to this security.</footnote>
+        <footnote id="F3">These units are generally payable in the form of shares of Common Stock equal in number to the units, after the reporting person's service on the issuer's Board of Directors ends, in a lump sum or up to ten installments as elected by the reporting person in advance.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>By: Linda M. Svoboda as Attorney in Fact</signatureName>
+        <signatureDate>2005-09-30</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

@@ -1,0 +1,181 @@
+<SEC-DOCUMENT>0001306830-21-000084.txt : 20210419
+<SEC-HEADER>0001306830-21-000084.hdr.sgml : 20210419
+<ACCEPTANCE-DATETIME>20210419161143
+ACCESSION NUMBER:		0001306830-21-000084
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210415
+FILED AS OF DATE:		20210419
+DATE AS OF CHANGE:		20210419
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Brown William M
+		CENTRAL INDEX KEY:			0001350633
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-32410
+		FILM NUMBER:		21834723
+
+	MAIL ADDRESS:	
+		STREET 1:		HARRIS CORPORATION
+		STREET 2:		1025 W NASA BOULEVARD
+		CITY:			MELBOURNE
+		STATE:			FL
+		ZIP:			32919
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Celanese Corp
+		CENTRAL INDEX KEY:			0001306830
+		STANDARD INDUSTRIAL CLASSIFICATION:	PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS) [2820]
+		IRS NUMBER:				980420726
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+		BUSINESS PHONE:		972-443-4000
+
+	MAIL ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Celanese CORP
+		DATE OF NAME CHANGE:	20041102
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Blackstone Crystal Holdings Capital Partners (Cayman) IV Ltd.
+		DATE OF NAME CHANGE:	20041022
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_161886308895746.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-04-15</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001306830</issuerCik>
+        <issuerName>Celanese Corp</issuerName>
+        <issuerTradingSymbol>CE</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001350633</rptOwnerCik>
+            <rptOwnerName>Brown William M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O CELANESE CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>222 W LAS COLINAS BLVD, SUITE 900N</rptOwnerStreet2>
+            <rptOwnerCity>IRVING</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>75039</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable></nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Phantom Stock</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2021-04-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>42.21</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>155.47</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F3"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>42.21</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7559.097</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Each share of phantom stock represents the right to receive the cash value of one share of Common Stock.</footnote>
+        <footnote id="F2">The reported phantom stock represents the reporting person's quarterly cash retainer for service as a director which has been deferred under the Company's 2008 Deferred Compensation Plan (the &quot;Plan&quot;).</footnote>
+        <footnote id="F3">As provided in the Plan, the reporting person may transfer a portion of the phantom stock account into an alternative investment account at any time, and on the earlier of the date previously elected by the reporting person to receive a payment or the termination of the reporting person's service as a director of the Company, the shares of phantom stock become payable in either cash or shares of Common Stock.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Adam R. Santosuosso, Attorney-in-Fact for William M. Brown</signatureName>
+        <signatureDate>2021-04-19</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

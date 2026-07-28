@@ -1,0 +1,159 @@
+<SEC-DOCUMENT>0001306830-21-000124.txt : 20210505
+<SEC-HEADER>0001306830-21-000124.hdr.sgml : 20210505
+<ACCEPTANCE-DATETIME>20210505160600
+ACCESSION NUMBER:		0001306830-21-000124
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210503
+FILED AS OF DATE:		20210505
+DATE AS OF CHANGE:		20210505
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Dupuis Vanessa
+		CENTRAL INDEX KEY:			0001848575
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-32410
+		FILM NUMBER:		21893208
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O CELANESE CORPORATION
+		STREET 2:		222 W LAS COLINAS BLVD, SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Celanese Corp
+		CENTRAL INDEX KEY:			0001306830
+		STANDARD INDUSTRIAL CLASSIFICATION:	PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS) [2820]
+		IRS NUMBER:				980420726
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+		BUSINESS PHONE:		972-443-4000
+
+	MAIL ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Celanese CORP
+		DATE OF NAME CHANGE:	20041102
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Blackstone Crystal Holdings Capital Partners (Cayman) IV Ltd.
+		DATE OF NAME CHANGE:	20041022
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_162024513735937.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-05-03</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001306830</issuerCik>
+        <issuerName>Celanese Corp</issuerName>
+        <issuerTradingSymbol>CE</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001848575</rptOwnerCik>
+            <rptOwnerName>Dupuis Vanessa</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O CELANESE CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>222 W LAS COLINAS BLVD SUITE 900N</rptOwnerStreet2>
+            <rptOwnerCity>IRVING</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>75039</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>SVP, HR (CHRO)</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-05-03</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1204</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>158.50</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>4249</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Michael R. Sullivan, Attorney-in-Fact for Vanessa Dupuis</signatureName>
+        <signatureDate>2021-05-05</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

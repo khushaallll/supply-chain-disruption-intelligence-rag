@@ -1,0 +1,407 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ AKIsGuiNkrhXixifTJTcNZFHVsEYgUh+bmFZDpUgzJaIaNqzm2/a9NWYw2+nKunl
+ XCUAnytAWhCdz5IG6rcdkw==
+
+<SEC-DOCUMENT>0000950123-11-003172.txt : 20110118
+<SEC-HEADER>0000950123-11-003172.hdr.sgml : 20110117
+<ACCEPTANCE-DATETIME>20110118060052
+ACCESSION NUMBER:		0000950123-11-003172
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20110101
+FILED AS OF DATE:		20110118
+DATE AS OF CHANGE:		20110118
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Vale S.A.
+		CENTRAL INDEX KEY:			0000917851
+		STANDARD INDUSTRIAL CLASSIFICATION:	METAL MINING [1000]
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-15030
+		FILM NUMBER:		11531643
+
+	BUSINESS ADDRESS:	
+		STREET 1:		AVENIDA GRACA ARANHA #26
+		CITY:			RIO DE JANEIRO
+		STATE:			D5
+		ZIP:			20005-900
+		BUSINESS PHONE:		552138144540
+
+	MAIL ADDRESS:	
+		STREET 1:		AVENIDA GRACA ARANHA #26
+		CITY:			RIO DE JANEIRO
+		STATE:			D5
+		ZIP:			20005-900
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Companhia Vale do Rio Doce
+		DATE OF NAME CHANGE:	20051108
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	VALLEY OF THE RIO DOCE CO
+		DATE OF NAME CHANGE:	20020129
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	VALLEY OF THE DOCE RIVER CO
+		DATE OF NAME CHANGE:	19950602
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>c11096e6vk.htm
+<DESCRIPTION>FORM 6-K
+<TEXT>
+<HTML>
+<HEAD>
+<TITLE>Form 6-K</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<!-- PAGEBREAK -->
+<DIV style="font-family: 'Times New Roman',Times,serif; margin-left: .25in; width: 7.50in">
+
+<DIV style="width: 100%; border-bottom: 2pt solid black; font-size: 1pt">&nbsp;</DIV>
+<DIV style="width: 100%; border-bottom: 1pt solid black; font-size: 1pt">&nbsp;</DIV>
+
+
+
+
+<DIV align="center" style="font-size: 14pt; margin-top: 10pt"><B>United States<BR>
+Securities and Exchange Commission</B>
+</DIV>
+
+<DIV align="center" style="font-size: 12pt"><B>Washington, D.C. 20549</B>
+</DIV>
+
+<DIV align="center" style="font-size: 18pt; margin-top: 10pt"><B>FORM 6-K</B>
+</DIV>
+
+
+<DIV align="center" style="font-size: 12pt; margin-top: 10pt"><B>Report of Foreign Private Issuer<BR>
+Pursuant to Rule&nbsp;13a-16 or 15d-16<BR>
+of the<BR>
+Securities Exchange Act of 1934</B>
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">For the month of</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">January&nbsp;2011</DIV>
+
+<DIV align="center" style="font-size: 24pt; margin-top: 10pt"><B>Vale S.A.</B>
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">Avenida Gra&#231;a Aranha, No.&nbsp;26<BR>
+20030-900 Rio de Janeiro, RJ, Brazil<BR>
+(Address of principal executive office)</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark whether the registrant files or will file annual reports under cover of
+Form 20-F or Form 40-F.)
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Form 20-F <FONT face="Wingdings">&#254;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form&nbsp;40-F <FONT face="Wingdings">&#111;</FONT>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate
+by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation&nbsp;S-T Rule&nbsp;101(b)(1))
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes <FONT face="Wingdings">&#111;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No <FONT face="Wingdings">&#254;</FONT>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate
+by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation&nbsp;S-T Rule&nbsp;101(b)(7))
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes <FONT face="Wingdings">&#111;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No <FONT face="Wingdings">&#254;</FONT>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(Indicate by check mark whether the registrant by furnishing the information contained in this Form
+is also thereby furnishing information to the Commission pursuant to Rule&nbsp;12g3-2(b) under the
+Securities Exchange Act of 1934.)
+</DIV>
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">(Check One) Yes <FONT face="Wingdings">&#111;</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No <FONT face="Wingdings">&#254;</FONT>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">(If &#147;Yes&#148; is marked, indicate below the file number assigned to the registrant in connection with
+Rule&nbsp;12g3-2(b). 82-<U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</U>.)
+</DIV>
+
+<DIV style="width: 100%; border-bottom: 1pt solid black; margin-top: 10pt; font-size: 1pt">&nbsp;</DIV>
+<DIV style="width: 100%; border-bottom: 2pt solid black; font-size: 1pt">&nbsp;</DIV>
+
+
+
+
+
+
+
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio --><!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always">&nbsp;</H5><P>
+
+<DIV style="font-family: 'Times New Roman',Times,serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>Signatures</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused
+this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+</DIV>
+
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0" style="font-size: 10pt">
+<TR>
+    <TD width="48%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="1%">&nbsp;</TD>
+    <TD width="35%">&nbsp;</TD>
+    <TD width="15%">&nbsp;</TD>
+</TR>
+<TR>
+    <TD valign="top" align="left">&nbsp;</TD>
+    <TD colspan="3" align="center">Vale S.A.<BR>
+(Registrant)<BR>
+&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">&nbsp;</TD>
+    <TD valign="top">By:&nbsp;&nbsp;</TD>
+    <TD colspan="2" style="border-bottom: 1px solid #000000" align="left">/s/ Roberto Castello Branco
+&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">Date: January 14, 2011&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="2" align="left">Roberto Castello Branco&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR><TR>
+    <TD align="left">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD colspan="2" align="left">Director of Investor Relations&nbsp;</TD>
+    <TD>&nbsp;</TD>
+</TR>
+
+</TABLE>
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio -->&nbsp;<!-- /Folio -->
+</DIV>
+
+<!-- PAGEBREAK -->
+<P><HR noshade><P>
+<H5 align="left" style="page-break-before:always">&nbsp;</H5><P>
+
+<DIV style="font-family: 'Times New Roman',Times,serif; margin-left: .25in; width: 7.50in">
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt"><IMG src="c11096p1109601.jpg" alt="(VALE LOGO)">
+</DIV>
+
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">LISTED COMPANY<BR>
+CORPORATE TAX CODE (CNPJ) # 33,592,510/0001-54<BR>
+BOARD OF TRADE REGISTRATION (NIRE) # 33,300,019,766
+</DIV>
+
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt"><B>EXCERPT OF THE MINUTES OF THE EXTRAORDINARY BOARD OF DIRECTORS MEETING</B>
+</DIV>
+
+
+<DIV align="justify" style="font-size: 10pt; margin-top: 10pt">On January&nbsp;14, 2011, at 10:30 am, Messrs.&nbsp;Ricardo Jos&#233; da Costa Flores (Chairman), M&#225;rio da
+Silveira Teixeira J&#250;nior (Vice-Chairman), Jorge Luiz Pacheco, Renato da Cruz Gomes, Jos&#233; Ricardo
+Sasseron, Oscar Augusto de Camargo Filho, Sandro Kohler Marcondes and Jos&#233; Mauro Mettrau Carneiro
+da Cunha directors and Messrs.&nbsp;Hajime Tonoki and Paulo Sergio Moreira, alternates, met at the
+Vale&#146;s head office, at Avenida Gra&#231;a Aranha, 26, 19<SUP style="font-size: 85%; vertical-align: text-top">th</SUP> floor, Rio de Janeiro. Also
+present were Messrs An&#237;bal Moreira dos Santos and Antonio Jos&#233; de Figueiredo Ferreira, effective
+members of the Fiscal Council, pursuant to Article&nbsp;163, &#167;3&#186; of Law #6,404/76. Therefore, the
+following issue was unanimously resolved: &#147;<B>3.1.1 PAYMENT OF THE EXTRAORDINARY REMUNERATION TO
+VALE&#146;S SHAREHOLDERS </B>&#151; In lieu with Vale&#145;s Dividend Policy to the Shareholder, approved in the
+Extraordinary General Shareholder Meeting held on April&nbsp;27, 2005 the Board of Directors approved,
+with favorable opinion issued by the Fiscal Council as reported by its members, Messrs An&#237;bal
+Moreira dos Santos and Antonio Jos&#233; de Figueiredo Ferreira, who attended the meeting, pursuant to
+Article&nbsp;163, &#167;3&#186; of Law #6,404/76, the extraordinary payment of the shareholder&#146;s remuneration,
+from January&nbsp;31, 2011 on, of the total amount of R$1,670,100,000.00, which represents the
+anticipation of profits of the fiscal year ended December&nbsp;31, 2010, as according to the June&nbsp;2010
+financial statement. The total approved amount will be paid as of interest on shareholders equity,
+equivalent to R$0.320048038 per outstanding common or preferred shares issued by Vale, and is
+subject to withholding income tax at the current applicable rate. All the holders, which on January
+14, 2011 have shares issued by Vale, and which on January&nbsp;19, 2011 have either Vale&#146;s American
+Depositary Receipts or Vale&#146;s Hong Kong Depositary Receipts, the latter at the close of business,
+shall be entitled to receive such payment.&#148; I hereby attest that the deliberations above were
+excerpted from the Minutes taken from the Registry of the Minutes of the Board of Directors
+Meetings of the Company.
+</DIV>
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">Rio de Janeiro, January&nbsp;14, 2011.
+</DIV>
+
+
+<DIV align="center" style="font-size: 10pt; margin-top: 10pt">Maria Isabel dos Santos Vieira<BR>
+Secretary
+</DIV>
+
+
+
+<P align="center" style="font-size: 10pt">&nbsp;
+
+<P align="center" style="font-size: 10pt"><!-- Folio --><!-- /Folio -->
+</DIV>
+
+
+
+
+
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>2
+<FILENAME>c11096p1109601.jpg
+<DESCRIPTION>GRAPHIC
+<TEXT>
+begin 644 c11096p1109601.jpg
+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
+;[MLUJDZ`H`*`"@`H`*`"@`H`*`"@`H`*`/_9
+`
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

@@ -1,0 +1,163 @@
+<SEC-DOCUMENT>0001127602-17-027385.txt : 20170913
+<SEC-HEADER>0001127602-17-027385.hdr.sgml : 20170913
+<ACCEPTANCE-DATETIME>20170913151239
+ACCESSION NUMBER:		0001127602-17-027385
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20170913
+FILED AS OF DATE:		20170913
+DATE AS OF CHANGE:		20170913
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			WILLIS J KEVIN
+		CENTRAL INDEX KEY:			0001575329
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-211719
+		FILM NUMBER:		171083081
+
+	MAIL ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ASHLAND GLOBAL HOLDINGS INC
+		CENTRAL INDEX KEY:			0001674862
+		STANDARD INDUSTRIAL CLASSIFICATION:	WHOLESALE-CHEMICALS & ALLIED PRODUCTS [5160]
+		IRS NUMBER:				812587835
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1216
+
+	BUSINESS ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+		BUSINESS PHONE:		859-815-3333
+
+	MAIL ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>form4.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2017-09-13</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001674862</issuerCik>
+        <issuerName>ASHLAND GLOBAL HOLDINGS INC</issuerName>
+        <issuerTradingSymbol>ASH</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001575329</rptOwnerCik>
+            <rptOwnerName>WILLIS J KEVIN</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>50 E. RIVERCENTER BLVD.</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>COVINGTON</rptOwnerCity>
+            <rptOwnerState>KY</rptOwnerState>
+            <rptOwnerZipCode>41011</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isOfficer>1</isOfficer>
+            <officerTitle>Chief Financial Officer</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2017-09-13</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3677</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F3"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>3677</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>28772</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Each Restricted Stock Unit represents a right to receive one (1) share of Ashland Common Stock.</footnote>
+        <footnote id="F2">Pursuant to the terms of the FY 2016-2018 Long Term Incentive Plan (the &quot;LTIP Plan&quot;), two-thirds of the performance units under the LTIP Plan were scored resulting in 3,677 time-based, stock-settled restricted stock units.</footnote>
+        <footnote id="F3">The Restricted Stock Units described in footnote 2 vest on November 18, 2018 so long as the Reporting Person remains employed through such vesting date.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Jennifer I. Henkel, Attorney-in-Fact</signatureName>
+        <signatureDate>2017-09-13</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

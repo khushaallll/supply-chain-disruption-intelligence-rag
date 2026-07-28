@@ -1,0 +1,211 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ EhasUSWtAjFHTB0+qnrLGqvMsc6d7BpFRejR5DAo/6iaERADaNYhzyrdtrCtMsmL
+ m7SjMllTdjj5ScC1qQvZZQ==
+
+<SEC-DOCUMENT>0001181431-10-023356.txt : 20100429
+<SEC-HEADER>0001181431-10-023356.hdr.sgml : 20100429
+<ACCEPTANCE-DATETIME>20100429122043
+ACCESSION NUMBER:		0001181431-10-023356
+CONFORMED SUBMISSION TYPE:	3
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20100428
+FILED AS OF DATE:		20100429
+DATE AS OF CHANGE:		20100429
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Scholtes Bret
+		CENTRAL INDEX KEY:			0001490606
+
+	FILING VALUES:
+		FORM TYPE:		3
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-14003
+		FILM NUMBER:		10779975
+
+	MAIL ADDRESS:	
+		STREET 1:		2105 CITY WEST BLVD.
+		STREET 2:		SUITE 500
+		CITY:			HOUSTON
+		STATE:			TX
+		ZIP:			77042
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			OMEGA PROTEIN CORP
+		CENTRAL INDEX KEY:			0001053650
+		STANDARD INDUSTRIAL CLASSIFICATION:	FATS & OILS [2070]
+		IRS NUMBER:				760438393
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			0930
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1717 ST JAMES PL
+		STREET 2:		STE 550
+		CITY:			HOUSTON
+		STATE:			TX
+		ZIP:			77056
+		BUSINESS PHONE:		7139406100
+
+	MAIL ADDRESS:	
+		STREET 1:		1717 ST JAMES PL
+		STREET 2:		STE 550
+		CITY:			HOUSTON
+		STATE:			TX
+		ZIP:			77056
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>3
+<SEQUENCE>1
+<FILENAME>rrd273765.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0203</schemaVersion>
+
+    <documentType>3</documentType>
+
+    <periodOfReport>2010-04-28</periodOfReport>
+
+    <noSecuritiesOwned>0</noSecuritiesOwned>
+
+    <issuer>
+        <issuerCik>0001053650</issuerCik>
+        <issuerName>OMEGA PROTEIN CORP</issuerName>
+        <issuerTradingSymbol>OME</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001490606</rptOwnerCik>
+            <rptOwnerName>Scholtes Bret</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>2105 CITY WEST BOULEVARD</rptOwnerStreet1>
+            <rptOwnerStreet2>SUITE 500</rptOwnerStreet2>
+            <rptOwnerCity>HOUSTON</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>77042</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>SeniorVP Corporate Development</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>6.39</value>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <value>2010-04-28</value>
+                <footnoteId id="F1"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2020-04-28</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>100000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Options vest in 1/3 increments commencing on the first anniversary of the date of grant</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>Bret Scholtes, by John D. Held, Attorney-in-Fact</signatureName>
+        <signatureDate>2010-04-29</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24.TXT
+<SEQUENCE>2
+<FILENAME>rrd245206_276736.htm
+<DESCRIPTION>POWER OF ATTORNEY
+<TEXT>
+<HTML>
+<HEAD>
+<TITLE>
+rrd245206_276736.html
+</TITLE>
+</HEAD>
+<BODY>
+<PRE>
+POWER OF ATTORNEY
+
+
+      WHEREAS, the undersigned may be required to make filings
+with the Securities and Exchange Commission (the "Commission")
+under Section 16 of the Securities Exchange Act of 1934, as amended
+(the "Act"), and the rules and regulations of the Commission
+promulgated thereunder, relating to his equity ownership in Omega
+Protein Corporation (the ACompany@);
+
+      NOW, THEREFORE, the undersigned, in his capacity as an
+officer of the Company, does hereby appoint Joseph L. von
+Rosenberg III, Robert W. Stockton and John D. Held , and each of
+them severally, as his true and lawful attorney or attorneys-in-fact
+with full power of substitution and resubstitution, to execute in his
+name, place and stead, Forms 3, 4 or 5 and other similar Forms, as
+may be required or necessary or desirable under Section 16 of the
+Act, and any and all documents necessary or incidental in connection
+therewith, including without limitation any amendments thereto, and
+to file the same with the Commission and any applicable stock
+exchange or other applicable regulatory authority.  Each of said
+attorneys-in-fact shall have full power and authority to do and
+perform in the name and on behalf of the undersigned in any and all
+capacities, every act whatsoever necessary or desirable to be done in
+the premises as fully and to all intents and purposes as the
+undersigned might or could do in person, the undersigned hereby
+ratifying and confirming the acts that said attorneys-in-fact and each
+of them, or their or his substitutes or substitute, may lawfully do or
+cause to be done by virtue hereof.
+
+      IN WITNESS WHEREOF, the undersigned has executed this
+power of attorney as of the 28th  day of April, 2010.
+
+
+                          __/s/ Bret Scholtes________________
+					BRET SCHOLTES
+
+
+</PRE>
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

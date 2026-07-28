@@ -1,0 +1,403 @@
+company,component,confidence
+bayerische motoren werke,premium passenger vehicles & motorcycles,high
+mercedes-benz,premium passenger cars & vans,high
+toyota motor,passenger vehicles (incl. hybrids),high
+volkswagen,passenger & commercial vehicles,high
+tesla,battery-electric vehicles,high
+robert bosch,automotive fuel-injection & electronic control systems,medium
+byd,battery-electric vehicles,high
+magna international,automotive body/chassis & seating systems,medium
+zf friedrichshafen,automotive transmissions & chassis systems,high
+hyundai mobis,automotive chassis & cockpit modules,high
+posco future m,battery cathode & anode materials,high
+hansol chemical,hydrogen peroxide & semiconductor process chemicals,high
+kumho petrochemical,styrene-butadiene synthetic rubber,high
+murata manufacturing,multilayer ceramic capacitors (MLCC),high
+asahi kasei,lithium-ion battery separators (Hipore),medium
+tokai carbon,graphite electrodes & carbon black,high
+nichias,industrial thermal insulation & sealing gaskets,high
+sunwoda electronic,lithium-ion battery cells & packs,high
+zeon,specialty synthetic rubber (HNBR/polybutadiene),high
+nan ya plastics,PVC & polyester plastics (also copper-clad laminates),medium
+krakatau steel persero tbk pt,hot-rolled & cold-rolled steel coil,high
+gunung raja paksi tbk pt,hot-rolled steel plate & sections,high
+waskita karya persero tbk pt,precast concrete & infrastructure construction,medium
+medco energi internasional tbk pt,crude oil & natural gas (upstream E&P),high
+tenaris,seamless & welded steel pipe (OCTG),medium
+stellantis,passenger & light commercial vehicles,high
+great wall motor,SUVs & pickup trucks,high
+nio,battery-electric vehicles,high
+guangzhou automobile,passenger vehicles (incl. Aion BEVs),high
+nissan motor,passenger vehicles,high
+china faw,passenger vehicles & trucks,high
+nexen tire,automotive tires,high
+forvia se,automotive seating & interior systems,high
+wooshin systems,automotive body-assembly & EV battery production equipment,high
+baic bluepark new energy technology,battery-electric vehicles,high
+eicher motors,motorcycles (Royal Enfield mid-size),high
+hyundai transys,automotive transmissions & seats,high
+saic volkswagen automotive,passenger vehicles,high
+nexteer automotive,electric power steering & driveline systems,high
+xpeng,battery-electric vehicles,high
+gotion high-tech,lithium iron phosphate (LFP) battery cells,high
+schaeffler,rolling bearings & precision drivetrain components,high
+adient,automotive seating systems,high
+valeo se,"automotive lighting, thermal & driving-assistance systems",high
+shanghai jiao yun,automotive powertrain & body component assemblies,medium
+audi,premium passenger vehicles,high
+denso,automotive thermal & powertrain systems,high
+kyb,shock absorbers & hydraulic systems,high
+toyota boshoku,"automotive seats, interior trim & filters",high
+changan ford automobile,passenger vehicles,high
+guangqi honda automobile,passenger vehicles,high
+haima automobile,passenger vehicles & EVs,medium
+jiangling motor holding,light trucks & commercial vehicles,high
+linamar,machined powertrain & driveline components,high
+vinfast auto,battery-electric vehicles,high
+sanyang motor,scooters & motorcycles,high
+zotye automobile,passenger vehicles (fuel & NEV),medium
+dae won kang up,automotive suspension springs,high
+changchun yidong clutch,automotive diaphragm-spring clutches,high
+dy,automotive wiper systems & small motors,medium
+iav automotive engineering,automotive powertrain & software engineering services,high
+munjal showa,"shock absorbers, struts & front forks",high
+fisker,battery-electric vehicles (Ocean SUV),medium
+polestar automotive holding uk,battery-electric vehicles,medium
+shenyang jinbei automotive,light commercial vehicles (vans & minibuses),high
+atlas honda,motorcycles,high
+gm korea,passenger vehicles,high
+yeong hwa metal,automotive iron castings (engine & chassis parts),high
+dongfeng electronic technology,automotive electronics (cockpit/body & e-drive systems),high
+honda atlas cars pakistan,passenger vehicles,high
+jay ushin,automotive locksets & security systems,high
+nwtn,battery-electric vehicles (Rabdan One),medium
+topre,automotive stamped/pressed body parts,medium
+grupo simec sab de cv,special-bar-quality (SBQ) & structural steel,high
+vallourec saca,seamless steel tubes,medium
+indian oil,refined fuels & SERVO lubricants,high
+ningbo shanshan,lithium-ion battery anode materials (synthetic graphite),high
+taiwan cement,cement (Portland & low-carbon),high
+sumitomo chemical,engineering plastics & Li-ion battery materials,medium
+daikin industries,fluoropolymers & fluoroelastomers,medium
+cx technology,cold-forged metal & automotive speaker components,high
+corteva,crop-protection chemicals & seeds,medium
+nsk,rolling bearings (automotive & industrial),high
+minebea mitsumi,miniature ball bearings & electronic components,high
+saudi basic industries,polyolefins & engineering thermoplastics,medium
+asiana airlines,air passenger & cargo transport,high
+taeyang metal industrial,automotive fasteners (high-strength bolts & nuts),high
+hyundai rotem,automotive production-line & press plant equipment,medium
+lucky cement,cement,high
+lg electronics,automotive infotainment & EV powertrain components,medium
+shanghai huayi,acetic acid & methanol (basic chemicals),medium
+eurogroup laminations,electric-motor stator & rotor core laminations,high
+seah besteel,special/alloy steel & heavy forgings,high
+press kogyo,pressed truck chassis frames & stampings,high
+grupo pochteca sab de cv,industrial chemical & raw-material distribution,high
+dongil industries,special steel bars & ferroalloys,medium
+kyowakogyosyo,automotive transmission (AT/CVT) & steering/suspension forged parts; core business is bolts/gears for construction machinery,high
+zhejiang huayou cobalt,cobalt & ternary battery precursor materials,high
+alcoa,primary aluminium & alumina,high
+tata steel,flat-rolled automotive steel,high
+cngr advanced material,nickel-cobalt ternary battery precursor materials,high
+iron force industrial,automotive safety-system precision metal parts,high
+ternium,flat-rolled steel,medium
+hitachi,automotive systems (Hitachi Astemo: powertrain/brakes/EV motors),medium
+hyundai engineering & construction,infrastructure & plant construction (EPC),high
+unipres,stamped auto body panels,high
+china petroleum & chemical,refined fuels & petrochemicals,high
+san shing fastech,steel nuts & fasteners,high
+e1,LPG (liquefied petroleum gas) import & distribution,high
+sony,CMOS image sensors,medium
+seojin system,EV battery die-cast housings & aluminium enclosures,medium
+hunan corun new energy,nickel-metal-hydride (Ni-MH) battery cells,high
+pp persero tbk pt,infrastructure & building construction (EPC),high
+hyundai motor,passenger vehicles,high
+geely automobile,passenger vehicles,high
+saic motor,passenger vehicles,high
+hero motocorp,motorcycles & scooters,high
+renault,passenger & light commercial vehicles,high
+dongfeng motor,passenger & commercial vehicles,high
+samsung sdi,lithium-ion battery cells,high
+harley-davidson,heavyweight motorcycles,high
+autoliv,automotive safety systems (airbags & seatbelts),high
+baic motor,passenger vehicles,high
+romeo power,EV battery packs & modules,medium
+jiangsu lixing general steel ball,precision bearing steel balls & rollers,high
+zhejiang geely holding,passenger vehicles (multi-brand auto group),high
+sichuan haowu electromechanical,engine crankshafts,medium
+kyungchang industrial,automotive control cables & actuators,high
+subaru,passenger vehicles,high
+faw volkswagen automotive,passenger vehicles,high
+saic-gm-wuling automobile,passenger & commercial vehicles (microvans),high
+wanxiang qianchao,universal/CV joints & driveline components,high
+koito manufacturing,automotive lighting (LED headlamps),high
+vitesco technologies,"EV powertrain electronics (inverters, e-motors, BMS)",high
+china motor,passenger & commercial vehicles,high
+ford otomotiv sanayi as,commercial vehicles (Ford Transit vans),high
+sumitomo electric industries,automotive wiring harnesses,high
+hyundai wia,automotive engines & CV joints,high
+nemak sab de cv,aluminium engine heads/blocks & EV structural castings,high
+beijing automotive,passenger & commercial vehicles (state auto group),high
+beijing hyundai motor,passenger vehicles,high
+dongfeng automobile,light commercial vehicles & trucks,high
+aisan industry,automotive fuel-system components,high
+futaba industrial,automotive exhaust systems & stamped body parts,high
+piaggio & c,scooters & motorcycles (Vespa),high
+grupo industrial saltillo sab de cv,grey/ductile iron engine castings,medium
+lordstown motors,electric pickup trucks (Endurance),medium
+hota industrial manufacturing,automotive gears & transmission shafts,high
+shun on electronic,automotive ADAS/surround-view cameras,medium
+ta yih industrial,automotive lighting (head/rear lamps),high
+jardine strategic,automotive distribution & dealerships,medium
+dgenx,automotive exhaust systems,high
+cnc driveline technology,automotive clutches & driveline dampers,high
+eurocharm,precision forged/cast auto & motorcycle metal parts,high
+hanjung natural connectivity system,automotive HVAC modules & EV/ESS battery parts,high
+pusan cast iron,iron automotive castings (knuckles/carriers/brake parts),high
+neooto,automotive transmission & EV reducer gears,high
+transaxle manufacturing of america,transaxles for tractors & utility vehicles,high
+kaison green energy technology,electric vehicles & buses,medium
+formosa chemicals & fibre,petrochemicals (PTA/styrene) & synthetic fibers,medium
+tdk,passive electronic components (capacitors & inductors),medium
+yokohama rubber co ltd/the,automotive tires,high
+sk innovation,EV lithium-ion battery cells (SK On),medium
+jsr,synthetic rubber (SBR/BR),medium
+kukdo chemical,epoxy resins & curing agents,high
+uacj,rolled aluminium (sheet & heat-exchanger materials),high
+grupo antolin-irausa,automotive interior systems (headliners/door panels/cockpits),high
+cummins,diesel & alternative-fuel engines,high
+hanwa,steel & metals trading/distribution,high
+thang long metal wares jsc,stamped motorcycle/auto metal parts,high
+zhejiang juhua,fluorochemicals (refrigerants & PVDF),high
+gmb,automotive water pumps & bearings,high
+yorozu,automotive suspension components,high
+ntn,rolling bearings & constant-velocity joints,high
+avient,specialty polymer compounds & colorants,high
+nations technologies,"security, MCU & battery-management ICs",high
+mitsubishi chemical,engineering plastics & Li-ion battery materials,medium
+globaltek fabrication,airbag inflators & precision machined metal parts,high
+hino motors,trucks & buses (diesel),high
+kobe steel,special steel & aluminium forgings,high
+lanxess,specialty chemical additives & intermediates,medium
+panasonic,automotive lithium-ion battery cells,medium
+tokyo nissan computer system,IT systems integration & IT services,high
+electra battery materials,battery-grade cobalt & nickel sulfate refining,high
+zhejiang founder motor,EV drive/traction motors & micro-motors,high
+jordan petroleum refinery,"refined petroleum products (fuels, lube oils, asphalt)",high
+daimler truck holding,trucks & buses,high
+tokyo rope manufacturing,steel wire rope & tire steel cord,high
+hanjin transportation,freight transport & logistics services,high
+kg eco technology service,industrial waste-to-steam & copper compounds,medium
+air water,industrial gases,medium
+mitsubishi steel manufacturing,automotive springs & special steel,high
+komatsu,construction & mining equipment,high
+kajima,general construction & civil engineering,high
+vedanta,"aluminium, zinc & base metals",medium
+jfe,flat-rolled steel (sheet & plate),high
+bhp,iron ore & metallurgical coal,high
+kg dongbusteel,cold-rolled & coated steel sheet,high
+calb,EV lithium-ion battery cells (LFP/NMC),high
+ford motor,passenger & commercial vehicles,high
+volvo car ab,passenger vehicles,high
+contemporary amperex technology,EV lithium-ion battery cells,high
+honda motor,passenger vehicles & motorcycles,high
+suzuki motor,passenger vehicles & motorcycles,high
+tata motors,passenger & commercial vehicles,high
+kg mobility,SUVs & pickup trucks,high
+borgwarner,"powertrain & propulsion systems (turbochargers, EV drive)",high
+aapico hitech pcl,automotive chassis frames & stamped/forged parts,high
+korea movenex,automotive drive parts (half-shafts/axles) & flanges,high
+brilliance china automotive,passenger vehicles,high
+american axle & manufacturing,driveline & axle systems,high
+kumho tire,automotive tires,high
+tokai rika,"automotive switches, locks & seatbelts",high
+sumitomo rubber industries,automotive tires (Dunlop/Falken),high
+zhejiang leapmotor technology,battery-electric vehicles,high
+china south industries,passenger & commercial vehicles + defense products,medium
+garrett motion,turbochargers,high
+mitsubishi motors,passenger vehicles,high
+triangle tyre,automotive tires,high
+lucid,battery-electric luxury vehicles,high
+canoo,electric vans & light commercial EVs,medium
+sangsin brake,brake friction products (pads & linings),high
+hl mando,"brake, steering & suspension (chassis) systems",high
+aptiv,automotive electrical architecture & ADAS,high
+bmw brilliance automotive,passenger vehicles,high
+beijing benz automotive,passenger vehicles,high
+dongfeng honda automobile,passenger vehicles,high
+gac fiat chrysler automobiles,passenger vehicles (Jeep),medium
+sichuan faw toyota motor,passenger vehicles,high
+fawer automotive parts,automotive chassis systems & engine parts,high
+hudaco industries,automotive & industrial parts distribution,high
+luminar technologies,automotive lidar sensors,high
+nexen,"tyre curing bladders, tubes & rubber products",high
+warxiano qiandiao co lid,universal/CV joints & driveline components,high
+daedong metals,fluid-film / plain bearings,medium
+farasis energy gan zhou,lithium-ion battery cells (ternary pouch),high
+jiangxi changhe automobile,microvans & small commercial vehicles,medium
+tianjin faw toyota engine,automotive engines,high
+unitekno,"EV batteries, motors, engines & thermostats (automobile motor assembly parts); also plastic injection-molded auto components",high
+cayman engley industrial,automotive body structural & reinforced-plastic parts,medium
+g-tekt corporation,automotive body-frame & stamped parts,high
+keihin,fuel-injection & carburetor systems,high
+h-one,automotive body-frame stamped parts,high
+iat automobile technology,automotive engineering & design services,high
+nisshinbo,automotive brake friction materials,medium
+lg chem,petrochemicals & battery cathode materials,medium
+samsung c&t,construction/engineering & materials trading,medium
+sapura industrial bhd,machined engine/brake parts & suspension (stabilizer bars),high
+shell,refined fuels & lubricants,high
+hd hyundai heavy industries,shipbuilding & marine engines,high
+posco international,steel & materials trading,high
+apple,"consumer electronics (smartphones, computers)",high
+thyssenkrupp,automotive flat steel & chassis/powertrain components,medium
+arcelormittal,flat-rolled automotive steel (AHSS),high
+eni,"oil, gas & refined fuels",high
+mitsui,steel & metals trading,medium
+toray industries,carbon-fiber composites & engineering resins,medium
+skf ab,rolling bearings & seals,high
+akzo nobel,paints & coatings (incl. automotive refinish),high
+axalta coating systems,automotive coatings & paints,high
+mahle,engine (piston) & thermal-management components,high
+saudi arabian oil,crude oil & petroleum products,high
+volvo ab,trucks & buses (commercial vehicles),high
+sk,investment holding (SK Group - batteries/energy/materials),medium
+aluminum corp of china,alumina & primary aluminium,high
+mitsubishi heavy industries,turbochargers & industrial machinery,medium
+3m,"automotive adhesives, tapes, abrasives & films",medium
+eve energy,lithium battery cells (LFP/cylindrical),high
+daido metal,engine plain bearings,high
+daido steel,special/alloy steel,high
+seah,steel pipes & tubes,high
+konica minolta,measuring instruments & imaging/functional materials,medium
+qst international,automotive fasteners & cold-formed parts,high
+right way industrial,cast & forged automotive parts,medium
+ijtt,commercial-vehicle engine & driveline forged/cast parts,high
+sanoh industrial,automotive brake & fuel tubes/pipes,high
+china fineblanking technology,fine-blanked precision metal parts,high
+steel pipe industry of indonesia pt,steel pipes & tubes,high
+hdc hyundai engineering plastics,engineering-plastic compounds (PP/nylon/PC-ABS),high
+beijing shougang,flat steel (HRC/CRC/electrical),high
+nippon steel trading,steel & materials trading,high
+obayashi,general construction & civil engineering,high
+jiangsu lopal tech,automotive lubricants/DEF & LFP cathode materials,high
+garuda metalindo tbk pt,automotive fasteners (bolts/nuts),high
+dongsung chemical,polyurethane resins/foams & coatings,medium
+kiswire,steel tyre cord & bead wire,high
+kia,passenger vehicles,high
+general motors,passenger & commercial vehicles,high
+lg energy solution,EV lithium-ion battery cells,high
+chery automobile,passenger vehicles,high
+mahindra & mahindra,SUVs & tractors,high
+bridgestone,automotive tires,high
+mazda motor,passenger vehicles,high
+aisin,automatic transmissions & auto parts,high
+li auto,extended-range & battery electric vehicles,high
+toyota industries,car A/C compressors & engines,medium
+gac toyota motor,passenger vehicles,high
+maruti suzuki india,passenger vehicles,high
+dr ing hc f porsche,sports cars & SUVs,high
+rivian automotive,electric trucks & SUVs,high
+tong yang industry,automotive body panels & cooling parts,high
+toyoda gosei,airbags & rubber/plastic auto parts,high
+chuo spring,automotive springs & control cables,high
+gestamp automocion,metal body-in-white & chassis stampings,high
+nok,oil seals & gaskets,high
+hyundai powertech,automatic transmissions,medium
+seres,battery-electric & extended-range vehicles,high
+jtekt,automotive steering systems & bearings,high
+dana,driveline systems (axles & driveshafts),high
+holley,performance automotive parts (fuel systems),high
+mobileye global,ADAS & autonomous-driving systems (EyeQ),high
+chongqing changan automobile,passenger vehicles,high
+zf trw automotive,automotive safety systems (airbags & seatbelts),high
+hitachi astemo,"automotive systems (powertrain, brakes, EV motors)",high
+nissin kogyo,brake systems & aluminium components,medium
+astra otoparts tbk pt,"automotive components (filters, batteries, pistons)",high
+bosch,"automotive mobility systems (powertrain, electronics, steering)",medium
+umw holdings bhd,Toyota/Perodua vehicle assembly & distribution,medium
+selamat sempurna tbk pt,automotive filters & radiators,high
+xinchen china power,automotive engines,high
+getrag jiangxi transmission,dual-clutch transmissions (DCT),high
+fev,powertrain & vehicle engineering services,high
+dongwon metal,automotive body-frame parts,high
+nvh korea,"automotive NVH parts (dash pads, insulation, headliners)",high
+gb corp/eg,vehicle assembly & distribution,high
+hiroca holdings lid,automotive interior/exterior trim parts,medium
+sjm,automotive exhaust flexible tubes & decouplers,high
+asti,automotive wire harnesses & ECUs,high
+j-max,automotive body stamped parts & dies,high
+kian shen,truck/bus body frames & stamped parts,high
+dangfeng electronic technology co lb,automotive electronics (cockpit/body & e-drive systems),high
+tieliu,automotive clutches,high
+cars motorcycles and marine engine trade and import,vehicle & marine-engine import/distribution (Yamaha),high
+guangzhou development,electric power & integrated energy,high
+mitsubishi electric,automotive electrical equipment (EV drive/inverters),medium
+stanley black & decker,engineered fastening systems,medium
+kumkang kind,aluminium construction formwork,high
+mobase electronics,automotive electronic control modules & wireless chargers,high
+baoshan iron & steel,flat automotive steel sheet (HR/CR),high
+posco eco & challenge,construction & engineering services (plants & battery-material infrastructure),medium
+alfa sab de cv,Alpek PET/PTA polyester petrochemicals,medium
+nagase,automotive-materials chemical trading & distribution,medium
+nhk spring,"suspension springs, stabilizers & seats",high
+topy industries,automotive steel wheels,high
+okaya,steel & materials trading (distributor),medium
+oci,carbon black & polysilicon,high
+ube,nylon/caprolactam engineering plastics & battery electrolytes,medium
+gem,battery recycling & Ni/Co ternary precursor materials,high
+ls electric,electrical equipment (inverters & HV DC relays),medium
+taita chemical,polystyrene/styrenic resins (ABS/GPPS/HIPS/EPS),medium
+dl holdings co lirl,polyethylene & polybutene (DL Chemical),medium
+toyota tsusho,automotive metals & materials trading,medium
+jui li enterprise,sheet-metal auto body stampings (aftermarket),high
+daechang steel,cold-rolled & galvanized steel coils,medium
+yokogawa bridge,steel bridges & structural-steel fabrication,high
+usa steel,flat-rolled automotive steel,medium
+guangdong delian,"automotive fine chemicals (coolants, brake fluids, lubricants)",high
+cia siderurgica nacional,flat steel (automotive),high
+aichi steel,"special steel, forgings & magnets",high
+bh,flexible printed circuit boards (automotive/EV),medium
+kawasaki heavy industries,motorcycles,medium
+maruichi steel tube,steel pipes & tubes,high
+aes corp/the,electric power generation,high
+guangzhou tinci materials technology,lithium-ion battery electrolytes,high
+rio tinto,iron ore & aluminium (mining),high
+bakrie and brothers tbk pt,steel pipes & metal fabrication,medium
+hd korea shipbuilding & offshore engineering,shipbuilding (intermediate holding company),medium
+patec precision industry,precision forged & stamped auto parts,high
+umicore,battery cathode materials & automotive catalysts,high
+samsung electronics,automotive electronics (Harman) & auto semiconductors/displays,medium
+snt,powertrain & chassis auto parts (+ EV drive units),medium
+rohm,SiC power semiconductors (EV traction inverters),high
+toagosei,"acrylic acid, adhesives (Aron Alpha) & chlor-alkali chemicals",medium
+petrochina,benzene and aniline petrochemicals,High
+chevron,refined transportation fuels (gasoline),High
+dow,"ethylene, polyethylene and chlor-alkali",High
+xinxiang tianli energy,lithium-ion battery cathode materials (NMC ternary / LFP),Medium
+coronado global resources,metallurgical (coking) coal,High
+gazprom pjsc,pipeline natural gas,High
+yunnan chihong zinc&germanium,germanium metal and compounds (and zinc),High
+korea electric power,grid electricity supply,High
+glencore,"cobalt (mined, copper by-product)",High
+formosa petrochemical,aromatics (paraxylene and benzene),High
+kyushu electric power,grid electricity supply,High
+nippon steel,crude and flat-rolled steel,High
+state grid corp of china,grid electricity transmission and distribution,High
+united co rusal international pjsc,primary aluminium and alumina,High
+china steel,flat-rolled carbon steel (hot/cold-rolled),High
+mitsubishi materials,semiconductor-grade polysilicon,High
+formosa plastics,PVC resin and epichlorohydrin,High
+cpc corp/taiwan,propylene (propene) petrochemical feedstock,Medium
+xiamen tungsten,rare earth oxides and NdFeB permanent magnets,Medium
+bp,deepwater offshore crude oil,High
+yunnan aluminium,primary aluminium,High
+aurizon,coal rail freight haulage,High
+basf se,ammonia and derivatives,High
+s-oil,gasoline blendstock (alkylate) and paraxylene,High
+posco,crude and flat-rolled steel,High
+hesteel,crude and flat-rolled steel,High
+aneka tambang tbk,nickel ore (laterite),High
+perusahaan perseroan persero pt perusahaan listrik negara,grid electricity transmission and distribution,High
+exxon mobil,refined petroleum fuels (gasoline/distillate),High

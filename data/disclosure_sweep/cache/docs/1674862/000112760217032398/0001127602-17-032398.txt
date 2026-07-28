@@ -1,0 +1,217 @@
+<SEC-DOCUMENT>0001127602-17-032398.txt : 20171116
+<SEC-HEADER>0001127602-17-032398.hdr.sgml : 20171116
+<ACCEPTANCE-DATETIME>20171116161859
+ACCESSION NUMBER:		0001127602-17-032398
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20171115
+FILED AS OF DATE:		20171116
+DATE AS OF CHANGE:		20171116
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			HEITMAN WILLIAM J
+		CENTRAL INDEX KEY:			0001187010
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-211719
+		FILM NUMBER:		171208235
+
+	MAIL ADDRESS:	
+		STREET 1:		ASHLAND INC.
+		STREET 2:		5O E. RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ASHLAND GLOBAL HOLDINGS INC
+		CENTRAL INDEX KEY:			0001674862
+		STANDARD INDUSTRIAL CLASSIFICATION:	WHOLESALE-CHEMICALS & ALLIED PRODUCTS [5160]
+		IRS NUMBER:				812587835
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1216
+
+	BUSINESS ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+		BUSINESS PHONE:		859-815-3333
+
+	MAIL ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>form4.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2017-11-15</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001674862</issuerCik>
+        <issuerName>ASHLAND GLOBAL HOLDINGS INC</issuerName>
+        <issuerTradingSymbol>ASH</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001187010</rptOwnerCik>
+            <rptOwnerName>HEITMAN WILLIAM J</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>50 E. RIVERCENTER BOULEVARD</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>COVINGTON</rptOwnerCity>
+            <rptOwnerState>KY</rptOwnerState>
+            <rptOwnerZipCode>41012-0391</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isOfficer>1</isOfficer>
+            <officerTitle>Controller</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2017-11-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1250</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>67.16</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>1250</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>5069</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Appreciation Right</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>67.16</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2017-11-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>6700</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>67.16</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <value>2018-11-15</value>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2027-12-15</value>
+                <footnoteId id="F3"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>6700</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>6700</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Each Restricted Stock Unit represents a right to receive one (1) share of Ashland Common Stock.</footnote>
+        <footnote id="F2">Grant of Restricted Stock Units, pursuant to Ashland's incentive plan as approved by the shareholders and exempt pursuant to Rule 16b-3.  The shares in this grant will vest in three equal installments beginning one year from the date of grant, provided that the Reporting Person remains in continuous employment with the Issuer.</footnote>
+        <footnote id="F3">Stock Appreciation Right granted pursuant to Ashland's incentive plan which vests in three annual installments: 50% after the first year, the next 25% the second year and the remaining 25% the third year.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Jennifer I. Henkel, Attorney-in-Fact</signatureName>
+        <signatureDate>2017-11-16</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

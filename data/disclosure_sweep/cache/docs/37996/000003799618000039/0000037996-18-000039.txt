@@ -1,0 +1,674 @@
+<SEC-DOCUMENT>0000037996-18-000039.txt : 20180427
+<SEC-HEADER>0000037996-18-000039.hdr.sgml : 20180427
+<ACCEPTANCE-DATETIME>20180427172016
+ACCESSION NUMBER:		0000037996-18-000039
+CONFORMED SUBMISSION TYPE:	D
+PUBLIC DOCUMENT COUNT:		1
+ITEM INFORMATION:		<ITEMS>06b
+FILED AS OF DATE:		20180427
+DATE AS OF CHANGE:		20180427
+EFFECTIVENESS DATE:		20180427
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			FORD MOTOR CO
+		CENTRAL INDEX KEY:			0000037996
+		STANDARD INDUSTRIAL CLASSIFICATION:	MOTOR VEHICLES & PASSENGER CAR BODIES [3711]
+		IRS NUMBER:				380549190
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		D
+		SEC ACT:		1933 Act
+		SEC FILE NUMBER:	021-311233
+		FILM NUMBER:		18785572
+
+	BUSINESS ADDRESS:	
+		STREET 1:		ONE AMERICAN ROAD
+		CITY:			DEARBORN
+		STATE:			MI
+		ZIP:			48126
+		BUSINESS PHONE:		3133223000
+
+	MAIL ADDRESS:	
+		STREET 1:		ONE AMERICAN RD
+		CITY:			DEARBORN
+		STATE:			MI
+		ZIP:			48126
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>D
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0000037996</cik>
+        <entityName>FORD MOTOR CO</entityName>
+        <issuerAddress>
+            <street1>ONE AMERICAN ROAD</street1>
+            <city>DEARBORN</city>
+            <stateOrCountry>MI</stateOrCountry>
+            <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+            <zipCode>48126</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>3133223000</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Stephen</firstName>
+                <middleName>G</middleName>
+                <lastName>Butler</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kimberly</firstName>
+                <middleName>A</middleName>
+                <lastName>Casiano</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48108</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Anthony</firstName>
+                <middleName>F</middleName>
+                <lastName>Earley, Jr.</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Edsel</firstName>
+                <middleName>B</middleName>
+                <lastName>Ford II</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>William</firstName>
+                <middleName>Clay</middleName>
+                <lastName>Ford, Jr.</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>James</firstName>
+                <middleName>P</middleName>
+                <lastName>Hackett</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>William</firstName>
+                <middleName>W</middleName>
+                <lastName>Helman IV</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>William</firstName>
+                <middleName>E</middleName>
+                <lastName>Kennard</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>C</middleName>
+                <lastName>Lechleiter</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ellen</firstName>
+                <middleName>R</middleName>
+                <lastName>Marram</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>L</middleName>
+                <lastName>Thornton</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>B</middleName>
+                <lastName>Veihmeyer</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Lynn</firstName>
+                <middleName>M</middleName>
+                <lastName>Vojvodich</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>S</middleName>
+                <lastName>Weinberg</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>James</firstName>
+                <middleName>D</middleName>
+                <lastName>Farley, Jr.</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Joseph</firstName>
+                <middleName>R</middleName>
+                <lastName>Hinrichs</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Marcy</firstName>
+                <middleName>S</middleName>
+                <lastName>Klevorn</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Robert</firstName>
+                <middleName>L</middleName>
+                <lastName>Shanks</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Hau</firstName>
+                <lastName>Thai-Tang</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Steven</firstName>
+                <middleName>R</middleName>
+                <lastName>Armstrong</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Joy</firstName>
+                <lastName>Falotico</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Peter</firstName>
+                <middleName>D</middleName>
+                <lastName>Fleet</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kumar</firstName>
+                <middleName>A</middleName>
+                <lastName>Galhotra</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Bradley</firstName>
+                <middleName>M</middleName>
+                <lastName>Gayton</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Bruce</firstName>
+                <middleName>W</middleName>
+                <lastName>Hettle</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ziad</firstName>
+                <middleName>S</middleName>
+                <lastName>Ojakli</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kimberly</firstName>
+                <middleName>L</middleName>
+                <lastName>Pittel</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kiersten</firstName>
+                <lastName>Robinson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>T</middleName>
+                <lastName>Lawler</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>One American Road</street1>
+                <city>Dearborn</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48126</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Manufacturing</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Over $100,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2018-02-15</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>true</isBusinessCombinationTransaction>
+            <clarificationOfResponse>Issuance was part of the merger consideration in conjunction with the acquisition of Autonomic, Inc. The shares are subject to vesting.</clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>96000000</totalOfferingAmount>
+            <totalAmountSold>96000000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse>8.6 million shares valued at $96 million were issued for $96 million of Autonomic, Inc. shares</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>24</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>FORD MOTOR CO</issuerName>
+                <signatureName>/s/ Corey MacGillivray</signatureName>
+                <nameOfSigner>Corey MacGillivray</nameOfSigner>
+                <signatureTitle>Assistant Secretary</signatureTitle>
+                <signatureDate>2018-04-27</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
