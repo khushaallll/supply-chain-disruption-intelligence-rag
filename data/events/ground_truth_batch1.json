@@ -1,0 +1,642 @@
+[
+  {
+    "event_id": "1_posco_2022",
+    "date_news_first": "2022-09-06",
+    "date_news_first_note": "Confirmed, no change. Flooding/fire at Pohang Works was reported the same day the typhoon passed (early hours of 6 Sep KST). Korea Times and the Reuters wire piece carried by Malay Mail both date to 2022-09-06.",
+    "ground_truth_affected": [
+      {
+        "company": "Korinox Co., Ltd. (코리녹스)",
+        "in_graph_context": false,
+        "impact": "Stainless precision re-roller that buys cold-rolled stainless from POSCO. Reported as unable to source POSCO stainless after the Pohang flooding, making delivery delays to its European automotive-parts customers unavoidable; its product is qualified on POSCO substrate specifically and could not be substituted with another mill's steel. POSCO subsequently swept group and market inventory to keep it supplied."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.womaneconomy.co.kr/news/articleView.html?idxno=214716"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found. (a) SEC EDGAR full-text search for \"Hinnamnor\" returns 14 documents; the only steel/industrial filer is POSCO Holdings itself (6-K filed 2022-09-07, acc. 0001193125-22-239632). (b) EDGAR full-text search for \"Pohang\" over 2022-09-01 to 2023-06-30 returns 43 documents across 10 filers; 26 are POSCO Holdings, the rest are unrelated (FuelCell Energy's POSCO Energy licence, Crown Holdings plant list, fund NPORT holdings). No US-listed downstream customer filed anything referencing this event. (c) Korinox is a private Korean company with no accessible investor-relations channel. FOLLOW-UP FOR YOU: KRX/DART (dart.fss.or.kr) material-event filings by Korean listed customers (SeAH Steel Holdings, Kiswire, KG Dongbusteel, Hyundai Mobis) in Sep-Dec 2022, and Korean-language Q3 2022 earnings-call transcripts, are the remaining places worth checking.",
+    "kb_sources": [
+      {
+        "url": "https://www.koreatimes.co.kr/business/companies/20220906/typhoon-floods-steel-mills-of-posco-hyundai-steel",
+        "note": "Seed article, 2022-09-06. Full text retrievable, not paywalled.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.kedglobal.com/steel/newsView/ked202209160020",
+        "note": "KED Global, 2022-09-16: POSCO's own estimate that the typhoon would cut sales by roughly USD 1.5bn. Not paywalled.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://newsroom.posco.com/en/poscos-pohang-works-fully-restored-all-factories-start-operation-from-the-20th/",
+        "note": "POSCO newsroom, recovery completed after 135 days. Primary source, not paywalled.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "POSCO Holdings Inc.",
+        "relation_to_event": "SEED COMPANY, not a ground_truth_affected entry. Included because no ground_truth_affected company is US-listed and these are the only primary filings on this event.",
+        "form": "6-K",
+        "filing_date": "2022-09-07",
+        "accession_number": "0001193125-22-239632",
+        "url": "https://www.sec.gov/Archives/edgar/data/889132/000119312522239632/d379395d6k.htm",
+        "section_summary": "Furnished report announcing the suspension of operations at Pohang Works following Typhoon Hinnamnor flooding and the electrical-room fire."
+      },
+      {
+        "company": "POSCO Holdings Inc.",
+        "relation_to_event": "SEED COMPANY reference filing.",
+        "form": "20-F",
+        "filing_date": "2023-04-28",
+        "accession_number": "0001193125-23-123987",
+        "url": "https://www.sec.gov/Archives/edgar/data/889132/000119312523123987/d399110d20f.htm",
+        "section_summary": "FY2022 annual report. Business/risk-factor and MD&A discussion of the Hinnamnor flooding, the Pohang production loss and the associated hit to steel-segment earnings, plus natural-disaster risk to concentrated production sites."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Only one named downstream company found, and the single supporting article is a POSCO-friendly feature whose framing is that POSCO ultimately averted the delay; all other reporting describes downstream risk to autos/shipbuilding/construction in anticipatory terms ('feared', 'expected') and notes customers held 2-3 months of stock.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Confident that no US-filed downstream disclosure exists (two independent EDGAR full-text sweeps), but Korean DART filings and Korean-language earnings calls were not searchable with my tools, so null here means 'not found in accessible sources', not 'does not exist'."
+    }
+  },
+  {
+    "event_id": "2_nippon_steel_2011",
+    "date_news_first": "2011-03-11",
+    "date_news_first_note": "Confirmed, no change. Quake struck 14:46 JST 11 Mar 2011 with immediate global coverage.",
+    "ground_truth_affected": [
+      {
+        "company": "Toyota Motor Corporation",
+        "in_graph_context": "hop1",
+        "impact": "Plants of its vehicle-manufacturing subsidiaries (Toyota Motor Hokkaido, Toyota Motor Tohoku, Central Motor Miyagi, Kanto Auto Works Iwate) stopped on the day of the quake; on 12 Mar Toyota decided to suspend all Japanese vehicle plants from 14 Mar."
+      },
+      {
+        "company": "Sony Corporation",
+        "in_graph_context": "hop1",
+        "impact": "Manufacturing suspended at seven named production sites (Tagajyo, Tome, Shiroishi, Koriyama, Motomiya, Kuki, Ibaraki) plus the Sendai Technology Center, with three further sites voluntarily idled for power conservation."
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "in_graph_context": "hop1",
+        "impact": "Furnished a 6-K on the earthquake's effect on group operations two days after the quake and a further update on 18 Mar."
+      },
+      {
+        "company": "Panasonic Corporation",
+        "in_graph_context": "hop1",
+        "impact": "Furnished a 6-K on 15 Mar 2011 reporting earthquake effects on group manufacturing."
+      },
+      {
+        "company": "Komatsu Ltd.",
+        "in_graph_context": "hop1",
+        "impact": "Furnished 6-Ks on 15 and 16 Mar 2011 reporting earthquake impact on operations."
+      },
+      {
+        "company": "Honda Motor Co., Ltd.",
+        "in_graph_context": "hop1",
+        "impact": "Suspended Japanese vehicle production alongside Toyota and Nissan in the days after the quake; component shortages later constrained North American output."
+      },
+      {
+        "company": "Nissan Motor Co., Ltd.",
+        "in_graph_context": "hop1",
+        "impact": "Suspended Japanese vehicle production; supplier damage propagated to overseas assembly."
+      },
+      {
+        "company": "General Motors Company",
+        "in_graph_context": "hop1",
+        "impact": "Japanese-sourced component shortages disrupted North American production (notably the Shreveport truck plant) and were disclosed as a risk and operating impact in 2011 quarterly reports."
+      },
+      {
+        "company": "Ford Motor Company",
+        "in_graph_context": "hop1",
+        "impact": "Japanese supplier disruption constrained certain North American builds and colours in Q2 2011."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://pressroom.toyota.com/toyota-earthquake-tsunami-japan-2011/",
+      "https://www.sec.gov/Archives/edgar/data/313838/000115752311001559/a6645284.htm",
+      "https://www.sec.gov/Archives/edgar/data/47710/000119312511064819/d6k.htm",
+      "https://www.sec.gov/Archives/edgar/data/63271/000119312511066522/d6k.htm",
+      "https://www.sec.gov/Archives/edgar/data/56594/000095012311025368/c14171e6vk.htm",
+      "https://www.everycrsreport.com/reports/R41831.html",
+      "https://www.sec.gov/Archives/edgar/data/1467858/000119312511130473/d10q.htm",
+      "https://en.wikipedia.org/wiki/Aftermath_of_the_2011_Tohoku_earthquake_and_tsunami"
+    ],
+    "date_first_disclosure": "2011-03-11",
+    "disclosure_source": "https://pressroom.toyota.com/toyota-earthquake-tsunami-japan-2011/",
+    "disclosure_search_note": "Toyota Motor Corporation's own statement, published 2011-03-11 (article published_time metadata 2011-03-11T15:30:00Z), naming the four subsidiary plants that had stopped and confirming a company-wide emergency task force. Cross-checked against EDGAR: the earliest earthquake-related 6-Ks by downstream filers were furnished 2011-03-14 (Sony, Hitachi, Advantest), then 2011-03-15 (Panasonic, Toyota, Komatsu, NTT), so the corporate press statement precedes any SEC filing by three days.",
+    "kb_sources": [
+      {
+        "url": "https://www.everycrsreport.com/reports/R41831.html",
+        "note": "Congressional Research Service R41831, 'The Motor Vehicle Supply Chain: Effects of the Japanese Earthquake and Tsunami'. Best single KB document for downstream propagation; full text available, public domain, not paywalled.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311001559/a6645284.htm",
+        "note": "Sony 6-K with the 14 Mar 2011 press release listing every suspended site and product line. Primary source, full text retrievable, not paywalled.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "Sony Corporation",
+        "form": "6-K",
+        "filing_date": "2011-03-14",
+        "accession_number": "0001157523-11-001559",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311001559/a6645284.htm",
+        "section_summary": "Attached press release enumerating the group manufacturing sites suspended as of 11:00 JST 14 Mar, by prefecture and product (magnetic tape/Blu-ray, optical devices/IC cards, semiconductor lasers, lithium-ion cells, surface-mount equipment, optical discs), plus sites voluntarily idled to ease power shortages, and a statement that the financial impact was still being evaluated."
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "form": "6-K",
+        "filing_date": "2011-03-15",
+        "accession_number": "0000947871-11-000255",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000255/ss113988_ex9901.htm",
+        "section_summary": "Exhibit 99.1 is Toyota's press release on the Tohoku earthquake, covering employee safety and the decision to halt domestic vehicle production."
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "form": "6-K",
+        "filing_date": "2011-03-14",
+        "accession_number": "0001193125-11-064819",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511064819/d6k.htm",
+        "section_summary": "Report on earthquake damage to group facilities and the resulting production stoppages; followed by a further update furnished 2011-03-18 (acc. 0001193125-11-070477)."
+      },
+      {
+        "company": "Panasonic Corporation",
+        "form": "6-K",
+        "filing_date": "2011-03-15",
+        "accession_number": "0001193125-11-066522",
+        "url": "https://www.sec.gov/Archives/edgar/data/63271/000119312511066522/d6k.htm",
+        "section_summary": "Report on earthquake effects on group manufacturing sites."
+      },
+      {
+        "company": "Komatsu Ltd.",
+        "form": "6-K",
+        "filing_date": "2011-03-15",
+        "accession_number": "0000950123-11-025368",
+        "url": "https://www.sec.gov/Archives/edgar/data/56594/000095012311025368/c14171e6vk.htm",
+        "section_summary": "Report on earthquake impact on operations; a second 6-K followed 2011-03-16 (acc. 0000950123-11-025754)."
+      },
+      {
+        "company": "General Motors Company",
+        "form": "10-Q",
+        "filing_date": "2011-05-06",
+        "accession_number": "0001193125-11-130473",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312511130473/d10q.htm",
+        "section_summary": "Q1 2011 report. MD&A and risk-factor discussion of the Japan earthquake as a supply-chain disruption affecting parts availability and production scheduling. GM repeated the discussion in its Q2 10-Q (2011-08-05, acc. 0001193125-11-211642), Q3 10-Q (2011-11-09, acc. 0001193125-11-303419) and FY2011 10-K (2012-02-27, acc. 0001467858-12-000014)."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Six of the nine companies are evidenced by their own SEC filings or press releases naming specific stopped plants; the remainder are covered by the CRS report.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Same-day dated press statement from Toyota on its own newsroom, corroborated by an EDGAR sweep of all 6-Ks mentioning 'earthquake' between 11 and 18 Mar 2011 which found nothing earlier."
+    }
+  },
+  {
+    "event_id": "4_dow_2017",
+    "date_news_first": "2017-08-25",
+    "date_news_first_note": "Confirmed, no change, for landfall (25 Aug 2017, ~22:00 CDT near Rockport TX). Refinery and petrochemical shutdown coverage begins 2017-08-25/26 and peaks 2017-08-27/28.",
+    "ground_truth_affected": [
+      {
+        "company": "Univar Inc. (now Univar Solutions)",
+        "in_graph_context": false,
+        "impact": "Gulf Coast warehouse and terminal network in the storm zone; orders from regional customers at a standstill; ~16% of US sales from customers in the region and >1/3 of US sales sourced from regional suppliers. Guided Q3 2017 adjusted EBITDA down USD 10-25m versus prior expectations."
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "in_graph_context": "hop2",
+        "impact": "Baytown refinery (>560 kbd) and Beaumont complex shut; storm damage to floating-roof tanks caused reportable air releases; chemical plants down and only ramping back to normal by late September."
+      },
+      {
+        "company": "Shell (Royal Dutch Shell / Shell Oil)",
+        "in_graph_context": "hop2",
+        "impact": "Initiated a controlled shutdown of the Deer Park, TX refinery (340 kbd) and co-located chemical plant on 27 Aug 2017 due to rainfall and flooding; reported air releases."
+      },
+      {
+        "company": "Formosa Plastics Corp., U.S.A.",
+        "in_graph_context": "hop1 (as 'formosa plastics')",
+        "impact": "Reported among the producers shutting Texas Gulf Coast sites during the storm."
+      },
+      {
+        "company": "Ascend Performance Materials",
+        "in_graph_context": false,
+        "impact": "Declared force majeure on acrylonitrile, hydrogen cyanide and disodium iminodiacetate from Chocolate Bayou."
+      },
+      {
+        "company": "INEOS",
+        "in_graph_context": false,
+        "impact": "Reported site shutdowns on the Texas Gulf Coast."
+      },
+      {
+        "company": "INVISTA",
+        "in_graph_context": false,
+        "impact": "Reported site shutdowns on the Texas Gulf Coast."
+      },
+      {
+        "company": "Occidental Chemical (OxyChem)",
+        "in_graph_context": false,
+        "impact": "Reported site shutdowns; part of the ~37% of US chlorine/caustic soda capacity taken offline."
+      },
+      {
+        "company": "Ashland Global Holdings Inc.",
+        "in_graph_context": false,
+        "impact": "Issued an 8-K/press release on 2017-09-01 on Harvey's effect on its operations."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.sec.gov/Archives/edgar/data/1494319/000149431917000053/a8kexhibit991082917.htm",
+      "https://www.cnbc.com/2017/08/27/hurricane-harvey-refineries-shutting-down.html",
+      "https://www.icis.com/explore/resources/news/2017/08/28/10137268/refineries-plants-shut-amid-hurricane-harvey-rains-floods/",
+      "https://www.texastribune.org/2017/08/29/exxonmobil-refineries-are-damaged-hurricane-harvey-releasing-hazardous/",
+      "https://cen.acs.org/articles/95/i35/Tropical-Storm-Harvey-causes-disruptions.html",
+      "https://corporate.exxonmobil.com/news/news-releases/2017/0921_exxonmobil-baytown-and-beaumont-refineries-begin-fuels-production-chemical-plants-ramping-up",
+      "https://www.sec.gov/Archives/edgar/data/1674862/000114036117034114/ex99_1.htm"
+    ],
+    "date_first_disclosure": "2017-08-29",
+    "disclosure_source": "https://www.sec.gov/Archives/edgar/data/1494319/000149431917000053/a8kexhibit991082917.htm",
+    "disclosure_search_note": "Univar Inc. 8-K (Item 7.01), filed and dated 2017-08-29, is the earliest first-party corporate disclosure of Harvey supply-chain impact I could verify with a primary URL. Method: EDGAR full-text search for \"Hurricane Harvey\" across all 8-Ks filed 2017-08-25 to 2017-09-12 returned 78 documents from ~30 filers; the earliest with substantive operational/supply content are Univar (08-29), Federated National (08-30, insurer), ONEOK (08-31), Cadence Bancorp (08-31), Ashland (09-01). CAVEAT FOR YOU: Shell publicly announced the controlled Deer Park shutdown on 2017-08-27, two days earlier, but I could only find that via ICIS/CNBC reporting, not a retrievable primary Shell statement, so I did not use it. Likewise ExxonMobil's TCEQ air-emissions event notices (27-30 Aug) are regulatory filings that would predate 08-29 if you accept state environmental filings; TCEQ's STEERS database is worth a manual check.",
+    "kb_sources": [
+      {
+        "url": "https://www.icis.com/explore/resources/news/2017/08/28/10137268/refineries-plants-shut-amid-hurricane-harvey-rains-floods/",
+        "note": "ICIS, 2017-08-28, named list of refinery and petrochemical shutdowns. LIKELY PAYWALLED (ICIS is subscription); headline and lede accessible.",
+        "full_text_available": false
+      },
+      {
+        "url": "https://cen.acs.org/articles/95/i35/Tropical-Storm-Harvey-causes-disruptions.html",
+        "note": "Chemical & Engineering News, named producer-by-producer shutdown and force-majeure list. Generally free to read.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1494319/000149431917000053/a8kexhibit991082917.htm",
+        "note": "Univar 8-K exhibit. Primary source, free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "Univar Inc.",
+        "form": "8-K (Item 7.01 / EX-99.1)",
+        "filing_date": "2017-08-29",
+        "accession_number": "0001494319-17-000053",
+        "url": "https://www.sec.gov/Archives/edgar/data/1494319/000149431917000053/a8kexhibit991082917.htm",
+        "section_summary": "Press release furnished as Exhibit 99.1. States that most Gulf Coast customers and supplier partners were not operating, that regional customer orders had stopped, that some customers and suppliers had already declared force majeure with more expected, that transport and delivery costs would rise with >16% of US refining capacity affected, and quantifies the expected Q3 adjusted-EBITDA reduction at USD 10-25m."
+      },
+      {
+        "company": "Ashland Global Holdings Inc.",
+        "form": "8-K (Item 8.01 / EX-99.1)",
+        "filing_date": "2017-09-01",
+        "accession_number": "0001140361-17-034114",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674862/000114036117034114/ex99_1.htm",
+        "section_summary": "Press release on Harvey's effect on Ashland's Gulf Coast operations."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Named-company shutdowns and force-majeure declarations are documented by trade press (ICIS, C&EN), mainstream press (CNBC, Texas Tribune) and, for Univar and Ashland, by the companies' own 8-Ks.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The 2017-08-29 Univar 8-K is solid and primary, but Shell's 27 Aug shutdown announcement and ExxonMobil's TCEQ notices plausibly predate it; I could not retrieve primary URLs for either, so this date may move two days earlier."
+    }
+  },
+  {
+    "event_id": "17_basf_se_2016",
+    "date_news_first": "2016-10-17",
+    "date_news_first_note": "Confirmed, no change. Explosion mid-morning 17 Oct 2016; CNBC, UPI and BASF's own release all date to 2016-10-17.",
+    "ground_truth_affected": [
+      {
+        "company": "The Dow Chemical Company",
+        "in_graph_context": "hop2",
+        "impact": "European acrylates were placed on sales control (allocation) for several months, which trade reporting attributes to the mid-October 2016 BASF Ludwigshafen explosion and fire tightening the market. This is an allocation/cost impact rather than a plant halt.",
+        "caveat": "Weakest entry in this batch. The attribution is made in ICIS market commentary rather than by Dow itself."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.icis.com/explore/resources/news/2017/08/30/10137959/basf-declares-force-majeure-on-us-acrylates-oxo-alcohols/",
+      "https://www.icis.com/explore/resources/news/2016/10/19/10046360/insight-deadly-explosion-at-basf-s-ludwigshafen-site-impacts-major-feedstock-flows/"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found. SEC EDGAR full-text search for documents containing both \"Ludwigshafen\" and \"force majeure\" filed 2016-10-17 to 2017-06-30 returns exactly one document: Israel Chemicals Ltd's FY2016 20-F (acc. 0000950103-17-002509), where the two terms are unrelated to this incident (ICL has a Ludwigshafen-based BK Giulini entity). No US-listed downstream customer disclosed an impact. The documented downstream effect is market-level: force majeure on naphtha, ethylene and propylene offtakes, acrylic monomers, oxo-alcohols/higher alcohols (isotridecanol N, propylheptanol), butanols, plasticizers and n-butyl acetate, with no named counterparties. FOLLOW-UP FOR YOU: Q4 2016 / FY2016 reports and analyst calls of European buyers on the hop1 list (LANXESS, Akzo Nobel, Axalta, Grupo Antolin) and of Covestro and Evonik, which are not in the graph but sit in the same value chains.",
+    "kb_sources": [
+      {
+        "url": "https://www.basf.com/global/en/media/news-releases/2016/10/p-16-359",
+        "note": "BASF primary news release on the North Harbour fire. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://cen.acs.org/articles/94/i42/Fatal-explosion-hits-BASFs-Ludwigshafen.html",
+        "note": "C&EN, 'Fatal explosion hits BASF's Ludwigshafen site'. Describes the 14 units taken down including both steam crackers and the ~24 plants idled for lack of precursors. Generally free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.icis.com/explore/resources/news/2016/10/19/10046360/insight-deadly-explosion-at-basf-s-ludwigshafen-site-impacts-major-feedstock-flows/",
+        "note": "ICIS INSIGHT, 2016-10-19, feedstock flow analysis and force-majeure scope. LIKELY PAYWALLED.",
+        "full_text_available": false
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "No ground_truth_affected company filed a US disclosure attributable to this event. Dow's own 2016 10-K and Q4 2016 materials do not reference Ludwigshafen (the phrase search above would have caught it). BASF SE is not an SEC registrant.",
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "One entry, attributed by a trade-press market report rather than by the company, describing allocation rather than a halt; every other documented effect is market-level with no named counterparty.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is well supported for SEC filers (clean two-term full-text sweep), but German/European regulatory disclosure and non-SEC company statements were outside my reach."
+    }
+  },
+  {
+    "event_id": "18_chevron_2012",
+    "date_news_first": "2012-08-06",
+    "date_news_first_note": "Confirmed, no change. Fire began the evening of 6 Aug 2012 with same-day coverage.",
+    "ground_truth_affected": [],
+    "ground_truth_affected_note": "No named downstream company with a specific source stating a real impact could be found. The documented downstream effect is market-level and unattributed to any firm: California wholesale gasoline rose ~15 c/gal overnight and peaked ~28 c/gal above the pre-fire level three days later; California retail peaked around USD 4.21/gal and Oregon retail rose >20 c/gal within a week. The refinery supplied ~150 kbd of gasoline, ~16% of West Coast daily consumption. Other California refiners responded by increasing CARB-blend output, i.e. the named corporate effects that are documented are benefits to competitors, not impacts on customers. None of the eight hop1 candidates (CSN, Cummins, E1, Indian Oil, Jordan Petroleum Refinery, LANXESS, SK, Toyota) has a product line or geography that this event could plausibly reach, per company_lookup.csv.",
+    "ground_truth_sources": [
+      "https://energyathaas.wordpress.com/2012/09/04/california-prices-at-the-pump/",
+      "https://www.cbsnews.com/sanfrancisco/news/gas-prices-quickly-rise-after-richmond-refinery-fire"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Not applicable given an empty ground_truth_affected, but checked anyway: SEC EDGAR full-text search for \"Richmond refinery\" across 8-K, 10-Q and 10-K filed 2012-08-06 to 2013-06-30 returns exactly one document, Chevron Corp's own FY2012 10-K (acc. 0000093410-13-000003). No other SEC registrant referenced the facility in that window. FOLLOW-UP FOR YOU: California Energy Commission and CARB records, and the US Chemical Safety Board investigation docket, are the places where any named commercial counterparty impact would surface.",
+    "kb_sources": [
+      {
+        "url": "https://energyathaas.wordpress.com/2012/09/04/california-prices-at-the-pump/",
+        "note": "Energy Institute at Haas (UC Berkeley) analysis of the California price response, 2012-09-04. Free, full text retrievable.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Chevron_Richmond_Refinery_fire",
+        "note": "Seed source. Free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "Chevron Corporation",
+        "relation_to_event": "SEED COMPANY, not a ground_truth_affected entry. Only SEC filing in the window referencing the facility.",
+        "form": "10-K",
+        "filing_date": "2013-02-22",
+        "accession_number": "0000093410-13-000003",
+        "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341013000003/cvx-123112x10kdoc.htm",
+        "section_summary": "FY2012 annual report; downstream-segment and legal-proceedings discussion of the August 2012 Richmond crude-unit fire, the resulting loss of refining capability and associated regulatory and litigation exposure."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. High confidence that the price-spike effect is real and well measured, but low confidence that no named corporate impact exists anywhere; it is a plausible-but-unproven negative.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null follows mechanically from the empty affected list; the EDGAR sweep independently found no non-Chevron filer touching the event."
+    }
+  },
+  {
+    "event_id": "19_cpc_corp_taiwan_2014",
+    "date_news_first": "2014-08-01",
+    "date_news_first_note": "MOVED by one day from the supplied 2014-07-31. The blasts detonated from roughly 23:55 local time on 31 Jul into the early hours of 1 Aug; the first general news coverage (ITV News, Inquirer, Time, Reuters wire) is dated 2014-08-01. Keep 2014-07-31 as the physical event date if your schema distinguishes the two.",
+    "ground_truth_affected": [
+      {
+        "company": "LCY Chemical Corp.",
+        "in_graph_context": false,
+        "impact": "The propylene consumer at the end of the leaking line. Voluntarily shut its Kaohsiung plant for four days immediately after 31 Jul; on 9 Aug 2014 the Kaohsiung City Government ordered a halt to all operations pending review of its pipeline-safety plan, halting polypropylene production."
+      },
+      {
+        "company": "Taiwan Power Company (Taipower)",
+        "in_graph_context": false,
+        "impact": "Shut down four LNG-fired generating sets at 22:30 on the Friday after the blasts, cutting ~1,100 MW, about 2.7% of national capacity, so that road repair and relief work could proceed."
+      },
+      {
+        "company": "China Petrochemical Development Corporation",
+        "in_graph_context": false,
+        "impact": "Reduced pressure in its own Kaohsiung propene pipelines as a precaution."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://cen.acs.org/articles/92/i33/Taiwan-Shuts-Down-LCYs-Site.html",
+      "https://en.wikipedia.org/wiki/2014_Kaohsiung_gas_explosions",
+      "http://plasticsandrubberasia.com/aug2014/company1.html"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found with a citable primary URL. None of the three affected companies is an SEC registrant, so EDGAR is empty by construction. LCY Chemical was TWSE-listed (1704) at the time and would have filed material-information announcements on the Taiwan MOPS system (mops.twse.com.tw), and Taipower is state-owned and publishes Chinese-language operational bulletins; neither archive was reachable with my tools. LCY did issue public responses to the city government's findings in early August 2014 (referenced by the Business & Human Rights Resource Centre) but I could not date-stamp a primary document. FOLLOW-UP FOR YOU: MOPS material-information filings for TWSE 1704 between 2014-08-01 and 2014-08-15, and LCY's own 2014 annual report, are the highest-yield checks.",
+    "kb_sources": [
+      {
+        "url": "https://cen.acs.org/articles/92/i33/Taiwan-Shuts-Down-LCYs-Site.html",
+        "note": "C&EN, 'Taiwan Shuts Down LCY's Site'. Documents the 9 Aug city-government shutdown order. Generally free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2014_Kaohsiung_gas_explosions",
+        "note": "Seed source; carries the Taipower generator shutdown and China Petrochemical Development pressure-reduction details with citations. Free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "No ground_truth_affected company is US-listed. CPC Corporation Taiwan is state-owned and not an SEC registrant.",
+    "confidence": {
+      "ground_truth_affected": "medium",
+      "ground_truth_affected_reason": "Three named companies with concrete, specific impacts (plant halt under government order, 1,100 MW of generation taken offline, pipeline pressure cut), but two of the three rest primarily on Wikipedia's sourcing rather than on a primary or trade-press document I read directly.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null reflects a tooling gap rather than a genuine absence: MOPS filings almost certainly exist for LCY in early August 2014 and I could not reach them."
+    }
+  },
+  {
+    "event_id": "33_kyushu_electric_power_2018",
+    "date_news_first": "2018-10-13",
+    "date_news_first_note": "Confirmed, no change. First mainland-Japan utility-scale solar curtailment executed Saturday 13 Oct 2018 (430 MW) and repeated Sunday 14 Oct (710 MW); Japan Times carried it 2018-10-13. Kyushu Electric issued the instruction to operators on 12 Oct.",
+    "ground_truth_affected": [],
+    "ground_truth_affected_note": "No named company with a specific source stating a real impact from the 13-14 Oct 2018 curtailment. Two things are worth recording for the dissertation. First, this event is a good illustration of graph-context noise: the economic loss from generation curtailment falls on solar IPPs and asset owners, whereas every one of the 68 hop1 candidates (Toyota, Sony, Denso, Nippon Steel, Panasonic and so on) is an electricity *consumer* whose supply was, if anything, protected by the curtailment. None of them should be scored as affected. Second, the affected parties are real but unnamed in accessible sources for this specific date: ISEP measured 430 MW curtailed on 13 Oct and 710 MW on 14 Oct, and Kyushu-wide curtailment over the following months averaged ~3% of solar output, peaking at 13.7% in April 2019, with roughly JPY 9.6bn of foregone generation. Listed vehicles that publicly report Kyushu curtailment losses (for example Canadian Solar Infrastructure Fund, TSE 9284) do so for later periods, not for October 2018.",
+    "ground_truth_sources": [
+      "https://isep-energychart.com/en/726/",
+      "https://www.renewable-ei.org/en/activities/column/REupdate/20190409.php"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Null follows from the empty affected list. Separately checked: no SEC registrant is a Kyushu solar asset owner, and the TSE-listed infrastructure funds that would disclose curtailment (Canadian Solar Infrastructure Fund, Takara Leben Infrastructure Fund, Ichigo Green) either had not listed or did not report a curtailment impact for the October 2018 fiscal period in sources I could reach. FOLLOW-UP FOR YOU: TDnet/EDINET monthly operating reports for the Japanese solar infrastructure funds covering Oct-Nov 2018, and Kyushu Electric's own 12 Oct 2018 curtailment notice, which names the instruction but not the operators.",
+    "kb_sources": [
+      {
+        "url": "https://isep-energychart.com/en/726/",
+        "note": "Institute for Sustainable Energy Policies, 'First Curtailment of Solar PV Generation on Kyushu mainland on 13th and 14th October?'. Primary measurement of the curtailed volumes. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.renewable-ei.org/en/activities/column/REupdate/20190409.php",
+        "note": "Renewable Energy Institute, 'Renewable Energy Curtailment in Japan: Room for Improvement'. Quantifies frequency and the JPY 9.6bn foregone-generation figure. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.japantimes.co.jp/news/2018/10/13/business/kyushu-electric-suspends-solar-power/",
+        "note": "Seed source. Japan Times may be metered/paywalled after a few articles.",
+        "full_text_available": false
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "Kyushu Electric Power is not an SEC registrant and no ground_truth_affected company exists to search for.",
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. I am confident the graph candidates are wrong-direction (consumers, not generators) and should be scored as true negatives, but I cannot rule out that a Japanese-language source names a specific curtailed operator.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is structurally sound given no identified affected company, though Japanese-language TDnet disclosure was outside my reach."
+    }
+  },
+  {
+    "event_id": "34_korea_electric_power_2011",
+    "date_news_first": "2011-09-15",
+    "date_news_first_note": "Confirmed, no change. Rolling blackouts began mid-afternoon 15 Sep 2011 with same-day Korea Times coverage.",
+    "ground_truth_affected": [],
+    "ground_truth_affected_note": "No named downstream company with a specific source stating a real impact. The impact profile of this event actively works against the graph: Korean reporting is explicit that large corporates with on-site emergency generation, and priority-load facilities such as semiconductor fabs, were excluded from the load-shedding rotation and largely escaped damage, while the losses fell on small and medium-sized manufacturers. Documented aggregate impact: approximately 1.62 million households cut (some sources give 7.53 million over the full event), several hundred factories interrupted, roughly KRW 62bn of assessed damage, 9,094 compensation claims filed over the two weeks from 20 Sep 2011 of which 6,935 claims totalling KRW 6.988bn were approved by the MKE compensation committee. A December 2013 court ruling established KEPCO and state liability. The named claimants in the reporting are individuals and micro-businesses (a poultry farmer, plastics moulders that lost a day of feedstock and a delivery contract), not listed companies. All ten hop1 candidates (POSCO, Samsung C&T, SK, LS Electric, Hyundai E&C, Hyundai Rotem, Kumho Petrochemical, Vedanta, Lucky Cement, PLN) are large industrials of exactly the type reported as unaffected.",
+    "ground_truth_sources": [
+      "https://www.koreatimes.co.kr/business/companies/20110915/blackouts-hit-korea-nationwide",
+      "https://en.wikipedia.org/wiki/2011_South_Korea_blackout",
+      "https://www.mt.co.kr/industry/2012/09/10/2012090908375254714"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Null follows from the empty affected list. Also checked directly: no SEC registrant disclosed an operational impact from the 15 Sep 2011 Korean load shedding. FOLLOW-UP FOR YOU: DART (dart.fss.or.kr) Q3 2011 reports for Korean listed manufacturers, and the Ministry of Knowledge Economy blackout compensation committee's claim register, which would name the claimant firms if it is public.",
+    "kb_sources": [
+      {
+        "url": "https://www.koreatimes.co.kr/business/companies/20110915/blackouts-hit-korea-nationwide",
+        "note": "Korea Times, same-day report. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.mt.co.kr/industry/2012/09/10/2012090908375254714",
+        "note": "Money Today one-year retrospective with the damage and compensation figures. Korean language, free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=81307",
+        "note": "Lawtimes report on the December 2013 ruling recognising state and KEPCO liability. Korean language; Lawtimes is partially metered.",
+        "full_text_available": false
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "Korea Electric Power Corp is NYSE-listed (KEP) and files 20-F/6-K, but it is the seed company and therefore out of scope under downstream-only ground truth. No affected company to search."
+    ,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list, but this is a reasonably well-evidenced negative: multiple Korean sources state that large firms with backup generation and priority fabs were spared, which is precisely the population the graph proposes.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is consistent with the empty affected list; DART was not searchable with my tools."
+    }
+  },
+  {
+    "event_id": "47_china_steel_2018",
+    "date_news_first": "2018-03-01",
+    "date_news_first_note": "MOVED from the supplied 2018-03-23. 2018-03-23 is the date the duties took effect. The earliest general news coverage of the imposition is 2018-03-01, when President Trump announced the 25% steel / 10% aluminium tariffs; the Section 232 proclamations were signed 2018-03-08. If your schema wants 'earliest news of the event' rather than 'legal effective date', 2018-03-01 is correct and the other two dates are worth carrying as separate fields.",
+    "ground_truth_affected": [
+      {
+        "company": "General Motors Company",
+        "in_graph_context": "hop1",
+        "impact": "Cut FY2018 EPS guidance on 25 Jul 2018 to about USD 6.00 from USD 6.30-6.60, citing significant increases in commodity costs. GM roughly doubled its estimate of the commodity headwind from about USD 500m to about USD 1bn for the year; press coverage ties the increase to US steel producers raising prices after the Section 232 duties."
+      },
+      {
+        "company": "Ford Motor Company",
+        "in_graph_context": "hop1",
+        "impact": "CEO James Hackett stated in late September 2018 that the metals tariffs had taken about USD 1bn of profit from Ford."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.sec.gov/Archives/edgar/data/1467858/000146785818000087/q22018earnings072518.htm",
+      "https://www.business-standard.com/amp/article/reuters/trump-tariffs-bite-into-gm-2018-profit-forecast-stock-falls-118072501103_1.html",
+      "https://www.cbsnews.com/detroit/news/ford-ceo-says-steel-aluminum-tariffs-will-cost-company-1b",
+      "https://taxfoundation.org/research/all/federal/section-232-tariffs-steel-aluminum/"
+    ],
+    "date_first_disclosure": "2018-07-25",
+    "disclosure_source": "https://www.sec.gov/Archives/edgar/data/1467858/000146785818000087/q22018earnings072518.htm",
+    "disclosure_source_note": "General Motors 8-K (Item 2.02), Exhibit 99.1, Q2 2018 earnings release, filed 2018-07-25, accession 0001467858-18-000087.",
+    "disclosure_search_note": "Method and caveat, because this is the field most likely to move. I ran an EDGAR full-text sweep for documents containing both \"Section 232\" and \"aluminum\" in 10-Qs filed 2018-04-01 to 2018-05-10, which returns 13 documents from 12 filers. The single earliest is Schnitzer Steel Industries' 10-Q filed 2018-04-05 (acc. 0000912603-18-000037), then Cleveland-Cliffs 2018-04-24, AK Steel 2018-04-30, Allegheny Technologies 2018-05-01, and a cluster on 2018-05-02 to 2018-05-08 comprising Reliance Steel & Aluminum, Ryerson Holding, Terex, Hamilton Beach Brands, MRC Global, Century Aluminum, Ball Corp and Franklin Electric. I did not use any of these as date_first_disclosure for two reasons: the earliest few (Schnitzer, Cliffs, AK Steel, ATI, Century) are domestic steel/aluminium producers or scrap processors that were net beneficiaries of the duties rather than affected downstream buyers, and I did not read the metal-consuming filers' passages closely enough to confirm they assert adverse impact rather than merely describe the policy. FOLLOW-UP FOR YOU: reading the Section 232 passages in the 2018-05-02 to 2018-05-08 10-Qs of Terex, Hamilton Beach Brands, Ball Corp, Franklin Electric, Reliance Steel & Aluminum and Ryerson Holding would very likely pull this date back roughly eleven weeks to early May 2018. Also worth checking: Commerce Department product-exclusion requests on regulations.gov, which opened 2018-03-19 and are dated first-party regulatory filings by named companies.",
+    "kb_sources": [
+      {
+        "url": "https://taxfoundation.org/research/all/federal/section-232-tariffs-steel-aluminum/",
+        "note": "Tax Foundation analysis carrying the GM and Ford USD 1bn figures and the aggregate USD 5.6bn steel-consumer cost estimate. Free, full text.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.usitc.gov/publications/332/pub5405.pdf",
+        "note": "USITC Publication 5405, 'Economic Impact of Section 232 and 301 Tariffs on U.S. Industries'. Best single quantitative KB document for downstream cost pass-through. Free, US government, full text PDF.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785818000087/q22018earnings072518.htm",
+        "note": "GM Q2 2018 earnings release. Primary source, free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "General Motors Company",
+        "form": "8-K (Item 2.02 / EX-99.1)",
+        "filing_date": "2018-07-25",
+        "accession_number": "0001467858-18-000087",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785818000087/q22018earnings072518.htm",
+        "section_summary": "Q2 2018 earnings release. Guidance section attributes the reduction in full-year EPS expectations to recent and significant commodity cost increases together with adverse Argentine peso and Brazilian real movements, and states the company expects those headwinds to persist through 2018."
+      },
+      {
+        "company": "LEADS, NOT VERIFIED AS AFFECTED",
+        "form": "10-Q",
+        "filing_date": "2018-04-05 to 2018-05-08",
+        "accession_number": "see list",
+        "url": "https://efts.sec.gov/LATEST/search-index?q=%22Section+232%22+%22aluminum%22&forms=10-Q&startdt=2018-04-01&enddt=2018-05-10",
+        "section_summary": "Twelve filers discussed Section 232 in Q1 2018 10-Qs. Metal producers/processors likely to have benefited: Schnitzer Steel (0000912603-18-000037, 2018-04-05), Cleveland-Cliffs (0000764065-18-000088, 2018-04-24), AK Steel (0000918160-18-000091, 2018-04-30), Allegheny Technologies (0001018963-18-000008, 2018-05-01), Century Aluminum (0000949157-18-000051, 2018-05-04). Metal consumers and distributors, i.e. genuine downstream candidates: Reliance Steel & Aluminum (0001558370-18-003740, 2018-05-02), Ryerson Holding (0001564590-18-010320, 2018-05-02), Terex (0000097216-18-000081, 2018-05-02), Hamilton Beach Brands (0001709164-18-000021, 2018-05-02), MRC Global (0001439095-18-000020, 2018-05-03), Ball Corp (0001558370-18-004021, 2018-05-04), Franklin Electric (0000038725-18-000096, 2018-05-08). None of these twelve appears in the graph-context candidate list for this event."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "GM's guidance cut is in its own 8-K and the roughly USD 1bn figures for both GM and Ford are corroborated by Reuters, CBS and the Tax Foundation.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "2018-07-25 is solid as GM's own filing, but I expect it to move earlier once the early-May 2018 10-Qs of the metal-consuming filers listed above are read; treat this as an upper bound."
+    }
+  },
+  {
+    "event_id": "48_glencore_2025",
+    "date_news_first": "2025-02-22",
+    "date_news_first_note": "Confirmed, no change. ARECOMS took the suspension decision on 22 Feb 2025; it applied to all cobalt exports from industrial and artisanal operations alike, initially for four months, later extended by three.",
+    "ground_truth_affected": [
+      {
+        "company": "Eurasian Resources Group (ERG)",
+        "in_graph_context": false,
+        "impact": "Declared force majeure in March 2025 on cobalt deliveries as a consequence of the export suspension. Note this is a DRC producer rather than a downstream consumer, but it is a distinct company from the seed and its impact is specifically sourced."
+      }
+    ],
+    "ground_truth_affected_note": "No named downstream consumer (refiner, precursor maker, cell maker or OEM) could be tied to a specific sourced impact statement. The documented downstream effect is market-level: Chinese imports of cobalt intermediates, China being the dominant buyer of Congolese output, fell more than 90% year on year by August 2025, and the cobalt price recovered roughly 35% from the February low of about USD 10/lb to about USD 15.80/lb. Of the 18 hop1 candidates, the plausible ones on product grounds are the cobalt refiners and precursor makers (Umicore, CNGR Advanced Material, GEM, Electra Battery Materials) and the cell makers (Samsung SDI, CATL, SK Innovation); I found no statement from any of them attributing an impact to this event.",
+    "ground_truth_sources": [
+      "https://www.mining.com/web/glencore-halted-some-cobalt-deliveries-over-congo-export-ban/",
+      "https://www.mining.com/glencore-warns-of-cobalt-surplus-amid-drc-export-ban/",
+      "https://www.iea.org/policies/28969-temporary-suspension-of-cobalt-export-from-the-democratic-republic-of-congo"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found. (a) EDGAR full-text search for \"suspension of cobalt exports\" from 2025-02-22 to 2026-07-24 returns zero documents. (b) EDGAR full-text search for \"cobalt export ban\" over the same window returns 8 documents from just two filers: Chilean Cobalt Corp (8-K filed 2025-02-27, acc. 0001683168-25-001251, plus a 424B3 the same day and its FY2024 10-K) and CopperTech Metals (2026 registration exhibits). Chilean Cobalt is a pre-production Chilean explorer discussing the ban as a bullish market development for non-DRC supply, so it is a beneficiary rather than an affected downstream party and I did not use it. (c) ERG is privately held with no securities filings. FOLLOW-UP FOR YOU: Umicore's FY2024 results (12 Feb 2025) predate the ban, but its H1 2025 report and CMD materials, plus Shenzhen/Shanghai exchange filings by CNGR (300919.SZ) and GEM (002340.SZ) and Electra Battery Materials' 2025 news releases, are where a first-party downstream acknowledgement would appear.",
+    "kb_sources": [
+      {
+        "url": "https://www.iea.org/policies/28969-temporary-suspension-of-cobalt-export-from-the-democratic-republic-of-congo",
+        "note": "Seed source. IEA policy database entry for the ARECOMS suspension. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.mining.com/web/glencore-halted-some-cobalt-deliveries-over-congo-export-ban/",
+        "note": "Reuters via Mining.com on Glencore's force majeure days after the suspension. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.lexology.com/library/detail.aspx?g=c2dafb62-c590-4b28-8506-71849e0b10d3",
+        "note": "Legal analysis of the ARECOMS decision, useful for the exact regulatory chronology. Lexology requires free registration for some content.",
+        "full_text_available": false
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "Chilean Cobalt Corp.",
+        "relation_to_event": "LEAD ONLY, deliberately excluded from ground_truth_affected. A pre-production explorer commenting on the ban as favourable to ex-DRC supply, not a company reporting an adverse impact.",
+        "form": "8-K (Item 7.01 / EX-99.1)",
+        "filing_date": "2025-02-27",
+        "accession_number": "0001683168-25-001251",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727255/000168316825001251/chilean_ex9901.htm",
+        "section_summary": "Shareholder update letter dated 27 Feb 2025 discussing the DRC cobalt export ban and its implications for cobalt pricing and for non-DRC supply positioning."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Only one entry, and it is a fellow DRC producer rather than a downstream consumer; the genuine downstream effect is visible only in aggregate trade and price data with no named counterparty.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is well supported for SEC filers (two clean full-text sweeps), but the most likely disclosers are Chinese A-share and Belgian issuers whose filings I could not search."
+    }
+  }
+]

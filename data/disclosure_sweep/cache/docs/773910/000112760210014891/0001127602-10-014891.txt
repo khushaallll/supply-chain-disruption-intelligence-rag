@@ -1,0 +1,152 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ J25fBB4ZD6nJn2XsvEq6RHfgAld1p7vfWaulXj/xzwp3GUQRHT8O+hfkNeOEcDNu
+ 4PvTRoS/oi4W5L3trCBQsA==
+
+<SEC-DOCUMENT>0001127602-10-014891.txt : 20100519
+<SEC-HEADER>0001127602-10-014891.hdr.sgml : 20100519
+<ACCEPTANCE-DATETIME>20100519170144
+ACCESSION NUMBER:		0001127602-10-014891
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20100518
+FILED AS OF DATE:		20100519
+DATE AS OF CHANGE:		20100519
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			EBERHART PAULETT
+		CENTRAL INDEX KEY:			0001179702
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-08968
+		FILM NUMBER:		10845758
+
+	MAIL ADDRESS:	
+		STREET 1:		5400 LEGACY DR
+		STREET 2:		H3 3E 35
+		CITY:			PLANO
+		STATE:			TX
+		ZIP:			75024
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ANADARKO PETROLEUM CORP
+		CENTRAL INDEX KEY:			0000773910
+		STANDARD INDUSTRIAL CLASSIFICATION:	CRUDE PETROLEUM & NATURAL GAS [1311]
+		IRS NUMBER:				760146568
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1201 LAKE ROBBINS DRIVE
+		CITY:			THE WOODLANDS
+		STATE:			TX
+		ZIP:			77380-1046
+		BUSINESS PHONE:		832-636-3276
+
+	MAIL ADDRESS:	
+		STREET 1:		1201 LAKE ROBBINS DR.
+		CITY:			THE WOODLANDS
+		STATE:			TX
+		ZIP:			77380
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>form4.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0303</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2010-05-18</periodOfReport>
+
+    <issuer>
+        <issuerCik>0000773910</issuerCik>
+        <issuerName>ANADARKO PETROLEUM CORP</issuerName>
+        <issuerTradingSymbol>APC</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001179702</rptOwnerCik>
+            <rptOwnerName>EBERHART PAULETT</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>ANADARKO PETROLEUM CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>1201 LAKE ROBBINS DRIVE</rptOwnerStreet2>
+            <rptOwnerCity>THE WOODLANDS</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>77380</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2010-05-18</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3877</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>15677</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes></footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Linda Mansker by power of atty. for H. Paulett Eberhart</signatureName>
+        <signatureDate>2010-05-19</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

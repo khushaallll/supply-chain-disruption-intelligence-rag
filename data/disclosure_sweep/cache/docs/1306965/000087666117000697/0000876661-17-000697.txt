@@ -1,0 +1,129 @@
+<SEC-DOCUMENT>0000876661-17-000697.txt : 20171114
+<SEC-HEADER>0000876661-17-000697.hdr.sgml : 20171114
+<ACCEPTANCE-DATETIME>20171114121032
+ACCESSION NUMBER:		0000876661-17-000697
+CONFORMED SUBMISSION TYPE:	25-NSE
+PUBLIC DOCUMENT COUNT:		2
+FILED AS OF DATE:		20171114
+DATE AS OF CHANGE:		20171114
+EFFECTIVENESS DATE:		20171114
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Royal Dutch Shell plc
+		CENTRAL INDEX KEY:			0001306965
+		STANDARD INDUSTRIAL CLASSIFICATION:	CRUDE PETROLEUM & NATURAL GAS [1311]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			X0
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		25-NSE
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-32575
+		FILM NUMBER:		171199659
+
+	BUSINESS ADDRESS:	
+		STREET 1:		CAREL VAN BYLANDTLAAN 30
+		CITY:			THE HAGUE
+		STATE:			P7
+		ZIP:			2596 HR
+		BUSINESS PHONE:		31-70-377-9111
+
+	MAIL ADDRESS:	
+		STREET 1:		CAREL VAN BYLANDTLAAN 30
+		CITY:			THE HAGUE
+		STATE:			P7
+		ZIP:			2596 HR
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Forthdeal LTD
+		DATE OF NAME CHANGE:	20041026
+
+FILED BY:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			NEW YORK STOCK EXCHANGE LLC
+		CENTRAL INDEX KEY:			0000876661
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			NY
+
+	FILING VALUES:
+		FORM TYPE:		25-NSE
+
+	BUSINESS ADDRESS:	
+		STREET 1:		11 WALL STREET
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10005
+		BUSINESS PHONE:		212-656-2060
+
+	MAIL ADDRESS:	
+		STREET 1:		11 WALL STREET
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10005
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	NEW YORK STOCK EXCHANGE INC
+		DATE OF NAME CHANGE:	19910628
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>25-NSE
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<notificationOfRemoval>
+
+    <schemaVersion>X0203</schemaVersion>
+
+    <exchange>
+        <cik>0000876661</cik>
+        <entityName>NEW YORK STOCK EXCHANGE LLC</entityName>
+    </exchange>
+
+    <issuer>
+        <cik>1306965</cik>
+        <entityName>Royal Dutch Shell plc</entityName>
+        <fileNumber>001-32575</fileNumber>
+        <address>
+            <street1>Carel van Bylandtlaan 30</street1>
+            <city>The Hague</city>
+            <stateOrCountryCode></stateOrCountryCode>
+            <stateOrCountry></stateOrCountry>
+            <zipCode>2596 HR</zipCode>
+        </address>
+        <telephoneNumber>+31 (70) 377 4540</telephoneNumber>
+    </issuer>
+
+    <descriptionClassSecurity>As Guarantor of the 1.250% Guaranteed Notes due 2017</descriptionClassSecurity>
+
+    <ruleProvision>17 CFR 240.12d2-2(a)(2)</ruleProvision>
+
+    <signatureData>
+        <signatureName>Benjamin Sawyer</signatureName>
+        <signatureTitle>Manager</signatureTitle>
+        <signatureDate>2017-11-14</signatureDate>
+    </signatureData>
+</notificationOfRemoval>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.25
+<SEQUENCE>2
+<FILENAME>ruleprovisionnotice.htm
+<TEXT>
+NOTIFICATION OF THE REMOVAL FROM LISTING AND REGISTRATION OF THE STATED SECURITIES
+
+The New York Stock Exchange hereby notifies the SEC of its intention to remove the Guarantor of the stated securities from listing and registration on the Exchange at the opening of business on November 27, 2017, pursuant to the provisions of Rule 12d2-2 (a).
+
+[ X ] 17 CFR 240.12d2-2(a)(2)  That the entire class of this security was redeemed or paid at maturity or retirement on November 10, 2017.
+
+The Exchange also notifies the Securities and Exchange Commission that as a result of the above indicated conditions this security was suspended from trading on November 10, 2017.
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

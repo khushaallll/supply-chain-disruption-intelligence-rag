@@ -1,0 +1,812 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ QDo9+CKfSkpCRXz7087RFyaaXeOyK/ahr+6+58ApqpqAnXJwWvCASsekTla8qLj0
+ PVGgCSfDOtM0ub8yqJKyDA==
+
+<SEC-DOCUMENT>0000903423-11-000012.txt : 20110112
+<SEC-HEADER>0000903423-11-000012.hdr.sgml : 20110112
+<ACCEPTANCE-DATETIME>20110112131902
+ACCESSION NUMBER:		0000903423-11-000012
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20110112
+FILED AS OF DATE:		20110112
+DATE AS OF CHANGE:		20110112
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ArcelorMittal
+		CENTRAL INDEX KEY:			0001243429
+		STANDARD INDUSTRIAL CLASSIFICATION:	STEEL WORKS, BLAST FURNACES  ROLLING MILLS (COKE OVENS) [3312]
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-146371
+		FILM NUMBER:		11525080
+
+	BUSINESS ADDRESS:	
+		STREET 1:		19 AVE DE LA LIBERTE
+		STREET 2:		L-2930 LUXEMBOURG
+		CITY:			R.C.S. LUXEMBOURG
+		STATE:			N4
+		ZIP:			00000
+		BUSINESS PHONE:		35247922151
+
+	MAIL ADDRESS:	
+		STREET 1:		19 AVE DE LA LIBERTE
+		STREET 2:		L-2930 LUXEMBOURG
+		CITY:			R.C.S. LUXEMBOURG
+		STATE:			N4
+		ZIP:			00000
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ARCELOR
+		DATE OF NAME CHANGE:	20030618
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>arcelormittal-6k_0112.htm
+<TEXT>
+<html>
+<head>
+    <title>Unassociated Document</title>
+    <!--Licensed to: Cleary Gottlieb Steen & Hamilton LLP-->
+    <!--Document Created using EDGARizer 2020 5.2.3.0-->
+    <!--Copyright 1995 - 2009 Thomson Reuters. All rights reserved.-->
+</head>
+<body bgcolor="#ffffff" style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">
+<br>
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">UNITED STATES</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">SECURITIES AND EXCHANGE COMMISSION</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Washington, D.C.&#160;&#160;20549</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">FORM 6-K</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">REPORT OF FOREIGN PRIVATE ISSUER</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">PURSUANT TO RULE 13a-16 OR 15d-16</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">UNDER THE SECURITIES EXCHANGE ACT OF 1934</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Dated January 12, 2011</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Commission File Number: 333-146371</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">ARCELORMITTAL</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">(Translation of registrant&#8217;s name into English)</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">19 Avenue de la Libert&#233;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">L-2930 Luxembourg</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Luxembourg</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">(Address of principal executive offices)</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F. </font>
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#160;</font></font></div>
+
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 72pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><
+font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Form 20-F&#160;&#160;<font style="DISPLAY: inline; FONT-SIZE: 12pt" face="Wingdings">x</font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Form 40-F <font style="DISPLAY: inline; FONT-SIZE: 12pt" face="Wingdings">o</font></font></font></font><br>
+</font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br
+>
+</font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><fo
+nt style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font id="TAB1" style="MARGIN-LEFT: 36pt"></font>Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): _____</font></font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br
+>
+</font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><fo
+nt style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font id="TAB1" style="MARGIN-LEFT: 36pt"></font>Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): _____</font></font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br
+>
+</font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><f
+ont style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934. </font></font></font></font></font></font></font></font></font></font></font></font> </font>
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#160;</font></font></div>
+
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 72pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><
+font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Yes&#160;&#160;&#160;<font style="DISPLAY: inline; FONT-SIZE: 12pt" face="Wingdings">o</font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No <font style="DISPLAY: inline; FONT-SIZE: 12pt" face="Wingdings">x</font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br>
+</font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><f
+ont style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">If &#8220;Yes&#8221; marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b):&#160;&#160;82-________</font></font></font></font></font></font></font></font><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br>
+</font></font></font></font></font></font></font></font></font></font></font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br
+>
+</font></font></font></font></font></font></font></font></font><br>
+</font></font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br>
+</font></font></font></div>
+
+<font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><br>
+</font></font> </font>
+<div id="PGBRK" style="TEXT-INDENT: 0pt; WIDTH: 100%; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></font></font></font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></font></font></font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="2">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></font></font></font></div>
+</div>
+</div>
+
+<br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Exhibit 99.1 is hereby incorporated by reference into this report on Form 6-K.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Exhibit List&#160;&#160; </font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<table cellpadding="0" cellspacing="0" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr>
+<td align="left" valign="top" width="16%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; TEXT-DECORATION: underline"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Exhibit No.</font></font></div>
+</td>
+<td align="left" valign="top" width="31%">&#160;</td>
+<td valign="top" width="53%" style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; TEXT-DECORATION: underline"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Description</font></font></div>
+</td>
+</tr><tr>
+<td align="left" valign="top" width="16%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+<td align="left" colspan="2" valign="top" width="65%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+</tr><tr>
+<td align="left" valign="top" width="16%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Exhibit 99.1</font></div>
+</td>
+<td align="left" colspan="2" valign="top" width="65%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"> </font></font></font></font></font></font>
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Press release dated January 12, 2011 announcing that ArcelorMittal has published a Technical Information Memorandum regarding the listing of Aperam.</font></font></font></font></font></font></font></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr></table>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+</div>
+
+<div>&#160;</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<br>
+<div id="PGBRK" style="TEXT-INDENT: 0pt; WIDTH: 100%; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="2">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+</div>
+
+<br>
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">SIGNATURES</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 36pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Date: January 12, 2011</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr>
+<td width="54%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+<td width="3%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;By:&#160;</font></td>
+<td colspan="2" width="43%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;<font style="DISPLAY: inline; TEXT-DECORATION: underline">&#160;&#160;/<font style="DISPLAY: inline; TEXT-DECORATION: underline">s</font></font><font style="FONT-VARIANT: small-caps; DISPLAY: inline; TEXT-DECORATION: underline">/ </font><font style="DISPLAY: inline; TEXT-DECORATION: underline">Henk Scheffer</font></font></td>
+</tr><tr>
+<td width="54%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+<td width="3%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+<td width="4%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;&#160;<font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Name:</font></font></td>
+<td width="39%">
+<div align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Henk Scheffer</font></div>
+</td>
+</tr><tr>
+<td width="54%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+<td width="3%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+<td width="4%"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;&#160;<font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Title:</font></font></td>
+<td width="39%">
+<div align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Company Secretary</font></div>
+</td>
+</tr></table>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<br>
+<div id="PGBRK" style="TEXT-INDENT: 0pt; WIDTH: 100%; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="2">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+</div>
+
+<br>
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Exhibit Index&#160;&#160; </font>
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<table cellpadding="0" cellspacing="0" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr>
+<td align="left" valign="top" width="16%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; TEXT-DECORATION: underline"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Exhibit No.</font></font></div>
+</td>
+<td align="left" valign="top" width="31%">&#160;</td>
+<td valign="top" width="53%" style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; TEXT-DECORATION: underline"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Description</font></font></div>
+</td>
+</tr><tr>
+<td align="left" valign="top" width="16%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+<td align="left" colspan="2" valign="top" width="65%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></td>
+</tr><tr>
+<td align="left" valign="top" width="16%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Exhibit 99.1</font></div>
+</td>
+<td align="left" colspan="2" valign="top" width="65%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: time
+s new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"> </font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font>
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: time
+s new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Press release dated January 12, 2011 announcing that ArcelorMittal has published a Technical Information Memorandum regarding the listing of Aperam.</font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr></table>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<hr style="COLOR: black" noshade size="2">
+<font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold"> &#160;</font></div>
+</div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>arcelormittal6k-ex991_0112.htm
+<TEXT>
+<html>
+<head>
+    <title>Unassociated Document</title>
+    <!--Licensed to: Cleary Gottlieb Steen & Hamilton LLP-->
+    <!--Document Created using EDGARizer 2020 5.2.3.0-->
+    <!--Copyright 1995 - 2009 Thomson Reuters. All rights reserved.-->
+</head>
+<body bgcolor="#ffffff" style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+<div style="TEXT-ALIGN: right; TEXT-INDENT: 0pt; DISPLAY: block"><img src="arcelormittal-logo.jpg" alt="arcelormittal logo"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font color="dimgray" style="FONT-FAMILY: Arial; FONT-SIZE: 72pt"><font color="dimgray" style="DISPLAY: inline; FONT-FAMILY: Arial; FONT-SIZE: 72pt">news release</font></font></div>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.75; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Arial; FONT-SIZE: 12pt; FONT-WEIGHT: bold"><a name="DocsID"><!--EFPlaceholder--></a><font style="FONT-FAMILY: Arial; FONT-SIZE: 12pt">&#8234;ArcelorMittal publishes a Technical Information Memorandum regarding the listing of Aperam</font></font></div>
+
+<div style="LINE-HEIGHT: 1.75; TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.75; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Arial; FONT-SIZE: 10pt">Luxembourg, 12 January 2011 (16:15 CET)&#160;&#160;- With reference to the European listing prospectus of 15 December 2010 relating to the spin-off of ArcelorMittal&#8217;s stainless and specialty steels business into Aperam, a Technical Information Memorandum has been published today that provides information on the listing timetable. The memorandum is available on ArcelorMittal&#8217;s website under &#8220;Investors &amp; Shareholders &#8211; Extraordinary General Meeting 25 January 2011&#8221;.</font></div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div><br>
+<font style="FONT-FAMILY: Arial; FONT-SIZE: 10pt">Page 1</font></div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>3
+<FILENAME>arcelormittal-logo.jpg
+<TEXT>
+begin 644 arcelormittal-logo.jpg
+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
+8`*`"@`H`*`"@`H`*`"@`H`*`"@`H`__9
+`
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

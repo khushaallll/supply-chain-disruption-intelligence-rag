@@ -1,0 +1,203 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ OO5Y8qNczKWioCdJQOwJ9nHx6dAcaIdFYQ7QOr++5RoaMDAv9FXwtiKgdaXDsTO+
+ 8AT0fFveJZwQ+qzT3C1ZRA==
+
+<SEC-DOCUMENT>0001127602-10-018574.txt : 20100702
+<SEC-HEADER>0001127602-10-018574.hdr.sgml : 20100702
+<ACCEPTANCE-DATETIME>20100702160421
+ACCESSION NUMBER:		0001127602-10-018574
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20100630
+FILED AS OF DATE:		20100702
+DATE AS OF CHANGE:		20100702
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ANADARKO PETROLEUM CORP
+		CENTRAL INDEX KEY:			0000773910
+		STANDARD INDUSTRIAL CLASSIFICATION:	CRUDE PETROLEUM & NATURAL GAS [1311]
+		IRS NUMBER:				760146568
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1201 LAKE ROBBINS DRIVE
+		CITY:			THE WOODLANDS
+		STATE:			TX
+		ZIP:			77380-1046
+		BUSINESS PHONE:		832-636-3276
+
+	MAIL ADDRESS:	
+		STREET 1:		1201 LAKE ROBBINS DR.
+		CITY:			THE WOODLANDS
+		STATE:			TX
+		ZIP:			77380
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Reynolds Paula Rosput
+		CENTRAL INDEX KEY:			0001179998
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-08968
+		FILM NUMBER:		10936221
+
+	MAIL ADDRESS:	
+		STREET 1:		TEN PEACHTREE PLACE
+		STREET 2:		DEPT. 1466
+		CITY:			ATLANTA
+		STATE:			GA
+		ZIP:			30309
+
+	FORMER NAME:	
+		FORMER CONFORMED NAME:	ROSPUT PAULA G
+		DATE OF NAME CHANGE:	20030108
+
+	FORMER NAME:	
+		FORMER CONFORMED NAME:	ROSPUT PAULA J
+		DATE OF NAME CHANGE:	20020812
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>form4.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0303</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2010-06-30</periodOfReport>
+
+    <issuer>
+        <issuerCik>0000773910</issuerCik>
+        <issuerName>ANADARKO PETROLEUM CORP</issuerName>
+        <issuerTradingSymbol>APC</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001179998</rptOwnerCik>
+            <rptOwnerName>Reynolds Paula Rosput</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>ANADARKO PETROLEUM CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>1201 LAKE ROBBINS DRIVE</rptOwnerStreet2>
+            <rptOwnerCity>THE WOODLANDS</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>77380</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>14999</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Restricted Stock Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F2"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2010-06-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>398.31</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F1"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F1"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>398.31</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>568.61</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>APC Benefits Trust</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Each common stock unit represents one share of Company common stock held in the Anadarko Petroleum Corporation Benefits Trust, a grantor trust, of which the reporting person is a beneficiary, and of which the shares are subject to the general creditors of the Company.  The common stock units are payable in either common stock or cash (as elected by reporting person in advance) after the reporting person ceases to be a director or on a date specified when the election was made.</footnote>
+        <footnote id="F2">The common stock units were allocated to the reporting's notional account at a market price of $36.09.</footnote>
+        <footnote id="F3">Includes .384 of common stock units acquired at a market price of $39.86 purusant to dividend reinvestment.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Linda Mansker by power of atty. for Paula Rosput Reynolds</signatureName>
+        <signatureDate>2010-07-02</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

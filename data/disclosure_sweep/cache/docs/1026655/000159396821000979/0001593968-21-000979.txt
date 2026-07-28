@@ -1,0 +1,157 @@
+<SEC-DOCUMENT>0001593968-21-000979.txt : 20210318
+<SEC-HEADER>0001593968-21-000979.hdr.sgml : 20210318
+<ACCEPTANCE-DATETIME>20210318151311
+ACCESSION NUMBER:		0001593968-21-000979
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210317
+FILED AS OF DATE:		20210318
+DATE AS OF CHANGE:		20210318
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			PALOMAKI ERIC
+		CENTRAL INDEX KEY:			0001753920
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-12505
+		FILM NUMBER:		21754105
+
+	MAIL ADDRESS:	
+		STREET 1:		800 MANOR PARK DRIVE
+		CITY:			COLUMBUS
+		STATE:			OH
+		ZIP:			43228
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CORE MOLDING TECHNOLOGIES INC
+		CENTRAL INDEX KEY:			0001026655
+		STANDARD INDUSTRIAL CLASSIFICATION:	PLASTICS PRODUCTS, NEC [3089]
+		IRS NUMBER:				311481870
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		800 MANOR PARK DRIVE
+		STREET 2:		P O BOX 28183
+		CITY:			COLUMBUS
+		STATE:			OH
+		ZIP:			43228
+		BUSINESS PHONE:		8006666960
+
+	MAIL ADDRESS:	
+		STREET 1:		800 MANOR PARK DR
+		STREET 2:		P O BOX 28183
+		CITY:			COLUMBUS
+		STATE:			OH
+		ZIP:			43228
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	CORE MATERIALS CORP
+		DATE OF NAME CHANGE:	19961107
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>primary_01.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-03-17</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001026655</issuerCik>
+        <issuerName>CORE MOLDING TECHNOLOGIES INC</issuerName>
+        <issuerTradingSymbol>CMT</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001753920</rptOwnerCik>
+            <rptOwnerName>PALOMAKI ERIC</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>800 MANOR PARK DRIVE</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>COLUMBUS</rptOwnerCity>
+            <rptOwnerState>OH</rptOwnerState>
+            <rptOwnerZipCode>43228-9762</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>false</isDirector>
+            <isOfficer>true</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle>EVP,Operations</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-17</value>
+                <footnoteId id="F1"/>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>11.64</value>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>89480</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The date in Column 2 is the earliest transaction date. These shares were purchased over multiple days, 3/17/2021 and 3/18/2021, inclusive. The reporting person undertakes to provide to Core Molding Technologies, Inc. or the staff of the Securities Exchange Commission, upon request.</footnote>
+        <footnote id="F2">The price in Column 4 is a weighted average price. These shares were purchased in multiple transactions at prices ranging from 11.58 to 11.70, inclusive. The reporting person undertakes to provide to Core Molding Technologies, Inc. or the staff of the Securities Exchange Commission, upon request, full information regarding the number of shares purchased at each separate price within the ranges set forth in this footnote to this Form 4.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ John Zimmer, as attorney-in-fact</signatureName>
+        <signatureDate>2021-03-18</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

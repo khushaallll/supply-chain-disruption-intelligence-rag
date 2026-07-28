@@ -1,0 +1,156 @@
+<SEC-DOCUMENT>0001209191-22-051643.txt : 20220930
+<SEC-HEADER>0001209191-22-051643.hdr.sgml : 20220930
+<ACCEPTANCE-DATETIME>20220930162842
+ACCESSION NUMBER:		0001209191-22-051643
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20220928
+FILED AS OF DATE:		20220930
+DATE AS OF CHANGE:		20220930
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Roberts Carol L
+		CENTRAL INDEX KEY:			0001341790
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-37816
+		FILM NUMBER:		221284424
+
+	MAIL ADDRESS:	
+		STREET 1:		400 ATLANTIC STREET
+		CITY:			STAMFORD
+		STATE:			CT
+		ZIP:			06921
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Alcoa Corp
+		CENTRAL INDEX KEY:			0001675149
+		STANDARD INDUSTRIAL CLASSIFICATION:	PRIMARY PRODUCTION OF ALUMINUM [3334]
+		IRS NUMBER:				811789115
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		201 ISABELLA STREET
+		STREET 2:		SUITE 500
+		CITY:			PITTSBURGH
+		STATE:			PA
+		ZIP:			15212
+		BUSINESS PHONE:		412-315-2900
+
+	MAIL ADDRESS:	
+		STREET 1:		201 ISABELLA STREET
+		STREET 2:		SUITE 500
+		CITY:			PITTSBURGH
+		STATE:			PA
+		ZIP:			15212
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Alcoa Upstream Corp
+		DATE OF NAME CHANGE:	20160520
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2022-09-28</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001675149</issuerCik>
+        <issuerName>Alcoa Corp</issuerName>
+        <issuerTradingSymbol>AA</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001341790</rptOwnerCik>
+            <rptOwnerName>Roberts Carol L</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>201 ISABELLA STREET</rptOwnerStreet1>
+            <rptOwnerStreet2>SUITE 500</rptOwnerStreet2>
+            <rptOwnerCity>PITTSBURGH</rptOwnerCity>
+            <rptOwnerState>PA</rptOwnerState>
+            <rptOwnerZipCode>15212-5858</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2022-09-28</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>284</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0.00</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>37009</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Marissa P. Earnest, attorney-in-fact for Carol L. Roberts</signatureName>
+        <signatureDate>2022-09-30</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

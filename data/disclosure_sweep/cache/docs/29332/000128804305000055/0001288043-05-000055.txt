@@ -1,0 +1,230 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ LqSVohXe9sRF4+0pxY2N/8I5SfMc6d0wpV5H3l/jQjFN4sFKWTiFsAX0lQ02Z7d1
+ s2c2V4/PZ4e8+6gZOFA/kg==
+
+<SEC-DOCUMENT>0001288043-05-000055.txt : 20051011
+<SEC-HEADER>0001288043-05-000055.hdr.sgml : 20051010
+<ACCEPTANCE-DATETIME>20051011161059
+ACCESSION NUMBER:		0001288043-05-000055
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20051007
+FILED AS OF DATE:		20051011
+DATE AS OF CHANGE:		20051011
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			DIXIE GROUP INC
+		CENTRAL INDEX KEY:			0000029332
+		STANDARD INDUSTRIAL CLASSIFICATION:	CARPETS AND RUGS [2273]
+		IRS NUMBER:				620183370
+		STATE OF INCORPORATION:			TN
+		FISCAL YEAR END:			1225
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2208 S. HAMILTON STREET
+		CITY:			DALTON
+		STATE:			GA
+		ZIP:			307214974
+		BUSINESS PHONE:		7068765851
+
+	MAIL ADDRESS:	
+		STREET 1:		2208 S. HAMILTON STREET
+		CITY:			DALTON
+		STATE:			GA
+		ZIP:			307214974
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	DIXIE YARNS INC
+		DATE OF NAME CHANGE:	19920703
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	DIXIE MERCERIZING CO
+		DATE OF NAME CHANGE:	19670524
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Vande Hei Todd M
+		CENTRAL INDEX KEY:			0001326536
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-02585
+		FILM NUMBER:		051132842
+
+	BUSINESS ADDRESS:	
+		BUSINESS PHONE:		18008540357
+
+	MAIL ADDRESS:	
+		STREET 1:		2801 PULLMAN STREET
+		CITY:			SANTA ANA
+		STATE:			CA
+		ZIP:			92705
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2005-10-07</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000029332</issuerCik>
+        <issuerName>DIXIE GROUP INC</issuerName>
+        <issuerTradingSymbol>DXYN</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001326536</rptOwnerCik>
+            <rptOwnerName>Vande Hei Todd M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>2801 PULLMAN STREET</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SANTA ANA</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92705</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>VP and President of Fabrica</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, $3 par value</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2005-10-07</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3125</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>3.875</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>10812</value>
+                    <footnoteId id="F1"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Employee Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>3.875</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2005-10-07</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3125</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <value>2005-06-30</value>
+            </exerciseDate>
+            <expirationDate>
+                <value>2010-06-30</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock, $3 par value</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>3125</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">This includes 812 shares allocated to the Reporting Person under the Issuer's     401(k) plan.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>John F. Henry, Jr. by power of attorney for Todd M. Vande Hei</signatureName>
+        <signatureDate>2005-10-11</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

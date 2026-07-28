@@ -1,0 +1,183 @@
+<SEC-DOCUMENT>0001413447-21-000022.txt : 20210316
+<SEC-HEADER>0001413447-21-000022.hdr.sgml : 20210316
+<ACCEPTANCE-DATETIME>20210316175352
+ACCESSION NUMBER:		0001413447-21-000022
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210315
+FILED AS OF DATE:		20210316
+DATE AS OF CHANGE:		20210316
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Kaeser Josef
+		CENTRAL INDEX KEY:			0001782602
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34841
+		FILM NUMBER:		21747356
+
+	MAIL ADDRESS:	
+		STREET 1:		HIGH TECH CAMPUS 60
+		CITY:			EINDHOVEN
+		STATE:			P7
+		ZIP:			5656AG
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			NXP Semiconductors N.V.
+		CENTRAL INDEX KEY:			0001413447
+		STANDARD INDUSTRIAL CLASSIFICATION:	SEMICONDUCTORS & RELATED DEVICES [3674]
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		BUSINESS PHONE:		31 6 54 265349
+
+	MAIL ADDRESS:	
+		STREET 1:		HIGH TECH CAMPUS 60
+		CITY:			EINDHOVEN
+		STATE:			P7
+		ZIP:			5656AG
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	KASLION Acquisition B.V.
+		DATE OF NAME CHANGE:	20070925
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_161593160831942.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-03-15</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001413447</issuerCik>
+        <issuerName>NXP Semiconductors N.V.</issuerName>
+        <issuerTradingSymbol>NXPI</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001782602</rptOwnerCik>
+            <rptOwnerName>Kaeser Josef</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O NXP SEMICONDUCTORS N.V.</rptOwnerStreet1>
+            <rptOwnerStreet2>HIGH TECH CAMPUS 60</rptOwnerStreet2>
+            <rptOwnerCity>EINDHOVEN</rptOwnerCity>
+            <rptOwnerState>P7</rptOwnerState>
+            <rptOwnerZipCode>5656AG</rptOwnerZipCode>
+            <rptOwnerStateDescription>NETHERLANDS</rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>9999</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>198</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>28950</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>5001</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>199.90</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>23949</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Josef Kaeser by Dr. Jean A.W. Schreurs under Power of Attorney</signatureName>
+        <signatureDate>2021-03-16</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

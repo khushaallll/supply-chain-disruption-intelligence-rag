@@ -1,0 +1,341 @@
+<SEC-DOCUMENT>0001517668-11-000003.txt : 20110422
+<SEC-HEADER>0001517668-11-000003.hdr.sgml : 20110422
+<ACCEPTANCE-DATETIME>20110422185106
+ACCESSION NUMBER:		0001517668-11-000003
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20110421
+FILED AS OF DATE:		20110422
+DATE AS OF CHANGE:		20110422
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			General Motors Co
+		CENTRAL INDEX KEY:			0001467858
+		STANDARD INDUSTRIAL CLASSIFICATION:	MOTOR VEHICLES & PASSENGER CAR BODIES [3711]
+		IRS NUMBER:				270756180
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+		BUSINESS PHONE:		313.556.5000
+
+	MAIL ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			WILMINGTON TRUST CORP
+		CENTRAL INDEX KEY:			0000872821
+		STANDARD INDUSTRIAL CLASSIFICATION:	STATE COMMERCIAL BANKS [6022]
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34960
+		FILM NUMBER:		11776240
+
+	BUSINESS ADDRESS:	
+		STREET 1:		RODNEY SQUARE NORTH
+		STREET 2:		1100 NORTH MARKET ST
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-0001
+		BUSINESS PHONE:		3026518378
+
+	MAIL ADDRESS:	
+		STREET 1:		1100 NORTH MARKET STREET
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-0001
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Motors Liquidation Co GUC Trust
+		CENTRAL INDEX KEY:			0001517668
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34960
+		FILM NUMBER:		11776241
+
+	BUSINESS ADDRESS:	
+		STREET 1:		C/O WILMINGTON TRUST COMPANY
+		STREET 2:		RODNEY SQUARE NORTH, 1110 N. MARKET ST
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-1615
+		BUSINESS PHONE:		(302) 636-1615
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O WILMINGTON TRUST COMPANY
+		STREET 2:		RODNEY SQUARE NORTH, 1110 N. MARKET ST
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19890-1615
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0303</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2011-04-21</periodOfReport>
+
+    <notSubjectToSection16>1</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001467858</issuerCik>
+        <issuerName>General Motors Co</issuerName>
+        <issuerTradingSymbol>GM</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001517668</rptOwnerCik>
+            <rptOwnerName>Motors Liquidation Co GUC Trust</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O WILMINGTON TRUST COMPANY</rptOwnerStreet1>
+            <rptOwnerStreet2>RODNEY SQUARE NORTH, 1110 N. MARKET ST</rptOwnerStreet2>
+            <rptOwnerCity>WILMINGTON</rptOwnerCity>
+            <rptOwnerState>DE</rptOwnerState>
+            <rptOwnerZipCode>19890-1615</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0000872821</rptOwnerCik>
+            <rptOwnerName>WILMINGTON TRUST CORP</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>1100 NORTH MARKET STREET</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>WILMINGTON</rptOwnerCity>
+            <rptOwnerState>DE</rptOwnerState>
+            <rptOwnerZipCode>19890-0001</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2011-04-21</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>113123717</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>36876283</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Dispositive power pursuant to GUC Trust Agreement</value>
+                    <footnoteId id="F2"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Warrants</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>10</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2011-04-21</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>102839782</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <value>2009-07-10</value>
+            </exerciseDate>
+            <expirationDate>
+                <value>2016-07-10</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>102839782</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>33523853</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Dispositive power pursuant to GUC Trust Agreement</value>
+                    <footnoteId id="F2"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Warrants</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>18.33</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2011-04-21</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>J</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>102839782</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <value>2009-07-10</value>
+            </exerciseDate>
+            <expirationDate>
+                <value>2019-07-10</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>102839782</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>33523853</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Dispositive power pursuant to GUC Trust Agreement</value>
+                    <footnoteId id="F2"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">As reported in Amendment No. 1 to Schedule 13D filed with the SEC by the Motors Liquidation Company GUC Trust on April 22, 2011 (the &quot;Amended Schedule 13D&quot;), the Trust directed MLC to make an initial distribution of New GM Securities to holders of Allowed General Unsecured Claims on April 21, 2011, pursuant to the Plan and the GUC Trust Agreement.  Definitions of the capitalized terms used in this footnote and details regarding the initial distribution can be found in the Amended Schedule 13D.</footnote>
+        <footnote id="F2">Motors Liquidation Company GUC Trust and Wilmington Trust Company, not in its individual capacity but solely in its capacity as Trust administrator and trustee, may be deemed to beneficially own the securities reported on this Form 4 by virtue of the dispositive power they may exercise pursuant to the GUC Trust Agreement, dated as of March 30, 2011, among the Reporting Persons, Motors Liquidation Company, and the other parties thereto.  The securities reported on this Form 4 are held by Motors Liquidation Company.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>MOTORS LIQUIDATION COMPANY GUC TRUST, By: Wilmington Trust Company, not in its individual capacity, but solely in its capacity as Trust Administrator and trustee of the Motors Liquidation Company GUC Trust, By: David A. Vanaskey, Jr., Vice President</signatureName>
+        <signatureDate>2011-04-21</signatureDate>
+    </ownerSignature>
+
+    <ownerSignature>
+        <signatureName>WILMINGTON TRUST COMPANY, not in its individual capacity but solely in its capacity as Trust Administrator and trustee of the Motors Liquidation Company GUC Trust, By: David A. Vanaskey, Jr., Vice President</signatureName>
+        <signatureDate>2011-04-21</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
