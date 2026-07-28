@@ -1,0 +1,102 @@
+[
+  {
+    "event_id": "10_hesteel_2023",
+    "source_id": 10,
+    "description": "Typhoon Doksuri's remnants produced the heaviest rain in 140 years across Beijing and Hebei, flooding steel, coal and logistics infrastructure across the North China industrial belt.",
+    "date": "2023-07-29",
+    "location": "Hebei province, China",
+    "category": "Natural disaster",
+    "directly_affected": "hesteel",
+    "seed_source": "https://en.wikipedia.org/wiki/Typhoon_Doksuri"
+  },
+  {
+    "event_id": "11_aurizon_2010",
+    "source_id": 11,
+    "description": "Queensland's worst flooding in decades submerged coal basins and severed the Goonyella and Blackwater rail corridors, triggering force majeure across metallurgical coal exports.",
+    "date": "2010-12-25",
+    "location": "Queensland, Australia",
+    "category": "Natural disaster",
+    "directly_affected": "aurizon",
+    "seed_source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Queensland_floods"
+  },
+  {
+    "event_id": "24_bp_2010",
+    "source_id": 24,
+    "description": "Blowout and explosion on the Deepwater Horizon rig killed 11 workers and caused the largest marine oil spill in history, triggering a US deepwater drilling moratorium.",
+    "date": "2010-04-20",
+    "location": "Gulf of Mexico, USA",
+    "category": "Industrial accident",
+    "directly_affected": "bp",
+    "seed_source": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
+  },
+  {
+    "event_id": "25_petrochina_2005",
+    "source_id": 25,
+    "description": "An explosion at a benzene and aniline plant killed eight people and discharged ~100 tonnes of benzene into the Songhua River, cutting water supply to Harbin for days.",
+    "date": "2005-11-13",
+    "location": "Jilin City, Jilin, China",
+    "category": "Industrial accident",
+    "directly_affected": "petrochina",
+    "seed_source": "https://en.wikipedia.org/wiki/2005_Jilin_chemical_plant_explosions"
+  },
+  {
+    "event_id": "38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019",
+    "source_id": 38,
+    "description": "A transmission failure on the Java-Bali grid caused a mass blackout across Jakarta and West Java affecting tens of millions of people and halting industrial estates for up to nine hours.",
+    "date": "2019-08-04",
+    "location": "Java, Indonesia",
+    "category": "Energy / utility",
+    "directly_affected": "perusahaan perseroan persero pt perusahaan listrik negara",
+    "seed_source": "https://en.wikipedia.org/wiki/2019_Indonesia_blackouts"
+  },
+  {
+    "event_id": "40_state_grid_corp_of_china_2021",
+    "source_id": 40,
+    "description": "Coal shortages and 'dual control' energy-intensity targets triggered power rationing across more than 20 provinces, forcing rolling industrial shutdowns in China's manufacturing heartland.",
+    "date": "2021-09-23",
+    "location": "China (multi-province)",
+    "category": "Energy / utility",
+    "directly_affected": "state grid corp of china",
+    "seed_source": "https://en.wikipedia.org/wiki/2021%E2%80%932022_global_energy_crisis"
+  },
+  {
+    "event_id": "41_yunnan_aluminium_2022",
+    "source_id": 41,
+    "description": "Yunnan ordered aluminium smelters to cut electricity use 15-30% as drought crippled hydropower, removing an estimated 0.8-1.6Mt of primary aluminium capacity.",
+    "date": "2022-09-15",
+    "location": "Yunnan province, China",
+    "category": "Energy / utility",
+    "directly_affected": "yunnan aluminium",
+    "seed_source": "https://www.caixinglobal.com/2022-09-15/yunnan-orders-aluminum-smelters-to-cut-power-use-again-101940389.html"
+  },
+  {
+    "event_id": "54_yunnan_chihong_zinc_germanium_2023",
+    "source_id": 54,
+    "description": "China imposed export licensing on gallium and germanium compounds used in compound semiconductors, infrared optics and fibre, citing national security.",
+    "date": "2023-08-01",
+    "location": "China",
+    "category": "Geopolitical / policy",
+    "directly_affected": "yunnan chihong zinc&germanium",
+    "seed_source": "https://www.iea.org/policies/17893-announcement-on-the-implementation-of-export-control-of-items-related-to-gallium-and-germanium"
+  },
+  {
+    "event_id": "57_united_co_rusal_international_pjsc_2018",
+    "source_id": 57,
+    "description": "OFAC designated Rusal and its parent En+ under Russia sanctions, shocking aluminium and alumina markets and forcing global buyers into emergency wind-down and re-sourcing.",
+    "date": "2018-04-06",
+    "location": "Russia / global",
+    "category": "Geopolitical / policy",
+    "directly_affected": "united co rusal international pjsc",
+    "seed_source": "https://www.atlanticcouncil.org/blogs/econographics/us-sanctions-global-impact/"
+  },
+  {
+    "event_id": "59_coronado_global_resources_2020",
+    "source_id": 59,
+    "description": "China halted customs clearance of Australian coal amid a bilateral political dispute, stranding cargoes offshore and forcing global metallurgical and thermal coal trade flows to re-route.",
+    "date": "2020-10-01",
+    "location": "China / Australia",
+    "category": "Geopolitical / policy",
+    "directly_affected": "coronado global resources",
+    "seed_source": "https://en.wikipedia.org/wiki/China%E2%80%93Australia_trade_dispute"
+  }
+]

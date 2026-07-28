@@ -1,0 +1,102 @@
+[
+  {
+    "event_id": "5_formosa_plastics_2021",
+    "source_id": 5,
+    "description": "Winter Storm Uri collapsed the ERCOT grid and gas system, freezing Gulf Coast petrochemical plants; PVC, epichlorohydrin and ethylene glycol producers declared force majeure with ~100% of epichlorohydrin offline.",
+    "date": "2021-02-14",
+    "location": "Texas, USA",
+    "category": "Natural disaster",
+    "directly_affected": "formosa plastics",
+    "seed_source": "https://cen.acs.org/business/petrochemicals/Texas-petrochemical-production-still-thawing/99/i11"
+  },
+  {
+    "event_id": "8_exxon_mobil_2005",
+    "source_id": 8,
+    "description": "Hurricane Katrina made landfall as a Category 3 storm, flooding the Chalmette refinery and shutting a large share of US Gulf refining, offshore production and chemical feedstock supply.",
+    "date": "2005-08-29",
+    "location": "Louisiana / Mississippi, USA",
+    "category": "Natural disaster",
+    "directly_affected": "exxon mobil",
+    "seed_source": "https://en.wikipedia.org/wiki/Hurricane_Katrina"
+  },
+  {
+    "event_id": "9_xinxiang_tianli_energy_2021",
+    "source_id": 9,
+    "description": "Typhoon In-fa remnants dumped a year's rain on Henan province in three days, flooding Zhengzhou and Xinxiang and halting industrial output, coal logistics and power infrastructure across the province.",
+    "date": "2021-07-20",
+    "location": "Henan province, China",
+    "category": "Natural disaster",
+    "directly_affected": "xinxiang tianli energy",
+    "seed_source": "https://en.wikipedia.org/wiki/2021_Henan_floods"
+  },
+  {
+    "event_id": "20_formosa_petrochemical_2019",
+    "source_id": 20,
+    "description": "An LPG leak triggered a fire and explosion at the ARO-3 aromatics unit of the Mailiao petrochemical complex, forcing evacuation of 10,000 residents and an 18-month unit shutdown.",
+    "date": "2019-04-07",
+    "location": "Mailiao, Yunlin County, Taiwan",
+    "category": "Industrial accident",
+    "directly_affected": "formosa petrochemical",
+    "seed_source": "https://www.taipeitimes.com/News/front/archives/2019/04/08/2003712993"
+  },
+  {
+    "event_id": "21_mitsubishi_materials_2014",
+    "source_id": 21,
+    "description": "An explosion while cleaning hydrogen-purification heat-exchanger equipment killed five workers and suspended production at the Yokkaichi polysilicon plant, a semiconductor-grade silicon source.",
+    "date": "2014-01-09",
+    "location": "Yokkaichi, Mie, Japan",
+    "category": "Industrial accident",
+    "directly_affected": "mitsubishi materials",
+    "seed_source": "https://www.mmc.co.jp/corporate/en/news/2014/news20140109.html"
+  },
+  {
+    "event_id": "23_s_oil_2022",
+    "source_id": 23,
+    "description": "An explosion during restart of the No.2 alkylation unit at the Onsan refinery killed one and injured nine, shutting the alkylation, No.2 RFCC and No.2 paraxylene units.",
+    "date": "2022-05-19",
+    "location": "Ulsan, South Korea",
+    "category": "Industrial accident",
+    "directly_affected": "s-oil",
+    "seed_source": "https://www.kedglobal.com/energy/newsView/ked202205200014"
+  },
+  {
+    "event_id": "35_gazprom_pjsc_2022",
+    "source_id": 35,
+    "description": "Gazprom progressively cut and then halted Nord Stream 1 deliveries to Europe citing turbine maintenance, removing the single largest source of European industrial gas supply.",
+    "date": "2022-09-02",
+    "location": "Russia / Germany (Nord Stream 1)",
+    "category": "Energy / utility",
+    "directly_affected": "gazprom pjsc",
+    "seed_source": "https://en.wikipedia.org/wiki/Nord_Stream"
+  },
+  {
+    "event_id": "36_basf_se_2022",
+    "source_id": 36,
+    "description": "Russian pipeline gas cuts drove European gas prices to records, forcing BASF to curtail ammonia production at Ludwigshafen and prompting Europe-wide chemical output reductions.",
+    "date": "2022-07-01",
+    "location": "Ludwigshafen, Germany",
+    "category": "Energy / utility",
+    "directly_affected": "basf se",
+    "seed_source": "https://en.wikipedia.org/wiki/2021%E2%80%932022_global_energy_crisis"
+  },
+  {
+    "event_id": "49_xiamen_tungsten_2010",
+    "source_id": 49,
+    "description": "China informally halted rare earth exports to Japan amid the Senkaku/Diaoyu trawler dispute, exposing Japanese magnet, motor and electronics chains to a single-source chokepoint.",
+    "date": "2010-09-22",
+    "location": "China / Japan",
+    "category": "Geopolitical / policy",
+    "directly_affected": "xiamen tungsten",
+    "seed_source": "https://en.wikipedia.org/wiki/2010_Senkaku_boat_collision_incident"
+  },
+  {
+    "event_id": "50_aneka_tambang_tbk_2020",
+    "source_id": 50,
+    "description": "Indonesia banned all nickel ore exports two years ahead of schedule to force domestic downstream processing, cutting off the largest global source of nickel ore feedstock.",
+    "date": "2020-01-01",
+    "location": "Indonesia",
+    "category": "Geopolitical / policy",
+    "directly_affected": "aneka tambang tbk",
+    "seed_source": "https://www.aljazeera.com/economy/2019/9/2/worlds-biggest-nickel-ore-maker-bans-exports-from-january-2020"
+  }
+]
