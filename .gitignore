@@ -1,2 +1,7 @@
 .env
 structure.txt
+data/corpus/_cache/
+data/corpus/raw/
+data/corpus/text_*/
+data/corpus/text_clean/
+data/corpus/*.jsonl
