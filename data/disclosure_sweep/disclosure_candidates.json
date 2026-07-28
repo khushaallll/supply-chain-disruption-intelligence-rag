@@ -1,0 +1,2119 @@
+{
+  "1_posco_2022": {
+    "event_date": "2022-09-06",
+    "window": [
+      "2022-09-04",
+      "2022-12-05"
+    ],
+    "keywords": [
+      "Hinnamnor",
+      "Pohang"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "2_nippon_steel_2011": {
+    "event_date": "2011-03-11",
+    "window": [
+      "2011-03-09",
+      "2011-06-09"
+    ],
+    "keywords": [
+      "Tohoku",
+      "earthquake",
+      "tsunami"
+    ],
+    "existing_date_first_disclosure": "2011-03-11",
+    "proposed_date_first_disclosure": "2011-03-14",
+    "candidates": [
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-03-14",
+        "form": "6-K",
+        "accession": "0001157523-11-001559",
+        "keyword": "Tohoku",
+        "snippet": "uments attached hereto: &#160; i)&#160;Press Release&#160;announcing Sony Group Operations Affected by Pacific Coast of Tohoku Earthquake, Tsunami and Related Power Outages . &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 1-7-1 Kon",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311001559/a6645284.htm",
+        "document": "a6645284.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-03-14",
+        "form": "6-K",
+        "accession": "0001193125-11-064819",
+        "keyword": "Tohoku",
+        "snippet": "tains the following: 1. Press release dated March 14, 2011 regarding effects of the earthquake off the pacific coast of Tohoku, and its responses Table of Contents SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 19",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511064819/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-03-15",
+        "form": "6-K",
+        "accession": "0000947871-11-000255",
+        "keyword": "Tohoku",
+        "snippet": "; &#160; Material Contained in this Report: I. English translation of a press release with respect to the effect of the Tohoku Earthquake in Japan that occurred on March 11, 2011, as filed by the registrant with the Tokyo Stock Exchange on",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000255/ss113988_6k.htm",
+        "document": "ss113988_6k.htm"
+      },
+      {
+        "company": "Panasonic Corporation",
+        "cik": 63271,
+        "date": "2011-03-15",
+        "form": "6-K",
+        "accession": "0001193125-11-066522",
+        "keyword": "Tohoku",
+        "snippet": "release issued on March 14, 2011, by Panasonic Corporation (the registrant), announcing the effect of earthquake in the Tohoku region on business operations. Table of Contents SIGNATURE Pursuant to the requirements of the Securities Exchang",
+        "url": "https://www.sec.gov/Archives/edgar/data/63271/000119312511066522/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Komatsu Ltd.",
+        "cik": 56594,
+        "date": "2011-03-15",
+        "form": "6-K",
+        "accession": "0000950123-11-025368",
+        "keyword": "Tohoku",
+        "snippet": "0)3-5561-2616 Date: March 14, 2011 URL: http://www.komatsu.com/ Effects of the 2011 Earthquake off the Pacific Coast of Tohoku We hereby extend our sincere condolences to people and their relatives suffering from the earthquake and Tsunami",
+        "url": "https://www.sec.gov/Archives/edgar/data/56594/000095012311025368/c14171e6vk.htm",
+        "document": "c14171e6vk.htm"
+      },
+      {
+        "company": "Komatsu Ltd.",
+        "cik": 56594,
+        "date": "2011-03-16",
+        "form": "6-K",
+        "accession": "0000950123-11-025754",
+        "keyword": "Tohoku",
+        "snippet": "0)3-5561-2616 Date: March 15, 2011 URL: http://www.komatsu.com/ Effects of the 2011 Earthquake off the Pacific Coast of Tohoku (2) We at the Komatsu Group hereby extend our sincere condolences to people and their relatives suffering from th",
+        "url": "https://www.sec.gov/Archives/edgar/data/56594/000095012311025754/c14233e6vk.htm",
+        "document": "c14233e6vk.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-03-18",
+        "form": "6-K",
+        "accession": "0001193125-11-070477",
+        "keyword": "Tohoku",
+        "snippet": "tains the following: 1. Press release dated March 17, 2011 regarding effects of the earthquake off the Pacific Coast of Tohoku, and its responses (2nd Report) 2. Press release dated March 17, 2011 regarding revision of year-end dividend for",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511070477/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-03-22",
+        "form": "6-K",
+        "accession": "0001157523-11-001667",
+        "keyword": "Tohoku",
+        "snippet": "&#160;Press Release&#160;announcing Status of Sony Group Manufacturing Operations in Japan Affected by Pacific Coast of Tohoku Earthquake, Tsunami and Related Power Outages . &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 1-7-1 Kon",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311001667/a6655588.htm",
+        "document": "a6655588.htm"
+      },
+      {
+        "company": "Komatsu Ltd.",
+        "cik": 56594,
+        "date": "2011-03-22",
+        "form": "6-K",
+        "accession": "0000950123-11-027495",
+        "keyword": "Tohoku",
+        "snippet": "0)3-5561-2616 Date: March 18, 2011 URL: http://www.komatsu.com/ Effects of the 2011 Earthquake off the Pacific Coast of Tohoku (3) (Some plants resume production.) We at the Komatsu Group hereby extend our sincere condolences to the people",
+        "url": "https://www.sec.gov/Archives/edgar/data/56594/000095012311027495/c14465e6vk.htm",
+        "document": "c14465e6vk.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-03-29",
+        "form": "6-K",
+        "accession": "0000947871-11-000351",
+        "keyword": "Tohoku",
+        "snippet": "kyo Stock Exchange on March 18, 2011. II. English&#160;translation of a press release with respect to the effect of the Tohoku Earthquake in Japan on the registrant&#8217;s parts and components procurement and production status, as filed by",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000351/ss114541_6k.htm",
+        "document": "ss114541_6k.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-03-29",
+        "form": "6-K",
+        "accession": "0001193125-11-080449",
+        "keyword": "Tohoku",
+        "snippet": "tains the following: 1. Press release dated March 28, 2011 regarding effects of the earthquake off the Pacific Coast of Tohoku, and its responses (3rd report) Table of Contents SIGNATURES Pursuant to the requirements of the Securities Excha",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511080449/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Ford Motor Company",
+        "cik": 37996,
+        "date": "2011-04-01",
+        "form": "8-K",
+        "accession": "0001157523-11-001860",
+        "keyword": "earthquake",
+        "snippet": "CFR 240.13e-4(c)) &#160; &#160; &#160; - 2 - &#160; &#160; Item 8.01. Other Events . We are assessing the impact of the earthquake and resulting events in Japan on our Automotive operations.&#160;&#160;Although we have no production facilit",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000115752311001860/a6668498.htm",
+        "document": "a6668498.htm"
+      },
+      {
+        "company": "Panasonic Corporation",
+        "cik": 63271,
+        "date": "2011-04-04",
+        "form": "6-K",
+        "accession": "0001193125-11-087405",
+        "keyword": "Tohoku",
+        "snippet": "release issued on April 1, 2011, by Panasonic Corporation (the registrant), announcing the effect of earthquake in the Tohoku region on business operations (2nd Report). Table of Contents SIGNATURE Pursuant to the requirements of the Secur",
+        "url": "https://www.sec.gov/Archives/edgar/data/63271/000119312511087405/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-04-06",
+        "form": "6-K",
+        "accession": "0000947871-11-000372",
+        "keyword": "earthquake",
+        "snippet": "Contained in this Report: I. English translation of a press release with respect to the effect of the Great East Japan Earthquake on registrant&#8217;s production, as filed by the registrant with the Tokyo Stock Exchange on April 6, 2011.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000372/ss115839_6k.htm",
+        "document": "ss115839_6k.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-04-06",
+        "form": "6-K",
+        "accession": "0001157523-11-001899",
+        "keyword": "earthquake",
+        "snippet": ": &#160; i)&#160;Press Release&#160;announcing Status of Sony Group Manufacturing Operations Affected by the East Japan Earthquake, Tsunami and Related Power Outages . &#160; &#160; &#160; &#160; &#160; &#160; &#160; 1-7-1 Konan, Minato-ku",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311001899/a6673705.htm",
+        "document": "a6673705.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-04-06",
+        "form": "6-K",
+        "accession": "0001193125-11-089650",
+        "keyword": "earthquake",
+        "snippet": "tender offer notification by subsidiary 2. Press release dated April 6, 2011 regarding effects of the Great East Japan Earthquake, and its responses (4th report) 3. Press release dated April 6, 2011 regarding the decision on year-end divid",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511089650/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-04-08",
+        "form": "6-K",
+        "accession": "0000947871-11-000380",
+        "keyword": "earthquake",
+        "snippet": "Contained in this Report: I. English translation of a press release with respect to the effect of the Great East Japan Earthquake on registrant&#8217;s production in Japan, as filed by the registrant with the Tokyo Stock Exchange on April",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000380/ss116092_6k.htm",
+        "document": "ss116092_6k.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-04-11",
+        "form": "6-K",
+        "accession": "0000947871-11-000381",
+        "keyword": "earthquake",
+        "snippet": "Contained in this Report: I. English translation of a press release with respect to the effect of the Great East Japan Earthquake on registrant&#8217;s North American Production, as filed by the registrant with the Tokyo Stock Exchange on",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000381/ss116238_6k.htm",
+        "document": "ss116238_6k.htm"
+      },
+      {
+        "company": "Ford Motor Company",
+        "cik": 37996,
+        "date": "2011-04-11",
+        "form": "8-K",
+        "accession": "0001157523-11-001974",
+        "keyword": "earthquake",
+        "snippet": "change Act (17 CFR 240.13e-4(c)) &#160; &#160; &#160; Item 8.01. Other Events . We continue to assess the impact of the earthquake and resulting events in Japan on our Automotive operations.&#160;&#160;Although we have no production facilit",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000115752311001974/a6679722.htm",
+        "document": "a6679722.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-04-13",
+        "form": "6-K",
+        "accession": "0000947871-11-000389",
+        "keyword": "earthquake",
+        "snippet": "Contained in this Report: I. English translation of a press release with respect to the effect of the Great East Japan Earthquake on registrant&#8217;s European Production, as filed by the registrant with the Tokyo Stock Exchange on April",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000389/ss116460_6k.htm",
+        "document": "ss116460_6k.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-04-15",
+        "form": "6-K",
+        "accession": "0000947871-11-000400",
+        "keyword": "earthquake",
+        "snippet": "on April 15, 2011. &#160; II. English translation of a press release with respect to the effect of the Great East Japan Earthquake on registrant&#8217;s Production in Japan after May 10, 2011, as filed by the registrant with the Tokyo Stock",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000400/ss116660_6k.htm",
+        "document": "ss116660_6k.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-04-19",
+        "form": "6-K",
+        "accession": "0001157523-11-002083",
+        "keyword": "earthquake",
+        "snippet": "a&#8482; neo began shipping towards the end of the quarter &#160; &#9679; Some supply chain disruption due to the Japan earthquake The consolidated financial summary for Sony Ericsson Mobile Communications AB (Sony Ericsson) for the first q",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311002083/a6687470.htm",
+        "document": "a6687470.htm"
+      },
+      {
+        "company": "General Motors Company",
+        "cik": 1467858,
+        "date": "2011-04-19",
+        "form": "CORRESP",
+        "accession": "0001193125-11-102546",
+        "keyword": "earthquake",
+        "snippet": "2011 we suspended production at our Shreveport, Louisiana assembly facility due to a parts shortage resulting from the earthquake off the coast of Japan. In some instances, we purchase systems, components, parts and supplies from a single",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312511102546/filename1.htm",
+        "document": "filename1.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-04-20",
+        "form": "6-K",
+        "accession": "0000947871-11-000407",
+        "keyword": "earthquake",
+        "snippet": "ned in this Report: &#160; I. English translation of a press release with respect to the effect of the Great East Japan Earthquake on registrant&#8217;s Production in North America after April 26, 2011, as filed by the registrant with the T",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000407/ss117054_6k.htm",
+        "document": "ss117054_6k.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-04-20",
+        "form": "CORRESP",
+        "accession": "0000903423-11-000216",
+        "keyword": "earthquake",
+        "snippet": "currently in the middle of its year-end close and is still in the process of assessing the impact of the March 11 Japan earthquake and tsunami, Sony would appreciate receiving approval from the Staff to submit its response by no later than",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000090342311000216/filename1.htm",
+        "document": "filename1.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-04-25",
+        "form": "6-K",
+        "accession": "0001193125-11-106893",
+        "keyword": "earthquake",
+        "snippet": "kamura , currently Director *Takashi Hatchoji , currently Deputy General Manager of Hitachi Group Headquarters for Post-earthquake Reconstruction and Redevelopment, Chairman of the Board of Hitachi America, Ltd. (Group Chairman for the Amer",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511106893/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-04-27",
+        "form": "6-K",
+        "accession": "0001193125-11-110728",
+        "keyword": "earthquake",
+        "snippet": "1, despite damage to buildings and production facilities, as well as in-process products caused by the Great East Japan Earthquake. This is due to Group-wide efforts to restore production lines after the earthquake and the benefits of ongoi",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511110728/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-04-28",
+        "form": "6-K",
+        "accession": "0000947871-11-000433",
+        "keyword": "earthquake",
+        "snippet": "utomobiles subcontracted for production by Toyota Motor Corporation to the Company, both caused by the Great East Japan Earthquake occurred on March 11, 2011, and the related recognition of extraordinary loss and derecognition of deferred t",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000433/ss117450_ex9902.htm",
+        "document": "ss117450_ex9902.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-04-28",
+        "form": "6-K",
+        "accession": "0001157523-11-002374",
+        "keyword": "earthquake",
+        "snippet": ": &#160; i)&#160;Press Release&#160;announcing Status of Sony Group Manufacturing Operations Affected by the East Japan Earthquake, Tsunami and Related Power Outages . &#160; &#160; &#160; &#160; &#160; &#160; &#160; 1-7-1 Konan, Minato-ku",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311002374/a6701026.htm",
+        "document": "a6701026.htm"
+      },
+      {
+        "company": "Komatsu Ltd.",
+        "cik": 56594,
+        "date": "2011-04-28",
+        "form": "6-K",
+        "accession": "0000950123-11-040390",
+        "keyword": "Tohoku",
+        "snippet": "011, the Great East Japan Earthquake and the subsequent tsunami brought about very extensive damages, especially in the Tohoku and northern Kanto regions of Japan. Immediately after this tragic disaster, the Komatsu Group checked the safety",
+        "url": "https://www.sec.gov/Archives/edgar/data/56594/000095012311040390/c16070e6vk.htm",
+        "document": "c16070e6vk.htm"
+      },
+      {
+        "company": "Panasonic Corporation",
+        "cik": 63271,
+        "date": "2011-05-02",
+        "form": "6-K",
+        "accession": "0001193125-11-120013",
+        "keyword": "earthquake",
+        "snippet": "imulus program. However, in addition to sluggish demand since December, the devastation brought by the Great East Japan Earthquake on March 11, 2011 significantly impacted the world economy and fiscal 2011 ended without seeing the road to r",
+        "url": "https://www.sec.gov/Archives/edgar/data/63271/000119312511120013/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "General Motors Company",
+        "cik": 1467858,
+        "date": "2011-05-06",
+        "form": "10-Q",
+        "accession": "0001193125-11-130473",
+        "keyword": "earthquake",
+        "snippet": "le sales and the vehicle sales of our four brands is critical for us to maintain our worldwide profitability. Effect of Earthquake, Tsunami and Other Resulting Events in Japan Although we have no production facilities in Japan, and do not g",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312511130473/d10q.htm",
+        "document": "d10q.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-05-11",
+        "form": "6-K",
+        "accession": "0000947871-11-000488",
+        "keyword": "earthquake",
+        "snippet": "ast of consolidated results for FY2012 (April 1, 2011 through March 31, 2012) Due to the impact of the Great East Japan Earthquake, a reasonable forecast for FY2012 cannot be made&#160;at this point. The forecast for FY2012 will be disclose",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000488/ss117493_ex9901.htm",
+        "document": "ss117493_ex9901.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-05-13",
+        "form": "6-K",
+        "accession": "0001193125-11-138632",
+        "keyword": "earthquake",
+        "snippet": "ch 31, 2011, demand in the electronics- and automotive-related fields recovered globally. However, the Great East Japan Earthquake on March 11 caused catastrophic damage over a wide area of eastern Japan, and had a major impact on an array",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511138632/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-05-13",
+        "form": "CORRESP",
+        "accession": "0000950103-11-001826",
+        "keyword": "Tohoku",
+        "snippet": "The earthquake and collateral events resulted in catastrophic losses of life and property in Japan, particularly in the Tohoku and Kanto regions, including significant damage to a number of our facilities and subsidiaries and to the operati",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000095010311001826/filename1.htm",
+        "document": "filename1.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-05-23",
+        "form": "6-K",
+        "accession": "0001157523-11-003320",
+        "keyword": "earthquake",
+        "snippet": "ies in Japan.&#160;&#160;This valuation allowance is triggered primarily by the negative impact of the Great East Japan Earthquake. It is, however, a non-cash charge and is going to have no impact either on our consolidated operating income",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311003320/a6733820.htm",
+        "document": "a6733820.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-05-23",
+        "form": "6-K",
+        "accession": "0001157523-11-003310",
+        "keyword": "earthquake",
+        "snippet": "g income are expected to be in line with the forecast announced in February, despite the impact of the Great East Japan Earthquake (&#8220;Earthquake&#8221;) that occurred on March 11, 2011. &#160; &#160; &#9679;&#160;&#160;&#160;&#160; Son",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311003310/a6733620.htm",
+        "document": "a6733620.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-05-26",
+        "form": "6-K",
+        "accession": "0001157523-11-003391",
+        "keyword": "earthquake",
+        "snippet": "at manufacturing sites and an incremental provision for life insurance policy reserves, caused by the Great East Japan Earthquake (the &#8220;Earthquake&#8221;) that occurred on March 11, 2011.&#160;&#160;In addition, there was a 5.1 billi",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000115752311003391/a6736313.htm",
+        "document": "a6736313.htm"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "cik": 1094517,
+        "date": "2011-05-31",
+        "form": "6-K",
+        "accession": "0000947871-11-000534",
+        "keyword": "Tohoku",
+        "snippet": "utmost support to those now in the disaster area and we are working to expedite the restoration of manufacturing in the Tohoku area as soon as possible. In March of this year, we announced the &#8220;Toyota Global Vision,&#8221; a vision fo",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000094787111000534/ss118907_ex9903.htm",
+        "document": "ss118907_ex9903.htm"
+      },
+      {
+        "company": "Hitachi, Ltd.",
+        "cik": 47710,
+        "date": "2011-05-31",
+        "form": "6-K",
+        "accession": "0001193125-11-154093",
+        "keyword": "Tohoku",
+        "snippet": "matsu) Sales and Area Operations Tokyo (Chiyoda-ku, Koto-ku, Shinagawa-ku), Hokkaido Area Operation (Chuo-ku, Sapporo), Tohoku Area Operation (Aoba-ku, Sendai), Kanto Area Operation (Chiyoda-ku, Tokyo), Yokohama Area Operation (Nishi-ku, Yo",
+        "url": "https://www.sec.gov/Archives/edgar/data/47710/000119312511154093/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Komatsu Ltd.",
+        "cik": 56594,
+        "date": "2011-06-01",
+        "form": "6-K",
+        "accession": "0000950123-11-055590",
+        "keyword": "Tohoku",
+        "snippet": "uake and the subsequent tsunami that occurred on March 11, 2011 brought about very extensive damages, especially in the Tohoku and northern Kanto regions of Japan. Immediately after this tragic disaster, the Komatsu Group checked the safety",
+        "url": "https://www.sec.gov/Archives/edgar/data/56594/000095012311055590/c18165e6vk.htm",
+        "document": "c18165e6vk.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-06-03",
+        "form": "CORRESP",
+        "accession": "0000903423-11-000296",
+        "keyword": "earthquake",
+        "snippet": "n Japan in July 2011 (the termination has been extended for a year in certain limited areas due to the Great East Japan Earthquake) and it will no longer be possible to view a television broadcast without a digital television or converter.",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000090342311000296/filename1.htm",
+        "document": "filename1.htm"
+      },
+      {
+        "company": "Panasonic Corporation",
+        "cik": 63271,
+        "date": "2011-06-03",
+        "form": "6-K",
+        "accession": "0001193125-11-157786",
+        "keyword": "Tohoku",
+        "snippet": "de Director Odakyu Electric Railway Co., Ltd. Sumitomo Mitsui Banking Corporation Sumitomo Mitsui Financial Group, Inc. Tohoku Electric Power Co., Inc. West Japan Railway Company Outside Corporate Auditor Outside Corporate Auditor Outside C",
+        "url": "https://www.sec.gov/Archives/edgar/data/63271/000119312511157786/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Sony Corporation",
+        "cik": 313838,
+        "date": "2011-06-08",
+        "form": "6-K",
+        "accession": "0000903423-11-000302",
+        "keyword": "earthquake",
+        "snippet": "0; Stockholders&#8217; equity &#160; 61 17. &#160; Stock-based compensation plans &#160; 63 18. &#160; Great East Japan Earthquake &#160; 66 19. &#160; Restructuring charges and asset impairments &#160; 67 20. &#160; Research and developmen",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000090342311000302/sony-6k1_0608.htm",
+        "document": "sony-6k1_0608.htm"
+      }
+    ]
+  },
+  "4_dow_2017": {
+    "event_date": "2017-08-25",
+    "window": [
+      "2017-08-23",
+      "2017-11-23"
+    ],
+    "keywords": [
+      "Hurricane Harvey",
+      "Harvey"
+    ],
+    "existing_date_first_disclosure": "2017-08-29",
+    "proposed_date_first_disclosure": "2017-08-29",
+    "candidates": [
+      {
+        "company": "Univar Inc. (now Univar Solutions)",
+        "cik": 1494319,
+        "date": "2017-08-29",
+        "form": "8-K",
+        "accession": "0001494319-17-000053",
+        "keyword": "Hurricane Harvey",
+        "snippet": "; Item 7.01 Regulation FD Disclosure On August 29, 2017, Univar Inc, (the \"Company) announced its initial assessment of Hurricane Harvey's impact to its business. A copy of the Company's press release relating to this announcement is being",
+        "url": "https://www.sec.gov/Archives/edgar/data/1494319/000149431917000053/a8kaugust292017.htm",
+        "document": "a8kaugust292017.htm"
+      },
+      {
+        "company": "Ashland Global Holdings Inc.",
+        "cik": 1674862,
+        "date": "2017-09-01",
+        "form": "8-K",
+        "accession": "0001140361-17-034114",
+        "keyword": "Hurricane Harvey",
+        "snippet": "EX-99.1 2 ex99_1.htm EXHIBIT 99.1 Exhibit 99.1 &#160; News Release &#160; Ashland issues statement on impact from Hurricane Harvey COVINGTON, Kentucky, September 1, 2017 &#8211; Ashland (NYSE: ASH) today issued the following statement rela",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674862/000114036117034114/ex99_1.htm",
+        "document": "ex99_1.htm"
+      },
+      {
+        "company": "Ashland Global Holdings Inc.",
+        "cik": 1674862,
+        "date": "2017-09-18",
+        "form": "8-K",
+        "accession": "0001674862-17-000067",
+        "keyword": "Hurricane Harvey",
+        "snippet": "ease Ashland resumes manufacturing operations in Texas City and Marl, Germany Texas plant back to full production after Hurricane Harvey, while German facility resumes normal operations following fire last month COVINGTON, Kentucky, Septemb",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674862/000167486217000067/ex991.htm",
+        "document": "ex991.htm"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "cik": 34088,
+        "date": "2017-10-27",
+        "form": "8-K",
+        "accession": "0000034088-17-000044",
+        "keyword": "Hurricane Harvey",
+        "snippet": "ecutive quarter &#8226; Company makes fifth Guyana discovery; captures 12 high-potential blocks offshore Brazil &#8226; Hurricane Harvey reduces earnings by an estimated $160 million, or 4 cents per share&#160;&#160; &#160;&#160;&#160;&#160",
+        "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408817000044/f8k3q991.htm",
+        "document": "f8k3q991.htm"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "cik": 34088,
+        "date": "2017-11-01",
+        "form": "10-Q",
+        "accession": "0000034088-17-000052",
+        "keyword": "Hurricane Harvey",
+        "snippet": "nagement gains of $380 million in the prior year from the sale of Canadian retail assets and higher expenses related to Hurricane Harvey. Petroleum product sales of 5.5 million barrels per day were 43,000 barrels per day lower than last yea",
+        "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408817000052/xom10q3q2017.htm",
+        "document": "xom10q3q2017.htm"
+      },
+      {
+        "company": "Univar Inc. (now Univar Solutions)",
+        "cik": 1494319,
+        "date": "2017-11-03",
+        "form": "10-Q",
+        "accession": "0001494319-17-000065",
+        "keyword": "Hurricane Harvey",
+        "snippet": "volumes is partly due to one less selling day and lost business to customers who were unable to operate as a result of Hurricane Harvey and Irma. Gross profit increased &#32; $4.1 million , or 1.5% , to $273.4 million &#32;for the three mo",
+        "url": "https://www.sec.gov/Archives/edgar/data/1494319/000149431917000065/unvr-9302017x10q.htm",
+        "document": "unvr-9302017x10q.htm"
+      },
+      {
+        "company": "Univar Inc. (now Univar Solutions)",
+        "cik": 1494319,
+        "date": "2017-11-03",
+        "form": "8-K",
+        "accession": "0001494319-17-000063",
+        "keyword": "Hurricane Harvey",
+        "snippet": "ment increased &#32; 2.5 &#32;percent to $106.9 million . The Company&#8217;s business in Latin America was impacted by Hurricane Harvey and the earthquakes in Mexico which led to shortages of products from suppliers and chemical price incr",
+        "url": "https://www.sec.gov/Archives/edgar/data/1494319/000149431917000063/ex991-enr_q32017.htm",
+        "document": "ex991-enr_q32017.htm"
+      }
+    ]
+  },
+  "17_basf_se_2016": {
+    "event_date": "2016-10-17",
+    "window": [
+      "2016-10-15",
+      "2017-01-15"
+    ],
+    "keywords": [
+      "Ludwigshafen",
+      "North Harbor",
+      "North Harbour"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "18_chevron_2012": {
+    "event_date": "2012-08-06",
+    "window": [
+      "2012-08-04",
+      "2012-11-04"
+    ],
+    "keywords": [
+      "Richmond refinery",
+      "Richmond, California"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "19_cpc_corp_taiwan_2014": {
+    "event_date": "2014-08-01",
+    "window": [
+      "2014-07-30",
+      "2014-10-30"
+    ],
+    "keywords": [
+      "Kaohsiung",
+      "gas explosion"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "33_kyushu_electric_power_2018": {
+    "event_date": "2018-10-13",
+    "window": [
+      "2018-10-11",
+      "2019-01-11"
+    ],
+    "keywords": [
+      "curtailment",
+      "Kyushu"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "34_korea_electric_power_2011": {
+    "event_date": "2011-09-15",
+    "window": [
+      "2011-09-13",
+      "2011-12-14"
+    ],
+    "keywords": [
+      "blackout",
+      "power outage",
+      "rolling"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "47_china_steel_2018": {
+    "event_date": "2018-03-01",
+    "window": [
+      "2018-02-27",
+      "2018-05-30"
+    ],
+    "keywords": [
+      "Section 232",
+      "steel tariff",
+      "tariff",
+      "commodity cost",
+      "raw material cost"
+    ],
+    "existing_date_first_disclosure": "2018-07-25",
+    "proposed_date_first_disclosure": "2018-03-29",
+    "candidates": [
+      {
+        "company": "Ford Motor Company",
+        "cik": 37996,
+        "date": "2018-03-29",
+        "form": "DEF 14A",
+        "accession": "0001047469-18-002333",
+        "keyword": "commodity cost",
+        "snippet": "orable working capital changes. Total Company Adjusted Pre-Tax Profit was down from 2016, primarily explained by higher commodity costs and adverse exchange rates. As shown in the NEO Compensation section of the CD&A (pp. 49-59), our incent",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000104746918002333/a2234985zdef14a.htm",
+        "document": "a2234985zdef14a.htm"
+      },
+      {
+        "company": "Ford Motor Company",
+        "cik": 37996,
+        "date": "2018-04-25",
+        "form": "8-K",
+        "accession": "0000037996-18-000033",
+        "keyword": "commodity cost",
+        "snippet": "re than&#13;&#10; explained by a lower tax rate. Company adjusted EBIT of $2.2 billion was down from a year ago, due to commodity cost increases &#13;&#10;and adverse exchange. &#13;&#10;In addition, the company announced that its fitness i",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799618000033/exhibit991pressreleasefo.htm",
+        "document": "exhibit991pressreleasefo.htm"
+      },
+      {
+        "company": "General Motors Company",
+        "cik": 1467858,
+        "date": "2018-04-26",
+        "form": "10-Q",
+        "accession": "0001467858-18-000068",
+        "keyword": "raw material cost",
+        "snippet": "ed within the last twelve months incorporating significant exterior and/or interior changes (Majors); and (3) increased raw material costs related to carryover vehicles of $0.2 billion; partially offset by (4) favorable material performance",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785818000068/gm2018q1.htm",
+        "document": "gm2018q1.htm"
+      },
+      {
+        "company": "Ford Motor Company",
+        "cik": 37996,
+        "date": "2018-04-26",
+        "form": "10-Q",
+        "accession": "0000037996-18-000036",
+        "keyword": "tariff",
+        "snippet": "se in commodity cost was largely metals, driven, in part, by the market&#8217;s reaction to potential increases in U.S. tariffs. Nearly one-half of our full year exposure to commodity price changes was locked in as of the end of the first q",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799618000036/f0331201810-q.htm",
+        "document": "f0331201810-q.htm"
+      },
+      {
+        "company": "General Motors Company",
+        "cik": 1467858,
+        "date": "2018-04-27",
+        "form": "DEF 14A",
+        "accession": "0001193125-18-137797",
+        "keyword": "raw material cost",
+        "snippet": "ritical challenges &#150; from managing our global supply chain, addressing international trade issues, and controlling raw material costs to maintaining strong relationships with our international workforce. To help management tackle these",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312518137797/d519767ddef14a.htm",
+        "document": "d519767ddef14a.htm"
+      }
+    ]
+  },
+  "48_glencore_2025": {
+    "event_date": "2025-02-22",
+    "window": [
+      "2025-02-20",
+      "2025-05-23"
+    ],
+    "keywords": [
+      "cobalt export",
+      "Democratic Republic of Congo",
+      "cobalt"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "5_formosa_plastics_2021": {
+    "event_date": "2021-02-15",
+    "window": [
+      "2021-02-13",
+      "2021-05-16"
+    ],
+    "keywords": [
+      "Winter Storm Uri",
+      "winter storm",
+      "Texas freeze"
+    ],
+    "existing_date_first_disclosure": "2021-02-24",
+    "proposed_date_first_disclosure": "2021-02-24",
+    "candidates": [
+      {
+        "company": "Pactiv Evergreen Inc.",
+        "cik": 1527508,
+        "date": "2021-02-24",
+        "form": "8-K",
+        "accession": "0000950103-21-002907",
+        "keyword": "Winter Storm Uri",
+        "snippet": "age Merchandising segments, as well as continued elevated operating costs to maintain and improve service to customers. Winter Storm Uri damaged buildings and equipment in, interfered with the operations of, and sharply increased the energy",
+        "url": "https://www.sec.gov/Archives/edgar/data/1527508/000095010321002907/dp146707_ex9901.htm",
+        "document": "dp146707_ex9901.htm"
+      },
+      {
+        "company": "Pactiv Evergreen Inc.",
+        "cik": 1527508,
+        "date": "2021-02-25",
+        "form": "10-K",
+        "accession": "0001564590-21-008652",
+        "keyword": "Winter Storm Uri",
+        "snippet": "eans and could have a significant impact to our profitability. For example, in the first quarter of 2021, the impact of Winter Storm Uri increased energy costs for our facilities in the southern half of the U.S. and resulted in suspension o",
+        "url": "https://www.sec.gov/Archives/edgar/data/1527508/000156459021008652/ptve-10k_20201231.htm",
+        "document": "ptve-10k_20201231.htm"
+      },
+      {
+        "company": "NXP Semiconductors N.V.",
+        "cik": 1413447,
+        "date": "2021-03-11",
+        "form": "8-K",
+        "accession": "0001413447-21-000021",
+        "keyword": "winter storm",
+        "snippet": "today announced it has resumed initial operations at its manufacturing facilities in Austin, Texas following the severe winter storm and corresponding widespread&#160;disruption of gas, electricity and water recently experienced across Texa",
+        "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344721000021/nxpaustinproductionupdate2.htm",
+        "document": "nxpaustinproductionupdate2.htm"
+      },
+      {
+        "company": "Core Molding Technologies, Inc.",
+        "cik": 1026655,
+        "date": "2021-03-11",
+        "form": "10-K",
+        "accession": "0001026655-21-000003",
+        "keyword": "winter storm",
+        "snippet": "on, but not all, of the cost increases &#160; to its customers. &#160; &#160; &#160; In February 2021, an unprecedented winter storm in Texas and Mexico caused operational disruptions to &#160; many companies in the area including the Compa",
+        "url": "https://www.sec.gov/Archives/edgar/data/1026655/000102665521000003/cmt2020123110k.htm",
+        "document": "cmt2020123110k.htm"
+      },
+      {
+        "company": "Olin Corporation",
+        "cik": 74303,
+        "date": "2021-03-16",
+        "form": "8-K",
+        "accession": "0000074303-21-000051",
+        "keyword": "Winter Storm Uri",
+        "snippet": "N) announced today an updated outlook for the first quarter 2021. Olin&#8217;s Freeport, Texas facility was affected by Winter Storm Uri and was forced to halt production due to the lack of electrical power, natural gas, and other raw mater",
+        "url": "https://www.sec.gov/Archives/edgar/data/74303/000007430321000051/exhibit991prupdated1q21out.htm",
+        "document": "exhibit991prupdated1q21out.htm"
+      },
+      {
+        "company": "W. R. Grace & Co.",
+        "cik": 1045309,
+        "date": "2021-03-19",
+        "form": "8-K",
+        "accession": "0001045309-21-000040",
+        "keyword": "Winter Storm Uri",
+        "snippet": "8; Co. (NYSE&#58; GRA) today commented on the extreme winter weather that impacted Texas and Louisiana in mid-February. Winter Storm Uri was a major storm that caused widespread manufacturing disruption across the region because of freezing",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000040/a8-kmar2021ex991.htm",
+        "document": "a8-kmar2021ex991.htm"
+      },
+      {
+        "company": "Celanese Corporation",
+        "cik": 1306830,
+        "date": "2021-03-25",
+        "form": "8-K",
+        "accession": "0001306830-21-000074",
+        "keyword": "Winter Storm Uri",
+        "snippet": "midpoint of the new guidance range represents a 15 percent increase over the prior range of $9.50 to $10.00. &#34;While Winter Storm Uri had an unprecedented impact on Texas and our gulf coast operations, I am pleased to share that our Clea",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306830/000130683021000074/ex991binvestordaypressrele.htm",
+        "document": "ex991binvestordaypressrele.htm"
+      },
+      {
+        "company": "Celanese Corporation",
+        "cik": 1306830,
+        "date": "2021-04-22",
+        "form": "8-K",
+        "accession": "0001306830-21-000093",
+        "keyword": "Winter Storm Uri",
+        "snippet": "employees again demonstrated the power of our unparalleled optionality amid an unprecedented, worldwide disruption from Winter Storm Uri. We have over 1,300 employees across Texas and virtually all were personally impacted by the storm. I s",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306830/000130683021000093/q120218-kex991a.htm",
+        "document": "q120218-kex991a.htm"
+      },
+      {
+        "company": "Celanese Corporation",
+        "cik": 1306830,
+        "date": "2021-04-22",
+        "form": "8-K",
+        "accession": "0001306830-21-000092",
+        "keyword": "Winter Storm Uri",
+        "snippet": "increased by 15 percent from the prior quarter, more than offsetting a volume decline of 3 percent. In anticipation of Winter Storm Uri, the Company proactively brought down its three production facilities in Texas to protect its employees",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306830/000130683021000092/q120218-kex991.htm",
+        "document": "q120218-kex991.htm"
+      },
+      {
+        "company": "Celanese Corporation",
+        "cik": 1306830,
+        "date": "2021-04-23",
+        "form": "10-Q",
+        "accession": "0001306830-21-000098",
+        "keyword": "Winter Storm Uri",
+        "snippet": "n our Acetyl Chain and Engineered Materials segments; &#8226; higher energy costs across all of our segments related to Winter Storm Uri; and &#8226; higher costs in our Acetyl Chain segment as a result of fixed overhead, freeze-related rep",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306830/000130683021000098/ce-20210331.htm",
+        "document": "ce-20210331.htm"
+      },
+      {
+        "company": "Olin Corporation",
+        "cik": 74303,
+        "date": "2021-04-28",
+        "form": "10-Q",
+        "accession": "0000074303-21-000072",
+        "keyword": "Winter Storm Uri",
+        "snippet": "mmunition products is important, it is not the only factor in product selection. 26 Table of Contents Executive Summary Winter Storm Uri Olin&#8217;s Freeport, TX facility was affected by Winter Storm Uri and was forced to halt production d",
+        "url": "https://www.sec.gov/Archives/edgar/data/74303/000007430321000072/oln-20210331.htm",
+        "document": "oln-20210331.htm"
+      },
+      {
+        "company": "Olin Corporation",
+        "cik": 74303,
+        "date": "2021-04-28",
+        "form": "8-K",
+        "accession": "0000074303-21-000069",
+        "keyword": "Winter Storm Uri",
+        "snippet": "tems of $4.7&#160;million. The first quarter 2021 adjusted EBITDA included a gain of $99.9&#160;million associated with Winter Storm Uri due to Olin&#8217;s customary financial hedges and contracts maintained to provide protection from rapi",
+        "url": "https://www.sec.gov/Archives/edgar/data/74303/000007430321000069/exhibit991q12021earningspr.htm",
+        "document": "exhibit991q12021earningspr.htm"
+      },
+      {
+        "company": "Pactiv Evergreen Inc.",
+        "cik": 1527508,
+        "date": "2021-05-06",
+        "form": "10-Q",
+        "accession": "0001564590-21-024705",
+        "keyword": "Winter Storm Uri",
+        "snippet": "ntract quantity of energy was not available for Pactiv to sell to MP2 because of the winter weather emergency caused by Winter Storm Uri. Even though MP2 does not dispute that Winter Storm Uri constituted an event of Force Majeure under the",
+        "url": "https://www.sec.gov/Archives/edgar/data/1527508/000156459021024705/ptve-10q_20210331.htm",
+        "document": "ptve-10q_20210331.htm"
+      },
+      {
+        "company": "Pactiv Evergreen Inc.",
+        "cik": 1527508,
+        "date": "2021-05-06",
+        "form": "8-K",
+        "accession": "0000950103-21-006803",
+        "keyword": "Winter Storm Uri",
+        "snippet": "s challenging with ongoing headwinds from the impacts of COVID-19 along with a significant negative weather impact from Winter Storm Uri.&rdquo; King continued, &ldquo;We are starting to build momentum in our Foodservice and Food Merchandis",
+        "url": "https://www.sec.gov/Archives/edgar/data/1527508/000095010321006803/dp150621_ex9901.htm",
+        "document": "dp150621_ex9901.htm"
+      },
+      {
+        "company": "W. R. Grace & Co.",
+        "cik": 1045309,
+        "date": "2021-05-06",
+        "form": "8-K",
+        "accession": "0001045309-21-000048",
+        "keyword": "Winter Storm Uri",
+        "snippet": "ef Executive Officer. &#8220;Our team delivered a strong start to the year, despite the significant weather impact from Winter Storm Uri. I want to thank our 4,000 employees around the world for achieving this strong performance with their",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000048/a1q21earningsrelease.htm",
+        "document": "a1q21earningsrelease.htm"
+      },
+      {
+        "company": "W. R. Grace & Co.",
+        "cik": 1045309,
+        "date": "2021-05-07",
+        "form": "10-Q",
+        "accession": "0001045309-21-000054",
+        "keyword": "Winter Storm Uri",
+        "snippet": "( 0.8 ) 2.0 &#160; Total other (income) expense, net $ ( 42.1 ) $ ( 8.8 ) During the three months ended March 31, 2021, Winter Storm Uri caused widespread manufacturing disruption across Texas and Louisiana. Grace operates four manufacturin",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000054/gra-20210331.htm",
+        "document": "gra-20210331.htm"
+      }
+    ]
+  },
+  "8_exxon_mobil_2005": {
+    "event_date": "2005-08-29",
+    "window": [
+      "2005-08-27",
+      "2005-11-27"
+    ],
+    "keywords": [
+      "Hurricane Katrina",
+      "Katrina"
+    ],
+    "existing_date_first_disclosure": "2005-08-30",
+    "proposed_date_first_disclosure": "2005-08-30",
+    "candidates": [
+      {
+        "company": "The Dixie Group, Inc.",
+        "cik": 29332,
+        "date": "2005-08-30",
+        "form": "8-K",
+        "accession": "0000029332-05-000037",
+        "keyword": "Hurricane Katrina",
+        "snippet": "cer (706) 876-5851 gary.harmon@dixiegroup.com THE DIXIE GROUP REPORTS TEMPORARY DISRUPTION OF OPERATIONS AS A RESULT OF HURRICANE KATRINA CHATTANOOGA, Tenn. (August 30, 2005) -- The Dixie Group, Inc. (Nasdaq/NM:DXYN) today announced that, d",
+        "url": "https://www.sec.gov/Archives/edgar/data/29332/000002933205000037/ex99_1pressrelhurricane.htm",
+        "document": "ex99_1pressrelhurricane.htm"
+      },
+      {
+        "company": "Air Products and Chemicals, Inc.",
+        "cik": 2969,
+        "date": "2005-09-01",
+        "form": "8-K",
+        "accession": "0000950123-05-010650",
+        "keyword": "Hurricane Katrina",
+        "snippet": "1. Other Events. On 31 August 2005, the company issued a press release containing information relating to the impact of Hurricane Katrina on the company&#146;s hydrogen production. A copy of the press release is being furnished as Exhibit 9",
+        "url": "https://www.sec.gov/Archives/edgar/data/2969/000095012305010650/y12449e8vk.htm",
+        "document": "y12449e8vk.htm"
+      },
+      {
+        "company": "The Dixie Group, Inc.",
+        "cik": 29332,
+        "date": "2005-09-07",
+        "form": "8-K",
+        "accession": "0000029332-05-000039",
+        "keyword": "Hurricane Katrina",
+        "snippet": ". Harmon Chief Financial Officer (706) 876-5851 gary.harmon@dixiegroup.com THE DIXIE GROUP PROVIDES UPDATE ON EFFECT OF HURRICANE KATRINA CHATTANOOGA, Tenn. (September 6, 2005) -- The Dixie Group, Inc. (Nasdaq/NM:DXYN) today announced that,",
+        "url": "https://www.sec.gov/Archives/edgar/data/29332/000002933205000039/ex99_1katrinaimpact90605.htm",
+        "document": "ex99_1katrinaimpact90605.htm"
+      },
+      {
+        "company": "Air Products and Chemicals, Inc.",
+        "cik": 2969,
+        "date": "2005-09-23",
+        "form": "8-K",
+        "accession": "0000950123-05-011448",
+        "keyword": "Hurricane Katrina",
+        "snippet": "ntinue to increase. EPI On-site/Pipeline Volume (3 ) HyCO volumes lower on reduced customer demand and some impact from Hurricane Katrina. GOX/GAN volumes down in Europe due to power issues (Jul&#146;05). Asia Liquid/Bulk Volume 24 Strong l",
+        "url": "https://www.sec.gov/Archives/edgar/data/2969/000095012305011448/y13049exv99w1.htm",
+        "document": "y13049exv99w1.htm"
+      },
+      {
+        "company": "Air Products and Chemicals, Inc.",
+        "cik": 2969,
+        "date": "2005-09-27",
+        "form": "8-K",
+        "accession": "0000950123-05-011554",
+        "keyword": "Katrina",
+        "snippet": "Chemicals, Inc. issued a press release announcing an adjustment to its earnings guidance from the impact of hurricanes Katrina and Rita as well as announcing its fourth quarter earnings teleconference. A copy of the Press Release dated 27",
+        "url": "https://www.sec.gov/Archives/edgar/data/2969/000095012305011554/y13172e8vk.txt",
+        "document": "y13172e8vk.txt"
+      },
+      {
+        "company": "CF Industries Holdings, Inc.",
+        "cik": 1324404,
+        "date": "2005-10-09",
+        "form": "10-Q",
+        "accession": "0001104659-05-054188",
+        "keyword": "Hurricane Katrina",
+        "snippet": "August 28, 2005 we implemented an orderly shutdown of our Donaldsonville, Louisiana nitrogen complex in anticipation of Hurricane Katrina, which struck the region on August 29, 2005. The complex suffered only minor superficial damage. We be",
+        "url": "https://www.sec.gov/Archives/edgar/data/1324404/000110465905054188/a05-19744_110q.htm",
+        "document": "a05-19744_110q.htm"
+      },
+      {
+        "company": "The Dixie Group, Inc.",
+        "cik": 29332,
+        "date": "2005-10-26",
+        "form": "8-K",
+        "accession": "0000029332-05-000044",
+        "keyword": "Katrina",
+        "snippet": "e, Alabama, were evacuated three times during the quarter as a result of tropical storm Cindy and hurricanes Dennis and Katrina. Although the storms caused only minor damage to these facilities, their operations were interrupted for a total",
+        "url": "https://www.sec.gov/Archives/edgar/data/29332/000002933205000044/ex99_1pressrel3q92405.htm",
+        "document": "ex99_1pressrel3q92405.htm"
+      },
+      {
+        "company": "Air Products and Chemicals, Inc.",
+        "cik": 2969,
+        "date": "2005-10-26",
+        "form": "8-K",
+        "accession": "0000950123-05-012579",
+        "keyword": "Hurricane Katrina",
+        "snippet": "s gases and chemicals businesses. The company&#146;s New Orleans industrial gas complex sustained extensive damage from Hurricane Katrina. This facility should return to substantial operations by the end of the calendar year. The quarter en",
+        "url": "https://www.sec.gov/Archives/edgar/data/2969/000095012305012579/y13900exv99w1.htm",
+        "document": "y13900exv99w1.htm"
+      },
+      {
+        "company": "The Dixie Group, Inc.",
+        "cik": 29332,
+        "date": "2005-11-02",
+        "form": "10-Q",
+        "accession": "0000029332-05-000046",
+        "keyword": "Katrina",
+        "snippet": "e, Alabama, were evacuated three times during the quarter as a result of tropical storm Cindy and hurricanes Dennis and Katrina. Although the storms caused only minor damage to these facilities, their operations were interrupted for a total",
+        "url": "https://www.sec.gov/Archives/edgar/data/29332/000002933205000046/f10q9242005.htm",
+        "document": "f10q9242005.htm"
+      },
+      {
+        "company": "Nalco Holding Company",
+        "cik": 1290091,
+        "date": "2005-11-16",
+        "form": "424B3",
+        "accession": "0000950136-05-007312",
+        "keyword": "Katrina",
+        "snippet": "tal lost sales as a result of these closures will now total approximately $12 million in the fourth quarter. Hurricanes Katrina, Rita and Dennis all were responsible for portions of the expected sales losses. Some rig closures in the Gulf o",
+        "url": "https://www.sec.gov/Archives/edgar/data/1290091/000095013605007312/file001.htm",
+        "document": "file001.htm"
+      },
+      {
+        "company": "Air Products and Chemicals, Inc.",
+        "cik": 2969,
+        "date": "2005-11-22",
+        "form": "10-K",
+        "accession": "0000950123-05-013994",
+        "keyword": "Hurricane Katrina",
+        "snippet": "icanes Dennis, Katrina, and Rita. The Company&#146;s New Orleans industrial gas complex sustained extensive damage from Hurricane Katrina in August 2005. This facility is expected to return to substantial operations by the end of the calend",
+        "url": "https://www.sec.gov/Archives/edgar/data/2969/000095012305013994/y14674e10vk.htm",
+        "document": "y14674e10vk.htm"
+      },
+      {
+        "company": "Air Products and Chemicals, Inc.",
+        "cik": 2969,
+        "date": "2005-11-23",
+        "form": "8-K",
+        "accession": "0000950123-05-014041",
+        "keyword": "Katrina",
+        "snippet": "g prior year equipment sales. EPI On-site/Pipeline Volume (20) HyCO volumes impacted by the after effects of Hurricanes Katrina and Rita. Asia Liquid/Bulk Volume 16 Strong liquid demand across the region, particularly Taiwan and Korea. Nort",
+        "url": "https://www.sec.gov/Archives/edgar/data/2969/000095012305014041/y15128exv99w1.htm",
+        "document": "y15128exv99w1.htm"
+      }
+    ]
+  },
+  "9_xinxiang_tianli_energy_2021": {
+    "event_date": "2021-07-20",
+    "window": [
+      "2021-07-18",
+      "2021-10-18"
+    ],
+    "keywords": [
+      "Henan",
+      "Zhengzhou",
+      "flood"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "20_formosa_petrochemical_2019": {
+    "event_date": "2019-04-07",
+    "window": [
+      "2019-04-05",
+      "2019-07-06"
+    ],
+    "keywords": [
+      "Mailiao",
+      "aromatics"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "21_mitsubishi_materials_2014": {
+    "event_date": "2014-01-09",
+    "window": [
+      "2014-01-07",
+      "2014-04-09"
+    ],
+    "keywords": [
+      "Yokkaichi",
+      "polysilicon"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "23_s_oil_2022": {
+    "event_date": "2022-05-19",
+    "window": [
+      "2022-05-17",
+      "2022-08-17"
+    ],
+    "keywords": [
+      "Onsan",
+      "S-Oil",
+      "alkylation"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "35_gazprom_pjsc_2022": {
+    "event_date": "2022-09-02",
+    "window": [
+      "2022-08-31",
+      "2022-12-01"
+    ],
+    "keywords": [
+      "Nord Stream",
+      "natural gas price",
+      "gas supply"
+    ],
+    "existing_date_first_disclosure": "2022-09-02",
+    "proposed_date_first_disclosure": "2022-10-19",
+    "candidates": [
+      {
+        "company": "Alcoa Corporation",
+        "cik": 1675149,
+        "date": "2022-10-19",
+        "form": "8-K",
+        "accession": "0001157523-22-001343",
+        "keyword": "natural gas price",
+        "snippet": "0 percent of the 1.6 million tons of annual capacity in an effort to reduce the refinery&#8217;s losses from exorbitant natural gas prices in Spain. The high volatility in European energy markets makes estimates of future results for the fa",
+        "url": "https://www.sec.gov/Archives/edgar/data/1675149/000115752322001343/a52944437ex991.htm",
+        "document": "a52944437ex991.htm"
+      },
+      {
+        "company": "Alcoa Corporation",
+        "cik": 1675149,
+        "date": "2022-10-27",
+        "form": "10-Q",
+        "accession": "0001564590-22-035456",
+        "keyword": "natural gas price",
+        "snippet": "5;n refinery to 50 percent of the 1.6 million metric tons of annual capacity to lessen the financial impact from rising natural gas prices in Spain. &#160; Alumina production decreased 4% in the third quarter of 2022 compared to the second",
+        "url": "https://www.sec.gov/Archives/edgar/data/1675149/000156459022035456/aa-10q_20220930.htm",
+        "document": "aa-10q_20220930.htm"
+      },
+      {
+        "company": "ArcelorMittal S.A.",
+        "cik": 1243429,
+        "date": "2022-11-21",
+        "form": "424B5",
+        "accession": "0001193125-22-289586",
+        "keyword": "Nord Stream",
+        "snippet": "-term. The energy crisis goes beyond soaring prices, as there is significant supply risk, with gas supplies through the Nord Stream pipeline having been reduced to 20% of maximum capacity as of July 26, 2022 and gas supplies being suspended",
+        "url": "https://www.sec.gov/Archives/edgar/data/1243429/000119312522289586/d276988d424b5.htm",
+        "document": "d276988d424b5.htm"
+      },
+      {
+        "company": "ArcelorMittal S.A.",
+        "cik": 1243429,
+        "date": "2022-11-23",
+        "form": "424B5",
+        "accession": "0001193125-22-291839",
+        "keyword": "Nord Stream",
+        "snippet": "-term. The energy crisis goes beyond soaring prices, as there is significant supply risk, with gas supplies through the Nord Stream pipeline having been reduced to 20% of maximum capacity as of July 26, 2022 and gas supplies being suspended",
+        "url": "https://www.sec.gov/Archives/edgar/data/1243429/000119312522291839/d276988d424b5.htm",
+        "document": "d276988d424b5.htm"
+      }
+    ]
+  },
+  "36_basf_se_2022": {
+    "event_date": "2021-09-27",
+    "window": [
+      "2021-09-25",
+      "2021-12-26"
+    ],
+    "keywords": [
+      "ammonia",
+      "Ludwigshafen",
+      "gas price"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "49_xiamen_tungsten_2010": {
+    "event_date": "2010-09-22",
+    "window": [
+      "2010-09-20",
+      "2010-12-21"
+    ],
+    "keywords": [
+      "rare earth"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "50_aneka_tambang_tbk_2020": {
+    "event_date": "2019-08-30",
+    "window": [
+      "2019-08-28",
+      "2019-11-28"
+    ],
+    "keywords": [
+      "nickel ore",
+      "export ban",
+      "Indonesia"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "10_hesteel_2023": {
+    "event_date": "2023-07-29",
+    "window": [
+      "2023-07-27",
+      "2023-10-27"
+    ],
+    "keywords": [
+      "Doksuri",
+      "Hebei",
+      "flood"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "11_aurizon_2010": {
+    "event_date": "2010-12-25",
+    "window": [
+      "2010-12-23",
+      "2011-03-25"
+    ],
+    "keywords": [
+      "Queensland",
+      "flood",
+      "force majeure"
+    ],
+    "existing_date_first_disclosure": "2011-01-07",
+    "proposed_date_first_disclosure": "2011-01-07",
+    "candidates": [
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2011-01-07",
+        "form": "8-K",
+        "accession": "0001299933-11-000108",
+        "keyword": "Queensland",
+        "snippet": "and shipments, washed out roads, restricted employee access, caused train derailments and created port delays. Half of Queensland has been declared a natural disaster area. These events have led to customer force majeure notices. Heavy rai",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000129993311000108/exhibit1.htm",
+        "document": "exhibit1.htm"
+      },
+      {
+        "company": "Rio Tinto",
+        "cik": 863064,
+        "date": "2011-01-10",
+        "form": "6-K",
+        "accession": "0000950123-11-001742",
+        "keyword": "Queensland",
+        "snippet": "m T &#043;44 (0) 20 7781 2000 F &#043;44 (0) 20 7781 1800 Press release Weather impacts Rio Tinto Coal Australia&#146;s Queensland operations 29 December 2010 As a result of severe monsoonal rain in central and northern Queensland, force ma",
+        "url": "https://www.sec.gov/Archives/edgar/data/863064/000095012311001742/u10286exv99w7.htm",
+        "document": "u10286exv99w7.htm"
+      },
+      {
+        "company": "BHP Billiton",
+        "cik": 811809,
+        "date": "2011-01-20",
+        "form": "6-K",
+        "accession": "0001193125-11-010547",
+        "keyword": "Queensland",
+        "snippet": "from Hunter Valley Energy Coal for the quarter and half year reflected first production from the MAC20 project. &#149; Queensland Coal (Australia) production was significantly affected by the persistent rain and flooding that impacted the",
+        "url": "https://www.sec.gov/Archives/edgar/data/811809/000119312511010547/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2011-01-25",
+        "form": "8-K",
+        "accession": "0001299933-11-000239",
+        "keyword": "flood",
+        "snippet": "ord 300 million tonnes in 2010 and Australia remained the world&#146;s largest coal exporting nation even with December flooding. Peabody believes seaborne coal demand will increase 6 to 8 percent in 2011 and could exceed 1 billion tonnes f",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000129993311000239/exhibit1.htm",
+        "document": "exhibit1.htm"
+      },
+      {
+        "company": "Rio Tinto",
+        "cik": 863064,
+        "date": "2011-02-03",
+        "form": "6-K",
+        "accession": "0000950123-11-008665",
+        "keyword": "Queensland",
+        "snippet": "ht per cent on the fourth quarter of 2009 and rose 20 per cent on full year 2009, following increased investment at the Queensland operations. Australian thermal coal production was down nine per cent overall for the year, mainly due to wet",
+        "url": "https://www.sec.gov/Archives/edgar/data/863064/000095012311008665/u10537exv99w4.htm",
+        "document": "u10537exv99w4.htm"
+      },
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2011-02-09",
+        "form": "8-K",
+        "accession": "0000950123-11-010943",
+        "keyword": "Queensland",
+        "snippet": "eting Higher 2011 Sales Burton North Goonyella Eaglefield Millennium Metropolitan Dalrymple Bay Abbot Point Port Kembla Queensland New South Wales Wilkie Creek Brisbane Wilpinjong Wambo Underground Wambo Open Cut NCIG Newcastle Gladstone Me",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000095012311010943/c62857exv99w1.htm",
+        "document": "c62857exv99w1.htm"
+      },
+      {
+        "company": "Rio Tinto",
+        "cik": 863064,
+        "date": "2011-02-11",
+        "form": "6-K",
+        "accession": "0000950123-11-012695",
+        "keyword": "Queensland",
+        "snippet": "ded aluminium products. Increased volumes of hard coking coal following new investment in heavy mobile equipment at the Queensland mines, higher refined gold and molybdenum at Kennecott Utah Copper and a significant recovery in diamonds and",
+        "url": "https://www.sec.gov/Archives/edgar/data/863064/000095012311012695/u10618exv99w1.htm",
+        "document": "u10618exv99w1.htm"
+      },
+      {
+        "company": "BHP Billiton",
+        "cik": 811809,
+        "date": "2011-02-16",
+        "form": "6-K",
+        "accession": "0001193125-11-037204",
+        "keyword": "Queensland",
+        "snippet": "antum 2 Olympic Dam Project 2+ Caroona Saraji Expansion Blackwater Expansion RBM Escondida OGP 1 Potash &#150; Melville Queensland Rail and Port Expansion NWS GWF Nimba IndoMet Coal Expansion Potash Ports Resolution Mt Arthur Coal (UG) Pota",
+        "url": "https://www.sec.gov/Archives/edgar/data/811809/000119312511037204/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "BHP Billiton",
+        "cik": 811809,
+        "date": "2011-02-16",
+        "form": "6-K",
+        "accession": "0001193125-11-037200",
+        "keyword": "Queensland",
+        "snippet": "s increased Underlying EBIT by US$1,147 million, after allowing for the royalty related increase in price linked costs. Queensland Coal (Australia) production was significantly affected by the persistent rain and flooding that impacted the",
+        "url": "https://www.sec.gov/Archives/edgar/data/811809/000119312511037200/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "ArcelorMittal",
+        "cik": 1243429,
+        "date": "2011-02-22",
+        "form": "20-F",
+        "accession": "0001193125-11-041201",
+        "keyword": "Queensland",
+        "snippet": "n production by suppliers (as occurred, for example, with respect to coal supplies as a result of the major flooding in Queensland, Australia in late 2010); accidents or other similar events at suppliers&#146; premises or along the supply c",
+        "url": "https://www.sec.gov/Archives/edgar/data/1243429/000119312511041201/d20f.htm",
+        "document": "d20f.htm"
+      },
+      {
+        "company": "Vale S.A.",
+        "cik": 917851,
+        "date": "2011-02-25",
+        "form": "6-K",
+        "accession": "0000950123-11-018274",
+        "keyword": "Queensland",
+        "snippet": "ncreasing since 2H10 due to demand pressures and the supply shock produced by heavy rainfall and floods in the state of Queensland, Australia, a major global producer and exporter, and tends to stay at high levels, implying a positive spill",
+        "url": "https://www.sec.gov/Archives/edgar/data/917851/000095012311018274/c13242e6vk.htm",
+        "document": "c13242e6vk.htm"
+      },
+      {
+        "company": "Vale S.A.",
+        "cik": 917851,
+        "date": "2011-02-25",
+        "form": "6-K",
+        "accession": "0000950123-11-018236",
+        "keyword": "Queensland",
+        "snippet": "ns and flooding in some parts of Brazil &#151; where we have 100% of our iron ore operations &#151; and in the state of Queensland, Australia &#151; where our central Australian office, in Brisbane, and some of our coal mines are located. A",
+        "url": "https://www.sec.gov/Archives/edgar/data/917851/000095012311018236/c13243e6vk.htm",
+        "document": "c13243e6vk.htm"
+      },
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2011-02-28",
+        "form": "10-K",
+        "accession": "0000950123-11-019465",
+        "keyword": "Queensland",
+        "snippet": "ld primarily to electric utilities. Our Australian Mining operations consist of metallurgical and thermal coal mines in Queensland and New South Wales, Australia. 2 Table of Contents The maps below display our mine locations as of December&",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000095012311019465/c61476e10vk.htm",
+        "document": "c61476e10vk.htm"
+      },
+      {
+        "company": "ArcelorMittal",
+        "cik": 1243429,
+        "date": "2011-02-28",
+        "form": "424B2",
+        "accession": "0001193125-11-048869",
+        "keyword": "Queensland",
+        "snippet": "n production by suppliers (as occurred, for example, with respect to coal supplies as a result of the major flooding in Queensland, Australia in late 2010); accidents or other similar events at suppliers&#146; premises or along the supply c",
+        "url": "https://www.sec.gov/Archives/edgar/data/1243429/000119312511048869/d424b2.htm",
+        "document": "d424b2.htm"
+      },
+      {
+        "company": "ArcelorMittal",
+        "cik": 1243429,
+        "date": "2011-03-02",
+        "form": "424B2",
+        "accession": "0001193125-11-053476",
+        "keyword": "Queensland",
+        "snippet": "n production by suppliers (as occurred, for example, with respect to coal supplies as a result of the major flooding in Queensland, Australia in late 2010); accidents or other similar events at suppliers&#146; premises or along the supply c",
+        "url": "https://www.sec.gov/Archives/edgar/data/1243429/000119312511053476/d424b2.htm",
+        "document": "d424b2.htm"
+      },
+      {
+        "company": "Rio Tinto",
+        "cik": 863064,
+        "date": "2011-03-15",
+        "form": "20-F",
+        "accession": "0000950123-11-025507",
+        "keyword": "Queensland",
+        "snippet": "rmance to ensure it is the developer of first choice. Key achievements &#149; Commissioning of the new Clermont mine in Queensland, an open cut thermal coal mine due to reach annual peak production of 12.2 million tonnes in 2013. &#149; Fea",
+        "url": "https://www.sec.gov/Archives/edgar/data/863064/000095012311025507/u10506e20vf.htm",
+        "document": "u10506e20vf.htm"
+      },
+      {
+        "company": "Vale S.A.",
+        "cik": 917851,
+        "date": "2011-03-18",
+        "form": "6-K",
+        "accession": "0000950123-11-026592",
+        "keyword": "Queensland",
+        "snippet": "g since the 2Q10 due to demand pressures and the abrupt decrease in offer caused by rain and inundation in the State of Queensland, Australia, an important global producer and exporter; and tend to remain at high levels, with positive impli",
+        "url": "https://www.sec.gov/Archives/edgar/data/917851/000095012311026592/h04912e6vk.htm",
+        "document": "h04912e6vk.htm"
+      },
+      {
+        "company": "BHP Billiton",
+        "cik": 811809,
+        "date": "2011-03-25",
+        "form": "6-K",
+        "accession": "0001193125-11-077138",
+        "keyword": "Queensland",
+        "snippet": "C Code). The Competent Persons for Exploration Results are J. Knight (Western Australia Iron Ore &#150; MAIG), A. Paul (Queensland Coal &#150; MAusIMM), D. Dunn (Queensland Coal &#150; MAusIMM) and P. Grey (Hunter Valley Energy Coal &#150;",
+        "url": "https://www.sec.gov/Archives/edgar/data/811809/000119312511077138/d6k.htm",
+        "document": "d6k.htm"
+      },
+      {
+        "company": "BHP Billiton",
+        "cik": 811809,
+        "date": "2011-03-25",
+        "form": "6-K",
+        "accession": "0001181431-11-020010",
+        "keyword": "Queensland",
+        "snippet": "COAL EXPANSIONS BHP Billiton today approved three key metallurgical coal projects located in the Bowen Basin in Central Queensland, Australia. The projects will add 4.9 million tonnes of annual mine capacity (100% basis) through development",
+        "url": "https://www.sec.gov/Archives/edgar/data/811809/000118143111020010/rrd306525.htm",
+        "document": "rrd306525.htm"
+      }
+    ]
+  },
+  "24_bp_2010": {
+    "event_date": "2010-04-20",
+    "window": [
+      "2010-04-18",
+      "2010-07-19"
+    ],
+    "keywords": [
+      "Deepwater Horizon",
+      "Macondo",
+      "oil spill"
+    ],
+    "existing_date_first_disclosure": "2010-04-22",
+    "proposed_date_first_disclosure": "2010-04-23",
+    "candidates": [
+      {
+        "company": "Transocean Ltd.",
+        "cik": 1451505,
+        "date": "2010-04-23",
+        "form": "8-K",
+        "accession": "0001193125-10-090260",
+        "keyword": "Deepwater Horizon",
+        "snippet": "ents On April 21, 2010, the Company announced that it had a fire and explosion onboard its semisubmersible drilling rig Deepwater Horizon. The incident occurred April 20, 2010 at approximately 10:00 p.m. central time in the United States Gu",
+        "url": "https://www.sec.gov/Archives/edgar/data/1451505/000119312510090260/d8k.htm",
+        "document": "d8k.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-04-30",
+        "form": "8-K",
+        "accession": "0001193125-10-101424",
+        "keyword": "oil spill",
+        "snippet": "7;Company&#148;) issued a news release reporting the Company&#146;s Incident Response Plan to the recent Gulf of Mexico oil spill. For additional information regarding the Company&#146;s announcement, please refer to the Company&#146;s pres",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510101424/d8k.htm",
+        "document": "d8k.htm"
+      },
+      {
+        "company": "Anadarko Petroleum Corporation",
+        "cik": 773910,
+        "date": "2010-05-04",
+        "form": "10-Q",
+        "accession": "0001193125-10-105970",
+        "keyword": "Macondo",
+        "snippet": "ost (credit) 1 &#151; &#151; &#151; Net periodic benefit cost $ 35 $ 28 $ 5 $ 6 13. Subsequent Event In April 2010, the Macondo exploration well in the Gulf of Mexico, in which Anadarko holds a 25% non-operating interest, discovered hydroca",
+        "url": "https://www.sec.gov/Archives/edgar/data/773910/000119312510105970/d10q.htm",
+        "document": "d10q.htm"
+      },
+      {
+        "company": "Anadarko Petroleum Corporation",
+        "cik": 773910,
+        "date": "2010-05-04",
+        "form": "8-K",
+        "accession": "0001157523-10-002661",
+        "keyword": "Deepwater Horizon",
+        "snippet": "i Canyon block 252 discovered an oil accumulation.&#160;As reported in the press, an explosion and fire occurred on the Deepwater Horizon drilling rig during operations.&#160;The rig subsequently sank, hydrocarbons were released into the Gu",
+        "url": "https://www.sec.gov/Archives/edgar/data/773910/000115752310002661/a6275035ex99.htm",
+        "document": "a6275035ex99.htm"
+      },
+      {
+        "company": "Transocean Ltd.",
+        "cik": 1451505,
+        "date": "2010-05-05",
+        "form": "10-Q",
+        "accession": "0001451505-10-000035",
+        "keyword": "Deepwater Horizon",
+        "snippet": "nt to $150&#160;million.&#160;&#160;At May&#160;5, 2010, we held 2,449,900&#160;treasury shares, at cost. &#160; &#160; Deepwater Horizon incident &#8212;Subsequent to March&#160;31, 2010, our Ultra-Deepwater Floater Deepwater&#160;Horizon",
+        "url": "https://www.sec.gov/Archives/edgar/data/1451505/000145150510000035/form10_q1q2010.htm",
+        "document": "form10_q1q2010.htm"
+      },
+      {
+        "company": "Transocean Ltd.",
+        "cik": 1451505,
+        "date": "2010-05-05",
+        "form": "8-K",
+        "accession": "0001193125-10-109040",
+        "keyword": "Deepwater Horizon",
+        "snippet": "t. Excluding these discrete items the Annual Effective Tax Rate ( 2 ) for the first quarter was 15.0 percent. Update on Deepwater Horizon Incident Concurrently with this press release, we have filed a Quarterly Report on Form 10-Q with the",
+        "url": "https://www.sec.gov/Archives/edgar/data/1451505/000119312510109040/dex991.htm",
+        "document": "dex991.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-05-06",
+        "form": "10-Q",
+        "accession": "0001193125-10-110983",
+        "keyword": "Deepwater Horizon",
+        "snippet": "s of refurbishment in the Company&#146;s shipyard. Gulf of Mexico Oil Spill. In response to the oil spill caused by the Deepwater Horizon oil rig explosion in the Gulf of Mexico on April 20, 2010 and the subsequent temporary closure of the",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510110983/d10q.htm",
+        "document": "d10q.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-05-07",
+        "form": "8-K",
+        "accession": "0001193125-10-111209",
+        "keyword": "oil spill",
+        "snippet": "e to the Company&#146;s April 29, 2010 press release regarding the Company&#146;s response to the recent Gulf of Mexico oil spill. About Omega Protein Omega Protein Corporation is the nation&#146;s largest manufacturer of heart-healthy fish",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510111209/dex991.htm",
+        "document": "dex991.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-05-10",
+        "form": "8-K",
+        "accession": "0001193125-10-114185",
+        "keyword": "Deepwater Horizon",
+        "snippet": ", Omega Protein Corporation (the &#147;Company&#148;) issued a news release updating the effects on its business of the Deepwater Horizon oil spill in the Gulf of Mexico. In accordance with General Instructions B.2 and B.6 of Form 8-K, the",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510114185/d8k.htm",
+        "document": "d8k.htm"
+      },
+      {
+        "company": "Transocean Ltd.",
+        "cik": 1451505,
+        "date": "2010-05-13",
+        "form": "8-K",
+        "accession": "0001193125-10-118988",
+        "keyword": "Deepwater Horizon",
+        "snippet": "subject to a 30-day notice of cancellation issued by either party. (10) On April 22, 2010, the Ultra-Deepwater Floater Deepwater Horizon sank following a fire and explosion while operating in the U.S. Gulf of Mexico and has been declared a",
+        "url": "https://www.sec.gov/Archives/edgar/data/1451505/000119312510118988/dex991.htm",
+        "document": "dex991.htm"
+      },
+      {
+        "company": "Transocean Ltd.",
+        "cik": 1451505,
+        "date": "2010-05-19",
+        "form": "CORRESP",
+        "accession": "0001193125-10-124355",
+        "keyword": "Deepwater Horizon",
+        "snippet": "ely $0.8 billion of expected capital expenditures relating to our newbuild program. After adjusting for the loss of the Deepwater Horizon drilling rig and receipt of insurance proceeds, we expect total free cash flow from our contract backl",
+        "url": "https://www.sec.gov/Archives/edgar/data/1451505/000119312510124355/filename1.htm",
+        "document": "filename1.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-06-10",
+        "form": "8-K",
+        "accession": "0001193125-10-136698",
+        "keyword": "Deepwater Horizon",
+        "snippet": "re effects of the oil spill specifically, no projections or extrapolations should be made from these numbers. &#147;The Deepwater Horizon oil spill, which has affected our business and has led to increased costs, has not had a material adve",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510136698/dex991.htm",
+        "document": "dex991.htm"
+      },
+      {
+        "company": "Anadarko Petroleum Corporation",
+        "cik": 773910,
+        "date": "2010-06-21",
+        "form": "8-K",
+        "accession": "0000950123-10-059395",
+        "keyword": "Deepwater Horizon",
+        "snippet": "nadarko Issues Statement HOUSTON , June 18, 2010 &#151; Following this week&#146;s hearings in Washington regarding the Deepwater Horizon tragedy, Anadarko Petroleum Corporation (NYSE: APC) issued the following statement: &#147;The events s",
+        "url": "https://www.sec.gov/Archives/edgar/data/773910/000095012310059395/h73927exv99w1.htm",
+        "document": "h73927exv99w1.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-06-22",
+        "form": "8-K",
+        "accession": "0001193125-10-143832",
+        "keyword": "oil spill",
+        "snippet": "ns over which the Company has no control, such as varying fish population, fish oil yields, adverse weather conditions, oil spill impacts and disease; (2) the impact of worldwide supply and demand relationships on prices for the Company&#14",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510143832/dex991.htm",
+        "document": "dex991.htm"
+      },
+      {
+        "company": "Transocean Ltd.",
+        "cik": 1451505,
+        "date": "2010-07-01",
+        "form": "CORRESP",
+        "accession": "0001193125-10-152575",
+        "keyword": "Deepwater Horizon",
+        "snippet": "rating and maintenance expenses to increase by approximately $200 million in 2010 related to the incident involving the Deepwater Horizon . We noted similar quantification in your first quarter earnings conference call. Please tell us how y",
+        "url": "https://www.sec.gov/Archives/edgar/data/1451505/000119312510152575/filename1.htm",
+        "document": "filename1.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-07-01",
+        "form": "8-K",
+        "accession": "0001193125-10-152744",
+        "keyword": "Deepwater Horizon",
+        "snippet": "ted our stock price and generated volatility in value and trading volume, one of which is the publicity surrounding the Deepwater Horizon oil spill, which has been perceived to have affected our business.&#148; The Plan entails a dividend o",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510152744/dex991.htm",
+        "document": "dex991.htm"
+      },
+      {
+        "company": "Omega Protein Corporation",
+        "cik": 1053650,
+        "date": "2010-07-16",
+        "form": "8-K",
+        "accession": "0001193125-10-159910",
+        "keyword": "Deepwater Horizon",
+        "snippet": "in Corporation (the &#147;Company&#148;) issued a news release which updated information on its 2010 fish catch and the Deepwater Horizon Gulf oil spill. A copy of the release is set forth as Exhibit 99.1 attached hereto. In accordance with",
+        "url": "https://www.sec.gov/Archives/edgar/data/1053650/000119312510159910/d8k.htm",
+        "document": "d8k.htm"
+      }
+    ]
+  },
+  "25_petrochina_2005": {
+    "event_date": "2005-11-13",
+    "window": [
+      "2005-11-11",
+      "2006-02-11"
+    ],
+    "keywords": [
+      "Songhua",
+      "Jilin",
+      "benzene"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019": {
+    "event_date": "2019-08-04",
+    "window": [
+      "2019-08-02",
+      "2019-11-02"
+    ],
+    "keywords": [
+      "blackout",
+      "power outage",
+      "Java",
+      "Indonesia"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "40_state_grid_corp_of_china_2021": {
+    "event_date": "2021-09-23",
+    "window": [
+      "2021-09-21",
+      "2021-12-22"
+    ],
+    "keywords": [
+      "power rationing",
+      "power curtailment",
+      "power shortage",
+      "electricity restriction"
+    ],
+    "existing_date_first_disclosure": "2021-10-27",
+    "proposed_date_first_disclosure": "2021-10-27",
+    "candidates": [
+      {
+        "company": "TTM Technologies, Inc.",
+        "cik": 1116942,
+        "date": "2021-10-27",
+        "form": "8-K",
+        "accession": "0001193125-21-309324",
+        "keyword": "power rationing",
+        "snippet": "f TTM. Business Outlook In the fourth quarter, further increases in labor and raw materials costs, along with potential power rationing in China, are expected to negatively affect profitability. As a result, TTM estimates that revenue for t",
+        "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312521309324/d216561dex991.htm",
+        "document": "d216561dex991.htm"
+      },
+      {
+        "company": "TTM Technologies, Inc.",
+        "cik": 1116942,
+        "date": "2021-11-02",
+        "form": "10-Q",
+        "accession": "0001564590-21-053547",
+        "keyword": "power shortage",
+        "snippet": "he assets securing their borrowings and we could be forced into bankruptcy or liquidation . Regulatory Risks Because of power shortages in China, we may have to temporarily close our China operations, which would adversely impact our abilit",
+        "url": "https://www.sec.gov/Archives/edgar/data/1116942/000156459021053547/ttmi-10q_20210927.htm",
+        "document": "ttmi-10q_20210927.htm"
+      },
+      {
+        "company": "Diodes Incorporated",
+        "cik": 29002,
+        "date": "2021-11-03",
+        "form": "10-Q",
+        "accession": "0000950170-21-002856",
+        "keyword": "power rationing",
+        "snippet": "ants and high demand for Chinese manufactured goods that creates a higher demand for power, China has been experiencing power rationing and rising electricity prices. Continued shortages of electricity and/or rising electricity prices could",
+        "url": "https://www.sec.gov/Archives/edgar/data/29002/000095017021002856/diod-20210930.htm",
+        "document": "diod-20210930.htm"
+      }
+    ]
+  },
+  "41_yunnan_aluminium_2022": {
+    "event_date": "2022-09-10",
+    "window": [
+      "2022-09-08",
+      "2022-12-09"
+    ],
+    "keywords": [
+      "Yunnan",
+      "aluminium",
+      "aluminum"
+    ],
+    "existing_date_first_disclosure": null,
+    "proposed_date_first_disclosure": null,
+    "candidates": []
+  },
+  "54_yunnan_chihong_zinc_germanium_2023": {
+    "event_date": "2023-07-03",
+    "window": [
+      "2023-07-01",
+      "2023-10-01"
+    ],
+    "keywords": [
+      "gallium",
+      "germanium",
+      "export control"
+    ],
+    "existing_date_first_disclosure": "2023-07-05",
+    "proposed_date_first_disclosure": "2023-07-05",
+    "candidates": [
+      {
+        "company": "AXT, Inc. (and its Beijing subsidiary Tongmei)",
+        "cik": 1051627,
+        "date": "2023-07-05",
+        "form": "8-K",
+        "accession": "0001558370-23-011686",
+        "keyword": "gallium",
+        "snippet": "a press release addressing the potential impact of the announcement of China&#8217;s new export control regulations on gallium- and germanium-related materials, which take effect on August 1, 2023. &#160;The press release includes a certai",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000155837023011686/axti-20230703x8k.htm",
+        "document": "axti-20230703x8k.htm"
+      },
+      {
+        "company": "AXT, Inc. (and its Beijing subsidiary Tongmei)",
+        "cik": 1051627,
+        "date": "2023-08-03",
+        "form": "8-K",
+        "accession": "0001558370-23-013229",
+        "keyword": "gallium",
+        "snippet": "factures high-performance compound and single element semiconductor substrate wafers comprising indium phosphide (InP), gallium arsenide (GaAs) and germanium (Ge). The company&#8217;s substrate wafers are used when a typical silicon substra",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000155837023013229/axti-20230803xex99d1.htm",
+        "document": "axti-20230803xex99d1.htm"
+      },
+      {
+        "company": "AXT, Inc. (and its Beijing subsidiary Tongmei)",
+        "cik": 1051627,
+        "date": "2023-08-09",
+        "form": "10-Q",
+        "accession": "0001558370-23-014267",
+        "keyword": "gallium",
+        "snippet": "rtzCoLtdMember axti:ChaoyangLimeiSemiconductorTechnologyCo.Ltd.Member 2023-01-01 2023-01-31 0001051627 axti:XiaoyiXinganGalliumCo.Ltd.Member 2023-04-01 2023-04-30 0001051627 axti:BeijingJiyaSemiconductorMaterialCo.LtdInvestmentMember 2023-0",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000155837023014267/axti-20230630x10q.htm",
+        "document": "axti-20230630x10q.htm"
+      }
+    ]
+  },
+  "57_united_co_rusal_international_pjsc_2018": {
+    "event_date": "2018-04-06",
+    "window": [
+      "2018-04-04",
+      "2018-07-05"
+    ],
+    "keywords": [
+      "Rusal",
+      "OFAC",
+      "sanction"
+    ],
+    "existing_date_first_disclosure": "2018-04-13",
+    "proposed_date_first_disclosure": "2018-04-13",
+    "candidates": [
+      {
+        "company": "Rio Tinto",
+        "cik": 863064,
+        "date": "2018-04-13",
+        "form": "6-K",
+        "accession": "0001564590-18-008145",
+        "keyword": "Rusal",
+        "snippet": "6-K 1 rio-6k_20180413.htm 6-K RE THE REVIEW OF ARRANGEMENTS WITH RUSAL rio-6k_20180413.htm UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM 6-K REPORT OF FOREIGN PRIVATE ISSUER PURSUANT TO RULE 13A-16 OR 15D-16 OF",
+        "url": "https://www.sec.gov/Archives/edgar/data/863064/000156459018008145/rio-6k_20180413.htm",
+        "document": "rio-6k_20180413.htm"
+      },
+      {
+        "company": "Rio Tinto",
+        "cik": 863064,
+        "date": "2018-04-18",
+        "form": "6-K",
+        "accession": "0001564590-18-008388",
+        "keyword": "Rusal",
+        "snippet": "to announced on 13 April 2018 that it has reviewed arrangements it has with impacted entities. The arrangements include Rusal&#8217;s 20 per cent interest in Queensland Alumina Limited in Australia, including Rusal&#8217;s associated supply",
+        "url": "https://www.sec.gov/Archives/edgar/data/863064/000156459018008388/rio-ex991_6.htm",
+        "document": "rio-ex991_6.htm"
+      },
+      {
+        "company": "Kaiser Aluminum Corporation",
+        "cik": 811596,
+        "date": "2018-04-25",
+        "form": "8-K",
+        "accession": "0000811596-18-000021",
+        "keyword": "Rusal",
+        "snippet": "er military applications. \"The recent speculative spike in metal prices related to Section 232 tariffs and sanctions on Rusal, along with escalating freight costs, create a challenging short-term situation. Although we expect continuing mar",
+        "url": "https://www.sec.gov/Archives/edgar/data/811596/000081159618000021/a20180331earningsrelease.htm",
+        "document": "a20180331earningsrelease.htm"
+      },
+      {
+        "company": "Constellium SE",
+        "cik": 1563411,
+        "date": "2018-04-26",
+        "form": "6-K",
+        "accession": "0001193125-18-135119",
+        "keyword": "Rusal",
+        "snippet": "was implementing sanctions on various Russian individuals and companies they own and control, including United Company Rusal Plc with whom we do business through its subsidiaries. On April 23, 2018, the U.S. Treasury Department issued Gene",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000119312518135119/d576268dex991.htm",
+        "document": "d576268dex991.htm"
+      },
+      {
+        "company": "Kaiser Aluminum Corporation",
+        "cik": 811596,
+        "date": "2018-05-01",
+        "form": "10-Q",
+        "accession": "0000811596-18-000027",
+        "keyword": "OFAC",
+        "snippet": "on 45 -Paragraph 14A -URI http://asc.fasb.org/extlink&oid=84228862&loc=SL7669686-108580 + Details Name: us-gaap_ScheduleOfAccumulatedOtherComprehensiveIncomeLossTableTextBlock Namespace Prefix: us-gaap_ Data Type: nonnum:textBlockItemType B",
+        "url": "https://www.sec.gov/Archives/edgar/data/811596/000081159618000027/R27.htm",
+        "document": "R27.htm"
+      },
+      {
+        "company": "Tredegar Corporation",
+        "cik": 850429,
+        "date": "2018-05-01",
+        "form": "10-Q",
+        "accession": "0000850429-18-000030",
+        "keyword": "OFAC",
+        "snippet": "e Accounting Standards Codification -Topic 235 -URI http://asc.fasb.org/topic&trid=2122369 + Details Name: us-gaap_BasisOfAccounting Namespace Prefix: us-gaap_ Data Type: nonnum:textBlockItemType Balance Type: na Period Type: duration",
+        "url": "https://www.sec.gov/Archives/edgar/data/850429/000085042918000030/R10.htm",
+        "document": "R10.htm"
+      },
+      {
+        "company": "Tredegar Corporation",
+        "cik": 850429,
+        "date": "2018-05-02",
+        "form": "8-K",
+        "accession": "0000850429-18-000032",
+        "keyword": "Rusal",
+        "snippet": "anctions on certain Russian individuals and on companies controlled by those individuals, including&#160;United Company RUSAL Plc, Russia&#8217;s largest aluminum producer and a substantial supplier of primary aluminum to the U.S. market.&#",
+        "url": "https://www.sec.gov/Archives/edgar/data/850429/000085042918000032/tg-20180331xearningsrelease.htm",
+        "document": "tg-20180331xearningsrelease.htm"
+      },
+      {
+        "company": "Aleris Corporation",
+        "cik": 1518587,
+        "date": "2018-05-03",
+        "form": "10-Q",
+        "accession": "0001518587-18-000021",
+        "keyword": "Rusal",
+        "snippet": "was implementing sanctions on various Russian individuals and companies they own and control, including United Company Rusal Plc with whom we do business through its subsidiaries. On April 23, 2018, the U.S. Treasury Department issued Gene",
+        "url": "https://www.sec.gov/Archives/edgar/data/1518587/000151858718000021/a1q1810q.htm",
+        "document": "a1q1810q.htm"
+      },
+      {
+        "company": "Aleris Corporation",
+        "cik": 1518587,
+        "date": "2018-05-03",
+        "form": "8-K",
+        "accession": "0001518587-18-000019",
+        "keyword": "Rusal",
+        "snippet": "was implementing sanctions on various Russian individuals and companies they own and control, including United Company Rusal Plc with whom we do business through its subsidiaries. On April 23, 2018, the U.S. Treasury Department issued Gene",
+        "url": "https://www.sec.gov/Archives/edgar/data/1518587/000151858718000019/a1q18earningsrelease.htm",
+        "document": "a1q18earningsrelease.htm"
+      },
+      {
+        "company": "Tredegar Corporation",
+        "cik": 850429,
+        "date": "2018-05-07",
+        "form": "8-K",
+        "accession": "0001140361-18-021973",
+        "keyword": "Rusal",
+        "snippet": "ation also applied sanctions against Russia, and Russia is a large producer of aluminum, and their main producer called Rusal has been materially affected by these sanctions.&#160; So, the combination of tariffs and sanctions have had an im",
+        "url": "https://www.sec.gov/Archives/edgar/data/850429/000114036118021973/ex99_1.htm",
+        "document": "ex99_1.htm"
+      },
+      {
+        "company": "Rio Tinto",
+        "cik": 863064,
+        "date": "2018-05-14",
+        "form": "S-8",
+        "accession": "0001564590-18-013385",
+        "keyword": "sanction",
+        "snippet": "r or not as a result of making an offer to acquire Shares; or (ii) under Section 899 of the Companies Act 2006, a court sanctions a compromise or arrangement in connection with the acquisition of Shares, but not where the Directors determin",
+        "url": "https://www.sec.gov/Archives/edgar/data/863064/000156459018013385/rio-ex43_83.htm",
+        "document": "rio-ex43_83.htm"
+      },
+      {
+        "company": "Aleris Corporation",
+        "cik": 1518587,
+        "date": "2018-06-04",
+        "form": "8-K",
+        "accession": "0001193125-18-182501",
+        "keyword": "Rusal",
+        "snippet": "was implementing sanctions on various Russian individuals and companies they own and control, including United Company Rusal Plc (&#147;Rusal&#148;) with whom we do business through its subsidiaries. On April 23, 2018, the U.S. Treasury De",
+        "url": "https://www.sec.gov/Archives/edgar/data/1518587/000119312518182501/d566014dex992.htm",
+        "document": "d566014dex992.htm"
+      },
+      {
+        "company": "Constellium SE",
+        "cik": 1563411,
+        "date": "2018-06-27",
+        "form": "S-8",
+        "accession": "0001193125-18-205909",
+        "keyword": "sanction",
+        "snippet": "section 3:45 of the Civil Code and section 42 of the Bankruptcy Act concerning fraudulent conveyance as well as by any sanctions or measures under the Sanctions Act 1977 ( Sanctiewet 1977 ) or by EU or other international sanctions; and 4",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000119312518205909/d609637dex51.htm",
+        "document": "d609637dex51.htm"
+      },
+      {
+        "company": "Aleris Corporation",
+        "cik": 1518587,
+        "date": "2018-06-29",
+        "form": "8-K",
+        "accession": "0001193125-18-209981",
+        "keyword": "OFAC",
+        "snippet": "mpliance with Laws 112 5.16 Intellectual Property 113 5.17 Solvency 113 5.18 Labor Matters 113 5.19 Perfection 113 5.20 OFAC, PATRIOT Act and Anti-Money Laundering Compliance 114 5.21 Anti-Corruption Compliance 114 5.22 OFAC 114 5.23 Design",
+        "url": "https://www.sec.gov/Archives/edgar/data/1518587/000119312518209981/d551839dex102.htm",
+        "document": "d551839dex102.htm"
+      }
+    ]
+  },
+  "59_coronado_global_resources_2020": {
+    "event_date": "2020-10-01",
+    "window": [
+      "2020-09-29",
+      "2020-12-30"
+    ],
+    "keywords": [
+      "Australian coal",
+      "import ban",
+      "China"
+    ],
+    "existing_date_first_disclosure": "2020-11-04",
+    "proposed_date_first_disclosure": "2020-10-26",
+    "candidates": [
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2020-10-26",
+        "form": "8-K",
+        "accession": "0001193125-20-275977",
+        "keyword": "Australian coal",
+        "snippet": "ted, an Australian mining services company, since April 2017. He also served as a director at Stanmore Coal Limited, an Australian coal company, from May 2019 until February 2020 and recently served as CEO of WorkPac Group. Mr.&#160;Yeates",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000119312520275977/d98071d8k.htm",
+        "document": "d98071d8k.htm"
+      },
+      {
+        "company": "Genco Shipping & Trading Limited",
+        "cik": 1326200,
+        "date": "2020-11-04",
+        "form": "10-Q",
+        "accession": "0001558370-20-012588",
+        "keyword": "Australian coal",
+        "snippet": "owever, Capesize spot earnings have pulled back to $15,781 as of October 29, 2020, following a reported ban by China on Australian coal shipments together with an increased number of ships ballasting to the Atlantic due to crew change restr",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326200/000155837020012588/gnk-20200930x10q.htm",
+        "document": "gnk-20200930x10q.htm"
+      },
+      {
+        "company": "Genco Shipping & Trading Limited",
+        "cik": 1326200,
+        "date": "2020-11-04",
+        "form": "8-K",
+        "accession": "0001140361-20-024553",
+        "keyword": "China",
+        "snippet": "Brazilian iron ore trade resulted in a significantly improved drybulk market as compared to the first half of the year. China continued to lead the global economy and drive drybulk demand through record iron ore imports and steel production",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036120024553/brhc10016122_99-1.htm",
+        "document": "brhc10016122_99-1.htm"
+      },
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2020-11-09",
+        "form": "10-Q",
+        "accession": "0001064728-20-000033",
+        "keyword": "China",
+        "snippet": "30, 2020 compared to the prior year period, as the COVID-19 pandemic has significantly impacted steel demand. Excluding China, steel production was down approximately 13% due to COVID-19, while Chinese steel production increased approximate",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000106472820000033/btu-20200930.htm",
+        "document": "btu-20200930.htm"
+      },
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2020-11-09",
+        "form": "8-K",
+        "accession": "0001064728-20-000032",
+        "keyword": "China",
+        "snippet": "VID-driven lows earlier in the year, although seaborne met coal demand has yet to recover to pre-pandemic levels. While China is leading the steel production recovery, met coal imports have been muted given unofficial import controls. In ad",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000106472820000032/btu8k20201109ex991.htm",
+        "document": "btu8k20201109ex991.htm"
+      },
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2020-11-09",
+        "form": "8-K",
+        "accession": "0001193125-20-288517",
+        "keyword": "China",
+        "snippet": "se and generates nearly half of its revenue from outside of the U.S. Supply and Demand Dynamics &#8212; COVID-19 Impact China net importer of steel for first time in 11 years in June; Heightened import restriction risk weighing on market Sl",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000119312520288517/d813604dex991.htm",
+        "document": "d813604dex991.htm"
+      },
+      {
+        "company": "Peabody Energy Corporation",
+        "cik": 1064728,
+        "date": "2020-12-28",
+        "form": "8-K",
+        "accession": "0001193125-20-326738",
+        "keyword": "China",
+        "snippet": "R RUN MINING, LLC PEABODY BEAR RUN SERVICES, LLC PEABODY CABALLO MINING, LLC PEABODY CARDINAL GASIFICATION, LLC PEABODY CHINA, LLC PEABODY COALSALES, LLC PEABODY COALTRADE, LLC PEABODY COLORADO OPERATIONS, LLC PEABODY COLORADO SERVICES, LLC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1064728/000119312520326738/d81300dex101.htm",
+        "document": "d81300dex101.htm"
+      }
+    ]
+  }
+}

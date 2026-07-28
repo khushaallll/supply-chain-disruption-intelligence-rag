@@ -1,0 +1,609 @@
+[
+  {
+    "event_id": "5_formosa_plastics_2021",
+    "date_news_first": "2021-02-15",
+    "date_news_first_note": "MOVED by one day from the supplied 2021-02-14, but both are defensible depending on what you treat as the event. 2021-02-14 is when Uri arrived over Texas and winter-storm coverage begins. The event as described (ERCOT grid collapse plus petrochemical freeze-offs) is 2021-02-15: ERCOT began rotating outages at about 01:25 CST on 15 Feb, LyondellBasell declared force majeure on US polyethylene on 15 Feb, and the Austin fabs shut on 15 Feb. Recommend 2021-02-15 for a monitoring-system eval; keep 2021-02-14 if the trigger is storm arrival.",
+    "ground_truth_affected": [
+      {
+        "company": "NXP Semiconductors N.V.",
+        "in_graph_context": false,
+        "impact": "Both Austin wafer fabs fully shut from 15 Feb 2021 after loss of utilities, with equipment and work-in-progress damage. Company guided to roughly USD 100m of lost Q2 revenue."
+      },
+      {
+        "company": "Infineon Technologies AG",
+        "in_graph_context": false,
+        "impact": "Austin fab force-shut on 15 Feb 2021 because of the regional power outage; infrastructure recovered within about a week but pre-outage output was not regained until June 2021."
+      },
+      {
+        "company": "Samsung Electronics Co., Ltd.",
+        "in_graph_context": "hop2",
+        "impact": "Austin (S2) fab halted at the utility's request so power could be directed to residences and healthcare; the shutdown ran into late March 2021 with lost wafers and lost production time."
+      },
+      {
+        "company": "Olin Corporation",
+        "in_graph_context": false,
+        "impact": "Declared force majeure on 16 Feb 2021 on US chlorine, caustic soda, ethylene dichloride, epoxy and hydrochloric acid from the Freeport, Texas complex."
+      },
+      {
+        "company": "LyondellBasell Industries N.V.",
+        "in_graph_context": false,
+        "impact": "Declared force majeure on US polyethylene on 15 Feb 2021 and subsequently on Gulf Coast polypropylene."
+      },
+      {
+        "company": "Celanese Corporation",
+        "in_graph_context": false,
+        "impact": "Declared force majeure on 18 Feb 2021 across acetic acid, VAM, ethyl acetate and EVA sold into the US, Europe and the Middle East."
+      },
+      {
+        "company": "Pactiv Evergreen Inc.",
+        "in_graph_context": false,
+        "impact": "Packaging converter and resin consumer; discussed Winter Storm Uri in its Q4 2020 results release and FY2020 10-K, both issued in the week after the storm."
+      },
+      {
+        "company": "W. R. Grace & Co.",
+        "in_graph_context": false,
+        "impact": "Issued a press release on 19 Mar 2021 addressing winter-storm-related force majeure and operational effects."
+      },
+      {
+        "company": "Core Molding Technologies, Inc.",
+        "in_graph_context": false,
+        "impact": "Composites moulder; discussed winter-storm force majeure and resin supply in its Q4/FY2020 earnings release of 15 Mar 2021."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.eetimes.com/infineon-and-nxp-resume-austin-texas-fabs-after-winter-storms/",
+      "https://www.datacenterdynamics.com/en/news/samsung-nxp-and-infineon-chip-fabs-shut-down-texas-amid-record-storm/",
+      "https://spglobal.com/platts/en/market-insights/latest-news/petrochemicals/021821-factbox-more-force-majeures-shutdowns-emerge-from-us-gulf-coast-petrochemical-producers",
+      "https://www.spglobal.com/energy/en/news-research/latest-news/chemicals/021621-factbox-deep-freeze-prompts-force-majeures-shutdowns-at-us-gulf-coast-petchem-plants",
+      "https://www.sec.gov/Archives/edgar/data/1413447/000141344721000021/nxpaustinproductionupdate2.htm",
+      "https://www.sec.gov/Archives/edgar/data/74303/000007430321000051/exhibit991prupdated1q21out.htm",
+      "https://www.sec.gov/Archives/edgar/data/1527508/000095010321002907/dp146707_ex9901.htm",
+      "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000040/a8-kmar2021ex991.htm",
+      "https://www.sec.gov/Archives/edgar/data/1026655/000102665521000005/ex991.htm",
+      "https://cen.acs.org/business/petrochemicals/Texas-petrochemical-production-still-thawing/99/i11"
+    ],
+    "date_first_disclosure": "2021-02-24",
+    "disclosure_source": "https://www.sec.gov/Archives/edgar/data/1527508/000095010321002907/dp146707_ex9901.htm",
+    "disclosure_source_note": "Pactiv Evergreen Inc. 8-K (Item 2.02), Exhibit 99.1, Q4/FY2020 results release, filed 2021-02-24, accession 0000950103-21-002907.",
+    "disclosure_search_note": "IMPORTANT CAVEAT, PLEASE VERIFY THIS ONE. I located the Pactiv filing by EDGAR full-text search for the exact phrase \"Winter Storm Uri\" in 8-Ks filed 2021-02-15 to 2021-03-10 (11 documents, 10 filers; the earliest are Palomar Holdings, Pactiv Evergreen and Enable Midstream, all 2021-02-24). I did not open and read the Pactiv passage, so I cannot confirm it asserts an operational impact rather than describing the storm in passing. The fully verified fallback, whose content I did read, is NXP Semiconductors' 8-K of 2021-03-11 (accession 0001413447-21-000021), an Austin production update. I also ran a second sweep for \"winter storm\" together with \"force majeure\" across 2021-02-16 to 2021-02-26, which returned only utilities and insurers (Algonquin, Vistra, Xcel, Duke) plus Arcosa and Pactiv. EARLIER CANDIDATES I COULD NOT SOURCE PRIMARILY: LyondellBasell's 15 Feb and Olin's 16 Feb force majeure declarations were customer notices reported by S&P Global Platts, not public first-party documents; Samsung and Infineon confirmed their Austin shutdowns to media around 17-19 Feb rather than through a dated corporate release I could retrieve. Any of those would push this date back a week.",
+    "kb_sources": [
+      {
+        "url": "https://cen.acs.org/business/petrochemicals/Texas-petrochemical-production-still-thawing/99/i11",
+        "note": "Seed source. C&EN, 'Texas petrochemical production is still thawing'. Producer-by-producer recovery status three weeks on. Generally free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.dallasfed.org/research/swe/2021/swe2102/swe2102c",
+        "note": "Dallas Fed, 'Texas winter deep freeze broke refining, petrochemical supply chains'. Best quantitative KB document for the propagation. Free, full text.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://spglobal.com/platts/en/market-insights/latest-news/petrochemicals/021821-factbox-more-force-majeures-shutdowns-emerge-from-us-gulf-coast-petrochemical-producers",
+        "note": "S&P Global Platts factbox, 18 Feb 2021, the canonical dated list of force majeures by company and product. MAY BE PAYWALLED/METERED.",
+        "full_text_available": false
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "NXP Semiconductors N.V.",
+        "form": "8-K (Item 7.01 / EX-99)",
+        "filing_date": "2021-03-11",
+        "accession_number": "0001413447-21-000021",
+        "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344721000021/nxpaustinproductionupdate2.htm",
+        "section_summary": "Verified by reading. Press release announcing resumption of initial operations at the two Austin wafer fabs. States that the storm and loss of gas, electricity and water damaged both facilities and forced a full shutdown beginning 15 Feb; that utilities were restored and clean rooms declared safe on 27 Feb; that roughly one month of wafer production had been lost to date; that Q1 2021 revenue guidance was unchanged but approximately USD 100m of Q2 revenue impact was expected; and, notably for supply-chain propagation, that NXP acknowledged the disruption may affect its customers and was updating affected customers regularly."
+      },
+      {
+        "company": "Olin Corporation",
+        "form": "8-K (Item 2.02 / EX-99.1)",
+        "filing_date": "2021-03-16",
+        "accession_number": "0000074303-21-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/74303/000007430321000051/exhibit991prupdated1q21out.htm",
+        "section_summary": "Updated Q1 2021 outlook release discussing the winter storm, the resulting force majeure on Freeport chlor-alkali and epoxy products, and the effect on quarterly results."
+      },
+      {
+        "company": "Pactiv Evergreen Inc.",
+        "form": "8-K (Item 2.02 / EX-99.1) and 10-K",
+        "filing_date": "2021-02-24 (8-K) and 2021-02-25 (10-K)",
+        "accession_number": "0000950103-21-002907 (8-K); 0001564590-21-008652 (10-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1527508/000095010321002907/dp146707_ex9901.htm",
+        "section_summary": "Q4/FY2020 results release and annual report, both referencing Winter Storm Uri. Content not read; flagged above as requiring verification."
+      },
+      {
+        "company": "W. R. Grace & Co.",
+        "form": "8-K (Item 7.01 / EX-99.1)",
+        "filing_date": "2021-03-19",
+        "accession_number": "0001045309-21-000040",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000040/a8-kmar2021ex991.htm",
+        "section_summary": "Press release addressing winter-storm-related force majeure and operational effects."
+      },
+      {
+        "company": "Core Molding Technologies, Inc.",
+        "form": "8-K (Item 2.02 / EX-99.1)",
+        "filing_date": "2021-03-15",
+        "accession_number": "0001026655-21-000005",
+        "url": "https://www.sec.gov/Archives/edgar/data/1026655/000102665521000005/ex991.htm",
+        "section_summary": "Q4/FY2020 earnings release referencing winter storm and force majeure in the context of resin supply."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Nine named companies, of which five have their own SEC filings on the event and three (NXP, Infineon, Samsung) have dated, specific fab shutdowns in trade press with quantified impacts.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "The 2021-02-24 date rests on a full-text hit I did not read, and at least three plausible earlier first-party disclosures (LyondellBasell 15 Feb, Olin 16 Feb, Infineon/Samsung 17-19 Feb) exist but could not be sourced to retrievable primary documents."
+    }
+  },
+  {
+    "event_id": "8_exxon_mobil_2005",
+    "date_news_first": "2005-08-29",
+    "date_news_first_note": "Confirmed, no change. Katrina made Louisiana landfall on the morning of 29 Aug 2005 with immediate global coverage; the first storm-related 8-K (Swift Energy) was filed the same day.",
+    "ground_truth_affected": [
+      {
+        "company": "The Dixie Group, Inc.",
+        "in_graph_context": false,
+        "impact": "Carpet manufacturer. Its Saraland, Alabama facility took relatively minor physical damage, but power outages, communications failure and displaced staff disrupted order entry, shipping and delivery. The company also flagged petroleum-linked raw material and transport cost exposure."
+      },
+      {
+        "company": "Air Products and Chemicals, Inc.",
+        "in_graph_context": false,
+        "impact": "Reported extensive damage to its hydrogen production facilities in New Orleans."
+      },
+      {
+        "company": "Nalco Holding Company",
+        "in_graph_context": false,
+        "impact": "No major physical damage, but operations restricted by limited raw material availability, constrained distribution channels and employees unable to return to work."
+      },
+      {
+        "company": "CF Industries Holdings, Inc.",
+        "in_graph_context": false,
+        "impact": "Ammonia, urea and other fertilizer production and shipments from its plant outside Baton Rouge were interrupted and only restarted on 2 Sept 2005."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.sec.gov/Archives/edgar/data/29332/000002933205000037/ex99_1pressrelhurricane.htm",
+      "https://cen.acs.org/articles/83/web/2005/09/Natural-Disaster-Impacts-Chemical-Enterprise.html",
+      "https://www.ogj.com/general-interest/companies/article/17235867/industry-assesses-hurricane-katrinas-impact",
+      "https://www.everycrsreport.com/reports/RL33124.html"
+    ],
+    "date_first_disclosure": "2005-08-30",
+    "disclosure_source": "https://www.sec.gov/Archives/edgar/data/29332/000002933205000037/ex99_1pressrelhurricane.htm",
+    "disclosure_source_note": "The Dixie Group, Inc. 8-K (Item 7.01), Exhibit 99.1, press release dated 30 Aug 2005, accession 0000029332-05-000037.",
+    "disclosure_search_note": "Method: EDGAR full-text search for \"Hurricane Katrina\" across all 8-Ks filed 2005-08-29 to 2005-08-31 returns 43 documents from 22 filers. The single earliest is Swift Energy (filed 2005-08-29, press release dated 8-29-05), but Swift is a Gulf E&P reporting its own shut-in production, i.e. directly hit rather than downstream, so I did not use it. Of the 2005-08-30 filings, The Dixie Group is the only downstream manufacturer, and its release is an explicit, dated, first-party acknowledgement of operational disruption. Note that EDGAR full-text search coverage begins in 2001, so this window is fully searchable.",
+    "kb_sources": [
+      {
+        "url": "https://www.everycrsreport.com/reports/RL33124.html",
+        "note": "Congressional Research Service RL33124, 'Oil and Gas Disruption From Hurricanes Katrina and Rita'. Best quantitative KB document. Public domain, full text.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://cen.acs.org/articles/83/web/2005/09/Natural-Disaster-Impacts-Chemical-Enterprise.html",
+        "note": "C&EN, 'Natural Disaster Impacts Chemical Enterprise'. Names Air Products, Nalco and CF Industries individually and gives the CMAI/Fulcrum capacity-outage estimates (about 20% of North American ethylene, over 10% of chlor-alkali). Free, full text retrieved.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "The Dixie Group, Inc.",
+        "form": "8-K (Item 7.01 / EX-99.1)",
+        "filing_date": "2005-08-30",
+        "accession_number": "0000029332-05-000037",
+        "url": "https://www.sec.gov/Archives/edgar/data/29332/000002933205000037/ex99_1pressrelhurricane.htm",
+        "section_summary": "Press release titled as a report of temporary disruption of operations from Hurricane Katrina. States the Saraland facility took only minor damage but that power, communications and staff-displacement problems would interrupt order entry, shipping and delivery, that the full impact could not yet be quantified, and lists petroleum-linked raw material and transportation cost and energy availability among the risk factors."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Four named companies: one evidenced by its own 8-K, three by a contemporaneous C&EN report that describes each firm's specific situation rather than generalising.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Dated first-party press release furnished as an 8-K one day after landfall, found via an exhaustive full-text sweep of the first three days of filings."
+    }
+  },
+  {
+    "event_id": "9_xinxiang_tianli_energy_2021",
+    "date_news_first": "2021-07-20",
+    "date_news_first_note": "Confirmed, no change. Zhengzhou recorded 201.9 mm of rain in a single hour on 20 Jul 2021, the highest since records began in 1951, and international coverage begins the same day (Forbes, Global Times, Carrier Management 21 Jul). The wider flood episode ran 17-31 Jul 2021.",
+    "ground_truth_affected": [
+      {
+        "company": "Nissan Motor Co., Ltd.",
+        "in_graph_context": "hop2",
+        "impact": "Production at its Zhengzhou plant was suspended."
+      },
+      {
+        "company": "Hon Hai Precision Industry Co., Ltd. (Foxconn)",
+        "in_graph_context": false,
+        "impact": "The main Zhengzhou iPhone campus was reported unaffected, but production at a smaller Foxconn facility in the Zhongmu section of Zhengzhou making desktop connectors was affected after equipment was damaged."
+      },
+      {
+        "company": "SAIC Motor Corporation Limited",
+        "in_graph_context": false,
+        "impact": "Warned of short-term logistics impact at its Zhengzhou plant."
+      },
+      {
+        "company": "IKEA (Inter IKEA / Ingka Group)",
+        "in_graph_context": false,
+        "impact": "Operations in Zhengzhou disrupted by the flooding."
+      },
+      {
+        "company": "FedEx Corporation",
+        "in_graph_context": false,
+        "impact": "Operations in the flooded area disrupted."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.malaymail.com/news/money---international/2021/07/22/from-coal-to-cars-chinese-floods-tangle-supply-chains/1991801",
+      "https://www.cnbc.com/2021/07/21/china-zhengzhou-flooding-foxconn-says-iphone-factory-not-impacted.html",
+      "https://en.wikipedia.org/wiki/2021_Henan_floods",
+      "https://www.globaltimes.cn/page/202107/1229276.shtml"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found. SEC EDGAR full-text search for documents containing both \"Henan\" and \"flooding\" in 8-Ks and 10-Qs filed 2021-07-20 to 2021-12-31 returns a single irrelevant document (Gushen Inc, a Beijing shell-company reverse merger, where the terms appear in an unrelated equity pledge agreement). None of the affected companies is an SEC registrant for this purpose. Every acknowledgement I found (Nissan, Foxconn, SAIC) was given to Reuters or CNBC rather than issued as a dated corporate release I could retrieve. FOLLOW-UP FOR YOU: Taiwan MOPS material-information filings for Hon Hai (TWSE 2317) around 21-22 Jul 2021, Shanghai Stock Exchange announcements for SAIC Motor (600104.SS), and Yutong Bus (600066.SS), which is headquartered in Zhengzhou and is the most likely Chinese listed issuer to have filed a damage announcement.",
+    "kb_sources": [
+      {
+        "url": "https://www.malaymail.com/news/money---international/2021/07/22/from-coal-to-cars-chinese-floods-tangle-supply-chains/1991801",
+        "note": "Reuters wire via Malay Mail, 'From coal to cars, Chinese floods tangle supply chains', 22 Jul 2021. The single best company-by-company KB document for this event. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2021_Henan_floods",
+        "note": "Seed source. Carries the casualty figure and the roughly CNY 133bn (USD 20.9bn) property damage total with citations. Free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "No ground_truth_affected company is a US filer that disclosed this event. FedEx is US-listed but the sweep above found no Henan flood disclosure in its filings.",
+    "confidence": {
+      "ground_truth_affected": "medium",
+      "ground_truth_affected_reason": "Five named companies with specific, differentiated impacts from Reuters and CNBC, but none corroborated by a first-party document, and the Foxconn entry is partly a negative finding (main campus unaffected).",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Confident no US filing exists, but Chinese and Taiwanese exchange filings were outside my reach, and Yutong Bus in particular is likely to have filed something."
+    }
+  },
+  {
+    "event_id": "20_formosa_petrochemical_2019",
+    "date_news_first": "2019-04-07",
+    "date_news_first_note": "Confirmed, no change. Fire and explosion at about 14:00 local on 7 Apr 2019; Xinhua carried it 2019-04-07 and Taipei Times on 2019-04-08.",
+    "seed_attribution_warning": "PLEASE CHECK THIS BEFORE USING THE ROW. The ARO-3 aromatics unit that burned is operated by Formosa Chemicals & Fibre Corp (FCFC), not by Formosa Petrochemical Corp. Your directly_affected field says 'formosa petrochemical'. Both are Formosa Plastics Group companies inside the Mailiao complex (which is jointly operated by FCFC, Formosa Plastics, Formosa Petrochemical and Nan Ya Plastics), but the operator of record for ARO-3 is FCFC, and FCFC also appears in your hop1 candidate list for this event. If the seed is wrong, then FCFC is the directly affected party rather than a downstream hit, and scoring it as a downstream true positive would be an error.",
+    "ground_truth_affected": [
+      {
+        "company": "Formosa Chemicals & Fibre Corp (FCFC)",
+        "in_graph_context": "hop1",
+        "impact": "Operator of ARO-3. Unit shut for roughly 18 months. Company estimated the loss at about NT$1bn (about USD 32m) per month; the annual output value of ARO-3 is about NT$70bn, and the total lost output value over the shutdown has been put at about USD 3.5bn.",
+        "caveat": "Almost certainly the true directly_affected entity rather than a downstream one. See seed_attribution_warning."
+      }
+    ],
+    "ground_truth_affected_note": "No genuinely downstream company with a sourced impact statement was found. The documented downstream effect is market-level and unattributed: the ARO-3 outage left a mixed-xylene overhang in northeast Asia, per Argus. Paraxylene from Mailiao feeds PTA producers, but no PTA or fibre producer was named as affected in any source I could reach.",
+    "ground_truth_sources": [
+      "https://www.taipeitimes.com/News/front/archives/2019/04/09/2003713049",
+      "https://www.argusmedia.com/en/news/1880697-explosion-shuts-fcfcs-mailiao-aromatics-unit",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0950423023000888"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found with a retrievable primary URL. No Formosa Plastics Group entity is an SEC registrant, so EDGAR is empty by construction. FCFC is TWSE-listed (1326) and would have filed a material-information announcement on Taiwan's MOPS system on 7 or 8 Apr 2019; MOPS was not reachable with my tools. The NT$1bn-per-month figure comes from a company statement but reaches me only through the Taipei Times report of 2019-04-09, which is a news article about the company rather than the company's own document. FOLLOW-UP FOR YOU: mops.twse.com.tw material-information filings for TWSE 1326 (FCFC) and 6505 (Formosa Petrochemical) dated 2019-04-07 to 2019-04-10, and FCFC's 2019 annual report.",
+    "kb_sources": [
+      {
+        "url": "https://www.taipeitimes.com/News/front/archives/2019/04/08/2003712993",
+        "note": "Seed source, Taipei Times 2019-04-08. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.taipeitimes.com/News/front/archives/2019/04/09/2003713049",
+        "note": "Taipei Times 2019-04-09, 'Blast could cost NT$1bn a month in sales: Formosa'. Carries the company's own loss estimate. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950423023000888",
+        "note": "Journal of Loss Prevention in the Process Industries, process-safety case study of the ARO-3 LPG leak with the 09:30 leak discovery timeline and root cause. PAYWALLED (abstract only).",
+        "full_text_available": false
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "No entity involved in this event is an SEC registrant.",
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "The single entry is probably the directly affected operator rather than a downstream company, and no true downstream party could be named; treat this row as unresolved until the seed attribution is settled.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null reflects a tooling gap rather than an absence: a TWSE MOPS filing on 7 or 8 Apr 2019 is very likely to exist."
+    }
+  },
+  {
+    "event_id": "21_mitsubishi_materials_2014",
+    "date_news_first": "2014-01-09",
+    "date_news_first_note": "Confirmed, no change. Explosion at about 14:05 JST on 9 Jan 2014; Mitsubishi Materials issued its own release the same day.",
+    "ground_truth_affected": [
+      {
+        "company": "SUMCO Corporation",
+        "in_graph_context": false,
+        "impact": "The Yokkaichi plant has roughly 2,800 t/y of polycrystalline silicon capacity, of which about 70% was supplied to SUMCO for semiconductor substrate production. Production was suspended from 10 Jan 2014 until further notice, and Nikkei Sangyo Shimbun reported SUMCO's supply falling to about 70% of normal.",
+        "caveat": "The supply-share and supply-drop figures trace to a Nikkei Sangyo Shimbun report that I reached only through secondary summaries; I did not find a SUMCO statement confirming it."
+      }
+    ],
+    "ground_truth_affected_note": "Worth recording as graph noise: none of the six hop1 candidates (Asahi Kasei, Denso, Kobe Steel, Mitsubishi Electric, Schaeffler, Sumitomo Electric) is a semiconductor-grade polysilicon consumer, and per company_lookup.csv none has a product line this event could plausibly reach. The one real downstream name, SUMCO, is absent from the graph entirely, so this event is a useful recall test rather than a precision test.",
+    "ground_truth_sources": [
+      "https://en.wikipedia.org/wiki/Mitsubishi_Materials_chemical_plant_explosion",
+      "https://www.industrialinfo.com/news/article/yokkaichi-plant-explosion-in-japan-caused-by-chemical-compound--240293",
+      "https://cen.acs.org/articles/92/i3/Mitsubishi-Halts-Production-Blast.html"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found for the downstream party. SUMCO is TSE-listed (3436) and not an SEC registrant; I could not locate a dated SUMCO statement on polysilicon supply following the explosion, and its FY2013 results announcement (early Feb 2014) was not retrievable. The seed company's own disclosures are dense and well dated if you need them for the KB: Mitsubishi Materials issued releases on 2014-01-09 (initial), 2014-01-24 (report number 2), 2014-04-03 (interim investigation committee report) and 2014-06-12 (final report). FOLLOW-UP FOR YOU: SUMCO's TDnet/EDINET filings and its Q4 FY2013 results presentation, and the Nikkei Sangyo Shimbun article of mid-January 2014 that is the origin of the 70% figure.",
+    "kb_sources": [
+      {
+        "url": "https://www.mmc.co.jp/corporate/en/news/2014/news20140109.html",
+        "note": "Seed source. Mitsubishi Materials' own same-day release. Free, primary.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.mmc.co.jp/corporate/en/news/2014/news20140612.html",
+        "note": "Final report of the Accident Investigation Committee, 2014-06-12, with the silico-oxalic acid root cause. Primary, free; a detailed PDF annex is at mmc.co.jp/corporate/en/news/2014/pdf/news20140612_2.pdf.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://cen.acs.org/articles/92/i3/Mitsubishi-Halts-Production-Blast.html",
+        "note": "C&EN, 'Mitsubishi Halts Production After Blast'. Generally free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "Neither Mitsubishi Materials nor SUMCO is an SEC registrant.",
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "One entry, resting on a Nikkei figure reached through secondary summaries and not confirmed by SUMCO; the supply link is well established but the magnitude of actual impact is not.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null reflects inability to search Japanese TDnet/EDINET rather than a demonstrated absence."
+    }
+  },
+  {
+    "event_id": "23_s_oil_2022",
+    "date_news_first": "2022-05-19",
+    "date_news_first_note": "Confirmed, no change, for the event itself: the blast occurred at about 20:50 KST on 19 May 2022. Note that almost all wire and trade coverage is datelined 2022-05-20 (Korea Herald, ICIS, ChemOrbis), so if your pipeline keys on publication date rather than event date you will see 2022-05-20.",
+    "ground_truth_affected": [],
+    "ground_truth_affected_note": "No named downstream company with a specific source stating a real impact. What is documented is unit-level and market-level: S-Oil halted the No.2 alkylation unit and temporarily shut the No.2 RFCC unit, a paraxylene unit (the two PX units total 1.7 Mt/y) and the polypropylene line fed by the No.2 RFCC (which can make 705,000 t/y of propylene); trade press expected this to tighten Asian gasoline supply and support regional refining margins. Base oils were explicitly reported as not affected. No customer or offtaker was named. On the hop1 list, Saudi Aramco and Saudi Basic Industries are related through Aramco's majority ownership of S-Oil rather than as customers, and Asiana Airlines, E1, Hanjin Transportation and KEPCO have no sourced impact.",
+    "ground_truth_sources": [
+      "https://www.icis.com/explore/resources/news/2022/05/20/10766316/south-korea-s-s-oil-shuts-onsan-petrochemical-units-after-19-may-blast/",
+      "https://www.koreaherald.com/article/2870773",
+      "https://www.lubesngreases.com/lubereport-asia/9_20/base-oils-not-affected-by-s-oil-explosion/"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Null follows from the empty affected list. For completeness, the seed company's own acknowledgement is well dated: CEO Hussain Al-Qahtani held a news conference on 2022-05-20 apologising for the explosion and stating the company was working to avoid interruption to domestic fuel supply. S-Oil is KRX-listed (010950) and is not an SEC registrant. FOLLOW-UP FOR YOU: DART (dart.fss.or.kr) filings by S-Oil around 2022-05-20, and Q2 2022 reports of Korean petrochemical buyers, if you want to test whether any downstream party ever attributed an impact to this outage.",
+    "kb_sources": [
+      {
+        "url": "https://www.icis.com/explore/resources/news/2022/05/20/10766316/south-korea-s-s-oil-shuts-onsan-petrochemical-units-after-19-may-blast/",
+        "note": "ICIS, unit-by-unit shutdown detail with capacities. LIKELY PAYWALLED.",
+        "full_text_available": false
+      },
+      {
+        "url": "https://www.koreaherald.com/article/2870773",
+        "note": "Korea Herald, casualties and immediate response. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.kedglobal.com/energy/newsView/ked202205200014",
+        "note": "Seed source. KED Global. Free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "S-Oil is not an SEC registrant and no downstream affected company was identified.",
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. The unit shutdowns are well documented but no source attributes an impact to any named customer, and I cannot rule out that Korean-language trade press did.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null follows mechanically from the empty affected list; the seed's own 2022-05-20 acknowledgement is well established if you decide to relax the downstream-only rule for this row."
+    }
+  },
+  {
+    "event_id": "35_gazprom_pjsc_2022",
+    "date_news_first": "2022-09-02",
+    "date_news_first_note": "Confirmed for the indefinite halt, but FLAGGING A SCOPE AMBIGUITY. Your description covers a progressive sequence ('progressively cut and then halted'), and that sequence has three distinct news dates: 2022-06-14 (Gazprom cut Nord Stream 1 to about 40% of capacity citing Siemens turbine maintenance), 2022-07-27 (further cut to about 20%), and 2022-09-02 (Gazprom announced the shutdown would continue indefinitely, citing a technical fault; flows ceased from 2022-09-05 and never resumed). If the event is the halt, 2022-09-02 is right. If it is the progressive squeeze, the earliest coverage is 2022-06-14. This matters because several of the ground_truth_affected disclosures below fall between those dates.",
+    "ground_truth_affected": [
+      {
+        "company": "ArcelorMittal S.A.",
+        "in_graph_context": "hop2",
+        "impact": "Announced on 2 Sept 2022 that it would idle one of two blast furnaces at Bremen (1.2 Mt/y of pig iron) from end-September until further notice and shut the direct reduction plant at Hamburg from Q4, with short-time working at both sites, explicitly citing gas and electricity costs and the coming German gas levy."
+      },
+      {
+        "company": "Nyrstar (Trafigura group)",
+        "in_graph_context": false,
+        "impact": "Halted its 315,000 t/y Budel zinc smelter in the Netherlands from 1 Sept 2022 until further notice on energy costs. Announced in late August, so before the 2 Sept halt but inside the progressive-cut window."
+      },
+      {
+        "company": "Norsk Hydro ASA / Slovalco a.s.",
+        "in_graph_context": false,
+        "impact": "Slovalco, already running at about 60% of capacity, was shut at end-September 2022 for at least a year on energy prices."
+      },
+      {
+        "company": "Alcoa Corporation",
+        "in_graph_context": "hop2",
+        "impact": "Took the San Ciprián smelter in Spain offline for two years amid the European power and gas price surge."
+      },
+      {
+        "company": "Yara International ASA",
+        "in_graph_context": false,
+        "impact": "Curtailed European ammonia and urea output to roughly 45% of capacity on record gas prices, including at Ferrara (Italy) and Le Havre (France).",
+        "caveat": "Yara curtailed repeatedly through 2021-2022; the primary release I can cite is dated 2022-03-09, which predates the June-September Nord Stream sequence. Treat the attribution as the broader Russian gas squeeze rather than the 2 Sept halt specifically."
+      }
+    ],
+    "ground_truth_sources": [
+      "https://www.nasdaq.com/articles/arcelormittal-to-shut-blast-furnace-in-german-plant-as-gas-prices-soar",
+      "https://www.steeltimesint.com/news/arcelormittal-closing-bremen-furnace-citing-soaring-gas-costs",
+      "https://www.industrialinfo.com/iirenergy/industry-news/article/europe-loses-another-smelter-as-energy-prices-spiral--313432",
+      "https://www.intellinews.com/norsk-hydro-to-shutter-slovalco-aluminium-plant-in-slovakia-as-energy-prices-soar-253965/",
+      "https://www.yara.com/corporate-releases/yara-curtails-production-due-to-increased-natural-gas-prices/",
+      "https://www.cnn.com/2022/09/02/energy/nord-stream-1-pipeline-turned-off/index.html"
+    ],
+    "date_first_disclosure": "2022-09-02",
+    "disclosure_source": "https://www.nasdaq.com/articles/arcelormittal-to-shut-blast-furnace-in-german-plant-as-gas-prices-soar",
+    "disclosure_source_note": "ArcelorMittal Germany's announcement of the Bremen blast furnace idling and Hamburg DRI shutdown, made 2022-09-02, the same day as the Gazprom halt.",
+    "disclosure_search_note": "CAVEAT ON SOURCE TYPE. The URL above is a Reuters report OF ArcelorMittal's announcement, not the company's own document, which breaks your 'their own statement' rule. The primary release was issued by ArcelorMittal Germany (arcelormittal.de) and, as a German-language regional release, was not indexed in anything I could retrieve; the direct quotes from ArcelorMittal Germany CEO Reiner Blaschek confirm it exists. Two other candidates worth noting: Nyrstar's Budel halt was announced in late August 2022, roughly a week earlier, and is inside the progressive-cut window; and Yara has a genuine first-party corporate release, but its retrievable one is dated 2022-03-09, before the June cuts began. If you adopt 2022-06-14 as date_news_first, the disclosure date should be re-derived over the June-September window and will very likely land earlier than 2022-09-02. FOLLOW-UP FOR YOU: arcelormittal.de press archive for 2022-09-02, and Nyrstar's press archive for late August 2022.",
+    "kb_sources": [
+      {
+        "url": "https://www.cleanenergywire.org/factsheets/what-happens-if-russias-gas-supplies-germany-are-cut",
+        "note": "Clean Energy Wire factsheet on the German gas supply cut and its industrial consequences. Free, full text, regularly updated.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.cnn.com/2022/09/02/energy/nord-stream-1-pipeline-turned-off/index.html",
+        "note": "CNN, 2022-09-02, the halt itself. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.yara.com/corporate-releases/yara-curtails-production-due-to-increased-natural-gas-prices/",
+        "note": "Yara corporate release. Primary source, free, full text.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "Alcoa Corporation",
+        "form": "10-K / 10-Q",
+        "filing_date": "2022-2023",
+        "accession_number": null,
+        "url": null,
+        "section_summary": "NOT VERIFIED. Alcoa is the only US-listed name on the affected list and its 2022 annual and quarterly reports discuss the San Ciprián curtailment and European energy costs, but I did not run a targeted EDGAR full-text sweep for it within this batch, so I am not asserting an accession number. Worth ten minutes of your time: search EDGAR FTS for \"San Ciprian\" restricted to CIK 0001675149."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Five named companies with dated, specific, quantified curtailments, all attributed by the companies themselves to European gas and power costs.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The date is right for ArcelorMittal but the citation is a news report rather than the primary release, and an earlier qualifying disclosure (Nyrstar, late August) exists inside the broader event window."
+    }
+  },
+  {
+    "event_id": "36_basf_se_2022",
+    "date_news_first": "2021-09-27",
+    "date_news_first_note": "SUBSTANTIAL CORRECTION, PLEASE READ. The supplied date of 2022-07-01 does not correspond to any reported event I could locate, and appears to be a month-start placeholder. BASF's actual announcement of curtailed ammonia production at Ludwigshafen and Antwerp is its own press release dated 2021-09-27 (BASF release p-21-327, 'Curtailed ammonia production in Antwerp and Ludwigshafen'), driven by the 2021 European gas price surge. The nearest thing to a July 2022 event is a Reuters report of 2022-07-27 that BASF was considering FURTHER ammonia cuts as Gazprom reduced Nord Stream 1 to 20% of capacity, which is a report of deliberation rather than of an action. A third distinct date, 2023-02-24, is when BASF announced the permanent closure of one Ludwigshafen ammonia plant alongside its FY2022 results. Pick whichever matches your intent, but 2022-07-01 should not stand. NOTE ALSO that this event heavily overlaps event 35 in your own batch: both are the same European gas shock, and 36 is arguably a downstream consequence of 35 rather than an independent event, which will inflate apparent recall if they are scored separately.",
+    "ground_truth_affected": [],
+    "ground_truth_affected_note": "No downstream company with a specific source stating a real impact from BASF's ammonia curtailment. The documented effects are market-level: European ammonia, urea and AdBlue tightness and record fertilizer prices, with BASF citing EUR 3.2bn of additional group energy costs in 2022 of which higher natural gas accounted for about 69%. No named counterparty. The 30 hop1 candidates are almost all automakers and coatings companies; BASF supplies them, but no source ties the ammonia curtailment specifically to an impact at any of them.",
+    "ground_truth_sources": [
+      "https://www.basf.com/global/en/media/news-releases/2021/09/p-21-327",
+      "https://cen.acs.org/business/finance/BASF-cutting-back-main-site/101/web/2023/02",
+      "https://www.icis.com/explore/resources/news/2022/06/28/10779322/basf-s-antwerp-us-ammonia-output-could-offset-potential-shutdown-in-germany-bank/"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Null for a downstream party. The seed company's own disclosure is unambiguous and primary if you relax the downstream-only rule: BASF release p-21-327 dated 2021-09-27. BASF SE is not an SEC registrant, so EDGAR offers nothing. FOLLOW-UP FOR YOU: Q3 2022 and FY2022 reports of European fertilizer and AdBlue distributors, and of the automakers on the hop1 list, if you want to test whether anyone attributed a cost or supply impact specifically to BASF's curtailment rather than to gas prices generally.",
+    "kb_sources": [
+      {
+        "url": "https://www.basf.com/global/en/media/news-releases/2021/09/p-21-327",
+        "note": "BASF's own curtailment release. Primary source, free, full text.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://cen.acs.org/business/finance/BASF-cutting-back-main-site/101/web/2023/02",
+        "note": "C&EN, 'BASF is cutting back at its main site in Germany', Feb 2023. Carries the EUR 3.2bn energy cost figure and the permanent ammonia plant closure. Generally free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "BASF SE is not an SEC registrant and no downstream affected company was identified.",
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list, and the row is unstable until the date question is resolved, because the 2021 and 2022 phases have different downstream populations.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null is driven partly by the event itself being poorly specified; I would not treat this row as scoreable until the date_news_first correction is adjudicated."
+    }
+  },
+  {
+    "event_id": "49_xiamen_tungsten_2010",
+    "date_news_first": "2010-09-22",
+    "date_news_first_note": "Approximately confirmed. The trawler collision was 2010-09-07; traders reported shipments suspended from about 2010-09-21; the New York Times broke the export-halt story on 2010-09-22, with CNBC following 2010-09-23 and France 24 2010-09-24. 2010-09-22 is defensible as first coverage of the export halt.",
+    "ground_truth_affected": [],
+    "ground_truth_affected_note": "No named company with a specific source stating a real impact, and TWO METHODOLOGICAL WARNINGS THAT MATTER MORE THAN THE EMPTY LIST. First, whether a targeted embargo occurred at all is contested in the scholarly literature: analysis of Japanese Ministry of Finance port-level customs data finds no uniform drop in Japanese imports of Chinese rare earths after the collision, and argues that any decline in H2 2010 is better explained by China's earlier decision to cut rare earth export quotas worldwide than by a Japan-specific embargo. If you keep this event, the ground truth is arguably 'contested' rather than empty, and it is a good adversarial case for a monitoring system that will happily find dozens of confident-sounding news assertions. Second, the graph candidate list is temporally invalid: CATL was founded in 2011, and Gotion, Sunwoda and CALB were not meaningful rare-earth consumers in 2010, yet all four sit in hop1. Any hop1 hit on those names is a guaranteed false positive. What is well documented is market-level: rare earth prices rose roughly tenfold in the year after the incident, Japan was about 90% dependent on Chinese supply, and Japan appropriated a JPY 100bn supplementary budget in October 2010 to reduce that dependence.",
+    "ground_truth_sources": [
+      "https://cepr.org/voxeu/columns/revisiting-china-japan-rare-earths-dispute-2010",
+      "https://eastasiaforum.org/2013/08/18/did-china-really-ban-rare-earth-metals-exports-to-japan/",
+      "https://www.cnbc.com/2010/09/23/china-bans-rare-earth-exports-to-japan-amid-tension.html",
+      "https://stratcomcoe.org/cuploads/pfiles/senkaku_crisis.pdf"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found. SEC EDGAR full-text search for documents containing both \"rare earth\" and \"Japan\" in 8-Ks filed 2010-09-22 to 2010-12-31 returns ZERO documents. No US filer made a current report about this. Combined with the empty affected list, there is no company to attribute a disclosure to. FOLLOW-UP FOR YOU: Japanese TDnet filings and FY2010 (March 2011 year-end) securities reports for Shin-Etsu Chemical, Hitachi Metals, TDK and Showa Denko are where a Japanese magnet or alloy maker would have disclosed a procurement impact; note that those year-ends also capture the Tohoku earthquake, so attribution will be messy.",
+    "kb_sources": [
+      {
+        "url": "https://cepr.org/voxeu/columns/revisiting-china-japan-rare-earths-dispute-2010",
+        "note": "CEPR/VoxEU, 'Revisiting the China-Japan Rare Earths dispute of 2010'. The key sceptical source; essential for the KB precisely because it contradicts the mainstream narrative. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://stratcomcoe.org/cuploads/pfiles/senkaku_crisis.pdf",
+        "note": "NATO StratCom COE, 'Economic Leverage: the 2010 Senkaku crisis'. Free PDF, full text.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2010_Senkaku_boat_collision_incident",
+        "note": "Seed source. Free.",
+        "full_text_available": true
+      }
+    ],
+    "edgar_excerpts": [],
+    "edgar_note": "Zero-hit EDGAR sweep documented above.",
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list, and the underlying event is itself disputed in peer-reviewed and policy literature; I would not score precision or recall on this row without first deciding whether the embargo is treated as fact.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The zero-hit EDGAR sweep is clean and conclusive for US filers, though Japanese disclosure was outside my reach."
+    }
+  },
+  {
+    "event_id": "50_aneka_tambang_tbk_2020",
+    "date_news_first": "2019-08-30",
+    "date_news_first_note": "MOVED from the supplied 2020-01-01, which is the effective date rather than a news date. Indonesia announced the total nickel ore export ban on 2019-08-30, bringing it forward two years from the previously scheduled 2022; Argus reported it 2019-08-30 and your own seed source (Al Jazeera) is dated 2019-09-02. This is the same effective-date-versus-announcement-date pattern as the Section 232 row in batch 1: the market moved on the announcement, and LME nickel hit a five-year high in early September 2019, four months before the ban took effect.",
+    "ground_truth_affected": [],
+    "ground_truth_affected_note": "No named downstream company with a specific source stating a real impact. The documented effect is sector-level: Indonesia was shipping about 19.9 Mt/y of nickel ore to China to feed Chinese nickel pig iron smelters supplying the stainless steel industry, and Chinese nickel-in-NPI output was forecast to fall from about 490 kt to about 300 kt from 2021 onward. Tsingshan, the most-named Chinese producer, is documented as comparatively insulated rather than harmed, because it already operated a 3 Mt/y stainless mill plus nickel and chrome mines inside Indonesia. Of the eight hop1 candidates, POSCO, SeAH and SeAH Besteel are stainless and special-steel makers for whom the product logic is at least plausible, but no source ties any of them to an impact from this ban.",
+    "ground_truth_sources": [
+      "https://www.argusmedia.com/en/news-and-insights/latest-market-news/1969668-indonesia-to-stop-nickel-ore-exports-in-2020",
+      "https://www.aljazeera.com/amp/economy/2019/9/2/worlds-biggest-nickel-ore-maker-bans-exports-from-january-2020",
+      "https://www.mining.com/web/indonesian-nickel-ore-export-ban-implications-for-nickel-supply/",
+      "https://www.nbr.org/publication/indonesias-nickel-export-ban-impacts-on-supply-chains-and-the-energy-transition/"
+    ],
+    "date_first_disclosure": null,
+    "disclosure_source": null,
+    "disclosure_search_note": "Genuinely checked and not found for a downstream party. SEC EDGAR full-text search for documents containing both \"nickel ore\" and \"export ban\" in 10-Ks, 10-Qs and 20-Fs filed 2019-08-30 to 2020-12-31 returns exactly three documents, from Scorpio Bulkers, Vale S.A. and BHP. Vale and BHP are nickel producers and net beneficiaries of the supply squeeze, so neither qualifies. Scorpio Bulkers is the interesting one and is listed as a lead below rather than as ground truth, because I did not read the passage and cannot confirm it asserts an adverse impact. FOLLOW-UP FOR YOU: read the Scorpio Bulkers 20-F passage; check IDX filings by Aneka Tambang (ANTM) and Vale Indonesia (INCO); and check Q3/Q4 2019 disclosures by Chinese stainless producers on the Shanghai and Shenzhen exchanges, where the NPI feedstock impact would actually land.",
+    "kb_sources": [
+      {
+        "url": "https://www.nbr.org/publication/indonesias-nickel-export-ban-impacts-on-supply-chains-and-the-energy-transition/",
+        "note": "National Bureau of Asian Research, 'Indonesia's Nickel Export Ban: Impacts on Supply Chains and the Energy Transition'. Best analytical KB document. Free, full text.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.aljazeera.com/amp/economy/2019/9/2/worlds-biggest-nickel-ore-maker-bans-exports-from-january-2020",
+        "note": "Seed source, 2019-09-02. Free.",
+        "full_text_available": true
+      },
+      {
+        "url": "https://www.woodmac.com/news/opinion/Indonesian-nickel-ore-ban-who-will-fill-the-supply-gap/",
+        "note": "Wood Mackenzie opinion piece with the NPI output forecast. Free summary; the underlying full report is a paid product.",
+        "full_text_available": false
+      }
+    ],
+    "edgar_excerpts": [
+      {
+        "company": "Scorpio Bulkers Inc.",
+        "relation_to_event": "LEAD ONLY, deliberately excluded from ground_truth_affected pending verification. A dry-bulk shipowner; the ban removed roughly 19.9 Mt/y of Indonesia-to-China ore cargo, so a freight-demand impact is plausible, but I did not read the passage and cannot confirm direction.",
+        "form": "20-F",
+        "filing_date": "2020-04-02",
+        "accession_number": "0001587264-20-000018",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587264/000158726420000018/salt-20191231x20f_file.htm",
+        "section_summary": "FY2019 annual report containing discussion of nickel ore and the Indonesian export ban, presumably in the market-overview or risk-factor section covering dry bulk trade volumes."
+      },
+      {
+        "company": "Vale S.A.",
+        "relation_to_event": "LEAD ONLY, net beneficiary rather than affected downstream party.",
+        "form": "20-F",
+        "filing_date": "2020-04-03",
+        "accession_number": "0001047469-20-002065",
+        "url": "https://www.sec.gov/Archives/edgar/data/917851/000104746920002065/a2240808z20-f.htm",
+        "section_summary": "FY2019 annual report discussing the Indonesian nickel ore export ban in its nickel market commentary. Vale operates PT Vale Indonesia and is a nickel producer, so the ban supports rather than harms its position."
+      }
+    ],
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. The sector-level impact on Chinese NPI smelting is well established, but the affected firms are mostly unlisted or Chinese-listed and none was named in any source I could reach.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The EDGAR sweep is clean and its three hits are all producers or shippers rather than affected consumers; the real disclosure population sits on Chinese and Indonesian exchanges."
+    }
+  }
+]

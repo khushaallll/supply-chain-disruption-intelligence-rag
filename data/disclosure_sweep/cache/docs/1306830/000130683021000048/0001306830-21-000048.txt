@@ -1,0 +1,162 @@
+<SEC-DOCUMENT>0001306830-21-000048.txt : 20210217
+<SEC-HEADER>0001306830-21-000048.hdr.sgml : 20210217
+<ACCEPTANCE-DATETIME>20210217170211
+ACCESSION NUMBER:		0001306830-21-000048
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210215
+FILED AS OF DATE:		20210217
+DATE AS OF CHANGE:		20210217
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Ryerkerk Lori
+		CENTRAL INDEX KEY:			0001449522
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-32410
+		FILM NUMBER:		21645830
+
+	MAIL ADDRESS:	
+		STREET 1:		AXALTA COATING SYSTEMS LTD.
+		STREET 2:		2001 MARKET STREET, SUITE 3600
+		CITY:			PHILADELPHIA
+		STATE:			PA
+		ZIP:			19103
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Celanese Corp
+		CENTRAL INDEX KEY:			0001306830
+		STANDARD INDUSTRIAL CLASSIFICATION:	PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS) [2820]
+		IRS NUMBER:				980420726
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+		BUSINESS PHONE:		972-443-4000
+
+	MAIL ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Celanese CORP
+		DATE OF NAME CHANGE:	20041102
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Blackstone Crystal Holdings Capital Partners (Cayman) IV Ltd.
+		DATE OF NAME CHANGE:	20041022
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_161359929606154.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-02-15</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001306830</issuerCik>
+        <issuerName>Celanese Corp</issuerName>
+        <issuerTradingSymbol>CE</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001449522</rptOwnerCik>
+            <rptOwnerName>Ryerkerk Lori</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O CELANESE CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>222 W LAS COLINAS BLVD, STE 900N</rptOwnerStreet2>
+            <rptOwnerCity>IRVING</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>76039</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>Chairman and CEO</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-02-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1740</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>131.65</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>44817</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Shares withheld for the payment of taxes on the vesting of time-based restricted stock units.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Adam R. Santosuosso, Attorney-in-Fact for Lori Ryerkerk</signatureName>
+        <signatureDate>2021-02-17</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

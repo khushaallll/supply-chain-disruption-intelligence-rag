@@ -1,0 +1,152 @@
+<SEC-DOCUMENT>0001127602-17-026353.txt : 20170823
+<SEC-HEADER>0001127602-17-026353.hdr.sgml : 20170823
+<ACCEPTANCE-DATETIME>20170823180154
+ACCESSION NUMBER:		0001127602-17-026353
+CONFORMED SUBMISSION TYPE:	4/A
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20170605
+FILED AS OF DATE:		20170823
+DATE AS OF CHANGE:		20170823
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			WULFSOHN WILLIAM A
+		CENTRAL INDEX KEY:			0001326402
+
+	FILING VALUES:
+		FORM TYPE:		4/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-211719
+		FILM NUMBER:		171047866
+
+	MAIL ADDRESS:	
+		STREET 1:		ASHLAND INC.
+		STREET 2:		50 EAST RIVERCENTER BLVD.
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+
+	FORMER NAME:	
+		FORMER CONFORMED NAME:	Wulfsohn William A
+		DATE OF NAME CHANGE:	20050506
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ASHLAND GLOBAL HOLDINGS INC
+		CENTRAL INDEX KEY:			0001674862
+		STANDARD INDUSTRIAL CLASSIFICATION:	WHOLESALE-CHEMICALS & ALLIED PRODUCTS [5160]
+		IRS NUMBER:				812587835
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1216
+
+	BUSINESS ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+		BUSINESS PHONE:		859-815-3333
+
+	MAIL ADDRESS:	
+		STREET 1:		50 E RIVERCENTER BLVD
+		CITY:			COVINGTON
+		STATE:			KY
+		ZIP:			41011
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4/A
+<SEQUENCE>1
+<FILENAME>form4a.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4/A</documentType>
+
+    <periodOfReport>2017-06-05</periodOfReport>
+
+    <dateOfOriginalSubmission>2017-06-07</dateOfOriginalSubmission>
+
+    <issuer>
+        <issuerCik>0001674862</issuerCik>
+        <issuerName>ASHLAND GLOBAL HOLDINGS INC</issuerName>
+        <issuerTradingSymbol>ASH</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001326402</rptOwnerCik>
+            <rptOwnerName>WULFSOHN WILLIAM A</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>50 E. RIVERCENTER BLVD.</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>COVINGTON</rptOwnerCity>
+            <rptOwnerState>KY</rptOwnerState>
+            <rptOwnerZipCode>41011</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <officerTitle>Chief Executive Officer</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2017-06-05</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>33668</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>73048</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Due to a clerical error, the Reporting Person received 122 more shares of Restricted Common Stock under the Executive Performance Incentive and Retention Program than was reported at the time of the original filing.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Jennifer I. Henkel, Attorney-in-Fact</signatureName>
+        <signatureDate>2017-08-23</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

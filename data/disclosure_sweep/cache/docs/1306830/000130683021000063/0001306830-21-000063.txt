@@ -1,0 +1,179 @@
+<SEC-DOCUMENT>0001306830-21-000063.txt : 20210225
+<SEC-HEADER>0001306830-21-000063.hdr.sgml : 20210225
+<ACCEPTANCE-DATETIME>20210225162401
+ACCESSION NUMBER:		0001306830-21-000063
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210223
+FILED AS OF DATE:		20210225
+DATE AS OF CHANGE:		20210225
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			WULFF JOHN K
+		CENTRAL INDEX KEY:			0001257328
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-32410
+		FILM NUMBER:		21680700
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O HERCULES INC
+		STREET 2:		1313 NORTH MARKET STREET
+		CITY:			WILMINGTON
+		STATE:			DE
+		ZIP:			19894-0001
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Celanese Corp
+		CENTRAL INDEX KEY:			0001306830
+		STANDARD INDUSTRIAL CLASSIFICATION:	PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS) [2820]
+		IRS NUMBER:				980420726
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+		BUSINESS PHONE:		972-443-4000
+
+	MAIL ADDRESS:	
+		STREET 1:		222 W. LAS COLINAS BLVD., SUITE 900N
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-5421
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Celanese CORP
+		DATE OF NAME CHANGE:	20041102
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Blackstone Crystal Holdings Capital Partners (Cayman) IV Ltd.
+		DATE OF NAME CHANGE:	20041022
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_161428821497151.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-02-23</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001306830</issuerCik>
+        <issuerName>Celanese Corp</issuerName>
+        <issuerTradingSymbol>CE</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001257328</rptOwnerCik>
+            <rptOwnerName>WULFF JOHN K</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O CELANESE CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>222 W. LAS COLINAS BLVD., SUITE 900N</rptOwnerStreet2>
+            <rptOwnerCity>IRVING</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>75039-5421</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable></nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Phantom Stock</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2021-02-23</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>100.089</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>136.96</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>100.089</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>20259.121</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Each share of phantom stock represents the right to receive one share of Common Stock.</footnote>
+        <footnote id="F2">The reported phantom stock represents dividend equivalents on compensation deferred under the Company's 2008 Deferred Compensation Plan (the &quot;Plan&quot;). The shares of phantom stock become payable in shares of Common Stock, as provided in the Plan, following the termination of the reporting person's service as a director of the Company.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Adam R. Santosuosso, Attorney-in-Fact for John K. Wulff</signatureName>
+        <signatureDate>2021-02-25</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

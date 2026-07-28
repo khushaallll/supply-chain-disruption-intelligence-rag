@@ -1,0 +1,734 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ Uh2N8QJ1Zq8hK7jYvIvZTU3ACBnhBLFwZ/uGuk4c9raicSWcJfc7+7uoW6MBP1M7
+ uW6OCN5sj0MirY6sjLsvjQ==
+
+<SEC-DOCUMENT>0001193125-11-002197.txt : 20110106
+<SEC-HEADER>0001193125-11-002197.hdr.sgml : 20110106
+<ACCEPTANCE-DATETIME>20110105181136
+ACCESSION NUMBER:		0001193125-11-002197
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20110106
+FILED AS OF DATE:		20110106
+DATE AS OF CHANGE:		20110105
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			BHP BILLITON LTD
+		CENTRAL INDEX KEY:			0000811809
+		STANDARD INDUSTRIAL CLASSIFICATION:	METAL MINING [1000]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			C3
+		FISCAL YEAR END:			0630
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-09526
+		FILM NUMBER:		11512141
+
+	BUSINESS ADDRESS:	
+		STREET 1:		LEVEL 27, 180 LONSDALE STREET
+		STREET 2:		MELBOURNE
+		CITY:			VICTORIA AUSTRALIA
+		STATE:			C3
+		ZIP:			3000
+		BUSINESS PHONE:		011611300554757
+
+	MAIL ADDRESS:	
+		STREET 1:		GPO BOX 86
+		STREET 2:		MELBOURNE
+		CITY:			VICTORIA AUSTRALIA
+		STATE:			C3
+		ZIP:			3001
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	BHP LTD
+		DATE OF NAME CHANGE:	20010129
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	BROKEN HILL PROPRIETARY CO LTD
+		DATE OF NAME CHANGE:	19960116
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			BHP BILLITON PLC
+		CENTRAL INDEX KEY:			0001171264
+		STANDARD INDUSTRIAL CLASSIFICATION:	BITUMINOUS COAL & LIGNITE MINING [1220]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			X0
+		FISCAL YEAR END:			0630
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-31714
+		FILM NUMBER:		11512142
+
+	BUSINESS ADDRESS:	
+		STREET 1:		8TH FLOOR - NEATHOUSE PLACE
+		CITY:			LONDON
+		STATE:			X0
+		ZIP:			SW1V 1BH
+		BUSINESS PHONE:		011442078024054
+
+	MAIL ADDRESS:	
+		STREET 1:		8TH FLOOR - NEATHOUSE PLACE
+		CITY:			LONDON
+		STATE:			X0
+		ZIP:			SW1V 1BH
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	BHP BILLITON PLC/ADR
+		DATE OF NAME CHANGE:	20020416
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>d6k.htm
+<DESCRIPTION>FORM 6-K
+<TEXT>
+<HTML><HEAD>
+<TITLE>Form 6-K</TITLE>
+</HEAD>
+ <BODY BGCOLOR="WHITE">
+
+ <P STYLE="line-height:0px;margin-top:0px;margin-bottom:0px;border-bottom:0.5pt solid #000000">&nbsp;</P>
+<P STYLE="line-height:3px;margin-top:0px;margin-bottom:2px;border-bottom:0.5pt solid #000000">&nbsp;</P> <P STYLE="margin-top:4px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="5"><B>UNITED STATES </B></FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="5"><B>SECURITIES AND EXCHANGE COMMISSION </B></FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT
+STYLE="font-family:Times New Roman" SIZE="3"><B>Washington, D.C. 20549 </B></FONT></P> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P><center>
+<P STYLE="line-height:6px;margin-top:0px;margin-bottom:2px;border-bottom:1pt solid #000000;width:21%">&nbsp;</P></center> <P STYLE="margin-top:6px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="5"><B>Form 6-K
+</B></FONT></P> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P><center> <P STYLE="line-height:6px;margin-top:0px;margin-bottom:2px;border-bottom:1pt solid #000000;width:21%">&nbsp;</P></center>
+<P STYLE="margin-top:6px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="3"><B>REPORT OF FOREIGN PRIVATE ISSUER </B></FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT
+STYLE="font-family:Times New Roman" SIZE="3"><B>PURSUANT TO RULE 13a-16 OR 15d-16 </B></FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="3"><B>UNDER THE SECURITIES EXCHANGE ACT OF
+1934 </B></FONT></P> <P STYLE="margin-top:12px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="3"><B>January&nbsp;6, 2011 </B></FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P><center>
+<P STYLE="line-height:6px;margin-top:0px;margin-bottom:2px;border-bottom:1pt solid #000000;width:21%">&nbsp;</P></center> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="50%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="49%"></TD></TR>
+<TR>
+<TD VALIGN="top" ALIGN="center"> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="5"><B>BHP BILLITON LIMITED</B></FONT></P> <P STYLE="margin-top:0px;margin-bottom:1px" ALIGN="center"><FONT
+STYLE="font-family:Times New Roman" SIZE="3"><B>(ABN 49 004 028 077)</B></FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="5"><B>BHP BILLITON PLC</B></FONT></P> <P STYLE="margin-top:0px;margin-bottom:1px" ALIGN="center"><FONT
+STYLE="font-family:Times New Roman" SIZE="3"><B>(REG. NO. 3196209)</B></FONT></P></TD></TR>
+<TR>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>(Exact name of Registrant as specified in its charter)</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>(Exact name of Registrant as specified in its charter)</B></FONT></TD></TR></TABLE> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P><center>
+<P STYLE="line-height:6px;margin-top:0px;margin-bottom:2px;border-bottom:1pt solid #000000;width:21%">&nbsp;</P></center> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="50%"></TD>
+<TD VALIGN="bottom" WIDTH="2%"></TD>
+<TD WIDTH="48%"></TD></TR>
+<TR>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>VICTORIA, AUSTRALIA</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>ENGLAND AND WALES</B></FONT></TD></TR>
+<TR>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="1"><B>(Jurisdiction of incorporation or organisation)</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="1"><B>(Jurisdiction of incorporation or organisation)</B></FONT></TD></TR>
+<TR>
+<TD HEIGHT="16"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="bottom" ALIGN="center"> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>180 LONSDALE STREET, MELBOURNE,</B></FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>VICTORIA</B></FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:1px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>3000 AUSTRALIA</B></FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom" ALIGN="center"> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>NEATHOUSE PLACE, VICTORIA, LONDON,</B></FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:1px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>UNITED KINGDOM</B></FONT></P></TD></TR>
+<TR>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="1"><B>(Address of principal executive offices)</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="1"><B>(Address of principal executive offices)</B></FONT></TD></TR></TABLE> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P><center>
+<P STYLE="line-height:6px;margin-top:0px;margin-bottom:2px;border-bottom:1pt solid #000000;width:21%">&nbsp;</P></center> <P STYLE="margin-top:6px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Indicate by check mark whether
+the registrant files or will file annual reports under cover of Form 20-F or Form 40-F:&nbsp;&nbsp;&nbsp;&nbsp;<FONT STYLE="FONT-FAMILY:WINGDINGS">&#120;</FONT>&nbsp;&nbsp;Form
+20-F&nbsp;&nbsp;&nbsp;&nbsp;<FONT STYLE="FONT-FAMILY:WINGDINGS">&#168;</FONT>&nbsp;&nbsp;Form 40-F </FONT></P> <P STYLE="margin-top:12px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Indicate by check mark if the registrant
+is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1):&nbsp;&nbsp;<FONT STYLE="FONT-FAMILY:WINGDINGS">&#168;</FONT> </FONT></P>
+<P STYLE="margin-top:12px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7):&nbsp;&nbsp;<FONT
+STYLE="FONT-FAMILY:WINGDINGS">&#168;</FONT> </FONT></P> <P STYLE="margin-top:12px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Indicate by check mark whether the registrant by furnishing the information contained in this
+Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934:&nbsp;&nbsp;&nbsp;&nbsp;<FONT STYLE="FONT-FAMILY:WINGDINGS">&#168;</FONT>&nbsp;&nbsp;Yes&nbsp;&nbsp;&nbsp;&nbsp;<FONT
+STYLE="FONT-FAMILY:WINGDINGS">&#120;</FONT>&nbsp;&nbsp;No </FONT></P> <P STYLE="margin-top:12px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">If &#147;Yes&#148; is marked, indicate below the file number assigned to the
+registrant in connection with Rule 12g3-2(b):&nbsp;<U>n/a&nbsp;</U> </FONT></P> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<P STYLE="line-height:3px;margin-top:0px;margin-bottom:0px;border-bottom:0.5pt solid #000000">&nbsp;</P> <P STYLE="line-height:3px;margin-top:0px;margin-bottom:2px;border-bottom:0.5pt solid #000000">&nbsp;</P>
+
+<p Style='page-break-before:always'>
+<HR  SIZE="3" style="COLOR:#999999" WIDTH="100%" ALIGN="CENTER">
+
+ <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>SIGNATURES </B></FONT></P> <P STYLE="margin-top:12px;margin-bottom:0px"><FONT
+STYLE="font-family:Times New Roman" SIZE="2">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized. </FONT></P>
+<P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0">
+
+<TR>
+<TD WIDTH="47%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="5%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="46%"></TD></TR>
+<TR>
+<TD VALIGN="top"></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom" COLSPAN="3"><FONT STYLE="font-family:Times New Roman" SIZE="2">BHP Billiton Limited and BHP Billiton Plc</FONT></TD></TR>
+<TR>
+<TD HEIGHT="16"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="top"> <P STYLE="margin-left:1.00em; text-indent:-1.00em"><FONT STYLE="font-family:Times New Roman" SIZE="2">Date: January&nbsp;6, 2011</FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">By:</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom"> <P STYLE="margin-top:0px;margin-bottom:1px;border-bottom:1px solid #000000" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2">/<SMALL>S</SMALL>/&nbsp;&nbsp;&nbsp;&nbsp;J<SMALL>ANE</SMALL>
+M<SMALL>C</SMALL>A<SMALL>LOON&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SMALL></FONT></P></TD></TR>
+<TR>
+<TD VALIGN="top"></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">Name:</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="1"><B>Jane McAloon</B></FONT></TD></TR>
+<TR>
+<TD VALIGN="top"></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">Title:</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;</FONT></TD>
+<TD VALIGN="bottom" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="1"><B>Group Company Secretary</B></FONT></TD></TR></TABLE>
+
+<p Style='page-break-before:always'>
+<HR  SIZE="3" style="COLOR:#999999" WIDTH="100%" ALIGN="CENTER">
+
+ <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="50%"></TD>
+<TD VALIGN="bottom" WIDTH="3%"></TD>
+<TD WIDTH="31%"></TD>
+<TD VALIGN="bottom" WIDTH="2%"></TD>
+<TD WIDTH="14%"></TD></TR>
+<TR>
+<TD VALIGN="bottom"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Company Secretariat</B></FONT></P> <P STYLE="font-size:18px;margin-top:0px;margin-bottom:1px">&nbsp;</P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom" COLSPAN="3" ALIGN="right">
+
+
+<IMG SRC="g133909txpg3.jpg" ALT="LOGO">
+</TD></TR>
+<TR>
+<TD HEIGHT="16"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="bottom" ROWSPAN="7"> <P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2">5 January 2011</FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom" ROWSPAN="7"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">BHP Billiton Limited</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT
+STYLE="font-family:Times New Roman" SIZE="1">180 Lonsdale Street</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">Melbourne Victoria 3000 Australia</FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">GPO BOX 86A</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">Melbourne Victoria 3001
+Australia</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">Tel +61 1300 55 47 57 Fax +61 3 9609 4372</FONT></P> <P STYLE="margin-top:0px;margin-bottom:1px"><FONT
+STYLE="font-family:Times New Roman" SIZE="1">bhpbilliton.com</FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom" ROWSPAN="7"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">BHP Billiton Plc</FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">Neathouse Place</FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">London&nbsp;SW1V&nbsp;1BH&nbsp;UK</FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">Tel +44 20 7802 4000</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="1">Fax + 44 20 7802
+4111</FONT></P> <P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="1">bhpbilliton.com</FONT></P></TD></TR>
+<TR>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD></TR>
+<TR>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD></TR>
+<TR>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD></TR>
+<TR>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD></TR>
+<TR>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD></TR>
+<TR>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD></TR></TABLE> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD></TD>
+<TD VALIGN="bottom" WIDTH="3%"></TD>
+<TD WIDTH="45%"></TD>
+<TD VALIGN="bottom" WIDTH="2%"></TD>
+<TD WIDTH="2%"></TD>
+<TD VALIGN="bottom" WIDTH="2%"></TD>
+<TD WIDTH="44%"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2">To:</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">Australian Securities Exchange</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">cc:</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">New York Stock Exchange</FONT></TD></TR>
+<TR>
+<TD VALIGN="top"></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">London Stock Exchange</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">JSE Limited</FONT></TD></TR></TABLE> <P STYLE="margin-top:24px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Appointment of Baroness
+Shriti Vadera </B></FONT></P> <P STYLE="margin-top:12px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Further to the announcement on 13&nbsp;December 2010 advising of the appointment of Baroness Shriti Vadera as a Director of
+BHP Billiton Plc and BHP Billiton Limited with effect from 1&nbsp;January 2011 we now advise details of Baroness Vadera&#146;s interests in BHP Billiton shares: </FONT></P> <P STYLE="margin-top:24px;margin-bottom:0px" ALIGN="center"><FONT
+STYLE="font-family:Times New Roman" SIZE="2"><B>Notification of Initial Interests of Directors and Connected Persons </B></FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>(Australian Securities Exchange Listing Rules Appendix 3X) </B></FONT></P>
+<P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD></TD>
+<TD VALIGN="bottom" WIDTH="3%"></TD>
+<TD WIDTH="18%"></TD>
+<TD VALIGN="bottom" WIDTH="3%"></TD>
+<TD WIDTH="64%"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Name&nbsp;of&nbsp;entities</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">BHP Billiton Limited</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">BHP Billiton Plc</FONT></TD></TR>
+<TR>
+<TD VALIGN="top"></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">ABN 49 004 028 077</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">REG NO 3196029</FONT></TD></TR></TABLE> <P STYLE="margin-top:12px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">As part of a dual listed company
+structure, the Group voluntarily notifies all stock exchanges on which either BHP Billiton Plc or BHP Billiton Limited have primary or secondary listings, all those interests of directors of both entities in the securities of both entities (and
+changes to those interests) which are required to be disclosed under the Australian Securities Exchange (ASX) Listing Rules, the Listing Rules and Disclosure and Transparency Rules of the United Kingdom Listing Authority, the Australian Corporations
+Act, the United Kingdom Companies Acts and the Group&#146;s Securities Dealing document. </FONT></P> <P STYLE="margin-top:12px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">We (the entities) advise the following information
+under ASX Listing Rule 3.19A.1 and as agent for the director for the purposes of section 205G of the Australian Corporations Act. </FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="22%"></TD>
+<TD VALIGN="bottom" WIDTH="2%"></TD>
+<TD WIDTH="76%"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Name of director</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">Baroness Shriti Vadera</FONT></TD></TR>
+<TR>
+<TD HEIGHT="8"></TD>
+<TD HEIGHT="8" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Date&nbsp;of&nbsp;appointment</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="2">1 January 2011</FONT></TD></TR></TABLE> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="51%"></TD>
+<TD VALIGN="bottom" WIDTH="2%"></TD>
+<TD WIDTH="47%"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="1">BHP Billiton Limited ABN 49 004 028 077</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="1">BHP Billiton Plc Registration number 3196209</FONT></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="1">Registered in Australia</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="bottom"><FONT STYLE="font-family:Times New Roman" SIZE="1">Registered in England and Wales</FONT></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="1">Registered&nbsp;Office:180&nbsp;Lonsdale&nbsp;Street,&nbsp;Melbourne&nbsp;Victoria&nbsp;3000&nbsp;Australia</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="1">Registered Office: Neathouse Place, London SW1V 1BH UK</FONT></TD></TR>
+<TR>
+<TD HEIGHT="16" COLSPAN="3"></TD></TR>
+<TR>
+<TD VALIGN="top" COLSPAN="3" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="1">Members of the BHP Billiton Group which is headquartered in Australia</FONT></TD></TR></TABLE>
+
+<p Style='page-break-before:always'>
+<HR  SIZE="3" style="COLOR:#999999" WIDTH="100%" ALIGN="CENTER">
+
+ <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Part 1 &#150; Director&#146;s relevant interests in securities of which the director is the registered
+holder </B></FONT></P> <P STYLE="margin-top:6px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><I>In the case of a trust, this includes interests in the trust made available by the responsible entity of the trust
+</I></FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="100%"></TD></TR>
+<TR>
+<TD VALIGN="top"> <P STYLE="margin-top:0px;margin-bottom:0px; margin-left:1.00em; text-indent:-1.00em"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Number &amp; class of securities</B></FONT></P>
+<P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P> <P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Nil</FONT></P></TD></TR></TABLE> <P STYLE="margin-top:18px;margin-bottom:0px"><FONT
+STYLE="font-family:Times New Roman" SIZE="2"><B>Part 2 &#150; Director&#146;s relevant interests in securities of which the director is not the registered holder </B></FONT></P> <P STYLE="margin-top:6px;margin-bottom:0px"><FONT
+STYLE="font-family:Times New Roman" SIZE="2"><I>In the case of a trust, this includes interests in the trust made available by the responsible entity of the trust </I></FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="37%"></TD>
+<TD VALIGN="bottom" WIDTH="2%"></TD>
+<TD WIDTH="61%"></TD></TR>
+<TR>
+<TD VALIGN="top"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Name of holder &amp; nature of interest</B></FONT></P> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Brewin Dolphin Securities Limited on behalf of Standard Life Trustee Company, the sole trustee for Baroness Vadera&#146;s Self Invested Pension Plan
+(indirect interest, Baroness Vadera is the beneficial owner).</FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Number &amp; class of securities</B></FONT></P> <P STYLE="font-size:6px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2">5,000 ordinary shares in BHP Billiton Plc</FONT></P></TD></TR></TABLE> <P STYLE="margin-top:18px;margin-bottom:0px"><FONT
+STYLE="font-family:Times New Roman" SIZE="2"><B>Part 3 &#150; Director&#146;s interests in contracts </B></FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="37%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="31%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="30%"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Detail of contract</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2">Nil</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"></TD></TR>
+<TR>
+<TD HEIGHT="8"></TD>
+<TD HEIGHT="8" COLSPAN="2"></TD>
+<TD HEIGHT="8" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Nature of interest</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2">N/A</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"></TD></TR>
+<TR>
+<TD HEIGHT="8"></TD>
+<TD HEIGHT="8" COLSPAN="2"></TD>
+<TD HEIGHT="8" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="top"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Name of registered holder</B></FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>(if issued securities)</B></FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2">N/A</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"></TD></TR>
+<TR>
+<TD HEIGHT="8"></TD>
+<TD HEIGHT="8" COLSPAN="2"></TD>
+<TD HEIGHT="8" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>No. and class of securities to which interest relates</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2">N/A</FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"></TD></TR></TABLE> <P STYLE="margin-top:18px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Part 4 &#150; Contact details </B></FONT></P>
+<P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BORDER="0" ALIGN="center">
+
+<TR>
+<TD WIDTH="37%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="11%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="3%"></TD>
+<TD VALIGN="bottom" WIDTH="1%"></TD>
+<TD WIDTH="46%"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Name of authorised officers responsible for making this notification on behalf of the entities</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top" COLSPAN="5"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Fiona Smith &#150; BHP Billiton Limited</FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Geof Stapledon &#150; BHP Billiton Plc</FONT></P></TD></TR>
+<TR>
+<TD HEIGHT="16"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD>
+<TD HEIGHT="16" COLSPAN="2"></TD></TR>
+<TR>
+<TD VALIGN="top"><FONT STYLE="font-family:Times New Roman" SIZE="2"><B>Contact details</B></FONT></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Fiona&nbsp;Smith</FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P>
+<P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P> <P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Geof&nbsp;Stapledon</FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Tel:</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Fax:</FONT></P>
+<P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">Tel:</FONT></P> <P STYLE="margin-top:0px;margin-bottom:1px"><FONT
+STYLE="font-family:Times New Roman" SIZE="2">Fax:</FONT></P></TD>
+<TD VALIGN="bottom"><FONT SIZE="1">&nbsp;&nbsp;</FONT></TD>
+<TD VALIGN="top"> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">+61 3 9609 3179</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">+61 3 9609
+4372</FONT></P> <P STYLE="font-size:12px;margin-top:0px;margin-bottom:0px">&nbsp;</P> <P STYLE="margin-top:0px;margin-bottom:0px"><FONT STYLE="font-family:Times New Roman" SIZE="2">+44 20 7802 4176</FONT></P>
+<P STYLE="margin-top:0px;margin-bottom:1px"><FONT STYLE="font-family:Times New Roman" SIZE="2">+44 20 7802 3054</FONT></P></TD></TR></TABLE>
+ <p STYLE="margin-top:0px;margin-bottom:0px"><FONT SIZE="1">&nbsp;</FONT></P> <P STYLE="margin-top:0px;margin-bottom:0px" ALIGN="center"><FONT STYLE="font-family:Times New Roman" SIZE="2">2 </FONT></P>
+
+</BODY></HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>2
+<FILENAME>g133909txpg3.jpg
+<DESCRIPTION>GRAPHIC
+<TEXT>
+begin 644 g133909txpg3.jpg
+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
+!V3\_
+`
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

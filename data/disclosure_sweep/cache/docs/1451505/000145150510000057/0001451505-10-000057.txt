@@ -1,0 +1,500 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ KyczWbYaWPTm9Pl8jSJ/3PA6EVecMGF6ilpWH4OS0qV+FQhSu3QSaGDHKgW2mRUU
+ LxkS8OvqYF9CPThR2kfarA==
+
+<SEC-DOCUMENT>0001451505-10-000057.txt : 20100518
+<SEC-HEADER>0001451505-10-000057.hdr.sgml : 20100518
+<ACCEPTANCE-DATETIME>20100518171710
+ACCESSION NUMBER:		0001451505-10-000057
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20100514
+FILED AS OF DATE:		20100518
+DATE AS OF CHANGE:		20100518
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			ROSE ROBERT E
+		CENTRAL INDEX KEY:			0001180361
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-53533
+		FILM NUMBER:		10843408
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O GLOBALSANTAFE CORP
+		CITY:			HOUSTON
+		STATE:			TX
+		ZIP:			77079
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Transocean Ltd.
+		CENTRAL INDEX KEY:			0001451505
+		STANDARD INDUSTRIAL CLASSIFICATION:	DRILLING OIL & GAS WELLS [1381]
+		IRS NUMBER:				980599916
+		STATE OF INCORPORATION:			V8
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		BLANDONNET INTERNATIONAL BUSINESS CENTER
+		STREET 2:		BLDG F, 7TH FLOOR, CHEMIN DE BLANDONNET
+		CITY:			VERNIER
+		STATE:			V8
+		ZIP:			1214
+		BUSINESS PHONE:		41-58-792-9243
+
+	MAIL ADDRESS:	
+		STREET 1:		BLANDONNET INTERNATIONAL BUSINESS CENTER
+		STREET 2:		BLDG F, 7TH FLOOR, CHEMIN DE BLANDONNET
+		CITY:			VERNIER
+		STATE:			V8
+		ZIP:			1214
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>edgar.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0303</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2010-05-14</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001451505</issuerCik>
+        <issuerName>Transocean Ltd.</issuerName>
+        <issuerTradingSymbol>RIG</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001180361</rptOwnerCik>
+            <rptOwnerName>ROSE ROBERT E</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>10 CHEMIN DE BLANDONNET</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>VERNIER</rptOwnerCity>
+            <rptOwnerState>V8</rptOwnerState>
+            <rptOwnerZipCode>1214</rptOwnerZipCode>
+            <rptOwnerStateDescription>SWITZERLAND</rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Registered Shares</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2010-05-16</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>567</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>6953</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Registered Shares</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2010-05-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1188</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>8141</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Registered Shares</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2010-05-17</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F3"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>238</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F3"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7903</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Deferred Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>0</value>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2010-05-16</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>567</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F1"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F1"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Registered Shares</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>567</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>567</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Deferred units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>0</value>
+                <footnoteId id="F2"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2010-05-15</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1188</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Registered Shares</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>1188</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>2377</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Deferred Units</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>0</value>
+                <footnoteId id="F4"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2010-05-14</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3703</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F4"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F4"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F4"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Registered Shares</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>3703</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3703</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">On May 16, 2008, the reporting person was granted 1,701 Deferred Units, which are 1-for-1 registered share equivalents.  On May 16, 2010, one third of the award vested per its terms and was paid in registered shares of the issuer per the reporting person's election in 2008 for such Deferred Units to be payable in registered shares upon the earliest of (i) annual vesting of such Deferred Units, (ii) change of control of the issuer or (iii) the reporting person's death, disability or retirement from the Board.</footnote>
+        <footnote id="F2">On May 15, 2009, the reporting person was granted 3,565 Deferred Units, which are 1-for-1 registered share equivalents.  On May 15, 2010, one third of the award vested per its terms and was paid in registered shares of the issuer per the reporting person's election in 2009 for such Deferred Units to be payable in registered shares upon the earliest of (i) annual vesting of such Deferred Units, (ii) change of control of the issuer or (iii) the reporting person's death, disability or retirement from the Board.</footnote>
+        <footnote id="F3">Shares automatically withheld upon vesting to satisfy tax withholding obligations.</footnote>
+        <footnote id="F4">Deferred Units, which are 1-for-1 registered share equivalents, were acquired on May 14, 2010 pursuant to the issuer's long-term incentive plan.  Deferred Units vest in equal installments on May 14, 2011, 2012 and 2013.  The reporting person elected in 2009 for such Deferred Units to be payable in registered shares of the issuer upon the reporting person's death, disability or retirement from the Board.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Margaret C. Fitzgerald by Power of Attorney</signatureName>
+        <signatureDate>2010-05-18</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24
+<SEQUENCE>2
+<FILENAME>poa_rose-tltd10.htm
+<TEXT>
+<HTML><BODY><PRE>POWER OF ATTORNEY
+
+       Know all by these presents, that the undersigned hereby constitutes and appoints each
+
+of Eric B. Brown, Heather G. Callender and Margaret C. Fitzgerald, signing individually, the
+
+undersigned's true and lawful attorney-in-fact to:
+
+(1) execute for and on behalf of the undersigned, in the undersigned's capacity as
+
+an officer and/or director of Transocean Ltd. (the "Company"), Forms 3, 4 and 5
+
+in accordance with Section 16(a) of the Securities Exchange Act of 1934 and the
+
+rules thereunder;
+
+(2) do and perform any and all acts for and on behalf of the undersigned which may
+
+be necessary or desirable to complete and execute any such Form 3, 4 or 5 and
+
+timely file such form with the United States Securities and Exchange Commission
+
+and any stock exchange or similar authority; and
+
+(3) take any other action of any type whatsoever in connection with the foregoing
+
+which, in the opinion of such attorney-in-act, may be of benefit to, in the best
+
+interest of or legally required by, the undersigned, it being understood that the
+
+documents executed by such attorney-in-fact on behalf of the undersigned
+
+pursuant to this Power of Attorney shall be in such form and shall contain such
+
+terms and conditions as such attorney-in-fact may approve in such attorney-in-
+
+fact's discretion.
+
+       The undersigned hereby grants to each such attorney-in-fact full power and authority to
+
+do and perform any and every act and thing whatsoever requisite, necessary or proper to be
+
+done in the exercise of any of the rights and powers herein granted, as fully to all intents and
+
+purposes as the undersigned might or could do if personally present, with full power of
+
+substitution or revocation, hereby ratifying and confirming all that such attorney-in-fact, or such
+
+attorney-in-fact's substitute or substitutes, shall lawfully do or cause to be done by virtue of this
+
+power of attorney and the rights and powers herein granted.  The undersigned acknowledges
+
+that the foregoing attorneys-in-fact, in serving in such capacity at the request of the
+
+undersigned, are not assuming, nor is the Company assuming, any of the undersigned's
+
+responsibilities to comply with Section 16 of the Securities Exchange Act of 1934.
+
+       This Power of Attorney shall remain in full force and effect until the undersigned is no
+
+longer required to file Forms 3, 4 and 5 with respect to the undersigned's holdings of and
+
+transactions in securities issued by the Company, unless earlier revoked by the undersigned in
+
+a signed writing delivered to the foregoing attorneys-in-fact.
+
+       IN WITNESS WHEREOF, the undersigned has caused this Power of Attorney to be
+
+executed as of this 12th day of February, 2010.
+
+
+
+By:    /s/ Robert E. Rose
+
+Name:  Robert E. Rose
+
+
+
+</PRE></BODY></HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

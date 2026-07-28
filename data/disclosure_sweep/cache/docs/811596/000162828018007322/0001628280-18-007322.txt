@@ -1,0 +1,178 @@
+<SEC-DOCUMENT>0001628280-18-007322.txt : 20180529
+<SEC-HEADER>0001628280-18-007322.hdr.sgml : 20180529
+<ACCEPTANCE-DATETIME>20180529180556
+ACCESSION NUMBER:		0001628280-18-007322
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20180524
+FILED AS OF DATE:		20180529
+DATE AS OF CHANGE:		20180529
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Krouse Mark
+		CENTRAL INDEX KEY:			0001586289
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-09447
+		FILM NUMBER:		18865904
+
+	MAIL ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY
+		STREET 2:		SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAISER ALUMINUM CORP
+		CENTRAL INDEX KEY:			0000811596
+		STANDARD INDUSTRIAL CLASSIFICATION:	ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS [3350]
+		IRS NUMBER:				943030279
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+		BUSINESS PHONE:		949-614-1740
+
+	MAIL ADDRESS:	
+		STREET 1:		27422 PORTOLA PARKWAY, SUITE 200
+		CITY:			FOOTHILL RANCH
+		STATE:			CA
+		ZIP:			92610-2831
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	KAISERTECH LTD
+		DATE OF NAME CHANGE:	19901122
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_152763149385099.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2018-05-24</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000811596</issuerCik>
+        <issuerName>KAISER ALUMINUM CORP</issuerName>
+        <issuerTradingSymbol>KALU</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001586289</rptOwnerCik>
+            <rptOwnerName>Krouse Mark</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O KAISER ALUMINUM CORP.</rptOwnerStreet1>
+            <rptOwnerStreet2>27422 PORTOLA PARKWAY, SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>FOOTHILL RANCH</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>92610</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>VP - Human Resources</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2018-05-24</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1500</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>108.6273</value>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3565</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Krouse Family Trust</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3773</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Represents the sale of 1,500 shares in multiple transactions, ranging from $108.5977 to $108.6663 per share, resulting in a weighted average sale price of $108.6273 per share. The reporting person undertakes to provide upon request by the SEC staff, the Registrant, or a security holder of the Registrant, full information regarding the number of shares sold at each separate price within the range.</footnote>
+        <footnote id="F2">Shares acquired pursuant to grants of restricted stock units.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Cherrie I. Tsai, with power of attorney for Mark Krouse</signatureName>
+        <signatureDate>2018-05-29</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

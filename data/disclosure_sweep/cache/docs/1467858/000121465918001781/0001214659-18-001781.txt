@@ -1,0 +1,161 @@
+<SEC-DOCUMENT>0001214659-18-001781.txt : 20180305
+<SEC-HEADER>0001214659-18-001781.hdr.sgml : 20180305
+<ACCEPTANCE-DATETIME>20180305162027
+ACCESSION NUMBER:		0001214659-18-001781
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20180302
+FILED AS OF DATE:		20180305
+DATE AS OF CHANGE:		20180305
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			UAW Retiree Medical Benefits Trust
+		CENTRAL INDEX KEY:			0001480561
+		STATE OF INCORPORATION:			XX
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34960
+		FILM NUMBER:		18666283
+
+	BUSINESS ADDRESS:	
+		STREET 1:		200 WALKER STREET
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48207
+		BUSINESS PHONE:		313-324-5928
+
+	MAIL ADDRESS:	
+		STREET 1:		200 WALKER STREET
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48207
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			General Motors Co
+		CENTRAL INDEX KEY:			0001467858
+		STANDARD INDUSTRIAL CLASSIFICATION:	MOTOR VEHICLES & PASSENGER CAR BODIES [3711]
+		IRS NUMBER:				270756180
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+		BUSINESS PHONE:		313.667.1500
+
+	MAIL ADDRESS:	
+		STREET 1:		300 RENAISSANCE CENTER
+		CITY:			DETROIT
+		STATE:			MI
+		ZIP:			48265-3000
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>marketforms-41262.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2018-03-02</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001467858</issuerCik>
+        <issuerName>General Motors Co</issuerName>
+        <issuerTradingSymbol>GM</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001480561</rptOwnerCik>
+            <rptOwnerName>UAW Retiree Medical Benefits Trust</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>P.O. BOX 14309</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>DETROIT</rptOwnerCity>
+            <rptOwnerState>MI</rptOwnerState>
+            <rptOwnerZipCode>48214</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>true</isDirector>
+            <isOfficer>false</isOfficer>
+            <isTenPercentOwner>false</isTenPercentOwner>
+            <isOther>false</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2018-03-02</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>false</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness></transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>40000000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>39.71</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>100150000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                    <footnoteId id="F1"/>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Pursuant to the Stockholders Agreement entered into as of October 15, 2009 by and among General Motors Company (the &quot;Issuer&quot;) and the UAW Retiree Medical Benefits Trust (the &quot;Reporting Person&quot;), the Reporting Person has the right to designate one nominee to the Issuer's Board of Directors for so long as the Reporting Person's holding of shares of the Issuer's common stock exceeds a specified ownership threshold, subject to the consent of the International Union, United Automobile, Aerospace and Agricultural Implement Workers of America and approval by the Issuer's Board of Directors (not to be unreasonably withheld).  The Reporting Person hereby disclaims beneficial ownership of any securities owned by its director nominee.</footnote>
+    </footnotes>
+
+    <remarks>Alain Lebec is signing on behalf of the Reporting Person pursuant to the UAW Retiree Medical Benefits Trust Independent Fiduciary Agreement (Relating to General Motors Company) dated as of August 8, 2011, by and between the Reporting Person and Brock Fiduciary Services LLC. The Reporting Person may be deemed to be a member of a &quot;group&quot; for purposes of Section 13 of the Securities Exchange Act of 1934, as amended. The Reporting Person disclaims beneficial ownership of any securities deemed to be owned by such group that are not directly owned by the Reporting Person.</remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Alain Lebec, Senior Managing Director of Brock Fiduciary Services LLC, as Independent Fiduciary to the Reporting Person (solely for the benefit of the GM Separate Retiree Account)</signatureName>
+        <signatureDate>2018-03-05</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

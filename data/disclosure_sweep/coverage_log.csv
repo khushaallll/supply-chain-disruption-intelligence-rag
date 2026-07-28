@@ -1,0 +1,81 @@
+event_id,company,cik,status,how_resolved,filings_in_window,documents_opened,earliest_match
+1_posco_2022,"Korinox Co., Ltd. (코리녹스)",,not an SEC filer,private Korean company,0,0,
+2_nippon_steel_2011,Toyota Motor Corporation,1094517,checked,manual override,17,28,15/03/2011
+2_nippon_steel_2011,Sony Corporation,313838,checked,manual override,21,20,14/03/2011
+2_nippon_steel_2011,"Hitachi, Ltd.",47710,checked,manual override,16,15,14/03/2011
+2_nippon_steel_2011,Panasonic Corporation,63271,checked,manual override,7,6,15/03/2011
+2_nippon_steel_2011,Komatsu Ltd.,56594,checked,manual override,11,8,15/03/2011
+2_nippon_steel_2011,"Honda Motor Co., Ltd.",,not an SEC filer,check manually - was NYSE-listed,0,0,
+2_nippon_steel_2011,"Nissan Motor Co., Ltd.",,not an SEC filer,"Japan-listed, no current SEC registration",0,0,
+2_nippon_steel_2011,General Motors Company,1467858,checked,manual override,43,26,19/04/2011
+2_nippon_steel_2011,Ford Motor Company,37996,checked,manual override,53,33,01/04/2011
+4_dow_2017,Univar Inc. (now Univar Solutions),1494319,checked,manual override,15,74,29/08/2017
+4_dow_2017,Exxon Mobil Corporation,34088,checked,manual override,8,42,27/10/2017
+4_dow_2017,Shell (Royal Dutch Shell / Shell Oil),1306965,checked,exact name match,15,17,
+4_dow_2017,"Formosa Plastics Corp., U.S.A.",,not an SEC filer,private US subsidiary of Taiwanese parent,0,0,
+4_dow_2017,Ascend Performance Materials,,not an SEC filer,private,0,0,
+4_dow_2017,INEOS,1173218,checked,exact name match,0,0,
+4_dow_2017,INVISTA,,not an SEC filer,private (Koch subsidiary),0,0,
+4_dow_2017,Occidental Chemical (OxyChem),1259249,checked,exact name match,0,0,
+4_dow_2017,Ashland Global Holdings Inc.,1674862,checked,manual override,61,103,01/09/2017
+17_basf_se_2016,The Dow Chemical Company,29915,checked,manual override,14,128,
+19_cpc_corp_taiwan_2014,LCY Chemical Corp.,,not an SEC filer,Taiwan-listed (TWSE 1704),0,0,
+19_cpc_corp_taiwan_2014,Taiwan Power Company (Taipower),,not an SEC filer,"state-owned, unlisted",0,0,
+19_cpc_corp_taiwan_2014,China Petrochemical Development Corporation,,not an SEC filer,Taiwan-listed (TWSE 1314),0,0,
+47_china_steel_2018,General Motors Company,1467858,checked,manual override,15,25,26/04/2018
+47_china_steel_2018,Ford Motor Company,37996,checked,manual override,66,30,29/03/2018
+48_glencore_2025,Eurasian Resources Group (ERG),,not an SEC filer,private,0,0,
+5_formosa_plastics_2021,NXP Semiconductors N.V.,1413447,checked,manual override,13,214,11/03/2021
+5_formosa_plastics_2021,Infineon Technologies AG,,not an SEC filer,Frankfurt-listed,0,0,
+5_formosa_plastics_2021,"Samsung Electronics Co., Ltd.",,not an SEC filer,Korea-listed (KRX 005930),0,0,
+5_formosa_plastics_2021,Olin Corporation,74303,checked,manual override,49,169,16/03/2021
+5_formosa_plastics_2021,LyondellBasell Industries N.V.,,not an SEC filer,SEC filer - remove me if you want it checked,0,0,
+5_formosa_plastics_2021,Celanese Corporation,1306830,checked,exact name match,47,25,25/03/2021
+5_formosa_plastics_2021,Pactiv Evergreen Inc.,1527508,checked,manual override,17,14,24/02/2021
+5_formosa_plastics_2021,W. R. Grace & Co.,1045309,checked,manual override,36,162,19/03/2021
+5_formosa_plastics_2021,"Core Molding Technologies, Inc.",1026655,checked,manual override,16,78,11/03/2021
+8_exxon_mobil_2005,"The Dixie Group, Inc.",29332,checked,manual override,14,10,30/08/2005
+8_exxon_mobil_2005,"Air Products and Chemicals, Inc.",2969,checked,manual override,36,11,01/09/2005
+8_exxon_mobil_2005,Nalco Holding Company,1290091,checked,exact name match,3,8,16/11/2005
+8_exxon_mobil_2005,"CF Industries Holdings, Inc.",1324404,checked,exact name match,17,5,09/10/2005
+9_xinxiang_tianli_energy_2021,"Nissan Motor Co., Ltd.",,not an SEC filer,"Japan-listed, no current SEC registration",0,0,
+9_xinxiang_tianli_energy_2021,"Hon Hai Precision Industry Co., Ltd. (Foxconn)",,not an SEC filer,Taiwan-listed (TWSE 2317),0,0,
+9_xinxiang_tianli_energy_2021,SAIC Motor Corporation Limited,,not an SEC filer,Shanghai-listed (600104),0,0,
+9_xinxiang_tianli_energy_2021,IKEA (Inter IKEA / Ingka Group),,not an SEC filer,private,0,0,
+9_xinxiang_tianli_energy_2021,FedEx Corporation,1048911,checked,manual override,23,183,
+20_formosa_petrochemical_2019,Formosa Chemicals & Fibre Corp (FCFC),,not an SEC filer,Taiwan-listed (TWSE 1326),0,0,
+21_mitsubishi_materials_2014,SUMCO Corporation,,not an SEC filer,Japan-listed (TSE 3436),0,0,
+35_gazprom_pjsc_2022,ArcelorMittal S.A.,1243429,checked,manual override,13,27,21/11/2022
+35_gazprom_pjsc_2022,Nyrstar (Trafigura group),,not an SEC filer,private (Trafigura),0,0,
+35_gazprom_pjsc_2022,Norsk Hydro ASA / Slovalco a.s.,,not an SEC filer,Oslo-listed,0,0,
+35_gazprom_pjsc_2022,Alcoa Corporation,1675149,checked,manual override,12,5,19/10/2022
+35_gazprom_pjsc_2022,Yara International ASA,,not an SEC filer,Oslo-listed,0,0,
+11_aurizon_2010,Peabody Energy Corporation,1064728,checked,manual override,47,15,07/01/2011
+11_aurizon_2010,Rio Tinto,863064,checked,manual override,10,27,10/01/2011
+11_aurizon_2010,BHP Billiton,811809,checked,manual override,78,76,20/01/2011
+11_aurizon_2010,Xstrata plc,,not an SEC filer,LSE-listed (merged 2013),0,0,
+11_aurizon_2010,Vale S.A.,917851,checked,manual override,24,30,25/02/2011
+11_aurizon_2010,Anglo American plc,,not an SEC filer,LSE-listed,0,0,
+11_aurizon_2010,Macarthur Coal Limited,,not an SEC filer,ASX-listed (delisted 2011),0,0,
+11_aurizon_2010,"Aquila Resources, Cockatoo Coal and Ensham Resources",,not an SEC filer,bundled entry - split before running,0,0,
+11_aurizon_2010,ArcelorMittal,1243429,checked,manual override,26,55,22/02/2011
+24_bp_2010,Transocean Ltd.,1451505,checked,manual override,27,30,23/04/2010
+24_bp_2010,Anadarko Petroleum Corporation,773910,checked,manual override,20,9,04/05/2010
+24_bp_2010,Omega Protein Corporation,1053650,checked,manual override,25,37,30/04/2010
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,"Telkomsel, Indosat Ooredoo, XL Axiata and Hutchison 3 Indonesia",,not an SEC filer,bundled entry - split before running,0,0,
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,MRT Jakarta and KAI Commuter,,not an SEC filer,state-owned Indonesian,0,0,
+40_state_grid_corp_of_china_2021,Unimicron Technology Corp.,,not an SEC filer,Taiwan-listed (TWSE 3037),0,0,
+40_state_grid_corp_of_china_2021,"Eson Precision Industry Co., Ltd.",,not an SEC filer,Taiwan-listed (TWSE 5243),0,0,
+40_state_grid_corp_of_china_2021,"Concraft Holding Co., Ltd.",,not an SEC filer,Taiwan-listed,0,0,
+40_state_grid_corp_of_china_2021,"TTM Technologies, Inc.",1116942,checked,manual override,3,87,27/10/2021
+40_state_grid_corp_of_china_2021,Diodes Incorporated,29002,checked,manual override,18,13,03/11/2021
+54_yunnan_chihong_zinc_germanium_2023,"AXT, Inc. (and its Beijing subsidiary Tongmei)",1051627,checked,manual override,5,5,05/07/2023
+57_united_co_rusal_international_pjsc_2018,Rio Tinto,863064,checked,manual override,19,121,13/04/2018
+57_united_co_rusal_international_pjsc_2018,Constellium SE,1563411,checked,manual override,5,10,26/04/2018
+57_united_co_rusal_international_pjsc_2018,Kaiser Aluminum Corporation,811596,checked,manual override,26,32,25/04/2018
+57_united_co_rusal_international_pjsc_2018,Aleris Corporation,1518587,checked,manual override,7,14,03/05/2018
+57_united_co_rusal_international_pjsc_2018,Tredegar Corporation,850429,checked,manual override,12,13,01/05/2018
+59_coronado_global_resources_2020,Aurizon Holdings Limited,,not an SEC filer,ASX-listed,0,0,
+59_coronado_global_resources_2020,Whitehaven Coal Limited,,not an SEC filer,ASX-listed,0,0,
+59_coronado_global_resources_2020,Peabody Energy Corporation,1064728,checked,manual override,9,17,26/10/2020
+59_coronado_global_resources_2020,Genco Shipping & Trading Limited,1326200,checked,manual override,17,17,04/11/2020

@@ -1,0 +1,990 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ BW4bkpfbgI0cWfqVD0aGh4hjhY3zx1MRZx0yyb1fWo4iHWF7IM7EO4dD8M/yFNOD
+ BvPgutQPWL8vZhjfOGFUtg==
+
+<SEC-DOCUMENT>0001299933-11-000108.txt : 20110107
+<SEC-HEADER>0001299933-11-000108.hdr.sgml : 20110107
+<ACCEPTANCE-DATETIME>20110107150706
+ACCESSION NUMBER:		0001299933-11-000108
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20110107
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20110107
+DATE AS OF CHANGE:		20110107
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			PEABODY ENERGY CORP
+		CENTRAL INDEX KEY:			0001064728
+		STANDARD INDUSTRIAL CLASSIFICATION:	BITUMINOUS COAL & LIGNITE SURFACE MINING [1221]
+		IRS NUMBER:				134004153
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-16463
+		FILM NUMBER:		11517222
+
+	BUSINESS ADDRESS:	
+		STREET 1:		701 MARKET ST
+		CITY:			ST LOUIS
+		STATE:			MO
+		ZIP:			63101-1826
+		BUSINESS PHONE:		3143423400
+
+	MAIL ADDRESS:	
+		STREET 1:		701 MARKET ST
+		CITY:			ST LOUIS
+		STATE:			MO
+		ZIP:			63101-1826
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	P&L COAL HOLDINGS CORP
+		DATE OF NAME CHANGE:	19980623
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>htm_40349.htm
+<DESCRIPTION>LIVE FILING
+<TEXT>
+<!-- CoverPageHeader start -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE> PEABODY ENERGY CORPORATION (Form: 8-K) </TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" ALINK="#0000FF" HLINK="#FF0000" VLINK="#800080">
+<!-- Comment1 -->
+<A NAME="DOCUMENT_TOP">&nbsp;</A>
+<P>
+<!-- CoverPageHeader end --><!-- CoverPageTitle START -->
+<A NAME="DOCUMENT_TOP">&nbsp;</A>
+<HR NOSHADE>
+<P>
+<P ALIGN="CENTER">
+<FONT SIZE="4">
+		UNITED STATES<BR>
+	SECURITIES AND EXCHANGE COMMISSION
+</FONT>
+<BR>
+<FONT SIZE="2">
+	WASHINGTON, D.C. 20549
+</FONT>
+<P ALIGN="CENTER">
+<FONT SIZE="5">
+	FORM 8-K
+</FONT>
+<FONT SIZE="2">
+
+</FONT>
+</P>
+<P ALIGN="CENTER">
+<FONT SIZE="3">
+	CURRENT REPORT
+</FONT>
+</P>
+<P ALIGN="CENTER">
+<FONT SIZE="2">
+	Pursuant to Section&nbsp;13 or 15(d) of the Securities Exchange Act of 1934
+</FONT>
+</P>
+<CENTER>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="0" WIDTH="100%">
+<TR VALIGN="BOTTOM">
+<TD WIDTH="51%">
+	&nbsp;
+</TD>
+<TD WIDTH="5%">
+	&nbsp;
+</TD>
+<TD WIDTH="44%">
+	&nbsp;
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	Date of Report (Date of Earliest Event Reported):
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	January 7, 2011
+</FONT>
+</TD>
+</TR>
+</TABLE>
+<BR>
+</CENTER>
+<!-- CoverPageTitle END --><!-- CoverPageRegistrant START -->
+<P ALIGN="CENTER"><!-- -->
+<FONT SIZE="6">
+	PEABODY ENERGY CORPORATION
+</FONT>
+<FONT SIZE="2">
+<BR>__________________________________________<BR>
+	(Exact name of registrant as specified in its charter)
+</FONT>
+<CENTER>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="0" WIDTH="100%">
+<TR VALIGN="BOTTOM">
+<TD WIDTH="33%">
+	&nbsp;
+</TD>
+<TD WIDTH="34%">
+	&nbsp;
+</TD>
+<TD WIDTH="33%">
+	&nbsp;
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	Delaware
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	1-16463
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	13-4004153
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+_____________________<BR>
+	(State or other jurisdiction
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+_____________<BR>
+	(Commission
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+______________<BR>
+	(I.R.S. Employer
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	of incorporation)
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	File Number)
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	Identification No.)
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	701 Market Street, St. Louis, Missouri
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	63101-1826
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+_________________________________<BR>
+	(Address of principal executive offices)
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+___________<BR>
+	(Zip Code)
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<CENTER>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="0" WIDTH="100%">
+
+<TR VALIGN="BOTTOM">
+<TD WIDTH="51%">
+	&nbsp;
+</TD>
+<TD WIDTH="5%">
+	&nbsp;
+</TD>
+<TD WIDTH="44%">
+	&nbsp;
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	Registrant&#146;s telephone number, including area code:
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<FONT SIZE="2">
+	(314) 342-3400
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<P ALIGN="CENTER">
+<FONT SIZE="2">
+	Not Applicable
+<BR>______________________________________________<BR>
+	Former name or former address, if changed since last report
+</FONT>
+<P ALIGN="CENTER">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+<!-- CoverPageRegistrant END --><P><FONT SIZE="2">
+Check the appropriate box below if the Form 8-K filing is intended to
+simultaneously satisfy the filing obligation of the registrant under any
+of the following provisions:</FONT>
+</P>
+<P><FONT SIZE="2">
+[&nbsp;&nbsp;]&nbsp;&nbsp;Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)<br>
+[&nbsp;&nbsp;]&nbsp;&nbsp;Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)<br>
+[&nbsp;&nbsp;]&nbsp;&nbsp;Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))<br>
+[&nbsp;&nbsp;]&nbsp;&nbsp;Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))<br>
+</P></FONT><!-- PageBreak START -->
+<P>
+<HR NOSHADE>
+<DIV ALIGN="LEFT" STYLE="PAGE-BREAK-BEFORE:ALWAYS">
+<A HREF="#DOCUMENT_TOP">
+<U>
+<B>
+<FONT SIZE="2">Top of the Form</FONT>
+</B>
+</U>
+</A>
+</DIV>
+<!-- PageBreak END --><!-- Item START -->
+<P ALIGN="LEFT">
+<FONT SIZE="2">
+<B>
+	Item 2.02 Results of Operations and Financial Condition.
+</B>
+</FONT>
+</P>
+<P ALIGN="LEFT">
+<FONT SIZE="2">
+On January 7, 2011, Peabody Energy Corporation ("Peabody") issued a press release updating guidance on its 2010 forecasted results.   A copy of Peabody&#x2019;s press release is attached hereto as Exhibit 99.1.<br><br>The information contained in this Current Report shall not be deemed "filed" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the "Exchange Act"), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.<br>
+</FONT>
+</P>
+<!-- Item END -->
+<BR><BR><BR><BR><!-- Item START -->
+<P ALIGN="LEFT">
+<FONT SIZE="2">
+<B>
+	Item 9.01 Financial Statements and Exhibits.
+</B>
+</FONT>
+</P>
+<P ALIGN="LEFT">
+<FONT SIZE="2">
+(d) Exhibits.<br><br>Exhibit No: 99.1<br><br>Description of Exhibit: Press Release of Peabody Energy Corporation dated January 7, 2011.
+</FONT>
+</P>
+<!-- Item END -->
+<BR><BR><BR><BR><P ALIGN="LEFT" STYLE="FONT-SIZE: 10PT"></P><!-- PageBreak START -->
+<P>
+<HR NOSHADE>
+<DIV ALIGN="LEFT" STYLE="PAGE-BREAK-BEFORE:ALWAYS">
+<A HREF="#DOCUMENT_TOP">
+<U>
+<B>
+<FONT SIZE="2">Top of the Form</FONT>
+</B>
+</U>
+</A>
+</DIV>
+<!-- PageBreak END --><!-- SignatureHeader START -->
+<P ALIGN="CENTER">
+<FONT SIZE="2">
+<B>
+	SIGNATURES
+</B>
+</FONT>
+</P>
+<P ALIGN="LEFT">
+<FONT SIZE="2">
+	Pursuant to the requirements of the Securities Exchange Act of 1934, the
+	registrant has duly caused this report to be signed on its behalf by the
+	undersigned hereunto duly authorized.
+</FONT>
+</P>
+<!-- SignatureHeader END --><!-- Signature START -->
+<CENTER>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="0" WIDTH="100%">
+<TR VALIGN="BOTTOM">
+<TD WIDTH="19%">
+	&nbsp;
+</TD>
+<TD WIDTH="34%">
+	&nbsp;
+</TD>
+<TD WIDTH="3%">
+	&nbsp;
+</TD>
+<TD WIDTH="1%">
+	&nbsp;
+</TD>
+<TD WIDTH="43%">
+	&nbsp;
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" ALIGN="LEFT">
+<FONT SIZE="2">
+	PEABODY ENERGY CORPORATION
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD VALIGN="TOP">
+<FONT SIZE="2">
+<I>
+	January 7, 2011
+</I>
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+<I>
+	By:
+</I>
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+<I>
+	/s/ Michael C. Crews
+</I>
+<BR>
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<HR SIZE="1" NOSHADE>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+<I>
+	Name: Michael C. Crews
+</I>
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<FONT SIZE="2">
+<I>
+	Title: Executive Vice President and Chief Financial Officer
+</I>
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<!-- Signature END --><!-- PageBreak START -->
+<P>
+<HR NOSHADE>
+<DIV ALIGN="LEFT" STYLE="PAGE-BREAK-BEFORE:ALWAYS">
+<A HREF="#DOCUMENT_TOP">
+<U>
+<B>
+<FONT SIZE="2">Top of the Form</FONT>
+</B>
+</U>
+</A>
+</DIV>
+<!-- PageBreak END --><P ALIGN="CENTER">
+<FONT SIZE="2">
+	Exhibit&nbsp;Index
+</FONT>
+<CENTER>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="0" WIDTH="60%">
+<TR VALIGN="BOTTOM">
+<TD WIDTH="8%">
+	&nbsp;
+</TD>
+<TD WIDTH="15%">
+	&nbsp;
+</TD>
+<TD WIDTH="77%">
+	&nbsp;
+</TD>
+</TR>
+
+<BR>
+<TR VALIGN="BOTTOM">
+<TD NOWRAP ALIGN="LEFT">
+<FONT SIZE="1">
+<B>
+	Exhibit No.
+</B>
+</FONT>
+</TD>
+<TD>
+<FONT SIZE="1">
+	&nbsp;
+</FONT>
+</TD>
+<TD NOWRAP ALIGN="LEFT">
+<FONT SIZE="1">
+<B>
+	Description
+</B>
+</FONT>
+</TD>
+</TR>
+<TR VALIGN="BOTTOM">
+<TD NOWRAP ALIGN="CENTER">
+<HR SIZE="1" NOSHADE>
+</TD>
+<TD>
+<FONT SIZE="1">
+	&nbsp;
+</FONT>
+</TD>
+<TD NOWRAP ALIGN="CENTER">
+<HR ALIGN="LEFT" SIZE="1" WIDTH="88%" NOSHADE>
+</TD>
+</TR>
+
+
+
+
+
+<TR VALIGN="BOTTOM">
+<TD VALIGN="TOP" WIDTH="8%" nowrap>
+<FONT SIZE="2">
+<DIV ALIGN="LEFT">
+	99.1
+</DIV>
+</FONT>
+</TD>
+<TD WIDTH="15%">
+<FONT SIZE="2">
+	&nbsp;
+</FONT>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="77%">
+<FONT SIZE="2">
+Press Release of Peabody Energy Corporation dated January 7, 2011.
+</FONT>
+</TD>
+</TR></TABLE></CENTER><!-- HTMLFooter START -->
+</BODY>
+</HTML>
+<!-- HTMLFooter END -->
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit1.htm
+<DESCRIPTION>EX-99.1
+<TEXT>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE> EX-99.1 </TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" ALINK="#0000FF" HLINK="#FF0000" VLINK="#800080">
+
+<BODY style="font-family: 'Times New Roman',Times,serif">
+
+
+<P align="left" style="font-size: 10pt"><FONT style="font-size: 10pt"><img src="e32410-117115048892a8d31c_1.jpg">
+</FONT>
+
+<P align="right" style="font-size: 10pt">PEABODY ENERGY</FONT><BR>
+<FONT style="font-size: 22pt"><B>News Release</B></FONT>
+
+
+
+<P align="right" style="font-size: 22pt"><FONT style="font-size: 10pt">CONTACT:<BR>
+Vic Svec<BR>
+(314)&nbsp;342-7768</FONT>
+
+
+
+<P align="left" style="font-size: 10pt"><FONT style="font-size: 11pt"><U><B>FOR IMMEDIATE RELEASE</B></U>
+<BR>
+Jan. 7, 2011
+</FONT>
+
+<P align="center" style="font-size: 11pt"><B>PEABODY ENERGY UPDATES FULL YEAR 2010 OUTLOOK, OUTLINES</B><BR>
+<U><B>PLANS TO ANNOUNCE RESULTS FOR THE YEAR ENDED DECEMBER 31, 2010</B></U>
+
+
+
+<P align="left" style="font-size: 11pt">ST.&nbsp;LOUIS, Jan. 7 &#150; Peabody Energy (NYSE: BTU) announced today that record rains and flooding in
+Australia are expected to lead to 2010 EBITDA near the midpoint of the company&#146;s July&nbsp;2010
+full-year target of $1.7 to $1.9&nbsp;billion, versus the revised targets the company set in October.
+
+
+<P align="left" style="font-size: 11pt; text-indent: 4%">December has resulted in the worst rain and flooding in Australia in approximately 50&nbsp;years,
+which has impacted production and shipments, washed out roads, restricted employee access, caused
+train derailments and created port delays. Half of Queensland has been declared a natural disaster
+area. These events have led to customer force majeure notices.
+
+
+<P align="left" style="font-size: 11pt; text-indent: 4%">Heavy rains are affecting coal industry shipments across the Southern Hemisphere, including
+Australia, Indonesia, South Africa and South America. Combined with high global metallurgical coal
+demand and strong electricity generation in key coal-consuming nations, the reduced shipments are
+significantly tightening the seaborne supply-demand balance.
+
+
+<P align="left" style="font-size: 11pt; text-indent: 4%">With Australia supplying more seaborne coal than any other nation, the strength of Peabody&#146;s
+long-term Australian platform continues to grow with expansions in both thermal and metallurgical
+coal mines, and production expected to reach 35 to 40&nbsp;million tons by 2015.
+
+
+<P align="left" style="font-size: 11pt; text-indent: 4%">Peabody Energy will announce the results for the year ended Dec. 31, 2010 on Tuesday, Jan. 25,
+2011. A conference call with management is scheduled for 10 a.m. CST on Jan. 25.
+
+<DIV align="center">
+<TABLE style="font-size: 11pt" cellspacing="0" border="0" cellpadding="0" width="95%">
+<!-- Begin Table Head -->
+<TR valign="bottom">
+    <TD width="50%">&nbsp;</TD>
+    <TD width="5%">&nbsp;</TD>
+    <TD width="45%">&nbsp;</TD>
+</TR>
+
+<!-- End Table Head -->
+<!-- Begin Table Body -->
+<TR valign="bottom" style="font-size: 11pt">
+    <TD colspan="3" valign="top" align="left">Participants may access the call using the following phone numbers:<BR></TD>
+</TR>
+<TR valign="bottom" style="font-size: 11pt">
+    <TD valign="top"><DIV style="margin-left:0px; text-indent:-0px">U.S. &#038; Canada<BR>
+International
+</DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD align="left" valign="top">(800) 230-1074<BR>
+(612)&nbsp;234-9960</TD>
+</TR>
+<!-- End Table Body -->
+</TABLE>
+</DIV>
+
+
+<P align="left" style="font-size: 11pt; text-indent: 4%">The call, replay and other investor data will also be available via the Internet at
+PeabodyEnergy.com.
+
+
+<P align="center" style="font-size: 11pt">-More-
+
+
+
+
+<P align="center" style="font-size: 10pt; display: none">1
+<!-- PAGEBREAK -->
+
+
+
+
+<P align="left" style="font-size: 11pt"><B>PEABODY ENERGY UPDATES 2010 FULL-YEAR OUTLOOK &#150; PAGE 2</B>
+
+
+<P align="left" style="font-size: 11pt; text-indent: 4%">Peabody Energy is the world&#146;s largest private-sector coal company and a global leader in clean
+coal solutions. With 2009 sales of 244&nbsp;million tons and $6&nbsp;billion in revenues, Peabody fuels 10
+percent of U.S. power and 2&nbsp;percent of worldwide electricity.
+
+
+<P align="center" style="font-size: 11pt">-End-
+
+
+
+<P align="left" style="font-size: 11pt"><FONT style="font-size: 9pt">Certain statements in this press release are forward-looking as defined in the Private
+Securities Litigation Reform Act of 1995. These forward-looking statements are based on numerous
+assumptions that the company believes are reasonable, but they are open to a wide range of
+uncertainties and business risks that may cause actual results to differ materially from
+expectations as of January&nbsp;6, 2011. These factors are difficult to accurately predict and may be
+beyond the company&#146;s control. The company does not undertake to update its forward-looking
+statements. Factors that could affect the company&#146;s results include, but are not limited to:
+demand for coal in United States and international power generation and steel production markets;
+price volatility and demand, particularly in higher-margin products and in our trading and
+brokerage businesses; reductions and/or deferrals of purchases by major customers and ability to
+renew sales contracts; credit and performance risks associated with customers, suppliers, trading,
+banks and other financial counterparties; geologic, equipment, permitting and operational risks
+related to mining; transportation availability, performance and costs; availability, timing of
+delivery and costs of key supplies, capital equipment or commodities such as diesel fuel, steel,
+explosives and tires; impact of weather on demand, production and transportation; successful
+implementation of business strategies, including our Btu Conversion and generation development
+initiatives; negotiation of labor contracts, employee relations and workforce availability; changes
+in postretirement benefit and pension obligations and funding requirements; replacement and
+development of coal reserves; access to capital and credit markets and availability and costs of
+credit, margin capacity, surety bonds, letters of credit, and insurance; effects of changes in
+interest rates and currency exchange rates (primarily the Australian dollar); effects of
+acquisitions or divestitures; economic strength and political stability of countries in which we
+have operations or serve customers; legislation, regulations and court decisions or other
+government actions, including new environmental requirements, changes in income tax regulations or
+other regulatory taxes; litigation, including claims not yet asserted; and other risks detailed in
+the company&#146;s reports filed with the Securities and Exchange Commission (SEC).
+</FONT>
+
+<P align="left" style="font-size: 9pt">EBITDA (also called Adjusted EBITDA) is defined as income from continuing operations before
+deducting net interest expense, income taxes, asset retirement obligation expense, and
+depreciation, depletion and amortization. EBITDA, which is not calculated identically by all
+companies, is not a substitute for operating income, net income or cash flow as determined in
+accordance with United States generally accepted accounting principles. Management uses EBITDA as
+a key measure of operating performance and also believes it is a useful indicator of the company&#146;s
+ability to meet debt service and capital expenditure requirements.
+
+
+
+<P align="center" style="font-size: 10pt; display: none">2
+
+
+
+
+<!-- v.121908 -->
+</BODY>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>3
+<FILENAME>e32410-117115048892a8d31c_1.jpg
+<DESCRIPTION>GRAPHIC
+<TEXT>
+begin 644 e32410-117115048892a8d31c_1.jpg
+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
+<``G?BK_D`?V5_:']J_\`$U^W?8=-^Q_?]`'_V3\_
+`
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

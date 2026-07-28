@@ -1,0 +1,226 @@
+<SEC-DOCUMENT>0001127602-17-031176.txt : 20171103
+<SEC-HEADER>0001127602-17-031176.hdr.sgml : 20171103
+<ACCEPTANCE-DATETIME>20171103152505
+ACCESSION NUMBER:		0001127602-17-031176
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20171101
+FILED AS OF DATE:		20171103
+DATE AS OF CHANGE:		20171103
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Dolan Michael James
+		CENTRAL INDEX KEY:			0001300383
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-02256
+		FILM NUMBER:		171176208
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O EXXON MOBIL CORPORATION
+		STREET 2:		5959 LAS COLINAS BLVD
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-2298
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			EXXON MOBIL CORP
+		CENTRAL INDEX KEY:			0000034088
+		STANDARD INDUSTRIAL CLASSIFICATION:	PETROLEUM REFINING [2911]
+		IRS NUMBER:				135409005
+		STATE OF INCORPORATION:			NJ
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		5959 LAS COLINAS BLVD
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-2298
+		BUSINESS PHONE:		9724441000
+
+	MAIL ADDRESS:	
+		STREET 1:		5959 LAS COLINAS BLVD
+		CITY:			IRVING
+		STATE:			TX
+		ZIP:			75039-2298
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	EXXON CORP
+		DATE OF NAME CHANGE:	19920703
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	STANDARD OIL CO OF NEW JERSEY
+		DATE OF NAME CHANGE:	19721123
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>form4.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2017-11-01</periodOfReport>
+
+    <issuer>
+        <issuerCik>0000034088</issuerCik>
+        <issuerName>EXXON MOBIL CORP</issuerName>
+        <issuerTradingSymbol>XOM</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001300383</rptOwnerCik>
+            <rptOwnerName>Dolan Michael James</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O EXXON MOBIL CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>5959 LAS COLINAS BOULEVARD</rptOwnerStreet2>
+            <rptOwnerCity>IRVING</rptOwnerCity>
+            <rptOwnerState>TX</rptOwnerState>
+            <rptOwnerZipCode>75039-2298</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isOfficer>1</isOfficer>
+            <officerTitle>Senior Vice President</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2017-11-01</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>5</transactionFormType>
+                <transactionCode>G</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value>E</value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>179</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <footnoteId id="F1"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>982957</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>11889.1262</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By Savings Plan</value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">No consideration received.</footnote>
+        <footnote id="F2">Direct shareholdings include 159,957 shares in joint ownership with reporting person's spouse.</footnote>
+    </footnotes>
+
+    <remarks>List of exhibits: Exhibit 24 - Power of Attorney</remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ C. K. Guild by Power of Attorney</signatureName>
+        <signatureDate>2017-11-03</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24
+<SEQUENCE>2
+<FILENAME>doc1.txt
+<DESCRIPTION>POWER OF ATTORNEY (PUBLIC): DOLAN POA 2017
+<TEXT>
+POWER OF ATTORNEY
+
+The undersigned officer or director of Exxon Mobil Corporation,
+a New Jersey corporation ("ExxonMobil"), constitutes and
+appoints C. K. Guild, M. Holguin, and R. A. Luettgen, and
+each of them, as his or her true and lawful attorneys-in-fact
+and agents, with full power of substitution and resubstitution,
+for him or her and in his or her name, place and stead, in any
+and all capacities, to sign any and all forms of report with
+respect to securities of ExxonMobil required under Section
+16(a) of the Securities Exchange Act of 1934, as amended, and
+to file the same, and any other documents in connection
+therewith, with the Securities and Exchange Commission, any
+stock exchange and ExxonMobil, granting unto said
+attorneys-in-fact and agents, and each of them, full power
+and authority to do and perform each and every act and thing
+requisite and necessary to be done, as fully for all intents
+and purposes as he or she might or could do in person, hereby
+ratifying and confirming all that said attorneys-in-fact and
+agents or any of them or their or his or her substitute or
+substitutes, may lawfully do or cause to be done by virtue hereof.
+
+This power of attorney shall remain in effect until the
+undersigned is no longer required to file forms of report
+with respect to securities of Exxon Mobil Corporation under
+Section 16(a) of the Securities Exchange Act of 1934, as
+amended, unless earlier revoked by the undersigned in a signed
+writing delivered to the foregoing attorneys-in-fact.
+Effective as of the date of this power of attorney, the
+undersigned hereby revokes any and all earlier-dated powers
+of attorney given by the undersigned with respect to
+ExxonMobil securities reporting under said Section 16(a).
+
+IN WITNESS WHEREOF, the undersigned has executed this power of
+attorney as of the date set forth below.
+
+
+ February 24, 2017                    /s/Michael J. Dolan
+     Date		                Michael J. Dolan
+
+  Irving, Texas
+ Location (City, State)
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
