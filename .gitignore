@@ -5,3 +5,4 @@ data/corpus/raw/
 data/corpus/text_*/
 data/corpus/text_clean/
 data/corpus/*.jsonl
+chroma_db/
