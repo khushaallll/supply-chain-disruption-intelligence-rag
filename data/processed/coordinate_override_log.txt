@@ -1,0 +1,13 @@
+Coordinate override applied 2026-08-03
+Source: data/processed/graph_enriched.pkl (left unmodified)
+Output: data/processed/graph_enriched_corrected.pkl
+Reason: location_overrides.csv from Day 3 log was never actually
+created; 7 of 9 flagged companies carried raw, incorrect geocodes.
+
+china steel: (41.7177436, -72.6477176) -> (22.6273, 120.3014)
+xiamen tungsten: (0.354999, 32.5708333) -> (24.4798, 118.0894)
+united co rusal international pjsc: (54.7767305, 32.0497572) -> (55.7558, 37.6173)
+exxon mobil: (33.9757033, -89.6813683) -> (30.4515, -91.1871)
+coronado global resources: (-30.2924024, 153.1251587) -> (-23.5786, 148.8794)
+korea electric power: (36.3078573, 126.8965712) -> (35.016, 126.7108)
+nippon steel: (39.1736184, 140.7319147) -> (39.2667, 141.8833)
