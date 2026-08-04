@@ -1,0 +1,54 @@
+Coordinate override applied 2026-08-03
+Source graph: data/processed/graph_enriched.pkl (left unmodified)
+Corrected graph written to: data/processed/graph_enriched_corrected.pkl
+
+Reason:
+Day 3 implementation log documented a planned location_overrides.csv
+for 9 companies whose city/country text was a narrative description of
+an event footprint (e.g. "USA / global", "China / Japan") rather than a
+real address, making them ungeocodable as-is (Section 9 of the Day 3 log).
+That override file was never actually created - confirmed on Day 7 by
+searching the project tree during agent tool testing (graph_tool.py,
+traverse_supply_graph / find_alternative_suppliers). As a result
+graph_enriched.pkl carries the raw, uncorrected geocode for all 9 rows.
+
+Of the 9 flagged companies, 2 (gazprom pjsc, state grid corp of china)
+happened to geocode correctly anyway and required no override.
+The remaining 7, corrected below, were wrong by between 100 km and
+12,757 km - two of them (china steel, xiamen tungsten) landed on the
+wrong continent entirely.
+
+Corrections applied:
+----------------------------------------------------------------------
+china steel
+  old: (41.7177436, -72.6477176)
+  new: (22.6273, 120.3014)  -> Kaohsiung, Taiwan
+
+xiamen tungsten
+  old: (0.354999, 32.5708333)
+  new: (24.4798, 118.0894)  -> Xiamen, Fujian, China
+
+united co rusal international pjsc
+  old: (54.7767305, 32.0497572)
+  new: (55.7558, 37.6173)  -> Moscow, Russia
+
+exxon mobil
+  old: (33.9757033, -89.6813683)
+  new: (30.4515, -91.1871)  -> Baton Rouge, Louisiana
+
+coronado global resources
+  old: (-30.2924024, 153.1251587)
+  new: (-23.5786, 148.8794)  -> Blackwater, Queensland
+
+korea electric power
+  old: (36.3078573, 126.8965712)
+  new: (35.016, 126.7108)  -> Naju, South Korea
+
+nippon steel
+  old: (39.1736184, 140.7319147)
+  new: (39.2667, 141.8833)  -> Kamaishi, Iwate, Japan
+
+----------------------------------------------------------------------
+Not overridden (already correct in original geocode):
+  gazprom pjsc            (was within  5 km of Lubmin, Germany)
+  state grid corp of china (was within  0 km of Beijing, China)
