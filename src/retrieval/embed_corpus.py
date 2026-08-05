@@ -27,6 +27,7 @@ import time
 from datetime import datetime
 
 import numpy as np
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 import torch
 import chromadb
 from sentence_transformers import SentenceTransformer
@@ -216,6 +217,9 @@ def main():
             failed_ids = [c["chunk_id"] for c in batch]
             logging.error(f"Batch {batch_num + 1}/{n_batches} FAILED: {e}. "
                           f"chunk_ids affected: {failed_ids}")
+            if device == "cuda" and "out of memory" in str(e).lower():
+                torch.cuda.empty_cache()
+                logging.info(f"Cleared CUDA cache after OOM on batch {batch_num + 1}.")
             continue  # one bad batch shouldn't cost the whole multi-hour run
 
         # --- Progress signal, every batch --- #
@@ -237,6 +241,12 @@ def main():
             logging.info(f"CHECKPOINT | persisted={persisted} expected={expected} "
                          f"[{status}]")
 
+        # --- Periodic GPU memory cleanup: release cached-but-unallocated
+        #     memory back to the pool, to prevent fragmentation building up
+        #     over hundreds of batches (root cause of the CUDA OOM at batch 511) --- #
+        if device == "cuda" and (batch_num + 1) % 50 == 0:
+            torch.cuda.empty_cache()
+
     # ---- Final summary --------------------------------------------------- #
     total_elapsed = time.time() - start_time
     final_count = collection.count()
@@ -253,6 +263,23 @@ def main():
                         "investigate before treating this run as complete.")
     else:
         logging.info("SUCCESS: persisted count matches expected total.")
+
+    # --- Second, independent check: does the collection match the FULL
+    #     corpus file, not just what this run attempted? This is the check
+    #     that would have caught the 39,168-chunk gap from failed batches. --- #
+    with open(args.chunks_path, "r", encoding="utf-8") as f:
+        total_corpus_chunks = sum(1 for _ in f)
+
+    if final_count != total_corpus_chunks:
+        missing = total_corpus_chunks - final_count
+        logging.warning(f"CORPUS INCOMPLETE: collection has {final_count} chunks, "
+                        f"but {args.chunks_path} has {total_corpus_chunks} — "
+                        f"{missing} chunks still missing. Re-run this script to "
+                        f"retry only the missing ones (resumability will skip "
+                        f"everything already embedded).")
+    else:
+        logging.info(f"VERIFIED: collection count ({final_count}) matches the "
+                     f"full corpus file ({total_corpus_chunks}). Nothing missing.")
 
 
 if __name__ == "__main__":
