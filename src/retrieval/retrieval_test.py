@@ -200,91 +200,91 @@ if __name__ == "__main__":
     # as a pass — it doesn't need to be the single most dramatic sentence.
     # ----------------------------------------------------------------- #
 
-    # print("\n=== 1. Toyota — event 2 (nippon_steel_2011), has_corpus_doc=true ===")
-    # print_results("Toyota Motor Corporation supply chain earthquake risk")
+    print("\n=== 1. Toyota — event 2 (nippon_steel_2011), has_corpus_doc=true ===")
+    print_results("Toyota Motor Corporation supply chain earthquake risk")
 
-    # print("\n=== 2. Sony — event 2, has_corpus_doc=true ===")
-    # print_results("Sony Corporation Japan supply disruption")
+    print("\n=== 2. Sony — event 2, has_corpus_doc=true ===")
+    print_results("Sony Corporation Japan supply disruption")
 
-    # print("\n=== 3. Panasonic — event 2, has_corpus_doc=true (same company as the 5-chunk prototype test) ===")
-    # print_results("Panasonic Corporation production risk Japan")
+    print("\n=== 3. Panasonic — event 2, has_corpus_doc=true (same company as the 5-chunk prototype test) ===")
+    print_results("Panasonic Corporation production risk Japan")
 
-    # print("\n=== 4. Hitachi — event 2, has_corpus_doc=true ===")
-    # print_results("Hitachi Ltd earthquake production halt")
+    print("\n=== 4. Hitachi — event 2, has_corpus_doc=true ===")
+    print_results("Hitachi Ltd earthquake production halt")
 
-    # print("\n=== 5. General Motors — events 2 and 47 (china_steel_2018), has_corpus_doc=true in both ===")
-    # print_results("General Motors steel tariff commodity cost")
+    print("\n=== 5. General Motors — events 2 and 47 (china_steel_2018), has_corpus_doc=true in both ===")
+    print_results("General Motors steel tariff commodity cost")
 
-    # print("\n=== 6. Ford — event 47, has_corpus_doc=true. Real phrase from Ford's actual 10-Q "
-    #       "per the Day 4-5 disclosure-lag finding ===")
-    # print_results("Ford Motor Company commodity cost tariff")
+    print("\n=== 6. Ford — event 47, has_corpus_doc=true. Real phrase from Ford's actual 10-Q "
+          "per the Day 4-5 disclosure-lag finding ===")
+    print_results("Ford Motor Company commodity cost tariff")
 
-    # print("\n=== 7. ExxonMobil — event 4 (dow_2017), has_corpus_doc=true ===")
-    # print_results("Exxon Mobil hurricane refinery disruption")
+    print("\n=== 7. ExxonMobil — event 4 (dow_2017), has_corpus_doc=true ===")
+    print_results("Exxon Mobil hurricane refinery disruption")
 
-    # print("\n=== 8. Alcoa — event 35 (gazprom_pjsc_2022), has_corpus_doc=true ===")
-    # print_results("Alcoa aluminum smelter energy supply")
+    print("\n=== 8. Alcoa — event 35 (gazprom_pjsc_2022), has_corpus_doc=true ===")
+    print_results("Alcoa aluminum smelter energy supply")
 
-    # print("\n=== 9. Rio Tinto — events 11 (aurizon_2010) and 57 (rusal_2018), has_corpus_doc=true in both ===")
-    # print_results("Rio Tinto coal export rail disruption")
+    print("\n=== 9. Rio Tinto — events 11 (aurizon_2010) and 57 (rusal_2018), has_corpus_doc=true in both ===")
+    print_results("Rio Tinto coal export rail disruption")
 
-    # # ----------------------------------------------------------------- #
-    # # Category 2 — Restraint: events with ZERO affected companies
-    # # ground_truth_affected is genuinely empty for these three. PASS =
-    # # no confident, specific affected-company match — the system should
-    # # show weak/generic results, not confidently name a company as harmed.
-    # # ----------------------------------------------------------------- #
+    # ----------------------------------------------------------------- #
+    # Category 2 — Restraint: events with ZERO affected companies
+    # ground_truth_affected is genuinely empty for these three. PASS =
+    # no confident, specific affected-company match — the system should
+    # show weak/generic results, not confidently name a company as harmed.
+    # ----------------------------------------------------------------- #
 
-    # print("\n=== 10. RESTRAINT — event 18 (chevron_2012), ground_truth_affected is empty ===")
-    # print_results("Chevron Richmond refinery fire 2012")
+    print("\n=== 10. RESTRAINT — event 18 (chevron_2012), ground_truth_affected is empty ===")
+    print_results("Chevron Richmond refinery fire 2012")
 
-    # print("\n=== 11. RESTRAINT — event 33 (kyushu_electric_power_2018), ground_truth_affected is empty ===")
-    # print_results("Kyushu Electric solar curtailment 2018")
+    print("\n=== 11. RESTRAINT — event 33 (kyushu_electric_power_2018), ground_truth_affected is empty ===")
+    print_results("Kyushu Electric solar curtailment 2018")
 
-    # print("\n=== 12. RESTRAINT — event 34 (korea_electric_power_2011), ground_truth_affected is empty ===")
-    # print_results("Korea Electric Power blackout 2011")
+    print("\n=== 12. RESTRAINT — event 34 (korea_electric_power_2011), ground_truth_affected is empty ===")
+    print_results("Korea Electric Power blackout 2011")
 
-    # # ----------------------------------------------------------------- #
-    # # Category 3 — Filters on companies confirmed absent from the corpus
-    # # PASS = empty result. Any spelling works here — if the company isn't
-    # # in the corpus at all, no filter string will accidentally match it.
-    # # ----------------------------------------------------------------- #
+    # ----------------------------------------------------------------- #
+    # Category 3 — Filters on companies confirmed absent from the corpus
+    # PASS = empty result. Any spelling works here — if the company isn't
+    # in the corpus at all, no filter string will accidentally match it.
+    # ----------------------------------------------------------------- #
 
-    # print("\n=== 13. Filter — SUMCO, event 21: graph-present but has_corpus_doc=false. "
-    #       "PASS = empty (no document exists, even if the graph knows the entity) ===")
-    # print_results("audit committee risk factors", filters={"company": "sumco corporation"})
+    print("\n=== 13. Filter — SUMCO, event 21: graph-present but has_corpus_doc=false. "
+          "PASS = empty (no document exists, even if the graph knows the entity) ===")
+    print_results("audit committee risk factors", filters={"company": "sumco corporation"})
 
-    # print("\n=== 14. Filter — Korinox, event 1: in_graph_context=false, private Korean company, "
-    #       "no SEC presence. PASS = empty ===")
-    # print_results("supply chain disruption impact", filters={"company": "korinox"})
+    print("\n=== 14. Filter — Korinox, event 1: in_graph_context=false, private Korean company, "
+          "no SEC presence. PASS = empty ===")
+    print_results("supply chain disruption impact", filters={"company": "korinox"})
 
-    # print("\n=== 15. Filter — Unimicron, event 40: in_graph_context=false. PASS = empty ===")
-    # print_results("supply chain disruption impact", filters={"company": "unimicron technology corp"})
+    print("\n=== 15. Filter — Unimicron, event 40: in_graph_context=false. PASS = empty ===")
+    print_results("supply chain disruption impact", filters={"company": "unimicron technology corp"})
 
-    # print("\n=== 16. Filter — Transocean, event 24 (Deepwater Horizon 'trap' event): "
-    #       "in_graph_context=false. PASS = empty ===")
-    # print_results("drilling rig explosion supply impact", filters={"company": "transocean"})
+    print("\n=== 16. Filter — Transocean, event 24 (Deepwater Horizon 'trap' event): "
+          "in_graph_context=false. PASS = empty ===")
+    print_results("drilling rig explosion supply impact", filters={"company": "transocean"})
 
-    # # ----------------------------------------------------------------- #
-    # # Category 4 — Filter plumbing: filtered vs. unfiltered, same query
-    # # PASS = the filtered run returns Toyota-only chunks; the unfiltered
-    # # run is free to return anyone. Tests the filter mechanism itself,
-    # # not a ground-truth claim.
-    # # ----------------------------------------------------------------- #
+    # ----------------------------------------------------------------- #
+    # Category 4 — Filter plumbing: filtered vs. unfiltered, same query
+    # PASS = the filtered run returns Toyota-only chunks; the unfiltered
+    # run is free to return anyone. Tests the filter mechanism itself,
+    # not a ground-truth claim.
+    # ----------------------------------------------------------------- #
 
-    # print("\n=== 17a. Same query, NO filter — can return any company ===")
-    # print_results("supply chain risk factors")
+    print("\n=== 17a. Same query, NO filter — can return any company ===")
+    print_results("supply chain risk factors")
 
-    # print("\n=== 17b. Same query, FILTERED to Toyota — every result's company must equal the resolved Toyota string ===")
-    # print_results("supply chain risk factors", filters={"company": TOYOTA})
+    print("\n=== 17b. Same query, FILTERED to Toyota — every result's company must equal the resolved Toyota string ===")
+    print_results("supply chain risk factors", filters={"company": TOYOTA})
 
-    # # ----------------------------------------------------------------- #
-    # # Category 5 — Date-boundary leakage check
-    # # PASS = every returned chunk's published_int is on or before the
-    # # event's date_news_first. Any chunk dated AFTER the event date is a
-    # # leakage bug — the system would be "predicting" something it read
-    # # about after the fact.
-    # # ----------------------------------------------------------------- #
+    # ----------------------------------------------------------------- #
+    # Category 5 — Date-boundary leakage check
+    # PASS = every returned chunk's published_int is on or before the
+    # event's date_news_first. Any chunk dated AFTER the event date is a
+    # leakage bug — the system would be "predicting" something it read
+    # about after the fact.
+    # ----------------------------------------------------------------- #
 
     print("\n=== 18. Leakage check — event 2 date_news_first = 2011-03-11. "
           "Manually inspect published_int on every result below; none should exceed 20110311 ===")
@@ -296,22 +296,21 @@ if __name__ == "__main__":
 
 
 
+    # ----------------------------------------------------------------- #
+    # Category 6 — Exact-phrase / generic-boilerplate stress test
+    # This re-runs the Day 6 distance-metric finding (Section 7 of the
+    # implementation log) at full corpus scale instead of 5 chunks.
+    # Watch specifically whether hybrid fusion still corrects for dense
+    # retrieval's weakness on short, jargon-heavy, low-topic-diversity text
+    # now that real company variety exists in the corpus.
+    # ----------------------------------------------------------------- #
 
-    # # ----------------------------------------------------------------- #
-    # # Category 6 — Exact-phrase / generic-boilerplate stress test
-    # # This re-runs the Day 6 distance-metric finding (Section 7 of the
-    # # implementation log) at full corpus scale instead of 5 chunks.
-    # # Watch specifically whether hybrid fusion still corrects for dense
-    # # retrieval's weakness on short, jargon-heavy, low-topic-diversity text
-    # # now that real company variety exists in the corpus.
-    # # ----------------------------------------------------------------- #
+    print("\n=== 20a. Stress test — exact phrase, unfiltered. The original 5-chunk finding, "
+          "now at full scale ===")
+    print_results("audit committee financial expert")
 
-    # print("\n=== 20a. Stress test — exact phrase, unfiltered. The original 5-chunk finding, "
-    #       "now at full scale ===")
-    # print_results("audit committee financial expert")
+    print("\n=== 20b. Stress test — same phrase, filtered to Panasonic (the original test's company) ===")
+    print_results("audit committee financial expert", filters={"company": PANASONIC})
 
-    # print("\n=== 20b. Stress test — same phrase, filtered to Panasonic (the original test's company) ===")
-    # print_results("audit committee financial expert", filters={"company": PANASONIC})
-
-    # print("\nDone — 20 queries run. Read each block above against its stated PASS "
-    #       "condition, not just for 'did something come back'.")
+    print("\nDone — 20 queries run. Read each block above against its stated PASS "
+          "condition, not just for 'did something come back'.")
