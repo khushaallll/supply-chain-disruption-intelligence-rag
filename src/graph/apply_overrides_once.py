@@ -10,7 +10,7 @@ from datetime import date
 from coordinate_overrides import apply_coordinate_overrides
 
 INPUT_PATH = "data/processed/graph_enriched.pkl"
-OUTPUT_PATH = "data/processed/graph_enriched_corrected.pkl"
+OUTPUT_PATH = "data/processed/graph_enriched_corrected2.pkl"
 LOG_PATH = "data/processed/coordinate_override_log.txt"
 
 with open(INPUT_PATH, "rb") as f:

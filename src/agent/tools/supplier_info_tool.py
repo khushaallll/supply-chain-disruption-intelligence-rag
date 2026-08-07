@@ -9,7 +9,13 @@ Design decisions (see conversation for full rationale):
   - Exact company match (case-insensitive), no fuzzy matching inside this tool.
     Company-identity resolution already happened once, deliberately, on Day 1
     (rapidfuzz + manual review). Re-fuzzy-matching here would create a second,
-    undocumented identity decision at query time.
+    undocumented identity decision at query time. An optional shared
+    `Phonebook` (phonebook.py) can be passed in to translate a near-miss
+    spelling to the correct one BEFORE the exact match runs -- this is not
+    fuzzy matching at query time, it's a pre-reviewed answer for a known set
+    of 111 companies (see phonebook.py / build_phonebook.py); a phonebook
+    miss falls straight through to the same exact-match-only behaviour as
+    before.
   - Leakage guard enforced inside the tool: published_date <= event_date.
     Mirrors the Day 5 corpus rule; not left to the agent to remember.
   - Most-recent-qualifying-document selection, with an explicit, single
@@ -133,9 +139,23 @@ class SupplierInfoStore:
     this avoids re-reading multi-hundred-MB files on every agent hop.
     """
 
-    def __init__(self, manifest_path: str | Path, chunks_path: str | Path):
+    def __init__(self, manifest_path: str | Path, chunks_path: str | Path, phonebook=None):
         self.manifest = load_manifest(manifest_path)
         self.chunk_index = build_chunk_index(chunks_path)
+        self.phonebook = phonebook  # optional Phonebook -- see phonebook.py
+
+        if not self.manifest or not self.chunk_index:
+            raise RuntimeError(
+                f"Loaded manifest has {len(self.manifest)} row(s) and chunk "
+                f"index has {len(self.chunk_index)} document(s) -- refusing "
+                f"to proceed with an empty load. A silently-empty manifest "
+                f"or chunk index would make every future get_supplier_info() "
+                f"call report 'no_manifest_entry' or 'chunks_missing' for "
+                f"every company, which looks like normal tool behaviour "
+                f"rather than a loading failure. Same 'absence must be "
+                f"fatal and loud' principle as CorpusSearchStore's "
+                f"Chroma-count check and GraphStore's zero-node check."
+            )
 
     def get_supplier_info(
         self,
@@ -145,14 +165,37 @@ class SupplierInfoStore:
         max_chunks: int = 8,
     ) -> SupplierInfoResult:
         """
-        company_name : exact match against manifest 'company' field
-                        (case-insensitive; NOT fuzzy -- see module docstring)
-        event_date   : 'YYYY-MM-DD' -- the disruption date being investigated
+        Look up what a SPECIFIC, already-named company says about itself in
+        its own filings. Use this AFTER you already have a company name
+        (e.g. from traverse_supply_graph or search_corpus) and want to
+        ground a claim about that one company in primary-source text --
+        this tool cannot discover a company you haven't already named, and
+        does not search by topic (use search_corpus for that instead).
+
+        company_name : exact match against the manifest 'company' field
+                        (case-insensitive; NOT fuzzy -- a near-miss spelling
+                        is reported as no_manifest_entry, not guessed at)
+        event_date   : 'YYYY-MM-DD' -- the disruption date being investigated;
+                        only documents dated on or before this are eligible
         event_id     : optional -- current event's ID, used only to compute
                         the tag_mismatch diagnostic against relevant_events
         max_chunks   : cap on how many chunks of the chosen document to return
         """
-        company_key = company_name.strip().lower()
+        # Step 0: phonebook lookup, if one was provided -- if this exact
+        # name is one of the 111 known ones, use its pre-reviewed corpus
+        # spelling instead of the raw input. This tool is exact-match-only
+        # by design (module docstring), so this is the one place a
+        # near-miss spelling gets a chance to still resolve correctly --
+        # without adding fuzzy matching to the tool itself. A phonebook
+        # miss changes nothing: falls through to the exact match below,
+        # exactly as before.
+        lookup_name = company_name
+        if self.phonebook is not None:
+            ph_match = self.phonebook.corpus_name(company_name)
+            if ph_match is not None:
+                lookup_name = ph_match
+
+        company_key = lookup_name.strip().lower()
         event_dt = _to_date(event_date)
 
         # --- Step 1: does this company exist in the manifest at all? -------

@@ -181,12 +181,15 @@ class CorpusSearchStore:
         chroma_path: str | Path,
         collection_name: str = "supply_chain_docs",
         model_name: str = "nomic-ai/nomic-embed-text-v1.5",
+        phonebook=None,
     ):
         import json
         import chromadb
         from rank_bm25 import BM25Okapi
         from sentence_transformers import SentenceTransformer
         import torch
+
+        self.phonebook = phonebook  # optional Phonebook -- see phonebook.py
 
         with open(chunks_path, encoding="utf-8") as f:
             self.chunks = [json.loads(line) for line in f]
@@ -217,6 +220,10 @@ class CorpusSearchStore:
 
     # -- company-name safety net --------------------------------------------
     def resolve_company(self, keyword: str) -> Optional[str]:
+        if self.phonebook is not None:
+            ph_match = self.phonebook.corpus_name(keyword)
+            if ph_match is not None:
+                return ph_match
         return resolve_company_name(keyword, self._companies)
 
     # -- the two ranking paths ------------------------------------------------

@@ -1,7 +1,7 @@
 """
 test_search_corpus_logic.py
 
-Tests everything in search_corpus_tool.py that does NOT require the real
+Tests everything in search_corpus.py that does NOT require the real
 embedding model, a real ChromaDB collection, or the real corpus file --
 fusion, filtering, leakage-guard translation, company resolution, and
 result/status wrapping.
@@ -176,6 +176,7 @@ def make_fake_store(bm25_scores, chroma_ids):
     store.bm25 = FakeBM25(bm25_scores)
     store.model = FakeModel()
     store.collection = FakeCollection(chroma_ids)
+    store.phonebook = None  # __init__ now sets this; __new__ bypasses __init__ entirely
     return store
 
 

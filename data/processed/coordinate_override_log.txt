@@ -1,6 +1,6 @@
-Coordinate override applied 2026-08-03
+Coordinate override applied 2026-08-06
 Source: data/processed/graph_enriched.pkl (left unmodified)
-Output: data/processed/graph_enriched_corrected.pkl
+Output: data/processed/graph_enriched_corrected2.pkl
 Reason: location_overrides.csv from Day 3 log was never actually
 created; 7 of 9 flagged companies carried raw, incorrect geocodes.
 
