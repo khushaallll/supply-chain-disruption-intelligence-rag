@@ -37,9 +37,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from langchain_core.messages import AIMessage
 
-from tools.graph_tool import GraphTraversalResult
-from tools.supplier_info_tool import SupplierInfoResult
-from tools.search_corpus_tool import CorpusSearchResult
+from agent.tools.graph_tool import GraphTraversalResult
+from agent.tools.supplier_info_tool import SupplierInfoResult
+from agent.tools.search_corpus_tool import CorpusSearchResult
 
 from agent_state import make_initial_state
 from stopping_condition import (
@@ -573,6 +573,42 @@ check("B7 the 3 companies that DID get evidence are not also flagged as gaps",
       not any(name in " ".join(result_b7["gap_flags"]).lower()
               for name in ("hyundai", "kia", "ford")),
       result_b7["gap_flags"])
+
+# --------------------------------------------------------------------------- #
+# B8 -- a model that tries to request another tool call but emits it as
+#        plain JSON text instead of a structured tool_calls entry (the
+#        exact failure mode seen on a real Aurizon trace with a small
+#        local model). This must be labeled honestly -- NOT as
+#        'agent_ended_early', which would wrongly imply the model judged
+#        the investigation complete.
+# --------------------------------------------------------------------------- #
+print("\n--- B8: malformed tool-call-as-text is labeled honestly, not as a deliberate stop ---")
+
+malformed_json_text = (
+    '{\n  "name": "get_supplier_info",\n  "arguments": {\n'
+    '    "company_name": "kia",\n    "event_date": "2022-09-06"\n  }\n}'
+)
+llm_b8 = ScriptedLLM([
+    ai_tool_call("traverse_supply_graph", {"company_name": "posco"}, "c1"),
+    ai_final_answer(malformed_json_text),  # no real tool_calls -- this is the bug being tested
+])
+graph_store_b8 = FakeGraphStore([make_traverse_result([("hyundai motor", 1), ("kia", 1)])])
+supplier_store_b8 = FakeSupplierStore([])
+corpus_store_b8 = FakeCorpusStore([])
+
+llm_tools8, raw_dispatch8 = build_tool_bindings(graph_store_b8, supplier_store_b8, corpus_store_b8)
+app_b8 = build_agent_graph(llm_b8, llm_tools8, raw_dispatch8)
+result_b8 = app_b8.invoke(make_initial_state("Investigate the POSCO disruption.", max_hops=4))
+
+check("B8 stop_reason == 'malformed_tool_call_output' (NOT 'agent_ended_early')",
+      result_b8["stop_reason"] == "malformed_tool_call_output", result_b8["stop_reason"])
+check("B8 the garbled JSON is not shown as if it were a real analyst summary",
+      "Analyst summary" not in result_b8["final_report"], result_b8["final_report"])
+check("B8 the report explicitly notes the investigation did not actually finish",
+      "did not actually finish" in result_b8["final_report"] or "not" in result_b8["final_report"].lower(),
+      result_b8["final_report"])
+check("B8 both companies are still correctly flagged as gaps",
+      len(result_b8["gap_flags"]) == 2, result_b8["gap_flags"])
 
 
 # ===========================================================================

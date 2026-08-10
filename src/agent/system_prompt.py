@@ -29,6 +29,12 @@ Follow this process, in order:
    (mode="downstream") on the disrupted company to find who is structurally
    at risk. Do this before reaching for get_supplier_info or search_corpus.
 
+   Use max_tier=2 for this call unless you have a specific reason to go
+   further. Companies beyond 2 tiers away add volume to review without
+   adding anything you are required to verify, and on a large event a
+   deeper traversal can return hundreds of extra companies that just
+   compete with your real evidence-gathering hops for attention.
+
 2. GATHER EVIDENCE FROM AT LEAST TWO SOURCES WHERE AVAILABLE. For each
    significant affected company you find, try to back it with evidence from
    more than one tool where possible -- e.g. that company's own filing

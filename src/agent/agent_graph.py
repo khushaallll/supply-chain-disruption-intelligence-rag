@@ -9,11 +9,15 @@ Graph shape:
                     ^                          |        | should_stop?
                     |            continue       |        |
                     +---------------------------+        v
-                                                     +----------+
-                        (no tool_calls) -----------> | finalize | --> END
-                                                     +----------+
+                                                    +-----------+
+                        (no tool_calls) ----------> | finalize  | <--+
+                                                    +-----------+    |
+                                                          ^          |
+                                                          |    +-----------+
+                                                          +----| summarize |
+                                                               +-----------+
 
-Two places decide when to stop, and neither is "trust the LLM's own
+Three places decide when to stop, and none of them is "trust the LLM's own
 judgement" alone:
 
   - route_after_agent: if the model's turn has NO tool calls (it believes
@@ -21,15 +25,35 @@ judgement" alone:
     runs check_stopping_condition() and will surface any gap the model
     missed, so an early "I'm done" from the model can never silently skip
     the gap check (requirement 4: gap-flagging is a property of the
-    OUTPUT, not of whether the model remembered to mention it).
+    OUTPUT, not of whether the model remembered to mention it). This path
+    already has real text from the model (or a malformed-tool-call-shaped
+    text -- see _looks_like_malformed_tool_call), so it goes straight to
+    finalize with no extra step needed.
 
   - route_after_tools: after EVERY tool-executing hop, check_stopping_
     condition() decides -- hop cap reached, or coverage+quality genuinely
-    met -> `finalize`; otherwise -> back to `agent` for another hop. This
+    met -> `summarize`; otherwise -> back to `agent` for another hop. This
     is where the hard 4-hop cap actually lives: once hop_count >= max_hops,
     the graph structurally cannot route back to `agent` again, regardless
     of what the model wants to do next. The cap is enforced by GRAPH
     TOPOLOGY, not by a tool refusing to run or a prompt asking nicely.
+
+  - summarize: added after a real trace exposed a real gap -- when the
+    hop cap (or a coverage-complete stop) is reached right after a tool
+    executes, the LAST message is a ToolMessage, not an AIMessage, so the
+    model had never actually been asked to write anything up. Without this
+    node, finalize_node's report jumped straight from a raw tool
+    observation to the mechanical stop_reason/gap list with ZERO synthesis
+    -- confirmed on a real Aurizon run (322 companies found, hop cap
+    reached, no analyst summary at all in the output). Given how sprawling
+    real events turn out to be, hitting the hop cap mid-tool-use is the
+    COMMON case, not an edge case, so this needed fixing, not deferring.
+    Deliberately calls the RAW (unbound) llm, not llm.bind_tools(llm_tools)
+    -- this turn must produce text, not another tool-call attempt, so
+    tools are structurally unavailable rather than merely discouraged by
+    prompt wording. Not counted as a hop: it is a wrap-up call, not
+    evidence-gathering, so "hops used: X/4" in the report keeps meaning
+    exactly what it means everywhere else.
 
 One hop == one AI turn == one visit to the `tools` node, regardless of how
 many individual tool calls the model made in that turn (a model issuing two
@@ -41,7 +65,7 @@ individual tool invocations.
 
 from __future__ import annotations
 
-from langchain_core.messages import AIMessage, SystemMessage, ToolMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage, ToolMessage
 from langgraph.graph import END, START, StateGraph
 
 from agent_state import AgentState
@@ -210,7 +234,34 @@ def make_tools_node(raw_dispatch: dict):
 
 def route_after_tools(state: AgentState) -> str:
     should_stop, _reason, _gaps = check_stopping_condition(state)
-    return "finalize" if should_stop else "agent"
+    return "summarize" if should_stop else "agent"
+
+
+# --------------------------------------------------------------------------- #
+# Node: summarize -- see module docstring for why this exists. Only reached
+# when the graph is stopping right after a tools-node execution.
+# --------------------------------------------------------------------------- #
+
+def make_summarize_node(llm):
+    """llm: the SAME raw chat model passed to build_agent_graph, used here
+    WITHOUT .bind_tools() -- deliberately, so this turn cannot produce
+    another tool-call attempt, only text."""
+
+    def summarize_node(state: AgentState) -> dict:
+        system = SystemMessage(content=render_system_prompt(state["max_hops"]))
+        wrapup = HumanMessage(content=(
+            "You have reached the end of this investigation -- either the "
+            "tool-call budget is used up, or you have covered every "
+            "significant company you found. Do not attempt any further "
+            "tool calls; none are available. Write your final analyst "
+            "summary now, based only on what you have already gathered: "
+            "which companies are affected, what evidence backs each one, "
+            "and what you were unable to confirm."
+        ))
+        response = llm.invoke([system, *state["messages"], wrapup])
+        return {"messages": [response]}
+
+    return summarize_node
 
 
 # --------------------------------------------------------------------------- #
@@ -221,6 +272,23 @@ def route_after_tools(state: AgentState) -> str:
 # the loop early, but it cannot make finalize() skip the coverage check.
 # --------------------------------------------------------------------------- #
 
+def _looks_like_malformed_tool_call(content: str) -> bool:
+    """Detects the exact failure mode seen on a real Aurizon trace: the
+    model tried to request a tool call but emitted it as plain JSON text
+    in its message content instead of a properly structured tool_calls
+    entry (which route_after_agent checks for). When that happens, content
+    looks like a hand-written {"name": ..., "arguments": ...} blob rather
+    than an actual analyst summary. Deliberately a loose heuristic -- false
+    positives just mean a real final answer gets an extra honest check;
+    false negatives just mean this stays mislabeled as agent_ended_early,
+    same as before this fix. Either way is safe, so this doesn't need to
+    be exact."""
+    if not content:
+        return False
+    stripped = content.strip()
+    return stripped.startswith("{") and '"name"' in stripped and '"arguments"' in stripped
+
+
 def finalize_node(state: AgentState) -> dict:
     should_stop, reason, gaps = check_stopping_condition(state)
     # `should_stop` can come back False here (e.g. the model stopped calling
@@ -229,17 +297,32 @@ def finalize_node(state: AgentState) -> dict:
     # why we're in this node). In that case `reason` would otherwise say
     # "continue", which is not an honest description of what actually
     # happened -- relabel it so stop_reason always reflects reality.
-    if reason == "continue":
-        reason = "agent_ended_early"
-
     last = state["messages"][-1]
+    if reason == "continue":
+        if isinstance(last, AIMessage) and _looks_like_malformed_tool_call(last.content):
+            # The model was NOT trying to stop -- it was trying to call
+            # another tool and failed to format the request correctly.
+            # Labeling this "agent_ended_early" (implying a deliberate
+            # choice) would be actively misleading when reading the trace
+            # later; this is a distinct, real failure mode, not a decision.
+            reason = "malformed_tool_call_output"
+        else:
+            reason = "agent_ended_early"
+
     model_answer = (
         last.content
         if isinstance(last, AIMessage) and not getattr(last, "tool_calls", None)
+        and reason != "malformed_tool_call_output"
         else None
     )
 
     lines = [f"[stop_reason: {reason} | hops used: {state['hop_count']}/{state['max_hops']}]"]
+    if reason == "malformed_tool_call_output":
+        lines.append(
+            "\nNOTE: the model attempted another tool call but did not emit it in the "
+            "expected structured format, so this run ended before the investigation "
+            "was actually finished (not because the model judged it complete)."
+        )
     if model_answer:
         lines.append("\nAnalyst summary:\n" + model_answer)
 
@@ -267,18 +350,22 @@ def finalize_node(state: AgentState) -> dict:
 def build_agent_graph(llm, llm_tools, raw_dispatch):
     """
     llm          : any LangChain chat model, unbound (bind_tools happens
-                   inside make_agent_node)
+                   inside make_agent_node for the tool-calling turns, and
+                   is deliberately NOT applied for make_summarize_node's
+                   final wrap-up turn)
     llm_tools    : agent_tools.build_tool_bindings(...)[0]
     raw_dispatch : agent_tools.build_tool_bindings(...)[1]
     """
     graph = StateGraph(AgentState)
     graph.add_node("agent", make_agent_node(llm, llm_tools))
     graph.add_node("tools", make_tools_node(raw_dispatch))
+    graph.add_node("summarize", make_summarize_node(llm))
     graph.add_node("finalize", finalize_node)
 
     graph.add_edge(START, "agent")
     graph.add_conditional_edges("agent", route_after_agent, {"tools": "tools", "finalize": "finalize"})
-    graph.add_conditional_edges("tools", route_after_tools, {"agent": "agent", "finalize": "finalize"})
+    graph.add_conditional_edges("tools", route_after_tools, {"agent": "agent", "summarize": "summarize"})
+    graph.add_edge("summarize", "finalize")
     graph.add_edge("finalize", END)
 
     return graph.compile()

@@ -48,32 +48,20 @@ from __future__ import annotations
 
 import os
 from typing import Optional
-from dotenv import load_dotenv
-from langchain_groq import ChatGroq
-load_dotenv()
 
-DEFAULT_OLLAMA_MODEL = "qwen3:4b"
+DEFAULT_OLLAMA_MODEL = "gpt-oss:120b"
 
-# RAISED from an earlier 4096 after a real trace showed the actual failure
-# mode: get_supplier_info defaults to returning up to 8 chunks of real
-# filing text, and this project's corpus was built with ~600-token chunks
-# -- so a SINGLE tool observation can be ~4,800+ tokens, which alone
-# already exceeded the old 4096 budget before the system prompt, the
-# original question, or the hop-1 exchange were even counted. Ollama
-# doesn't error on overflow -- it silently drops the OLDEST tokens, which
-# means the system prompt and the original task are exactly what gets
-# pushed out first. On a real Aurizon trace, this produced a model that
-# had genuinely lost all memory of the investigation by hop 2 and just
-# wrote a generic financial-analysis essay about whatever filing text was
-# still in view. 8192 is not a proven-safe number either -- it's sized to
-# comfortably fit one full get_supplier_info call plus overhead, not
-# unlimited growth across all 4 hops. Watch actual RAM use (`ollama ps`)
-# on a real run; if it's too tight on an 8GB machine, the next lever to
-# pull is LOWERING max_chunks on get_supplier_info calls (agent_tools.py),
-# not silently shrinking this back down -- a smaller context budget that
-# quietly drops the task instructions again is a worse failure than a
-# slower or more constrained run.
-DEFAULT_OLLAMA_NUM_CTX = 8192
+# Raised now that GPU VRAM is available -- the earlier 8192 was sized
+# around an 8GB-RAM CPU-only machine's real constraints (see the "Revised"
+# note in the old version of this file, and the Aurizon trace that showed
+# exactly this failure: a get_supplier_info observation alone can be
+# ~4,800+ tokens, and a too-small context window silently drops the OLDEST
+# tokens first -- meaning the system prompt and the original task, not the
+# newest tool output). On an H100 with ~90GB free, that tradeoff no longer
+# applies -- 32768 gives comfortable headroom for a full 4-hop transcript
+# (system prompt + growing history + several evidence-tool observations)
+# without needing to trim what any tool returns.
+DEFAULT_OLLAMA_NUM_CTX = 32768
 
 # llama-3.3-70b-versatile is confirmed hosted on Groq, fast, and documented
 # specifically for tool-use workloads -- a reasonable starting point given
@@ -81,8 +69,9 @@ DEFAULT_OLLAMA_NUM_CTX = 8192
 # if its free-tier quota proves too tight in practice (see module docstring).
 DEFAULT_GROQ_MODEL = "llama-3.1-8b-instant"
 
+
 def build_llm(
-    provider: str = "groq",
+    provider: str = "ollama",
     model: Optional[str] = None,
     temperature: float = 0.0,
     num_ctx: Optional[int] = None,
@@ -96,8 +85,9 @@ def build_llm(
     up in a results table.
     """
     if provider == "groq":
+        from langchain_groq import ChatGroq
 
-        if not os.getenv("GROQ_API_KEY"):
+        if not os.environ.get("GROQ_API_KEY"):
             raise RuntimeError(
                 "GROQ_API_KEY is not set. Get a free key at "
                 "https://console.groq.com/keys and set it as an "
