@@ -7,3 +7,5 @@ data/corpus/text_clean/
 data/corpus/*.jsonl
 chroma_db/
 data/corpus/*.zip
+*.egg-info/
+__pycache__/
