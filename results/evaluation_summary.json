@@ -1,0 +1,203 @@
+{
+  "n_events_total": 30,
+  "n_events_excluded": 3,
+  "excluded_events": {
+    "20_formosa_petrochemical_2019": "Wrong seed company recorded: the ARO-3 unit that burned is operated by Formosa Chemicals & Fibre Corp (FCFC), not Formosa Petrochemical Corp as the event's directly-affected field states. FCFC also appears in this event's own hop1 candidate list, so scoring it as a downstream hit would score the direct victim as if it were a correct prediction. See this event's own seed_attribution_warning field.",
+    "36_basf_se_2022": "Same underlying shock as event 35 (2022 European gas crisis); event 36's own date_news_first_note explicitly flags the overlap and calls event 36 'arguably a downstream consequence' of event 35. Scoring both risks inflating recall if both carried positive examples, and unfairly penalises precision here specifically, since this row's ground truth is empty.",
+    "49_xiamen_tungsten_2010": "Whether a targeted rare-earth embargo actually occurred is disputed in the peer-reviewed and policy literature (Japanese customs data shows no uniform import drop attributable to it). Excluded from quantitative recall/precision; report separately as a qualitative case study of how the system handles a widely reported but contested event."
+  },
+  "overall": {
+    "A": {
+      "n_events_total": 30,
+      "n_events_recall": 11,
+      "n_events_precision": 27,
+      "recall_all": 0.0,
+      "recall_all_tp": 0,
+      "recall_all_denom": 61,
+      "recall_reachable": 0.0,
+      "recall_reachable_tp": 0,
+      "recall_reachable_denom": 27,
+      "precision": 0.0,
+      "precision_tp": 0,
+      "fp_total": 9,
+      "avg_fp_per_event": 0.3333333333333333
+    },
+    "B": {
+      "n_events_total": 30,
+      "n_events_recall": 11,
+      "n_events_precision": 27,
+      "recall_all": 0.2459016393442623,
+      "recall_all_tp": 15,
+      "recall_all_denom": 61,
+      "recall_reachable": 0.5555555555555556,
+      "recall_reachable_tp": 15,
+      "recall_reachable_denom": 27,
+      "precision": 0.037037037037037035,
+      "precision_tp": 15,
+      "fp_total": 390,
+      "avg_fp_per_event": 14.444444444444445
+    }
+  },
+  "by_category": {
+    "energy": {
+      "A": {
+        "n_events_total": 6,
+        "n_events_recall": 1,
+        "n_events_precision": 5,
+        "recall_all": 0.0,
+        "recall_all_tp": 0,
+        "recall_all_denom": 6,
+        "recall_reachable": 0.0,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 1,
+        "precision": null,
+        "precision_tp": 0,
+        "fp_total": 0,
+        "avg_fp_per_event": 0.0
+      },
+      "B": {
+        "n_events_total": 6,
+        "n_events_recall": 1,
+        "n_events_precision": 5,
+        "recall_all": 0.0,
+        "recall_all_tp": 0,
+        "recall_all_denom": 6,
+        "recall_reachable": 0.0,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 1,
+        "precision": 0.0,
+        "precision_tp": 0,
+        "fp_total": 90,
+        "avg_fp_per_event": 18.0
+      }
+    },
+    "geopolitical_policy": {
+      "A": {
+        "n_events_total": 7,
+        "n_events_recall": 3,
+        "n_events_precision": 6,
+        "recall_all": 0.0,
+        "recall_all_tp": 0,
+        "recall_all_denom": 12,
+        "recall_reachable": 0.0,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 5,
+        "precision": 0.0,
+        "precision_tp": 0,
+        "fp_total": 1,
+        "avg_fp_per_event": 0.16666666666666666
+      },
+      "B": {
+        "n_events_total": 7,
+        "n_events_recall": 3,
+        "n_events_precision": 6,
+        "recall_all": 0.25,
+        "recall_all_tp": 3,
+        "recall_all_denom": 12,
+        "recall_reachable": 0.6,
+        "recall_reachable_tp": 3,
+        "recall_reachable_denom": 5,
+        "precision": 0.06818181818181818,
+        "precision_tp": 3,
+        "fp_total": 41,
+        "avg_fp_per_event": 6.833333333333333
+      }
+    },
+    "industrial_accident": {
+      "A": {
+        "n_events_total": 8,
+        "n_events_recall": 3,
+        "n_events_precision": 7,
+        "recall_all": 0.0,
+        "recall_all_tp": 0,
+        "recall_all_denom": 5,
+        "recall_reachable": 0.0,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 4,
+        "precision": 0.0,
+        "precision_tp": 0,
+        "fp_total": 2,
+        "avg_fp_per_event": 0.2857142857142857
+      },
+      "B": {
+        "n_events_total": 8,
+        "n_events_recall": 3,
+        "n_events_precision": 7,
+        "recall_all": 0.0,
+        "recall_all_tp": 0,
+        "recall_all_denom": 5,
+        "recall_reachable": 0.0,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 4,
+        "precision": 0.0,
+        "precision_tp": 0,
+        "fp_total": 65,
+        "avg_fp_per_event": 9.285714285714286
+      }
+    },
+    "natural_disaster": {
+      "A": {
+        "n_events_total": 8,
+        "n_events_recall": 4,
+        "n_events_precision": 8,
+        "recall_all": 0.0,
+        "recall_all_tp": 0,
+        "recall_all_denom": 38,
+        "recall_reachable": 0.0,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 17,
+        "precision": 0.0,
+        "precision_tp": 0,
+        "fp_total": 6,
+        "avg_fp_per_event": 0.75
+      },
+      "B": {
+        "n_events_total": 8,
+        "n_events_recall": 4,
+        "n_events_precision": 8,
+        "recall_all": 0.3157894736842105,
+        "recall_all_tp": 12,
+        "recall_all_denom": 38,
+        "recall_reachable": 0.7058823529411765,
+        "recall_reachable_tp": 12,
+        "recall_reachable_denom": 17,
+        "precision": 0.06382978723404255,
+        "precision_tp": 12,
+        "fp_total": 176,
+        "avg_fp_per_event": 22.0
+      }
+    },
+    "uncategorized": {
+      "A": {
+        "n_events_total": 1,
+        "n_events_recall": 0,
+        "n_events_precision": 1,
+        "recall_all": null,
+        "recall_all_tp": 0,
+        "recall_all_denom": 0,
+        "recall_reachable": null,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 0,
+        "precision": null,
+        "precision_tp": 0,
+        "fp_total": 0,
+        "avg_fp_per_event": 0.0
+      },
+      "B": {
+        "n_events_total": 1,
+        "n_events_recall": 0,
+        "n_events_precision": 1,
+        "recall_all": null,
+        "recall_all_tp": 0,
+        "recall_all_denom": 0,
+        "recall_reachable": null,
+        "recall_reachable_tp": 0,
+        "recall_reachable_denom": 0,
+        "precision": 0.0,
+        "precision_tp": 0,
+        "fp_total": 18,
+        "avg_fp_per_event": 18.0
+      }
+    }
+  }
+}

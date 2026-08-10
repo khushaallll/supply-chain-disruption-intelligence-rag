@@ -1,0 +1,88 @@
+event_id,category,excluded,company,graph_node,gt_stated_hop,live_status,live_tier
+1_posco_2022,natural_disaster,False,"Korinox Co., Ltd. (코리녹스)",,False,no_graph_node,
+2_nippon_steel_2011,natural_disaster,False,Toyota Motor Corporation,toyota motor,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,Sony Corporation,sony,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,"Hitachi, Ltd.",hitachi,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,Panasonic Corporation,panasonic,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,Komatsu Ltd.,komatsu,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,"Honda Motor Co., Ltd.",honda motor,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,"Nissan Motor Co., Ltd.",nissan motor,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,General Motors Company,general motors,hop1,found_enriched,1
+2_nippon_steel_2011,natural_disaster,False,Ford Motor Company,ford motor,hop1,found_enriched,1
+4_dow_2017,natural_disaster,False,Univar Inc. (now Univar Solutions),,False,no_graph_node,
+4_dow_2017,natural_disaster,False,Exxon Mobil Corporation,exxon mobil,hop2,found_enriched,2
+4_dow_2017,natural_disaster,False,Shell (Royal Dutch Shell / Shell Oil),shell,hop2,found_enriched,2
+4_dow_2017,natural_disaster,False,"Formosa Plastics Corp., U.S.A.",formosa plastics,hop1,found_enriched,1
+4_dow_2017,natural_disaster,False,Ascend Performance Materials,,False,no_graph_node,
+4_dow_2017,natural_disaster,False,INEOS,ineos,False,found_unenriched,3
+4_dow_2017,natural_disaster,False,INVISTA,,False,no_graph_node,
+4_dow_2017,natural_disaster,False,Occidental Chemical (OxyChem),occidental petroleum,False,found_unenriched,3
+4_dow_2017,natural_disaster,False,Ashland Global Holdings Inc.,ashland,False,found_unenriched,3
+17_basf_se_2016,industrial_accident,False,The Dow Chemical Company,dow,hop2,found_enriched,2
+19_cpc_corp_taiwan_2014,industrial_accident,False,LCY Chemical Corp.,,False,no_graph_node,
+19_cpc_corp_taiwan_2014,industrial_accident,False,Taiwan Power Company (Taipower),taiwan power,hop2,found_unenriched,2
+19_cpc_corp_taiwan_2014,industrial_accident,False,China Petrochemical Development Corporation,china petrochemical development,hop1,found_unenriched,1
+47_china_steel_2018,geopolitical_policy,False,General Motors Company,general motors,hop1,found_enriched,1
+47_china_steel_2018,geopolitical_policy,False,Ford Motor Company,ford motor,hop1,found_enriched,1
+48_glencore_2025,uncategorized,False,Eurasian Resources Group (ERG),eurasian resources,False,found_unenriched,4
+5_formosa_plastics_2021,natural_disaster,False,NXP Semiconductors N.V.,nxp semiconductors,False,found_unenriched,4
+5_formosa_plastics_2021,natural_disaster,False,Infineon Technologies AG,infineon technologies,False,found_unenriched,3
+5_formosa_plastics_2021,natural_disaster,False,"Samsung Electronics Co., Ltd.",samsung electronics,hop2,found_enriched,2
+5_formosa_plastics_2021,natural_disaster,False,Olin Corporation,olin,hop2,found_unenriched,2
+5_formosa_plastics_2021,natural_disaster,False,LyondellBasell Industries N.V.,lyondellbasell industries,False,found_unenriched,3
+5_formosa_plastics_2021,natural_disaster,False,Celanese Corporation,celanese,False,found_unenriched,3
+5_formosa_plastics_2021,natural_disaster,False,Pactiv Evergreen Inc.,,False,no_graph_node,
+5_formosa_plastics_2021,natural_disaster,False,W. R. Grace & Co.,,False,no_graph_node,
+5_formosa_plastics_2021,natural_disaster,False,"Core Molding Technologies, Inc.",,False,no_graph_node,
+8_exxon_mobil_2005,natural_disaster,False,"The Dixie Group, Inc.",,False,no_graph_node,
+8_exxon_mobil_2005,natural_disaster,False,"Air Products and Chemicals, Inc.",air products and chemicals,False,found_unenriched,3
+8_exxon_mobil_2005,natural_disaster,False,Nalco Holding Company,,False,no_graph_node,
+8_exxon_mobil_2005,natural_disaster,False,"CF Industries Holdings, Inc.",cf industries,False,found_unenriched,4
+9_xinxiang_tianli_energy_2021,natural_disaster,False,"Nissan Motor Co., Ltd.",nissan motor,False,found_enriched,3
+9_xinxiang_tianli_energy_2021,natural_disaster,False,"Hon Hai Precision Industry Co., Ltd. (Foxconn)",hon hai precision industry,False,not_found_within_tier4,
+9_xinxiang_tianli_energy_2021,natural_disaster,False,SAIC Motor Corporation Limited,saic motor,False,found_enriched,4
+9_xinxiang_tianli_energy_2021,natural_disaster,False,IKEA (Inter IKEA / Ingka Group),,False,no_graph_node,
+9_xinxiang_tianli_energy_2021,natural_disaster,False,FedEx Corporation,fedex,False,found_unenriched,3
+20_formosa_petrochemical_2019,industrial_accident,True,Formosa Chemicals & Fibre Corp (FCFC),formosa chemicals & fibre,hop1,found_enriched,1
+21_mitsubishi_materials_2014,industrial_accident,False,SUMCO Corporation,sumco,hop1,found_unenriched,1
+35_gazprom_pjsc_2022,geopolitical_policy,False,ArcelorMittal S.A.,arcelormittal,hop2,found_enriched,2
+35_gazprom_pjsc_2022,geopolitical_policy,False,Nyrstar (Trafigura group),nyrstar,False,not_found_within_tier4,
+35_gazprom_pjsc_2022,geopolitical_policy,False,Norsk Hydro ASA,norsk hydro asa,False,found_unenriched,3
+35_gazprom_pjsc_2022,geopolitical_policy,False,Slovalco a.s.,,False,no_graph_node,
+35_gazprom_pjsc_2022,geopolitical_policy,False,Alcoa Corporation,alcoa,hop2,found_enriched,2
+35_gazprom_pjsc_2022,geopolitical_policy,False,Yara International ASA,yara international asa,False,found_unenriched,3
+11_aurizon_2010,natural_disaster,False,Peabody Energy Corporation,peabody energy,False,not_found_within_tier4,
+11_aurizon_2010,natural_disaster,False,Rio Tinto,rio tinto,hop1,found_enriched,1
+11_aurizon_2010,natural_disaster,False,BHP Billiton,bhp,hop1,found_enriched,1
+11_aurizon_2010,natural_disaster,False,Xstrata plc,,False,no_graph_node,
+11_aurizon_2010,natural_disaster,False,Vale S.A.,vale,False,found_unenriched,3
+11_aurizon_2010,natural_disaster,False,Anglo American plc,,False,no_graph_node,
+11_aurizon_2010,natural_disaster,False,Macarthur Coal Limited,,False,no_graph_node,
+11_aurizon_2010,natural_disaster,False,Aquila Resources,,False,no_graph_node,
+11_aurizon_2010,natural_disaster,False,Cockatoo Coal,,False,no_graph_node,
+11_aurizon_2010,natural_disaster,False,Ensham Resources,,False,no_graph_node,
+11_aurizon_2010,natural_disaster,False,ArcelorMittal,arcelormittal,hop2,found_enriched,2
+24_bp_2010,industrial_accident,False,Transocean Ltd.,,False,no_graph_node,
+24_bp_2010,industrial_accident,False,Anadarko Petroleum Corporation,,False,no_graph_node,
+24_bp_2010,industrial_accident,False,Omega Protein Corporation,,False,no_graph_node,
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,energy,False,Telkomsel,,False,no_graph_node,
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,energy,False,Indosat Ooredoo,indosat tbk pt,hop1,found_unenriched,1
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,energy,False,XL Axiata,,False,no_graph_node,
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,energy,False,Hutchison 3 Indonesia,,False,no_graph_node,
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,energy,False,MRT Jakarta,,False,no_graph_node,
+38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019,energy,False,KAI Commuter,,False,no_graph_node,
+40_state_grid_corp_of_china_2021,energy,False,Unimicron Technology Corp.,unimicron technology,False,not_found_within_tier4,
+40_state_grid_corp_of_china_2021,energy,False,"Eson Precision Industry Co., Ltd.",,False,no_graph_node,
+40_state_grid_corp_of_china_2021,energy,False,"Concraft Holding Co., Ltd.",,False,no_graph_node,
+40_state_grid_corp_of_china_2021,energy,False,"TTM Technologies, Inc.",,False,no_graph_node,
+40_state_grid_corp_of_china_2021,energy,False,Diodes Incorporated,,False,no_graph_node,
+54_yunnan_chihong_zinc_germanium_2023,geopolitical_policy,False,"AXT, Inc. (and its Beijing subsidiary Tongmei)",,False,seed_unresolved,
+57_united_co_rusal_international_pjsc_2018,geopolitical_policy,False,Rio Tinto,rio tinto,False,found_enriched,3
+57_united_co_rusal_international_pjsc_2018,geopolitical_policy,False,Constellium SE,constellium se,False,found_unenriched,4
+57_united_co_rusal_international_pjsc_2018,geopolitical_policy,False,Kaiser Aluminum Corporation,,False,no_graph_node,
+57_united_co_rusal_international_pjsc_2018,geopolitical_policy,False,Aleris Corporation,,False,no_graph_node,
+57_united_co_rusal_international_pjsc_2018,geopolitical_policy,False,Tredegar Corporation,,False,no_graph_node,
+59_coronado_global_resources_2020,geopolitical_policy,False,Aurizon Holdings Limited,aurizon,hop1,found_enriched,1
+59_coronado_global_resources_2020,geopolitical_policy,False,Whitehaven Coal Limited,,False,no_graph_node,
+59_coronado_global_resources_2020,geopolitical_policy,False,Peabody Energy Corporation,peabody energy,False,not_found_within_tier4,
+59_coronado_global_resources_2020,geopolitical_policy,False,Genco Shipping & Trading Limited,,False,no_graph_node,

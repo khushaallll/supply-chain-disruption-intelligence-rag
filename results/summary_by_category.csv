@@ -1,0 +1,11 @@
+category,system,n_events_total,n_events_recall,n_events_precision,recall_all,recall_all_tp,recall_all_denom,recall_reachable,recall_reachable_tp,recall_reachable_denom,precision,precision_tp,fp_total,avg_fp_per_event
+energy,A,6,1,5,0.0,0,6,0.0,0,1,,0,0,0.0
+energy,B,6,1,5,0.0,0,6,0.0,0,1,0.0,0,90,18.0
+geopolitical_policy,A,7,3,6,0.0,0,12,0.0,0,5,0.0,0,1,0.16666666666666666
+geopolitical_policy,B,7,3,6,0.25,3,12,0.6,3,5,0.06818181818181818,3,41,6.833333333333333
+industrial_accident,A,8,3,7,0.0,0,5,0.0,0,4,0.0,0,2,0.2857142857142857
+industrial_accident,B,8,3,7,0.0,0,5,0.0,0,4,0.0,0,65,9.285714285714286
+natural_disaster,A,8,4,8,0.0,0,38,0.0,0,17,0.0,0,6,0.75
+natural_disaster,B,8,4,8,0.3157894736842105,12,38,0.7058823529411765,12,17,0.06382978723404255,12,176,22.0
+uncategorized,A,1,0,1,,0,0,,0,0,,0,0,0.0
+uncategorized,B,1,0,1,,0,0,,0,0,0.0,0,18,18.0
