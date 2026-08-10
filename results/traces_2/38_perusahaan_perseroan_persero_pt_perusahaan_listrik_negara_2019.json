@@ -1,0 +1,69 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 Disruption at PT\u202fPerusahaan Listrik Negara (PLN)**  \n\n| Company | Relationship to PLN / Why it may be at risk | Evidence found | Confirmation of impact |\n|---------|----------------------------------------------|----------------|------------------------|\n| **PT\u202fPerusahaan Listrik Negara (PLN)** | The disrupted utility itself \u2013 a transmission failure on the Java\u2011Bali grid caused a mass blackout across Jakarta and West Java, affecting tens of millions of people and halting industrial estates for up to nine hours. | *Search\u2011corpus result #4* (doc\u202fid\u202ftrigger_38_perusahaan_perseroan_persero_pt_perus): \u201cA transmission failure on the Java\u2011Bali grid caused a mass blackout across Jakarta and West Java affecting tens of millions of people and halting industrial estates for up to nine hours. \u2026 Date: 2019\u201108\u201104.\u201d | **Confirmed** \u2013 this is the primary event that triggered the investigation. |\n| **Korea Electric Power (KEPCO)** | Holds performance\u2011guarantee contracts with PLN (e.g., guarantees for PT\u202fCirebon Energi Prasarana and other Indonesian power projects). The guarantee relationship shows KEPCO has a financial exposure to PLN\u2019s ability to deliver electricity, but no filing mentions that the August\u20112019 blackout directly affected KEPCO\u2019s operations or cash flows. | *Search\u2011corpus result #1* (Korea Electric Power filing, 2019\u201104\u201130) \u2013 \u201cThe Company has provided PT\u202fPerusahaan Listrik Negara performance guarantee up to USD\u202f2,293\u202fthousand \u2026\u201d <br>*Search\u2011corpus result #5* (Korea Electric Power filing, 2018\u201104\u201130) \u2013 similar guarantee language. | **Not confirmed** \u2013 the filings only disclose a guarantee; they do not state that KEPCO suffered operational or financial disruption from the PLN blackout. |\n| **PT\u202fCirebon Energi Prasarana** | Indonesian power generation joint\u2011venture for which KEPCO (and other Korean banks) provided guarantees tied to PLN\u2019s purchase contracts. If PLN cannot honor its purchase commitments because of a grid failure, PT\u202fCirebon could face cash\u2011flow strain. No filing directly reports such an effect from the August\u20112019 event. | Same guarantee language in the KEPCO filings (results #1 and #5) that reference \u201cPT\u202fCirebon Energi Prasarana\u201d and PLN. | **Not confirmed** \u2013 no explicit mention of impact on PT\u202fCirebon in any filing. |\n| **Central Power Purchasing Agency Guarantee Ltd.** | Listed as an electricity purchaser for which KEPCO provided a payment guarantee; therefore it is downstream of PLN\u2019s power sales. No evidence was found that the August\u20112019 blackout caused missed payments or service interruptions for this agency. | *Search\u2011corpus result #1* \u2013 \u201cpayment guarantee \u2026 for one of the electricity purchasers, Central Power Purchasing Agency Guarantee Ltd.\u201d | **Not confirmed** \u2013 no direct statement of disruption. |\n| **Industrial estates in Jakarta/West Java (generic)** | The blackout description explicitly says industrial estates were halted for up to nine hours. Individual estate operators are not named in any filing we could retrieve, so we cannot point to specific corporate entities. | *Search\u2011corpus result #4* \u2013 \u201chalting industrial estates for up to nine hours.\u201d | **Partially confirmed** \u2013 the event impacted \u201cindustrial estates\u201d as a class, but no company\u2011level evidence is available. |\n\n### What could not be verified\n\n1. **Downstream customers beyond the generic \u201cindustrial estates.\u201d**  \n   - The supply\u2011graph traversal failed to locate any explicit downstream links for PLN (the tool returned *\u201cCould not find \u2026 in the supply graph\u201d*). Consequently, we lack a structured list of specific corporate customers or suppliers that are directly connected to PLN.\n\n2. **Operational/financial impact on KEPCO, PT\u202fCirebon Energi Prasarana, Central Power Purchasing Agency Guarantee Ltd., or any other counterparties.**  \n   - The only evidence for these entities is the existence of guarantee contracts; none of the retrieved filings mention that the August\u20112019 blackout caused a breach, loss, or material disruption to them.\n\n3. **Specific Indonesian companies (e.g., manufacturers, retailers) that suffered production losses because of the blackout.**  \n   - No SEC\u2011type filing in our corpus referenced such firms in connection with the 4\u202fAugust\u202f2019 event.\n\n### Overall assessment\n\n- **Confirmed affected entity:** PT\u202fPerusahaan Listrik Negara (PLN) \u2013 the source of the outage.\n- **Likely at\u2011risk parties:** Any downstream electricity purchasers, industrial estates, and contract counterparties that rely on PLN\u2019s power supply. The only concrete evidence we have is a generic statement that \u201cindustrial estates\u201d were halted; no company\u2011level confirmations are available.\n- **Evidence depth:** For each non\u2011PLN entity we have at most one source (the guarantee language in KEPCO filings). No second, independent source was found to corroborate an actual disruption.\n\n### Conclusion\n\nThe investigation confirms a major grid failure at PLN on\u202f4\u202fAugust\u202f2019 that caused a widespread blackout and halted industrial activity. Beyond PLN itself, the only documented relationships are financial guarantees held by Korea Electric Power (KEPCO) and its affiliates; none of those filings report a direct operational or financial impact from the outage. Because the supply\u2011graph data did not return any downstream connections, we cannot name specific corporate customers that were materially affected, leaving that portion of the risk picture **incomplete**. Further research\u2014e.g., accessing Indonesian regulatory disclosures, news reports, or proprietary supply\u2011chain maps\u2014would be required to identify and verify the exact downstream firms at risk.\n\nNo coverage gaps: every tier-1 company found had usable, sufficiently recent evidence.",
+  "coverage": {
+    "korea electric power": {
+      "name": "korea electric power",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "perusahaan perseroan persero pt perusahaan listrik negara": {
+      "name": "perusahaan perseroan persero pt perusahaan listrik negara",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "vedanta": {
+      "name": "vedanta",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PT Perusahaan Listrik Negara",
+      "summary": "Could not find 'PT Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 2,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Perusahaan Listrik Negara",
+      "summary": "Could not find 'Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 3,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PLN",
+      "summary": "Could not find 'PLN' in the supply graph."
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Perusahaan Listrik Negara disruption August 2019' | as of 2019-08-04 | 5 result(s) across 3 distinct companies]"
+    }
+  ]
+}

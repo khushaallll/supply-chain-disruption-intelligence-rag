@@ -1,0 +1,38 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation Summary \u2013 Disruption at PT\u202fPerusahaan Listrik Negara (Persero) (\u201cPLN\u201d)**\n\n| Step | What was attempted | Result |\n|------|-------------------|--------|\n| 1\ufe0f\u20e3 Identify downstream companies (structural risk) | Called **traverse_supply_graph** (mode\u202f=\u202fdownstream, max_tier\u202f=\u202f2) for the disrupted firm under four name variations: \u201cPT Perusahaan Listrik Negara\u201d, \u201cPerusahaan Listrik Negara\u201d, \u201cPLN\u201d, and \u201cPT Perusahaan Listrik Negara (Persero)\u201d. | The supply\u2011graph database returned **\u201cCould not find \u2026 in the supply graph\u201d** for every variation. Consequently, no downstream customers, alternative suppliers, or any other entities were surfaced. |\n| 2\ufe0f\u20e3 Gather evidence on identified companies | No downstream firms were identified, so there was nothing to verify with **get_supplier_info** or **search_corpus**. | No filings or corpus mentions could be retrieved because the prerequisite list of affected companies was empty. |\n\n### What can be concluded\n\n* The supply\u2011graph source does not contain an entry for PT\u202fPerusahaan Listrik Negara (Persero) under any of the names tried.  \n* Because no downstream entities were discovered, we cannot name any specific companies that are structurally at risk from this disruption.  \n* Accordingly, there is **no evidence** (SEC\u2011style filings or corpus mentions) to support a claim that any particular firm is affected.\n\n### What remains unconfirmed\n\n* Whether PT\u202fPerusahaan Listrik Negara (Persero) actually has downstream customers or alternative suppliers recorded in the underlying supply\u2011graph data.  \n* Any potential ripple effects on other firms that might rely on PLN\u2019s electricity generation, transmission, or distribution services\u2014these could not be identified without a successful graph traversal.\n\n### Final assessment\n\nGiven the tool\u2011call limit and the inability to locate PLN in the supply\u2011graph database, this investigation cannot confirm any specific companies as being at risk from the reported 2019\u201108\u201104 disruption. The analysis is therefore **incomplete** with respect to identifying affected downstream parties; further data sources (e.g., a more comprehensive supply\u2011chain registry or direct company disclosures) would be required to complete the assessment.\n\nNO SIGNIFICANT COMPANIES WERE EVER IDENTIFIED -- this is NOT a clean pass. The investigation could not get past identifying the disrupted company itself (or its downstream connections) in the graph, so there was nothing to gather evidence about. Treat this as an incomplete result, not a success.",
+  "coverage": {},
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PT Perusahaan Listrik Negara",
+      "summary": "Could not find 'PT Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 2,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Perusahaan Listrik Negara",
+      "summary": "Could not find 'Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 3,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PLN",
+      "summary": "Could not find 'PLN' in the supply graph."
+    },
+    {
+      "hop": 4,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PT Perusahaan Listrik Negara (Persero)",
+      "summary": "Could not find 'PT Perusahaan Listrik Negara (Persero)' in the supply graph."
+    }
+  ]
+}

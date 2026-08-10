@@ -103,6 +103,62 @@ def route_after_agent(state: AgentState) -> str:
 
 
 # --------------------------------------------------------------------------- #
+# Company-name canonicalization for coverage bookkeeping -- see the Day 9
+# trace review that found this bug: three independent real traces
+# (BHP/"BHP Group", volkswagen/"Volkswagen AG", and most clearly toyota
+# motor/"Toyota Motor Corp"/"Toyota Motor Corporation") each showed the
+# SAME real company splitting into multiple coverage rows because
+# get_supplier_info/search_corpus echo back whatever string the model
+# passed in (by design -- see supplier_info_tool.py), not a canonical
+# name. record_evidence() keys purely on that raw string, so a company
+# already named "toyota motor" by traverse_supply_graph and a company
+# named "toyota motor corporation" by a later get_supplier_info call
+# become two disconnected rows -- one still gapped, one holding real,
+# genuinely-found evidence that never counts toward closing that gap.
+# On the Nippon Steel trace this suppressed the single strongest,
+# highest-confidence ground-truth company (Toyota) even though the agent
+# had already found and read Toyota's own 20-F.
+#
+# Fix: before recording evidence under a name, check whether it is a
+# corporate-suffix variant of an EXISTING coverage row (one name's word
+# sequence is a prefix of the other's -- "toyota motor" is a prefix of
+# "toyota motor corporation") and reuse that row's key if so, rather than
+# creating a second, disconnected one. Deliberately NOT a generic fuzzy-
+# match threshold: token_sort_ratio scores 'bhp' vs 'bhp group' at only
+# 50 (too low to trust) while scoring 'china steel' vs 'china motor' at
+# 63.6 (too high to safely ignore) -- there is no single ratio threshold
+# that separates "same company, added suffix" from "different company,
+# shared word" on real examples. Word-prefix matching does separate them
+# cleanly on every case found in real traces, including the negatives.
+# --------------------------------------------------------------------------- #
+
+def _is_name_variant(a: str, b: str) -> bool:
+    """True if a and b look like the same company differing only by a
+    trailing corporate suffix or similar addition (Group, AG, Corp,
+    Corporation, Company, etc.) -- checked as: one name's word sequence
+    is a prefix of the other's."""
+    a_words, b_words = a.split(), b.split()
+    shorter, longer = (a_words, b_words) if len(a_words) <= len(b_words) else (b_words, a_words)
+    return bool(shorter) and longer[:len(shorter)] == shorter
+
+
+def _canonicalize_company_name(name: str, coverage: dict) -> str:
+    """Returns the lowercased key `name` should be recorded under in
+    `coverage`: the exact existing key if there's already an exact match;
+    otherwise an existing key that's a corporate-suffix variant of it, if
+    one exists (reusing that row instead of creating a disconnected new
+    one); otherwise `name`'s own lowercased form (a genuinely new
+    company)."""
+    key = name.strip().lower()
+    if key in coverage:
+        return key
+    for existing_key in coverage:
+        if _is_name_variant(key, existing_key):
+            return existing_key
+    return key
+
+
+# --------------------------------------------------------------------------- #
 # Node: tools -- execution AND structured bookkeeping in one place. See
 # agent_tools.py's module docstring for why this bypasses prebuilt ToolNode:
 # it needs the dataclass result, not just the text ToolMessage.content.
@@ -132,8 +188,9 @@ def _absorb_traverse_result(result, coverage: dict, hop: int) -> None:
 
 def _absorb_supplier_info_result(result, coverage: dict, hop: int) -> None:
     if getattr(result, "status", None) == "found":
+        canonical_name = _canonicalize_company_name(result.company, coverage)
         record_evidence(
-            coverage, result.company, "get_supplier_info", hop=hop,
+            coverage, canonical_name, "get_supplier_info", hop=hop,
             staleness_days=result.staleness_days, tag_mismatch=result.tag_mismatch,
         )
     # no_manifest_entry / no_predating_document / chunks_missing: nothing to
@@ -145,7 +202,8 @@ def _absorb_supplier_info_result(result, coverage: dict, hop: int) -> None:
 def _absorb_search_corpus_result(result, coverage: dict, hop: int) -> None:
     if getattr(result, "status", None) == "found":
         for company in result.distinct_companies:
-            record_evidence(coverage, company, "search_corpus", hop=hop)
+            canonical_name = _canonicalize_company_name(company, coverage)
+            record_evidence(coverage, canonical_name, "search_corpus", hop=hop)
 
 
 _ABSORBERS = {
@@ -326,13 +384,34 @@ def finalize_node(state: AgentState) -> dict:
     if model_answer:
         lines.append("\nAnalyst summary:\n" + model_answer)
 
+    n_required = sum(
+        1 for row in state["coverage"].values()
+        if row["tier"] is not None and row["tier"] <= SIGNIFICANT_TIER_MAX
+    )
+    # Found on a real trace: when the seed itself never resolves (see
+    # graph_tool.py's not_resolved status), zero significant companies
+    # are ever identified, so `gaps` is empty -- but for a reason that has
+    # nothing to do with success. The old unconditional "no gaps" message
+    # read as a clean pass either way, which is actively misleading on a
+    # real event (a genuine PLN/Aurizon-seed-name-shaped failure) where the
+    # investigation never got past identifying the disrupted company
+    # itself. Distinguish "nothing required was ever found" from
+    # "everything required was found and covered" explicitly.
     if gaps:
         lines.append(f"\nCOVERAGE GAPS ({len(gaps)}) -- reported explicitly, not omitted:")
         for g in gaps:
             lines.append(f"  - {g}")
+    elif n_required == 0:
+        lines.append(
+            "\nNO SIGNIFICANT COMPANIES WERE EVER IDENTIFIED -- this is NOT a clean "
+            "pass. The investigation could not get past identifying the disrupted "
+            "company itself (or its downstream connections) in the graph, so there "
+            "was nothing to gather evidence about. Treat this as an incomplete "
+            "result, not a success."
+        )
     else:
-        lines.append("\nNo coverage gaps: every tier-1 company found had usable, "
-                     "sufficiently recent evidence.")
+        lines.append(f"\nNo coverage gaps: all {n_required} tier-1/tier-2 companies found "
+                     "had usable, sufficiently recent evidence.")
 
     report = "\n".join(lines)
     return {

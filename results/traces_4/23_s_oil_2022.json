@@ -1,0 +1,532 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "asiana airlines: no evidence gathered",
+    "korea electric power: no evidence gathered",
+    "saudi arabian oil: no evidence gathered",
+    "e1: no evidence gathered",
+    "hanjin transportation: no evidence gathered",
+    "saudi basic industries: no evidence gathered",
+    "apple: no evidence gathered",
+    "ta yih industrial: no evidence gathered",
+    "kumho tire: no evidence gathered",
+    "hyundai rotem: no evidence gathered",
+    "rio tinto: no evidence gathered",
+    "ls electric: no evidence gathered",
+    "toray industries: no evidence gathered",
+    "hdc hyundai engineering plastics: no evidence gathered",
+    "toyota tsusho: no evidence gathered",
+    "sk innovation: no evidence gathered",
+    "lg chem: no evidence gathered",
+    "oci: no evidence gathered",
+    "sk: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "bp: no evidence gathered",
+    "formosa petrochemical: no evidence gathered",
+    "perusahaan perseroan persero pt perusahaan listrik negara: no evidence gathered",
+    "toyota motor: no evidence gathered",
+    "exxon mobil: no evidence gathered",
+    "lucky cement: no evidence gathered",
+    "kumho petrochemical: no evidence gathered",
+    "vedanta: no evidence gathered",
+    "samsung electronics: no evidence gathered",
+    "cayman engley industrial: no evidence gathered",
+    "triangle tyre: no evidence gathered",
+    "samsung c&t: no evidence gathered",
+    "indian oil: no evidence gathered",
+    "formosa plastics: no evidence gathered",
+    "hyundai engineering & construction: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "posco international: no evidence gathered",
+    "jordan petroleum refinery: no evidence gathered",
+    "taita chemical: no evidence gathered",
+    "volkswagen: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation focus \u2013 S\u2011Oil (disruption first reported\u202f\u2248\u202f19\u202fMay\u202f2022)**  \n\n| Tier | Company (sector) | Why it appears in the supply\u2011graph | Direct evidence of impact from filings / corpus |\n|------|------------------|-----------------------------------|------------------------------------------------|\n| **1** | Asiana Airlines \u2013 Transportation & Logistics (South Korea) | Listed as a *down\u2011stream* customer of S\u2011Oil (Tier\u202f1). | No filing or corpus mention linking the May\u20112022 S\u2011Oil event to Asiana. |\n|  | Korea Electric Power \u2013 Electric Utilities (South Korea) | Tier\u202f1 downstream electricity\u2011grid user that purchases refined products from S\u2011Oil. | No filing or corpus reference found. |\n|  | Saudi Arabian Oil \u2013 Oil & Gas Producers (Saudi Arabia) | Tier\u202f1 downstream producer / trader that sources crude or products from S\u2011Oil. | No filing or corpus reference found. |\n|  | E1 \u2013 Oil & Gas Producers (South Korea) | Tier\u202f1 LPG importer/distributor linked to S\u2011Oil\u2019s LPG output. | No filing or corpus reference found. |\n|  | Hanjin Transportation \u2013 Transportation & Logistics (USA) | Tier\u202f1 freight\u2011transport provider that moves S\u2011Oil products. | No filing or corpus reference found. |\n|  | Saudi Basic Industries \u2013 Chemicals (Saudi Arabia) | Tier\u202f1 buyer of petrochemical feedstock from S\u2011Oil. | No filing or corpus reference found. |\n| **2** | Apple \u2013 Technology Hardware (USA) | Tier\u202f2 downstream consumer\u2011electronics maker that uses plastics/chemicals derived from S\u2011Oil\u2019s outputs. | No filing or corpus reference found. |\n|  | TA\u2011Yih Industrial \u2013 Automotive (Taiwan) | Tier\u202f2 automotive\u2011lighting supplier using materials sourced through S\u2011Oil\u2019s network. | No filing or corpus reference found. |\n|  | Kumho Tire \u2013 Automotive (South Korea) | Tier\u202f2 tire manufacturer that consumes rubber/chemicals linked to S\u2011Oil. | No filing or corpus reference found. |\n|  | Hyundai Rotem \u2013 Transportation Equipment (South Korea) | Tier\u202f2 maker of production\u2011line equipment for petrochemical plants; downstream of S\u2011Oil\u2019s facilities. | No filing or corpus reference found. |\n|  | Rio Tinto \u2013 Metals & Mining (UK) | Tier\u202f2 buyer of industrial chemicals/energy that can be supplied by S\u2011Oil. | No filing or corpus reference found. |\n|  | LS Electric \u2013 Electrical Equipment (South Korea) | Tier\u202f2 purchaser of electrical components that may use S\u2011Oil\u2011derived plastics. | No filing or corpus reference found. |\n|  | Toray Industries \u2013 Chemicals (Japan) | Tier\u202f2 user of carbon\u2011fiber composites and engineering resins derived from petrochemical streams. | No filing or corpus reference found. |\n|  | HDC Hyundai Engineering Plastics \u2013 Chemicals (South Korea) | Tier\u202f2 maker of engineering\u2011plastic compounds that rely on S\u2011Oil feedstock. | No filing or corpus reference found. |\n|  | Toyota Tsusho \u2013 Metals & Mining (Japan) | Tier\u202f2 trader of automotive metals/materials that can be sourced via S\u2011Oil\u2019s network. | No filing or corpus reference found. |\n|  | SK Innovation \u2013 Oil & Gas Producers (South Korea) | Tier\u202f2 producer of EV battery cells (SK\u202fOn) that uses refined products from S\u2011Oil. | No filing or corpus reference found. |\n|  | LG Chem \u2013 Chemicals (South Korea) | Tier\u202f2 petrochemical and battery\u2011cathode maker dependent on S\u2011Oil feedstock. | No filing or corpus reference found. |\n|  | OCI \u2013 Renewable Energy (South Korea) | Tier\u202f2 producer of carbon black & polysilicon that can use S\u2011Oil\u2011derived inputs. | No filing or corpus reference found. |\n|  | SK \u2013 Oil & Gas Producers (South Korea) | Tier\u202f2 investment holding (SK Group) with exposure to energy/chemicals linked to S\u2011Oil. | No filing or corpus reference found. |\n|  | Shell \u2013 Oil & Gas Producers (UK) | Tier\u202f2 refined\u2011fuels and lubricants producer that trades with S\u2011Oil. | No filing or corpus reference found. |\n|  | Mercedes\u2011Benz \u2013 Automotive (Germany) | Tier\u202f2 premium vehicle maker using plastics/chemicals from S\u2011Oil\u2019s supply chain. | No filing or corpus reference found. |\n|  | BP \u2013 Oil & Gas Producers (UK) | Tier\u202f2 deep\u2011water offshore crude producer that may purchase refined products from S\u2011Oil. | No filing or corpus reference found. |\n|  | Formosa Petrochemical \u2013 Oil & Gas Producers (Taiwan) | Tier\u202f2 aromatics maker (paraxylene, benzene) using S\u2011Oil feedstock. | No filing or corpus reference found. |\n|  | POSCO \u2013 Steel (South Korea) | Tier\u202f2 steel producer that consumes energy and chemicals supplied by S\u2011Oil. | No filing or corpus reference found. |\n|  | PT Perusahaan Listrik Negara \u2013 Electric Utilities (Indonesia) | Tier\u202f2 grid electricity transmission & distribution entity using fuel from S\u2011Oil. | No filing or corpus reference found. |\n|  | Toyota Motor \u2013 Automotive (Japan) | Tier\u202f2 passenger\u2011vehicle maker (incl. hybrids) that uses plastics/chemicals derived from S\u2011Oil. | No filing or corpus reference found. |\n|  | Exxon\u202fMobil \u2013 Oil & Gas Producers (USA) | Tier\u202f2 refined\u2011petroleum fuels producer that trades with S\u2011Oil. | No filing or corpus reference found. |\n|  | Lucky Cement \u2013 Construction Materials (Pakistan) | Tier\u202f2 cement maker using energy/chemicals linked to S\u2011Oil. | No filing or corpus reference found. |\n|  | Kumho Petrochemical \u2013 Chemicals (South Korea) | Tier\u202f2 synthetic\u2011rubber producer dependent on S\u2011Oil feedstock. | No filing or corpus reference found. |\n|  | Vedanta \u2013 Metals & Mining (India) | Tier\u202f2 aluminium/zinc/base\u2011metal producer that may source energy from S\u2011Oil. | No filing or corpus reference found. |\n|  | Samsung Electronics \u2013 Technology Hardware (South Korea) | Tier\u202f2 maker of automotive electronics/semiconductors using plastics from S\u2011Oil. | No filing or corpus reference found. |\n|  | Cayman Engley Industrial \u2013 Automotive (Cayman Islands) | Tier\u202f2 supplier of body\u2011structural & reinforced\u2011plastic parts; downstream of S\u2011Oil chemicals. | No filing or corpus reference found. |\n|  | Triangle Tyre \u2013 Automotive (China) | Tier\u202f2 tire maker using rubber derived from petrochemical streams linked to S\u2011Oil. | No filing or corpus reference found. |\n|  | Samsung C&T \u2013 Engineering & Construction (South Korea) | Tier\u202f2 construction/engineering & materials trader that may purchase S\u2011Oil products. | No filing or corpus reference found. |\n|  | Indian Oil \u2013 Oil & Gas Producers (India) | Tier\u202f2 refined\u2011fuels and lubricant producer that trades with S\u2011Oil. | No filing or corpus reference found. |\n|  | Formosa Plastics \u2013 Chemicals (Taiwan) | Tier\u202f2 PVC resin & epichlorohydrin maker using S\u2011Oil feedstock. | No filing or corpus reference found. |\n|  | Hyundai Engineering & Construction \u2013 Engineering & Construction (South Korea) | Tier\u202f2 infrastructure/EPC contractor that may source energy/chemicals from S\u2011Oil. | No filing or corpus reference found. |\n|  | Bayerische Motoren Werke (BMW) \u2013 Automotive (Germany) | Tier\u202f2 premium vehicle & motorcycle maker using plastics/chemicals downstream of S\u2011Oil. | No filing or corpus reference found. |\n|  | POSCO International \u2013 Steel (South Korea) | Tier\u202f2 steel & materials trader linked to S\u2011Oil\u2019s supply chain. | No filing or corpus reference found. |\n|  | Jordan Petroleum Refinery \u2013 Oil & Gas Producers (Jordan) | Tier\u202f2 refined\u2011petroleum products maker that could purchase from S\u2011Oil. | No filing or corpus reference found. |\n|  | Taita Chemical \u2013 Chemicals (Taiwan) | Tier\u202f2 polystyrene/ABS/GPPS/EPS producer using S\u2011Oil derived monomers. | No filing or corpus reference found. |\n|  | Volkswagen \u2013 Automotive (Germany) | Tier\u202f2 passenger & commercial\u2011vehicle maker that consumes plastics/chemicals from S\u2011Oil. | No filing or corpus reference found. |\n\n### What the evidence actually shows  \n\n* **Structural risk** \u2013 The *traverse_supply_graph* call identified\n\nCOVERAGE GAPS (40) -- reported explicitly, not omitted:\n  - asiana airlines: no evidence gathered\n  - korea electric power: no evidence gathered\n  - saudi arabian oil: no evidence gathered\n  - e1: no evidence gathered\n  - hanjin transportation: no evidence gathered\n  - saudi basic industries: no evidence gathered\n  - apple: no evidence gathered\n  - ta yih industrial: no evidence gathered\n  - kumho tire: no evidence gathered\n  - hyundai rotem: no evidence gathered\n  - rio tinto: no evidence gathered\n  - ls electric: no evidence gathered\n  - toray industries: no evidence gathered\n  - hdc hyundai engineering plastics: no evidence gathered\n  - toyota tsusho: no evidence gathered\n  - sk innovation: no evidence gathered\n  - lg chem: no evidence gathered\n  - oci: no evidence gathered\n  - sk: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - bp: no evidence gathered\n  - formosa petrochemical: no evidence gathered\n  - perusahaan perseroan persero pt perusahaan listrik negara: no evidence gathered\n  - toyota motor: no evidence gathered\n  - exxon mobil: no evidence gathered\n  - lucky cement: no evidence gathered\n  - kumho petrochemical: no evidence gathered\n  - vedanta: no evidence gathered\n  - samsung electronics: no evidence gathered\n  - cayman engley industrial: no evidence gathered\n  - triangle tyre: no evidence gathered\n  - samsung c&t: no evidence gathered\n  - indian oil: no evidence gathered\n  - formosa plastics: no evidence gathered\n  - hyundai engineering & construction: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - posco international: no evidence gathered\n  - jordan petroleum refinery: no evidence gathered\n  - taita chemical: no evidence gathered\n  - volkswagen: no evidence gathered",
+  "coverage": {
+    "asiana airlines": {
+      "name": "asiana airlines",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "korea electric power": {
+      "name": "korea electric power",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi arabian oil": {
+      "name": "saudi arabian oil",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "e1": {
+      "name": "e1",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hanjin transportation": {
+      "name": "hanjin transportation",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi basic industries": {
+      "name": "saudi basic industries",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "apple": {
+      "name": "apple",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ta yih industrial": {
+      "name": "ta yih industrial",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kumho tire": {
+      "name": "kumho tire",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai rotem": {
+      "name": "hyundai rotem",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "rio tinto": {
+      "name": "rio tinto",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ls electric": {
+      "name": "ls electric",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toray industries": {
+      "name": "toray industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hdc hyundai engineering plastics": {
+      "name": "hdc hyundai engineering plastics",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota tsusho": {
+      "name": "toyota tsusho",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk innovation": {
+      "name": "sk innovation",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lg chem": {
+      "name": "lg chem",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "oci": {
+      "name": "oci",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk": {
+      "name": "sk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shell": {
+      "name": "shell",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa petrochemical": {
+      "name": "formosa petrochemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco": {
+      "name": "posco",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 21,
+      "tag_mismatch": null
+    },
+    "perusahaan perseroan persero pt perusahaan listrik negara": {
+      "name": "perusahaan perseroan persero pt perusahaan listrik negara",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "exxon mobil": {
+      "name": "exxon mobil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lucky cement": {
+      "name": "lucky cement",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kumho petrochemical": {
+      "name": "kumho petrochemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "vedanta": {
+      "name": "vedanta",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung electronics": {
+      "name": "samsung electronics",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "cayman engley industrial": {
+      "name": "cayman engley industrial",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "triangle tyre": {
+      "name": "triangle tyre",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung c&t": {
+      "name": "samsung c&t",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "indian oil": {
+      "name": "indian oil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa plastics": {
+      "name": "formosa plastics",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai engineering & construction": {
+      "name": "hyundai engineering & construction",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco international": {
+      "name": "posco international",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jordan petroleum refinery": {
+      "name": "jordan petroleum refinery",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "taita chemical": {
+      "name": "taita chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volkswagen": {
+      "name": "volkswagen",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bhp": {
+      "name": "bhp",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eni": {
+      "name": "eni",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "panasonic": {
+      "name": "panasonic",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "S-OIL",
+      "summary": "[downstream of 's-oil' | 42 enriched companies found, 161 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'S-OIL' | as of 2022-05-19 | 10 result(s) across 4 distinct companies]"
+    },
+    {
+      "hop": 3,
+      "tool": "get_supplier_info",
+      "status": "chunks_missing",
+      "company_name": "Korea Electric Power",
+      "summary": "Manifest lists a document for 'Korea Electric Power' (doc_id=65646323d345b641, 2022-04-29), but its chunk text could not be located -- likely a join failure."
+    },
+    {
+      "hop": 4,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "POSCO",
+      "summary": "[POSCO | 20-F filed 2022-04-28 (21 days before event) | doc_id=8b5a8d939802ce70]"
+    }
+  ]
+}
