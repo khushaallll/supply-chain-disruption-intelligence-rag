@@ -342,6 +342,39 @@ class GraphStore:
                         "component": attrs.get("component"),
                         "confidence": attrs.get("confidence"),
                     })
+
+            # REVISION (post-30-event real-batch review): sort by
+            # confidence, highest first, WITHIN each tier. Tier grouping
+            # itself (see as_observation()) is unchanged -- this only
+            # orders companies inside a tier, it does not reorder tiers.
+            #
+            # Why this matters: downstream_from() returns each tier as a
+            # Python SET, which has no defined iteration order at all --
+            # `results` was being built in essentially arbitrary order
+            # before this fix, even though every entry already carries a
+            # real `confidence` score. The agent's only signal for "which
+            # candidate is strongest" was therefore buried in an unsorted
+            # wall of text it had to read and compare by hand, on events
+            # where a single tier can hold dozens of candidates.
+            #
+            # Confirmed on the real 30-event trace batch: 70% of the
+            # agent's get_supplier_info calls (26 of 37) targeted a small
+            # set of globally well-known companies (Toyota, Apple, Tesla,
+            # Ford, Hyundai...) rather than the graph's own
+            # highest-confidence candidate for that specific event --
+            # consistent with the model falling back on training-data
+            # familiarity to fill the gap left by an unordered list,
+            # rather than genuinely reading the graph's own confidence
+            # field. This costs nothing to fix -- same companies, same
+            # tiers, same data, only the ORDER changes -- and gives the
+            # agent's limited evidence-gathering turns a principled
+            # "check the strongest candidates first" signal instead.
+            #
+            # None-confidence entries sort last within their tier (via the
+            # `is None` primary key), not first and not scattered randomly
+            # among the real, scored entries.
+            results.sort(key=lambda r: (r["confidence"] is None, -(r["confidence"] or 0)))
+
             status = "found" if results else "no_results"
             return GraphTraversalResult(
                 status=status, mode=mode, company_name=company_name, seed=resolved,
