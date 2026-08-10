@@ -30,9 +30,9 @@ from typing import Optional
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from tools.graph_tool import GraphStore
-from tools.supplier_info_tool import SupplierInfoStore
-from tools.search_corpus_tool import CorpusSearchStore
+from agent.tools.graph_tool import GraphStore
+from agent.tools.supplier_info_tool import SupplierInfoStore
+from agent.tools.search_corpus_tool import CorpusSearchStore
 from phonebook import Phonebook
 
 from agent_state import make_initial_state
@@ -74,14 +74,38 @@ def build_real_stores():
     return graph_store, supplier_store, corpus_store
 
 
+def build_app(provider: str = "ollama", model: Optional[str] = None):
+    """
+    Builds everything ONCE: the real stores (expensive -- loads the graph
+    pickle, the embedding model, connects to Chroma), the tool bindings,
+    the LLM, and the compiled graph. Returns (app, graph_store) --
+    graph_store is returned separately because run_all_events.py needs it
+    to check whether a guessed seed company name actually resolves BEFORE
+    spending a hop (and a real API call) on an event that can't work.
+
+    Split out from run_one_event() specifically so a batch run across many
+    events (run_all_events.py) can build this expensive state ONCE and
+    reuse it, rather than reloading the graph/corpus/embedding model from
+    scratch for every single event -- the same "load once, call many
+    times" principle every Day 7 store already follows internally.
+    """
+    graph_store, supplier_store, corpus_store = build_real_stores()
+    llm_tools, raw_dispatch = build_tool_bindings(graph_store, supplier_store, corpus_store)
+    llm = build_llm(provider=provider, model=model)
+    app = build_agent_graph(llm, llm_tools, raw_dispatch)
+    return app, graph_store
+
+
 def run_one_event(
+    app,
     company_name: str,
     event_date: str,
     event_id: Optional[str] = None,
     max_hops: int = 4,
-    model: Optional[str] = None,
 ) -> dict:
     """
+    Runs a single event through an ALREADY-BUILT app (see build_app()).
+
     company_name : the disrupted company (the traversal seed) -- e.g. "Aurizon"
     event_date   : 'YYYY-MM-DD', the leakage-guard cutoff for every tool call
     event_id     : optional -- your own event_id (e.g. '11_aurizon_2010'),
@@ -90,20 +114,12 @@ def run_one_event(
                    anything else, and never shown to the model as an
                    instruction to match against ground truth (see the Day 8
                    discussion on why the agent must stay blind to that).
-    model        : optional override for llm_setup.DEFAULT_MODEL
     """
-    graph_store, supplier_store, corpus_store = build_real_stores()
-    llm_tools, raw_dispatch = build_tool_bindings(graph_store, supplier_store, corpus_store)
-
-    llm = build_llm(model=model) if model else build_llm()
-    app = build_agent_graph(llm, llm_tools, raw_dispatch)
-
     query = (
         f"A disruption has occurred at {company_name}, first reported around "
         f"{event_date}. Investigate which companies are structurally at risk "
         f"and gather evidence on the significant ones."
     )
-
     return app.invoke(make_initial_state(query, max_hops=max_hops))
 
 
@@ -136,7 +152,9 @@ if __name__ == "__main__":
     # [CONFIRM: swap in a real event of your choosing -- this is a
     # placeholder call using the Aurizon event from the Day 8 discussion,
     # not a pre-selected "first" event]
+    app, _graph_store = build_app()
     result = run_one_event(
+        app,
         company_name="Aurizon",
         event_date="2010-12-25",
         event_id="11_aurizon_2010",

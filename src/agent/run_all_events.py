@@ -130,7 +130,7 @@ def run_event_with_retry(app, company_name: str, event_date: str, event_id: str)
 # The batch run
 # --------------------------------------------------------------------------- #
 
-def run_all_events(provider: str = "groq", model: Optional[str] = None,
+def run_all_events(provider: str = "ollama", model: Optional[str] = None,
                     max_hops: int = 4) -> list[dict]:
     events = load_events(GROUND_TRUTH_PATHS)
     if not events:

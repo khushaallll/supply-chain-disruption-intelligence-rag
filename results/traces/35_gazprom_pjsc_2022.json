@@ -1,0 +1,358 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "saudi arabian oil: no evidence gathered",
+    "united co rusal international pjsc: no evidence gathered",
+    "cpc corp/taiwan: no evidence gathered",
+    "chevron: no evidence gathered",
+    "jordan petroleum refinery: no evidence gathered",
+    "sk: no evidence gathered",
+    "hyundai engineering & construction: no evidence gathered",
+    "bp: no evidence gathered",
+    "hyundai motor: no evidence gathered",
+    "e1: no evidence gathered",
+    "nippon steel: no evidence gathered",
+    "tenaris: no evidence gathered",
+    "korea electric power: no evidence gathered",
+    "sk innovation: no evidence gathered",
+    "alcoa: no evidence gathered",
+    "mitsui: no evidence gathered",
+    "apple: no evidence gathered",
+    "saudi basic industries: no evidence gathered",
+    "formosa petrochemical: no evidence gathered",
+    "triangle tyre: no evidence gathered",
+    "formosa chemicals & fibre: no evidence gathered",
+    "glencore: no evidence gathered",
+    "arcelormittal: no evidence gathered",
+    "posco: no evidence gathered",
+    "posco eco & challenge: no evidence gathered",
+    "s-oil: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation focus \u2013\u202fPotential supply\u2011chain fallout from a disruption at Gazprom (identified by the 2022\u201109\u201102 event date).**\n\n| Company that appears to be affected | What the filings say (evidence) | How many independent sources |\n|-------------------------------------|---------------------------------|------------------------------|\n| **Eni S.p.A.** | \u2022\u202fIn several 2009\u20112010 SEC\u2011style filings Eni reports that Gazprom *exercised a call option* to buy back the 20\u202f% stake Eni held in OAO\u202fGazprom\u202fNeft (April\u202f7\u202f2009) and later a 51\u202f% interest in the joint venture OOO\u202fSeverEnergia. The cash consideration was recorded (\u2248\u202fUS$4.2\u202fbn). <br>\u2022\u202fEni also notes that, as part of agreements with Gazprom, its **off\u2011take of Russian gas for the Italian market fell by 0.97\u202fBCM** (2008) and later **by 2.75\u202fBCM in 2009**, reflecting Gazprom\u2019s entry into the supply market for Italian importers.<br>\u2022\u202fA 2012 filing records a *pre\u2011liminary agreement* with Gazprom to revise long\u2011term Russian\u2011gas supply contracts, retroactive to early\u20112011. <br>These points are taken from three separate Eni filings (2009\u201104\u201107, 2009\u201104\u201124, 2010\u201104\u201126 and 2012\u201104\u201105). | **Two** \u2013 the same company\u2019s own filing (get_supplier_info not called) plus a corpus\u2011wide search that returned multiple Eni documents. |\n| **Shell plc** | \u2022\u202fA 2022 filing lists Shell\u2019s *joint\u2011venture stakes* with Gazprom\u2011related entities (Sakhalin\u20112, Salym Petroleum Development N.V., Gydan joint venture) and its participation in the **Nord\u202fStream\u202f2** financing project. The filing states that \u201cdecisions to exit ventures with Gazprom\u2026 will impact the carrying value of the related assets and lead to impairments in 2022.\u201d <br>\u2022\u202fThe same document also notes Shell\n\nCOVERAGE GAPS (26) -- reported explicitly, not omitted:\n  - saudi arabian oil: no evidence gathered\n  - united co rusal international pjsc: no evidence gathered\n  - cpc corp/taiwan: no evidence gathered\n  - chevron: no evidence gathered\n  - jordan petroleum refinery: no evidence gathered\n  - sk: no evidence gathered\n  - hyundai engineering & construction: no evidence gathered\n  - bp: no evidence gathered\n  - hyundai motor: no evidence gathered\n  - e1: no evidence gathered\n  - nippon steel: no evidence gathered\n  - tenaris: no evidence gathered\n  - korea electric power: no evidence gathered\n  - sk innovation: no evidence gathered\n  - alcoa: no evidence gathered\n  - mitsui: no evidence gathered\n  - apple: no evidence gathered\n  - saudi basic industries: no evidence gathered\n  - formosa petrochemical: no evidence gathered\n  - triangle tyre: no evidence gathered\n  - formosa chemicals & fibre: no evidence gathered\n  - glencore: no evidence gathered\n  - arcelormittal: no evidence gathered\n  - posco: no evidence gathered\n  - posco eco & challenge: no evidence gathered\n  - s-oil: no evidence gathered",
+  "coverage": {
+    "saudi arabian oil": {
+      "name": "saudi arabian oil",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eni": {
+      "name": "eni",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "united co rusal international pjsc": {
+      "name": "united co rusal international pjsc",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "cpc corp/taiwan": {
+      "name": "cpc corp/taiwan",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "chevron": {
+      "name": "chevron",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jordan petroleum refinery": {
+      "name": "jordan petroleum refinery",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk": {
+      "name": "sk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai engineering & construction": {
+      "name": "hyundai engineering & construction",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai motor": {
+      "name": "hyundai motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "e1": {
+      "name": "e1",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nippon steel": {
+      "name": "nippon steel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tenaris": {
+      "name": "tenaris",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "korea electric power": {
+      "name": "korea electric power",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk innovation": {
+      "name": "sk innovation",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "alcoa": {
+      "name": "alcoa",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mitsui": {
+      "name": "mitsui",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "apple": {
+      "name": "apple",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi basic industries": {
+      "name": "saudi basic industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa petrochemical": {
+      "name": "formosa petrochemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "triangle tyre": {
+      "name": "triangle tyre",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shell": {
+      "name": "shell",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa chemicals & fibre": {
+      "name": "formosa chemicals & fibre",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "glencore": {
+      "name": "glencore",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "arcelormittal": {
+      "name": "arcelormittal",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco": {
+      "name": "posco",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco eco & challenge": {
+      "name": "posco eco & challenge",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "s-oil": {
+      "name": "s-oil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "akzo nobel": {
+      "name": "akzo nobel",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Gazprom PJSC",
+      "summary": "[downstream of 'gazprom pjsc' | 28 enriched companies found, 250 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Gazprom' | as of 2022-09-02 | 20 result(s) across 3 distinct companies]"
+    },
+    {
+      "hop": 3,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Gazprom gas supply to' | as of 2022-09-02 | 20 result(s) across 2 distinct companies]"
+    },
+    {
+      "hop": 4,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Gazprom",
+      "summary": "Could not find 'Gazprom' in the supply graph."
+    }
+  ]
+}
