@@ -1,0 +1,952 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "indian oil: no evidence gathered",
+    "e1: no evidence gathered",
+    "jordan petroleum refinery: no evidence gathered",
+    "sk: no evidence gathered",
+    "cummins: no evidence gathered",
+    "cia siderurgica nacional: no evidence gathered",
+    "lanxess: no evidence gathered",
+    "toyota boshoku: no evidence gathered",
+    "toyota tsusho: no evidence gathered",
+    "volkswagen: no evidence gathered",
+    "hero motocorp: no evidence gathered",
+    "rio tinto: no evidence gathered",
+    "tokai rika: no evidence gathered",
+    "bhp: no evidence gathered",
+    "tianjin faw toyota engine: no evidence gathered",
+    "gac toyota motor: no evidence gathered",
+    "toyota industries: no evidence gathered",
+    "maruti suzuki india: no evidence gathered",
+    "general motors: no evidence gathered",
+    "munjal showa: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "bp: no evidence gathered",
+    "mahindra & mahindra: no evidence gathered",
+    "tata motors: no evidence gathered",
+    "jtekt: no evidence gathered",
+    "borgwarner: no evidence gathered",
+    "hyundai motor: no evidence gathered",
+    "jardine strategic: no evidence gathered",
+    "nagase: no evidence gathered",
+    "stellantis: no evidence gathered",
+    "futaba industrial: no evidence gathered",
+    "china petroleum & chemical: no evidence gathered",
+    "schaeffler: no evidence gathered",
+    "sumitomo rubber industries: no evidence gathered",
+    "kia: no evidence gathered",
+    "exxon mobil: no evidence gathered",
+    "posco international: no evidence gathered",
+    "chuo spring: no evidence gathered",
+    "korea electric power: no evidence gathered",
+    "sk innovation: no evidence gathered",
+    "honda motor: no evidence gathered",
+    "mitsui: no evidence gathered",
+    "kumho petrochemical: no evidence gathered",
+    "saudi basic industries: no evidence gathered",
+    "oci: no evidence gathered",
+    "subaru: no evidence gathered",
+    "hyundai mobis: no evidence gathered",
+    "lg chem: no evidence gathered",
+    "ford motor: no evidence gathered",
+    "aisin: no evidence gathered",
+    "saudi arabian oil: no evidence gathered",
+    "shell: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "sumitomo electric industries: no evidence gathered",
+    "romeo power: no evidence gathered",
+    "aisan industry: no evidence gathered",
+    "volvo car ab: no evidence gathered",
+    "byd: no evidence gathered",
+    "volvo ab: no evidence gathered",
+    "hansol chemical: no evidence gathered",
+    "eicher motors: no evidence gathered",
+    "china faw: no evidence gathered",
+    "saic motor: no evidence gathered",
+    "mazda motor: no evidence gathered",
+    "denso: no evidence gathered",
+    "guangdong delian: no evidence gathered",
+    "hino motors: no evidence gathered",
+    "thyssenkrupp: no evidence gathered",
+    "sichuan faw toyota motor: no evidence gathered",
+    "baic bluepark new energy technology: no evidence gathered",
+    "nissan motor: no evidence gathered",
+    "posco: no evidence gathered",
+    "suzuki motor: no evidence gathered",
+    "umw holdings bhd: no evidence gathered",
+    "s-oil: no evidence gathered",
+    "kian shen: no evidence gathered",
+    "samsung c&t: no evidence gathered",
+    "grupo pochteca sab de cv: no evidence gathered",
+    "forvia se: no evidence gathered",
+    "linamar: no evidence gathered",
+    "koito manufacturing: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 Chevron disruption reported around\u202f6\u202fAugust\u202f2012**\n\n| Step | What was done | Key finding |\n|------|---------------|-------------|\n| 1\ufe0f\u20e3   | **Supply\u2011graph traversal (downstream, max\u2011tier\u202f=\u202f2)** on *Chevron* | Identified **82 enriched downstream entities** (plus many unenriched \u201creachable\u201d firms). The first two tiers \u2013 the companies most directly exposed to a Chevron outage \u2013 are listed below. |\n| 2\ufe0f\u20e3   | **Corpus searches** for any filing that mentions the disruption and the downstream firms identified in step\u202f1 | \u2022 A search for *\u201cChevron refinery outage August\u202f2012 \u2026 Indian Oil / Toyota\u201d* returned only generic Chevron filings (refinery projects, sales volumes) and a set of Toyota\u2011Motor annual\u2011report excerpts that discuss unrelated cost\u2011reduction and recall matters. <br>\u2022 A second search for *\u201cChevron Indian\u202fOil 2012\u201d* produced a Chevron filing that mentions its historic 5\u202f% stake in Reliance\u2019s Jamnagar refinery (sold in\u202f2009) \u2013 again, no reference to an August\u202f2012 disruption or any impact on Indian\u202fOil. <br>\u2022 No other downstream company name appeared in the returned documents. |\n| 3\ufe0f\u20e3   | **Cross\u2011checking** (attempted second source per firm) | Because the corpus searches yielded only the above generic Chevron filings, there was no second independent source (e.g., a supplier\u2019s own filing) that could confirm an actual operational impact on any downstream customer or partner. No additional tool calls were available to request those filings directly. |\n\n---\n\n## Companies structurally at risk (Tier\u202f1 & Tier\u202f2)\n\n| Tier | Company (sector) \u2013 why it appears in the graph |\n|------|-----------------------------------------------|\n| **Tier\u202f1** | Indian Oil (Oil\u202f&\u202fGas, India) \u2013 major refined\u2011fuel buyer<br>E1 (Oil\u202f&\u202fGas, South\u202fKorea) \u2013 LPG importer/distributor<br>Jordan Petroleum Refinery (Oil\u202f&\u202fGas, Jordan)<br>SK (Conglomerate, S.\u202fKorea \u2013 batteries/energy)<br>Cummins (Transportation\u202fEquipment, USA \u2013 diesel & alternative\u2011fuel engines)<br>CIA\u202fSider\u00fargica\u202fNacional (Steel, Brazil) \u2013 flat\u2011steel supplier<br>Lanxess (Chemicals, Germany) \u2013 specialty additives<br>Toyota Motor (Automotive, Japan) \u2013 passenger\u2011vehicle manufacturer |\n| **Tier\u202f2** | Toyota\u2011Boshoku, Toyota\u2011Tsusho, Volkswagen, Hero\u202fMotocorp, Rio\u202fTinto, BHP, BP, Mahindra\u202f&\u202fMahindra, Tata\u202fMotors, Stellantis, etc. (full list reproduced in the traversal output) |\n\n*The traversal itself is evidence that these firms are **structurally linked** to Chevron \u2013 they either purchase refined products, use Chevron\u2011derived lubricants or chemicals, or rely on components (e.g., Cummins engines) that could be affected by a prolonged refinery outage.*\n\n---\n\n## Evidence gathered for each downstream firm\n\n| Downstream firm | Evidence found linking it to the **Chevron disruption** |\n|-----------------|----------------------------------------------------------|\n| **Indian\u202fOil** | Only appears in the supply\u2011graph as a downstream customer. No filing or news item (within the four tool calls) mentions any impact from the August\u202f2012 event. |\n| **Toyota Motor** | Appears in the graph (Tier\u202f1). A corpus search returned Toyota\u2019s 2012 annual\u2011report excerpts, but those discuss cost\u2011reduction, recalls and unrelated supply\u2011chain issues \u2013 **no mention of a Chevron outage or any effect on Toyota\u2019s production**. |\n| **Cummins** | Listed as downstream; no specific filing or news item retrieved that connects the August\u202f2012 Chevron event to Cummins\u2019 engine business. |\n| **Lanxess**, **SK**, **E1**, **Jordan Petroleum Refinery**, **Volkswagen**, **BP**, **BHP**, **Mahindra\u202f&\u202fMahindra**, **Tata\u202fMotors**, **Stellantis**, etc. | All appear in the graph, but none were found in any of the returned corpus documents or Chevron filings that discuss an August\u202f2012 disruption. Consequently there is **no corroborating evidence** (from the limited tool budget) that they experienced a material impact. |\n\n*Because only four tool calls were permitted, we could not request each company\u2019s own 10\u2011K/20\u2011F filing (via `get_supplier_info`) to look for \u201cChevron\u201d or \u201crefinery outage\u201d mentions. The corpus searches exhausted the remaining two calls and returned no relevant disclosures.*\n\n---\n\n## What **could NOT** be confirmed\n\n| Item | Reason it remains unverified |\n|------|------------------------------|\n| **Actual operational impact on any downstream company** (e.g., reduced fuel deliveries, production slow\u2011downs) | No filing, press release or SEC disclosure within the searched corpus mentions the August\u202f2012 Chevron event for any of the listed firms. |\n| **Quantitative loss estimates** (volume shortfalls, revenue hit) for downstream customers | Same as above \u2013 no evidence was retrieved. |\n| **Alternative suppliers stepping in** (e.g., other refiners filling the gap) | The traversal shows possible alternative\u2011supplier nodes, but none were identified in the limited filings as having taken over Chevron\u2019s volumes during that period. |\n| **Specific supplier\u2011level disruptions for Tier\u202f2 firms** (e.g., Toyota\u2011Boshoku, Volkswagen) | No direct references found; only structural connections are known from the graph. |\n\n---\n\n## Bottom line\n\n- The **structural supply\u2011chain map** shows a large set of downstream entities\u2014spanning oil & gas producers, chemicals, automotive manufacturers and component makers\u2014that would be exposed to a prolonged Chevron refinery outage.\n- Within the four allowed tool calls we were only able to retrieve **generic Chevron operational disclosures** (refinery projects, sales volumes) and **unrelated Toyota annual\u2011report excerpts**. None of these documents mention the August\u202f2012 disruption nor any downstream impact on the listed firms.\n- Consequently, while the *potential* at\u2011risk list is well defined by the graph, **no concrete evidence was found to confirm that any specific downstream company actually suffered a material effect** from the reported Chevron event.\n\n> **Result:** The investigation identifies many companies that could be affected in theory, but due to tool\u2011call limits and lack of explicit disclosures, the actual impact on each downstream firm remains **unverified**. Further research (e.g., direct 10\u2011K/20\u2011F look\u2011ups for each company) would be required to move from \u201cstructurally at risk\u201d to \u201cconfirmed impacted\u201d.\n\nCOVERAGE GAPS (81) -- reported explicitly, not omitted:\n  - indian oil: no evidence gathered\n  - e1: no evidence gathered\n  - jordan petroleum refinery: no evidence gathered\n  - sk: no evidence gathered\n  - cummins: no evidence gathered\n  - cia siderurgica nacional: no evidence gathered\n  - lanxess: no evidence gathered\n  - toyota boshoku: no evidence gathered\n  - toyota tsusho: no evidence gathered\n  - volkswagen: no evidence gathered\n  - hero motocorp: no evidence gathered\n  - rio tinto: no evidence gathered\n  - tokai rika: no evidence gathered\n  - bhp: no evidence gathered\n  - tianjin faw toyota engine: no evidence gathered\n  - gac toyota motor: no evidence gathered\n  - toyota industries: no evidence gathered\n  - maruti suzuki india: no evidence gathered\n  - general motors: no evidence gathered\n  - munjal showa: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - bp: no evidence gathered\n  - mahindra & mahindra: no evidence gathered\n  - tata motors: no evidence gathered\n  - jtekt: no evidence gathered\n  - borgwarner: no evidence gathered\n  - hyundai motor: no evidence gathered\n  - jardine strategic: no evidence gathered\n  - nagase: no evidence gathered\n  - stellantis: no evidence gathered\n  - futaba industrial: no evidence gathered\n  - china petroleum & chemical: no evidence gathered\n  - schaeffler: no evidence gathered\n  - sumitomo rubber industries: no evidence gathered\n  - kia: no evidence gathered\n  - exxon mobil: no evidence gathered\n  - posco international: no evidence gathered\n  - chuo spring: no evidence gathered\n  - korea electric power: no evidence gathered\n  - sk innovation: no evidence gathered\n  - honda motor: no evidence gathered\n  - mitsui: no evidence gathered\n  - kumho petrochemical: no evidence gathered\n  - saudi basic industries: no evidence gathered\n  - oci: no evidence gathered\n  - subaru: no evidence gathered\n  - hyundai mobis: no evidence gathered\n  - lg chem: no evidence gathered\n  - ford motor: no evidence gathered\n  - aisin: no evidence gathered\n  - saudi arabian oil: no evidence gathered\n  - shell: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - sumitomo electric industries: no evidence gathered\n  - romeo power: no evidence gathered\n  - aisan industry: no evidence gathered\n  - volvo car ab: no evidence gathered\n  - byd: no evidence gathered\n  - volvo ab: no evidence gathered\n  - hansol chemical: no evidence gathered\n  - eicher motors: no evidence gathered\n  - china faw: no evidence gathered\n  - saic motor: no evidence gathered\n  - mazda motor: no evidence gathered\n  - denso: no evidence gathered\n  - guangdong delian: no evidence gathered\n  - hino motors: no evidence gathered\n  - thyssenkrupp: no evidence gathered\n  - sichuan faw toyota motor: no evidence gathered\n  - baic bluepark new energy technology: no evidence gathered\n  - nissan motor: no evidence gathered\n  - posco: no evidence gathered\n  - suzuki motor: no evidence gathered\n  - umw holdings bhd: no evidence gathered\n  - s-oil: no evidence gathered\n  - kian shen: no evidence gathered\n  - samsung c&t: no evidence gathered\n  - grupo pochteca sab de cv: no evidence gathered\n  - forvia se: no evidence gathered\n  - linamar: no evidence gathered\n  - koito manufacturing: no evidence gathered",
+  "coverage": {
+    "indian oil": {
+      "name": "indian oil",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "e1": {
+      "name": "e1",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jordan petroleum refinery": {
+      "name": "jordan petroleum refinery",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk": {
+      "name": "sk",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "cummins": {
+      "name": "cummins",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "cia siderurgica nacional": {
+      "name": "cia siderurgica nacional",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lanxess": {
+      "name": "lanxess",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota boshoku": {
+      "name": "toyota boshoku",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota tsusho": {
+      "name": "toyota tsusho",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volkswagen": {
+      "name": "volkswagen",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hero motocorp": {
+      "name": "hero motocorp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "rio tinto": {
+      "name": "rio tinto",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tokai rika": {
+      "name": "tokai rika",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bhp": {
+      "name": "bhp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tianjin faw toyota engine": {
+      "name": "tianjin faw toyota engine",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "gac toyota motor": {
+      "name": "gac toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota industries": {
+      "name": "toyota industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "maruti suzuki india": {
+      "name": "maruti suzuki india",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "general motors": {
+      "name": "general motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "munjal showa": {
+      "name": "munjal showa",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mahindra & mahindra": {
+      "name": "mahindra & mahindra",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tata motors": {
+      "name": "tata motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jtekt": {
+      "name": "jtekt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "borgwarner": {
+      "name": "borgwarner",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai motor": {
+      "name": "hyundai motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jardine strategic": {
+      "name": "jardine strategic",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nagase": {
+      "name": "nagase",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "stellantis": {
+      "name": "stellantis",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "futaba industrial": {
+      "name": "futaba industrial",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "china petroleum & chemical": {
+      "name": "china petroleum & chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "schaeffler": {
+      "name": "schaeffler",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sumitomo rubber industries": {
+      "name": "sumitomo rubber industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kia": {
+      "name": "kia",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "exxon mobil": {
+      "name": "exxon mobil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco international": {
+      "name": "posco international",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "chuo spring": {
+      "name": "chuo spring",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "korea electric power": {
+      "name": "korea electric power",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk innovation": {
+      "name": "sk innovation",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "honda motor": {
+      "name": "honda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mitsui": {
+      "name": "mitsui",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kumho petrochemical": {
+      "name": "kumho petrochemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi basic industries": {
+      "name": "saudi basic industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "oci": {
+      "name": "oci",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "subaru": {
+      "name": "subaru",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai mobis": {
+      "name": "hyundai mobis",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lg chem": {
+      "name": "lg chem",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aisin": {
+      "name": "aisin",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi arabian oil": {
+      "name": "saudi arabian oil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shell": {
+      "name": "shell",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sumitomo electric industries": {
+      "name": "sumitomo electric industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "romeo power": {
+      "name": "romeo power",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aisan industry": {
+      "name": "aisan industry",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volvo car ab": {
+      "name": "volvo car ab",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "byd": {
+      "name": "byd",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volvo ab": {
+      "name": "volvo ab",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hansol chemical": {
+      "name": "hansol chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eicher motors": {
+      "name": "eicher motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "china faw": {
+      "name": "china faw",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saic motor": {
+      "name": "saic motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mazda motor": {
+      "name": "mazda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "denso": {
+      "name": "denso",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "guangdong delian": {
+      "name": "guangdong delian",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hino motors": {
+      "name": "hino motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "thyssenkrupp": {
+      "name": "thyssenkrupp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sichuan faw toyota motor": {
+      "name": "sichuan faw toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "baic bluepark new energy technology": {
+      "name": "baic bluepark new energy technology",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nissan motor": {
+      "name": "nissan motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco": {
+      "name": "posco",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "suzuki motor": {
+      "name": "suzuki motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "umw holdings bhd": {
+      "name": "umw holdings bhd",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "s-oil": {
+      "name": "s-oil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kian shen": {
+      "name": "kian shen",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung c&t": {
+      "name": "samsung c&t",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "grupo pochteca sab de cv": {
+      "name": "grupo pochteca sab de cv",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "forvia se": {
+      "name": "forvia se",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "linamar": {
+      "name": "linamar",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "koito manufacturing": {
+      "name": "koito manufacturing",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "chevron": {
+      "name": "chevron",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Chevron",
+      "summary": "[downstream of 'chevron' | 82 enriched companies found, 204 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Chevron disruption August 2012 refinery outage' | as of 2012-08-06 | 10 result(s) across 1 distinct company]"
+    },
+    {
+      "hop": 3,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Chevron refinery outage August 2012 impact Indian Oil Toyota' | as of 2012-08-06 | 10 result(s) across 2 distinct companies]"
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Chevron Indian Oil 2012' | as of 2012-08-06 | 5 result(s) across 1 distinct company]"
+    }
+  ]
+}
