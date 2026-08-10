@@ -1,0 +1,634 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "contemporary amperex technology: no evidence gathered",
+    "volvo car ab: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "nio: no evidence gathered",
+    "yunnan chihong zinc&germanium: no evidence gathered",
+    "beijing automotive: no evidence gathered",
+    "tdk: no evidence gathered",
+    "tata motors: no evidence gathered",
+    "cngr advanced material: no evidence gathered",
+    "baoshan iron & steel: no evidence gathered",
+    "eve energy: no evidence gathered",
+    "hyundai motor: no evidence gathered",
+    "brilliance china automotive: no evidence gathered",
+    "kia: no evidence gathered",
+    "bmw brilliance automotive: no evidence gathered",
+    "stellantis: no evidence gathered",
+    "chongqing changan automobile: no evidence gathered",
+    "aneka tambang tbk: no evidence gathered",
+    "shanghai jiao yun: no evidence gathered",
+    "geely automobile: no evidence gathered",
+    "baic bluepark new energy technology: no evidence gathered",
+    "nissan motor: no evidence gathered",
+    "state grid corp of china: no evidence gathered",
+    "taiwan cement: no evidence gathered",
+    "xinxiang tianli energy: no evidence gathered",
+    "honda motor: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "volvo ab: no evidence gathered",
+    "vinfast auto: no evidence gathered",
+    "xiamen tungsten: no evidence gathered",
+    "toyota motor: no evidence gathered",
+    "guangzhou automobile: no evidence gathered",
+    "tong yang industry: no evidence gathered",
+    "saudi basic industries: no evidence gathered",
+    "xinchen china power: no evidence gathered",
+    "baic motor: no evidence gathered",
+    "dongfeng motor: no evidence gathered",
+    "xpeng: no evidence gathered",
+    "gem: no evidence gathered",
+    "dongfeng automobile: no evidence gathered",
+    "great wall motor: no evidence gathered",
+    "saic motor: no evidence gathered",
+    "li auto: no evidence gathered",
+    "seres: no evidence gathered",
+    "nwtn: no evidence gathered",
+    "hyundai mobis: no evidence gathered",
+    "chery automobile: no evidence gathered",
+    "daimler truck holding: no evidence gathered",
+    "volkswagen: no evidence gathered",
+    "ningbo shanshan: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 Yunnan Aluminium (disruption first reported\u202f\u2248\u202f10\u202fSept\u202f2022)**  \n\n| Company (structurally downstream of Yunnan\u202fAluminium) | Tier in the supply\u2011graph* | Evidence found | What the evidence tells us |\n|---|---|---|---|\n| **Aluminum Corp. of China Ltd. (Chalco)** | 1 | \u2022 *search_corpus* result shows multiple filing excerpts where Chalco discusses its share\u2011subscription agreements with Yunnan\u202fAluminium and repeatedly notes that \u201cYunnan Aluminium \u2026 competes with us in the business segments of alumina and primary aluminium\u201d\u3010search_corpus\u20113\u2020L1-L9\u3011\u3010search_corpus\u20113\u2020L31-L38\u3011 | Confirms a direct commercial relationship (competition & equity stakes) between Chalco and Yunnan\u202fAluminium. Because they are rivals for the same raw\u2011material market, any production shortfall at Yunnan\u202fAluminium could affect Chalco\u2019s market position or pricing strategy. |\n| **Volvo Car AB** | 1 | No filing or corpus mention linking Volvo to Yunnan\u202fAluminium was retrieved in the four allowed calls. | The supply\u2011graph flags Volvo as a downstream aluminium consumer, but we have no documentary proof that the September\u20112022 disruption impacted Volvo\u2019s production or sourcing. |\n| **BMW (Bayerische Motoren Werke)** | 1 | No evidence found. | Same situation as Volvo \u2013 identified by the graph only. |\n| **Hyundai Motor Co.** | 1 | No evidence found. | Identified by the graph only. |\n| **Toyota Motor Corp.** | 1 | No evidence found. | Identified by the graph only. |\n| **Tesla, Inc.** | 2 | *get_supplier_info* returned Tesla\u2019s FY\u202f2021 Form\u202f10\u2011K (a generic filing with no reference to Yunnan\u202fAluminium or any supply issue)\u3010get_supplier_info\u20112\u2020L1-L30\u3011 | The filing does not mention Yunnan\u202fAluminium, so we cannot confirm any impact on Tesla. |\n| **NIO Inc., XPeng Inc., Li Auto Inc., BYD Co. (and other Chinese EV makers)** | 1\u20132 | No evidence found. | Only the supply\u2011graph lists them as downstream users of aluminium; no filing or corpus reference to a disruption was retrieved. |\n| **Other Tier\u20111 & Tier\u20112 automotive manufacturers** (e.g., Tata\u202fMotors, Kia, Stellantis, Geely Automobile, BAIC BluePark New Energy, etc.) | 1\u20132 | No evidence found. | Same as above \u2013 identified structurally but not corroborated by any filing or corpus mention within the limited tool budget. |\n\n\\* *Tier* reflects distance from Yunnan\u202fAluminium in the downstream traversal (Tier\u202f1 = direct customers; Tier\u202f2 = customers of those customers). The traversal was performed with `max_tier=2` as required.\n\n---\n\n### What could not be confirmed\n\n* **The specific nature or magnitude of the September\u20112022 disruption** \u2013 none of the filings or corpus searches retrieved a statement that Yunnan\u202fAluminium experienced an outage, plant shutdown, raw\u2011material shortage, or any other event in early September\u202f2022.  \n* **Direct impact on downstream manufacturers** \u2013 apart from the documented competitive relationship between Chalco and Yunnan\u202fAluminium, no SEC filing, annual report excerpt, or other corporate disclosure mentions supply interruptions, order cancellations, price spikes, or production delays at any of the listed downstream firms (Volvo, BMW, Hyundai, Toyota, Tesla, Chinese EV makers, etc.).  \n* **Alternative suppliers or mitigation actions** \u2013 the investigation did not uncover any filings that discuss how affected customers might have sourced aluminium elsewhere or re\u2011routed supply chains in response to the disruption.\n\n### Overall assessment\n\nThe downstream supply\u2011graph shows a very large set of automotive and related manufacturers (\u2248\u202f50\u202fcompanies) that could be **structurally at risk** if Yunnan\u202fAluminium\u2019s\n\nCOVERAGE GAPS (50) -- reported explicitly, not omitted:\n  - contemporary amperex technology: no evidence gathered\n  - volvo car ab: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - nio: no evidence gathered\n  - yunnan chihong zinc&germanium: no evidence gathered\n  - beijing automotive: no evidence gathered\n  - tdk: no evidence gathered\n  - tata motors: no evidence gathered\n  - cngr advanced material: no evidence gathered\n  - baoshan iron & steel: no evidence gathered\n  - eve energy: no evidence gathered\n  - hyundai motor: no evidence gathered\n  - brilliance china automotive: no evidence gathered\n  - kia: no evidence gathered\n  - bmw brilliance automotive: no evidence gathered\n  - stellantis: no evidence gathered\n  - chongqing changan automobile: no evidence gathered\n  - aneka tambang tbk: no evidence gathered\n  - shanghai jiao yun: no evidence gathered\n  - geely automobile: no evidence gathered\n  - baic bluepark new energy technology: no evidence gathered\n  - nissan motor: no evidence gathered\n  - state grid corp of china: no evidence gathered\n  - taiwan cement: no evidence gathered\n  - xinxiang tianli energy: no evidence gathered\n  - honda motor: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - volvo ab: no evidence gathered\n  - vinfast auto: no evidence gathered\n  - xiamen tungsten: no evidence gathered\n  - toyota motor: no evidence gathered\n  - guangzhou automobile: no evidence gathered\n  - tong yang industry: no evidence gathered\n  - saudi basic industries: no evidence gathered\n  - xinchen china power: no evidence gathered\n  - baic motor: no evidence gathered\n  - dongfeng motor: no evidence gathered\n  - xpeng: no evidence gathered\n  - gem: no evidence gathered\n  - dongfeng automobile: no evidence gathered\n  - great wall motor: no evidence gathered\n  - saic motor: no evidence gathered\n  - li auto: no evidence gathered\n  - seres: no evidence gathered\n  - nwtn: no evidence gathered\n  - hyundai mobis: no evidence gathered\n  - chery automobile: no evidence gathered\n  - daimler truck holding: no evidence gathered\n  - volkswagen: no evidence gathered\n  - ningbo shanshan: no evidence gathered",
+  "coverage": {
+    "contemporary amperex technology": {
+      "name": "contemporary amperex technology",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aluminum corp of china": {
+      "name": "aluminum corp of china",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volvo car ab": {
+      "name": "volvo car ab",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nio": {
+      "name": "nio",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "yunnan chihong zinc&germanium": {
+      "name": "yunnan chihong zinc&germanium",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "beijing automotive": {
+      "name": "beijing automotive",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tdk": {
+      "name": "tdk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tata motors": {
+      "name": "tata motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "cngr advanced material": {
+      "name": "cngr advanced material",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "baoshan iron & steel": {
+      "name": "baoshan iron & steel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eve energy": {
+      "name": "eve energy",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai motor": {
+      "name": "hyundai motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "brilliance china automotive": {
+      "name": "brilliance china automotive",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kia": {
+      "name": "kia",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bmw brilliance automotive": {
+      "name": "bmw brilliance automotive",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "stellantis": {
+      "name": "stellantis",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "chongqing changan automobile": {
+      "name": "chongqing changan automobile",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aneka tambang tbk": {
+      "name": "aneka tambang tbk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shanghai jiao yun": {
+      "name": "shanghai jiao yun",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tesla": {
+      "name": "tesla",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 220,
+      "tag_mismatch": null
+    },
+    "geely automobile": {
+      "name": "geely automobile",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "baic bluepark new energy technology": {
+      "name": "baic bluepark new energy technology",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nissan motor": {
+      "name": "nissan motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "state grid corp of china": {
+      "name": "state grid corp of china",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "taiwan cement": {
+      "name": "taiwan cement",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "xinxiang tianli energy": {
+      "name": "xinxiang tianli energy",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "honda motor": {
+      "name": "honda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volvo ab": {
+      "name": "volvo ab",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "vinfast auto": {
+      "name": "vinfast auto",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "xiamen tungsten": {
+      "name": "xiamen tungsten",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "guangzhou automobile": {
+      "name": "guangzhou automobile",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tong yang industry": {
+      "name": "tong yang industry",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi basic industries": {
+      "name": "saudi basic industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "xinchen china power": {
+      "name": "xinchen china power",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "baic motor": {
+      "name": "baic motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dongfeng motor": {
+      "name": "dongfeng motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "xpeng": {
+      "name": "xpeng",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "gem": {
+      "name": "gem",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dongfeng automobile": {
+      "name": "dongfeng automobile",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "great wall motor": {
+      "name": "great wall motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saic motor": {
+      "name": "saic motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "polestar automotive holding uk": {
+      "name": "polestar automotive holding uk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "li auto": {
+      "name": "li auto",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "seres": {
+      "name": "seres",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nwtn": {
+      "name": "nwtn",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai mobis": {
+      "name": "hyundai mobis",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "chery automobile": {
+      "name": "chery automobile",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "daimler truck holding": {
+      "name": "daimler truck holding",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volkswagen": {
+      "name": "volkswagen",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ningbo shanshan": {
+      "name": "ningbo shanshan",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Yunnan Aluminium",
+      "summary": "[downstream of 'yunnan aluminium' | 54 enriched companies found, 117 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "Tesla",
+      "summary": "[Tesla | 10-K filed 2022-02-07 (220 days before event) | doc_id=7427e37eddcaea29]"
+    },
+    {
+      "hop": 3,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Yunnan Aluminium disruption' | as of 2022-09-15 | 10 result(s) across 1 distinct company]"
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: '\"Yunnan Aluminium\" Volvo' | as of 2022-09-15 | 5 result(s) across 3 distinct companies]"
+    }
+  ]
+}

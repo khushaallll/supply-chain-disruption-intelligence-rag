@@ -1,0 +1,214 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "aurizon: no evidence gathered",
+    "tata steel: no evidence gathered",
+    "bhp: no evidence gathered",
+    "renault: no evidence gathered",
+    "rio tinto: no evidence gathered",
+    "toyota motor: no evidence gathered",
+    "ford motor: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "honda motor: no evidence gathered",
+    "glencore: no evidence gathered",
+    "bp: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "eicher motors: no evidence gathered",
+    "skf ab: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation goal:**\u202fIdentify which companies are structurally exposed to a disruption at **Coronado Global Resources\u202f(CRN)** that was first reported around\u202f1\u202fOct\u202f2020, and collect filing\u2011based evidence for the most significant downstream firms.\n\n---\n\n## 1. Structural exposure \u2013 what the supply\u2011graph shows  \n\nThe *traverse_supply_graph* call (downstream, max_tier\u202f=\u202f2) maps the two\u2011tier network that would be affected if Coronado\u2019s coal output were curtailed.\n\n| Tier | Company (sector & country) | Why it appears in the graph |\n|------|----------------------------|------------------------------|\n| **Tier\u202f1** (direct customers / immediate downstream users) | **Aurizon** \u2013 Transportation & Logistics, Australia | Provides rail\u2011freight haulage for coal shipments. |\n|  | **Tata Steel** \u2013 Steel, India | Purchases metallurgical coal from Coronado (see Coronado filing \u201cLong\u2011Term Coal Sale and Purchase Agreement with Tata\u202fSteel\u201d). |\n| **Tier\u202f2** (customers of Tier\u202f1 or alternative suppliers) | **BHP** \u2013 Metals & Mining, Australia | Large miner that also consumes/ships metallurgical coal; linked through logistics chains. |\n|  | **Renault** \u2013 Automotive, France | Uses steel (and thus metallurgical\u2011coal\u2011derived coke) in vehicle production. |\n|  | **Rio\u202fTinto** \u2013 Metals & Mining, UK | Similar to BHP \u2013 downstream of steel/metal producers. |\n|  | **Toyota Motor** \u2013 Automotive, Japan | Steel\u2011intensive OEM; indirect exposure via steel suppliers. |\n|  | **Ford Motor** \u2013 Automotive, USA | Same logic as Toyota. |\n|  | **BMW (Bayerische\u202fMotoren\u202fWerke)** \u2013 Automotive, Germany | Steel\u2011intensive OEM. |\n|  | **Honda Motor** \u2013 Automotive, Japan | Steel\u2011intensive OEM. |\n|  | **Glencore** \u2013 Metals & Mining, UK | Major coal trader; could be an alternative supplier or competitor that would feel market pressure. |\n|  | **BP** \u2013 Oil\u202f&\u202fGas Producers, UK | Not a direct coal consumer but linked through energy\u2011market dynamics (e.g., power\u2011generation fuel mix). |\n|  | **Mercedes\u2011Benz** \u2013 Automotive, Germany | Steel\u2011intensive OEM. |\n|  | **Eicher Motors** \u2013 Automotive, India | Small\u2011scale OEM; indirect exposure. |\n|  | **SKF\u202fAB** \u2013 Industrial Intermediate Products, Sweden | Produces bearings that use steel; downstream of steel producers. |\n\n*These companies are the \u201csignificant\u201d ones identified by the graph because they sit within two hops of Coronado\u2019s coal production.*\n\n---\n\n## 2. Evidence collected\n\n### a) Structural link (graph output)\n\n- The **traverse_supply_graph** result itself is concrete evidence that each listed firm is either a direct downstream customer (Tier\u202f1) or an indirect downstream user/alternative supplier (Tier\u202f2).  \n- Confidence scores for all entries are \u201cHigh,\u201d indicating the underlying data source (company\u2011relationship database) supports these connections.\n\n### b) Coronado\u2019s own filings \u2013 proof of key downstream relationships  \n\nThe *search_corpus* calls (both dated 2020\u201102\u201124, i.e., before the Oct\u202f2020 event) returned excerpts from Coronado\u2019s Form\u202f10\u2011K that describe its customer base and contracts:\n\n1. **Long\u2011Term Coal Sale & Purchase Agreement with Tata Steel** \u2013 \u201cTata Steel \u2026 provides for the sale of a minimum of 2.0\u202fMMt of coal per contract year\u201d (see excerpt under \u201cTata Steel\u201d in result\u202f5).  \n   *Implication:* Tata Steel is a material buyer of Coronado\u2019s metallurgical coal; any supply interruption would affect its raw\u2011material intake.\n\n2. **Sales to Xcoal & Tata Steel represent 21.6\u202f% and 16.3\u202f% of total revenue** (result\u202f6). The filing notes that loss of the Xcoal relationship would \u201cmaterially and adversely affect\u201d Coronado\u2019s financial condition, underscoring how pivotal these downstream channels are.\n\n3. **General statement that \u201cmost of our coal is sold \u2026 to steel producers\u201d** (result\u202f5) \u2013 confirms that a broad set of steelmakers (including those listed in Tier\u202f1/2) rely on Coronado\u2019s metallurgical coal.\n\nThese passages give *indirect* evidence that the downstream firms identified by the graph are indeed customers or users of Coronado\u2019s product. No filing excerpt directly mentions the Oct\u202f2020 disruption, but the contractual exposure is clear.\n\n### c) Absence of direct confirmation from affected companies  \n\n- **No** `get_supplier_info` calls were possible (tool\u2011call budget exhausted). Consequently we have **no** filings from Aurizon, Tata Steel, BHP, Renault, etc., that explicitly reference a supply problem at Coronado in October\u202f2020.  \n- The *search_corpus* queries for \u201cCoronado\u202fTata\u202fSteel\u201d and \u201cCoronado\u202fmetallurgical\u202fcoal\u201d returned only historical background material (pre\u2011Oct\u202f2020) and no post\u2011disruption commentary.\n\n---\n\n## 3. What could not be confirmed\n\n| Company | Missing evidence |\n|---------|-------------------|\n| **All Tier\u202f1 & Tier\u202f2 firms** (Aurizon, Tata Steel, BHP, Renault, Rio\u202fTinto, Toyota, Ford, BMW, Honda, Glencore, BP, Mercedes\u2011Benz, Eicher Motors, SKF) | \u2022 No filing or public statement that specifically acknowledges a supply interruption from Coronado in Oct\u202f2020.<br>\u2022 No quantitative impact (e.g., production cuts, revenue loss, contract breach notices) found in their SEC/ASX filings. |\n| **Severity / duration of the disruption** | The investigation did not locate any disclosed operational outage dates, production curtailments, or mitigation actions taken by downstream firms after 1\u202fOct\u202f2020. |\n| **Alternative suppliers\u2019 response** | No evidence that companies such as Glencore or BP altered their procurement strategies because of Coronado\u2019s issue. |\n\n---\n\n## 4. Bottom\u2011line assessment\n\n- **Structural risk is clear:** The supply\u2011graph shows a concise set of high\u2011confidence downstream and indirect users (the 14 firms listed above).  \n- **Contractual exposure exists:** Coronado\u2019s own 10\u2011K confirms that major steel producers\u2014most notably Tata\u202fSteel, but also the broader \u201csteel producer\u201d customer base\u2014depend on its metallurgical coal.  \n- **No direct corroboration of impact:** Because we could not retrieve post\u2011Oct\u202f2020 statements from the downstream companies (no `get_supplier_info` calls left and no relevant corpus hits), we cannot verify whether these firms actually experienced material disruption, nor can we gauge the magnitude or duration of any effect.\n\n**Therefore, while the network of potentially affected companies is well\u2011identified, the investigation remains incomplete with respect to concrete evidence of how the October\u202f2020 Coronado disruption translated into operational or financial consequences for those downstream firms.**\n\nCOVERAGE GAPS (14) -- reported explicitly, not omitted:\n  - aurizon: no evidence gathered\n  - tata steel: no evidence gathered\n  - bhp: no evidence gathered\n  - renault: no evidence gathered\n  - rio tinto: no evidence gathered\n  - toyota motor: no evidence gathered\n  - ford motor: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - honda motor: no evidence gathered\n  - glencore: no evidence gathered\n  - bp: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - eicher motors: no evidence gathered\n  - skf ab: no evidence gathered",
+  "coverage": {
+    "aurizon": {
+      "name": "aurizon",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tata steel": {
+      "name": "tata steel",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bhp": {
+      "name": "bhp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "renault": {
+      "name": "renault",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "rio tinto": {
+      "name": "rio tinto",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "honda motor": {
+      "name": "honda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "glencore": {
+      "name": "glencore",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eicher motors": {
+      "name": "eicher motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "skf ab": {
+      "name": "skf ab",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "coronado global resources": {
+      "name": "coronado global resources",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "arcelormittal": {
+      "name": "arcelormittal",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Coronado Global Resources",
+      "summary": "[downstream of 'coronado global resources' | 14 enriched companies found, 19 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Coronado Global Resources' | as of 2020-10-01 | 10 result(s) across 1 distinct company]"
+    },
+    {
+      "hop": 3,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Coronado metallurgical coal' | as of 2020-10-01 | 10 result(s) across 1 distinct company]"
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Coronado Tata Steel' | as of 2020-10-01 | 5 result(s) across 1 distinct company]"
+    }
+  ]
+}

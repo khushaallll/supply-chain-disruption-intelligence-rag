@@ -1,0 +1,203 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "hesteel: no evidence gathered",
+    "beijing shougang: no evidence gathered",
+    "great wall motor: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "ford motor: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "posco: no evidence gathered",
+    "chongqing changan automobile: no evidence gathered",
+    "arcelormittal: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 disruption at State Grid Corp. of China (first reported\u202f\u2248\u202f23\u202fSept\u202f2021)**  \n\n| Tier | Company (down\u2011stream or alternative supplier) | Evidence found in the limited tool budget* | What can be confirmed / what remains unknown |\n|------|-----------------------------------------------|--------------------------------------------|------------------------------------------------|\n| **Tier\u202f1** | **Hesteel** (crude & flat\u2011rolled steel, China) | \u2013 No direct filing or corpus mention returned in the four calls. | Presence in the supply graph is certain, but no public filing or news excerpt was captured to confirm exposure to the State Grid outage. |\n| **Tier\u202f2** | **Beijing Shougang** (flat steel) | \u2013 No evidence retrieved. | Structurally linked, but no corroborating text found. |\n|  | **Great Wall Motor** (SUVs & pickups) | \u2013 No evidence retrieved. | Same as above. |\n|  | **Aluminum Corp of China** (alumina & primary aluminium) | *Corpus search* returned a passage that explicitly discusses the company\u2019s reliance on \u201cChina\u2019s state\u2011owned power companies \u2026 operate all the regional power grids\u201d and mentions State Grid in the context of electricity pricing and supply. | The filing shows the firm depends on the national grid for its energy \u2013 therefore a disruption at State\u202fGrid could materially affect its operations. |\n|  | **China Petroleum & Chemical (Sinopec)** (refined fuels & petrochemicals) | *Corpus search* returned a passage describing Sinopec\u2019s transactions with \u201cother state\u2011controlled entities \u2026 including China\u2019s state\u2011owned power companies\u201d and notes that the group operates under the same regulatory regime as State\u202fGrid. | Confirms Sinopec\u2019s exposure to the state\u2011grid system; a prolonged outage could impact its fuel\u2011refining and distribution activities. |\n|  | **Bayerische Motoren Werke (BMW)** (premium passenger vehicles, Germany) | \u2013 No evidence retrieved. | Structural link is present in the graph, but no filing or news excerpt was captured to verify actual dependence on State\u202fGrid power. |\n|  | **Ford Motor** (passenger & commercial vehicles, USA) | \u2013 No evidence retrieved. | Same as above. |\n|  | **Mercedes\u2011Benz** (premium passenger cars & vans, Germany) | \u2013 No evidence retrieved. | Same as above. |\n|  | **POSCO** (crude & flat\u2011rolled steel, South\u202fKorea) | \u2013 No evidence retrieved. | Same as above. |\n|  | **Toyota Motor** (passenger vehicles, Japan) | *Supplier filing* \u2013 Toyota\u2019s 2021\u201106\u201124 Form\u202f20\u2011F (annual report) was retrieved, but the excerpt contains only standard corporate information; it does not mention State\u202fGrid or any electricity\u2011supply risk. <br>*Corpus search* returned a Toyota filing that discusses joint\u2011venture production in China but makes no reference to State\u202fGrid. | The company is listed as downstream from State\u202fGrid (via its Chinese JV plants), yet the limited evidence does not explicitly confirm exposure to a grid outage. |\n|  | **Chongqing Changan Automobile** (passenger vehicles, China) | \u2013 No evidence retrieved. | Same as above. |\n|  | **ArcelorMittal** (flat\u2011rolled automotive steel, Luxembourg) | \u2013 No evidence retrieved. | Same as above. |\n\n\\*Only four tool calls were permitted and used:\n\n1. **traverse_supply_graph** \u2013 identified the full set of downstream/alternative\u2011supplier companies (12 enriched firms shown above).  \n2. **search_corpus** (query\u202f=\u202f\u201cState Grid Corp of China\u201d) \u2013 returned a broad list of filings; the most relevant excerpts for this investigation were those from *Aluminum Corp of China* and *China Petroleum & Chemical*, which explicitly discuss reliance on state\u2011owned power grids.  \n3. **search_corpus** (query\u202f=\u202f\u201cToyota\u201d \u201cState Grid Corp of China\u201d) \u2013 returned many Toyota filings but none that directly tie the automaker to State\u202fGrid; only generic production\u2011plant descriptions were found.  \n4. **get_supplier_info** \u2013 fetched Toyota Motor\u2019s 2021 Form\u202f20\u2011F, which contains no mention of State\u202fGrid.\n\n### What can be concluded\n\n* The supply\u2011graph analysis shows a clear network of downstream manufacturers and automotive OEMs that obtain electricity (or other services) from the national grid operated by State\u202fGrid Corp.\u202fof\u202fChina.  \n* **Aluminum Corp of China** and **China Petroleum & Chemical** have explicit textual evidence in their filings that they depend on state\u2011owned power utilities\u2014including State\u202fGrid\u2014for electricity, making them *confirmed* as companies at risk from a prolonged outage.  \n* All other listed Tier\u202f1/Tier\u202f2 firms (Hesteel, Beijing Shougang, Great Wall Motor, BMW, Ford, Mercedes\u2011Benz, POSCO, Toyota, Chongqing Changan, ArcelorMittal) are **structurally exposed** according to the graph, but no corroborating filing or news excerpt was captured within the four\u2011call limit. Their actual operational impact remains *unverified*.\n\n### Gaps / Unconfirmed items\n\n* No public SEC\u2011type filing or corpus mention could be retrieved for Hesteel, Beijing\u202fShougang, Great\u202fWall\u202fMotor, BMW, Ford, Mercedes\u2011Benz, POSCO, Chongqing\u202fChangan, and ArcelorMittal that directly ties them to State\u202fGrid power.  \n* Toyota\u2019s own filing does not discuss its Chinese electricity supply; the corpus search did not surface a clear link. Consequently, while Toyota is listed as downstream, we cannot confirm from the available evidence that a State\u202fGrid disruption would materially affect its production.  \n\n**Overall assessment:** The disruption at State\u202fGrid Corp. of China potentially threatens a wide range of steel producers, automotive manufacturers and energy\u2011intensive firms in China (and some foreign OEMs with Chinese operations). Confirmed exposure is documented for **Aluminum Corp of China** and **China Petroleum & Chemical**; exposure for the remaining downstream companies is plausible based on supply\u2011chain topology but lacks direct documentary confirmation within the limited evidence set.\n\nCOVERAGE GAPS (9) -- reported explicitly, not omitted:\n  - hesteel: no evidence gathered\n  - beijing shougang: no evidence gathered\n  - great wall motor: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - ford motor: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - posco: no evidence gathered\n  - chongqing changan automobile: no evidence gathered\n  - arcelormittal: no evidence gathered",
+  "coverage": {
+    "hesteel": {
+      "name": "hesteel",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "beijing shougang": {
+      "name": "beijing shougang",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "great wall motor": {
+      "name": "great wall motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aluminum corp of china": {
+      "name": "aluminum corp of china",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "china petroleum & chemical": {
+      "name": "china petroleum & chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco": {
+      "name": "posco",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 91,
+      "tag_mismatch": null
+    },
+    "chongqing changan automobile": {
+      "name": "chongqing changan automobile",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "arcelormittal": {
+      "name": "arcelormittal",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "apple": {
+      "name": "apple",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lucid": {
+      "name": "lucid",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "petrochina": {
+      "name": "petrochina",
+      "tier": null,
+      "first_seen_hop": 2,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "State Grid Corp of China",
+      "summary": "[downstream of 'state grid corp of china' | 12 enriched companies found, 48 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: '\"State Grid Corp of China\"' | as of 2021-09-23 | 10 result(s) across 5 distinct companies]"
+    },
+    {
+      "hop": 3,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: '\"Toyota\" \"State Grid Corp of China\"' | as of 2021-09-23 | 10 result(s) across 3 distinct companies]"
+    },
+    {
+      "hop": 4,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "Toyota Motor Corporation",
+      "summary": "[Toyota Motor Corporation | 20-F filed 2021-06-24 (91 days before event) | doc_id=e1e1c4b307213ab9]"
+    }
+  ]
+}

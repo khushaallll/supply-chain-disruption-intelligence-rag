@@ -1,0 +1,572 @@
+[
+  {
+    "event_id": "1_posco_2022",
+    "status": "completed",
+    "seed_used": "posco",
+    "event_date": "2022-09-06",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 240,
+    "n_companies_in_coverage": 241,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Only one named downstream company found, and the single supporting article is a POSCO-friendly feature whose framing is that POSCO ultimately averted the delay; all other reporting describes downstream risk to autos/shipbuilding/construction in anticipatory terms ('feared', 'expected') and notes customers held 2-3 months of stock.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Confident that no US-filed downstream disclosure exists (two independent EDGAR full-text sweeps), but Korean DART filings and Korean-language earnings calls were not searchable with my tools, so null here means 'not found in accessible sources', not 'does not exist'."
+    }
+  },
+  {
+    "event_id": "2_nippon_steel_2011",
+    "status": "completed",
+    "seed_used": "nippon steel",
+    "event_date": "2011-03-11",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 308,
+    "n_companies_in_coverage": 314,
+    "scoring_bucket": "B",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Six of the nine companies are evidenced by their own SEC filings or press releases naming specific stopped plants; the remainder are covered by the CRS report.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Same-day dated press statement from Toyota on its own newsroom, corroborated by an EDGAR sweep of all 6-Ks mentioning 'earthquake' between 11 and 18 Mar 2011 which found nothing earlier."
+    }
+  },
+  {
+    "event_id": "4_dow_2017",
+    "status": "completed",
+    "seed_used": "dow",
+    "event_date": "2017-08-25",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 76,
+    "n_companies_in_coverage": 82,
+    "scoring_bucket": "B",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Named-company shutdowns and force-majeure declarations are documented by trade press (ICIS, C&EN), mainstream press (CNBC, Texas Tribune) and, for Univar and Ashland, by the companies' own 8-Ks.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The 2017-08-29 Univar 8-K is solid and primary, but Shell's 27 Aug shutdown announcement and ExxonMobil's TCEQ notices plausibly predate it; I could not retrieve primary URLs for either, so this date may move two days earlier."
+    }
+  },
+  {
+    "event_id": "17_basf_se_2016",
+    "status": "completed",
+    "seed_used": "basf se",
+    "event_date": "2016-10-17",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 211,
+    "n_companies_in_coverage": 218,
+    "scoring_bucket": "C",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "One entry, attributed by a trade-press market report rather than by the company, describing allocation rather than a halt; every other documented effect is market-level with no named counterparty.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is well supported for SEC filers (clean two-term full-text sweep), but German/European regulatory disclosure and non-SEC company statements were outside my reach."
+    }
+  },
+  {
+    "event_id": "18_chevron_2012",
+    "status": "completed",
+    "seed_used": "chevron",
+    "event_date": "2012-08-06",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 81,
+    "n_companies_in_coverage": 83,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. High confidence that the price-spike effect is real and well measured, but low confidence that no named corporate impact exists anywhere; it is a plausible-but-unproven negative.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null follows mechanically from the empty affected list; the EDGAR sweep independently found no non-Chevron filer touching the event."
+    }
+  },
+  {
+    "event_id": "19_cpc_corp_taiwan_2014",
+    "status": "completed",
+    "seed_used": "cpc corp/taiwan",
+    "event_date": "2014-08-01",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 45,
+    "n_companies_in_coverage": 47,
+    "scoring_bucket": "C",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "medium",
+      "ground_truth_affected_reason": "Three named companies with concrete, specific impacts (plant halt under government order, 1,100 MW of generation taken offline, pipeline pressure cut), but two of the three rest primarily on Wikipedia's sourcing rather than on a primary or trade-press document I read directly.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null reflects a tooling gap rather than a genuine absence: MOPS filings almost certainly exist for LCY in early August 2014 and I could not reach them."
+    }
+  },
+  {
+    "event_id": "33_kyushu_electric_power_2018",
+    "status": "completed",
+    "seed_used": "kyushu electric power",
+    "event_date": "2018-10-13",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 274,
+    "n_companies_in_coverage": 278,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. I am confident the graph candidates are wrong-direction (consumers, not generators) and should be scored as true negatives, but I cannot rule out that a Japanese-language source names a specific curtailed operator.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is structurally sound given no identified affected company, though Japanese-language TDnet disclosure was outside my reach."
+    }
+  },
+  {
+    "event_id": "34_korea_electric_power_2011",
+    "status": "completed",
+    "seed_used": "korea electric power",
+    "event_date": "2011-09-15",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 106,
+    "n_companies_in_coverage": 110,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list, but this is a reasonably well-evidenced negative: multiple Korean sources state that large firms with backup generation and priority fabs were spared, which is precisely the population the graph proposes.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is consistent with the empty affected list; DART was not searchable with my tools."
+    }
+  },
+  {
+    "event_id": "47_china_steel_2018",
+    "status": "completed",
+    "seed_used": "china steel",
+    "event_date": "2018-03-01",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 211,
+    "n_companies_in_coverage": 216,
+    "scoring_bucket": "B",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "GM's guidance cut is in its own 8-K and the roughly USD 1bn figures for both GM and Ford are corroborated by Reuters, CBS and the Tax Foundation.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "First-party 10-Q that explicitly attributes a cost increase to US tariffs, located by an exhaustive sweep of every GM and Ford filing in the 90 days after the announcement."
+    }
+  },
+  {
+    "event_id": "48_glencore_2025",
+    "status": "completed",
+    "seed_used": "glencore",
+    "event_date": "2025-02-22",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 150,
+    "n_companies_in_coverage": 160,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Only one entry, and it is a fellow DRC producer rather than a downstream consumer; the genuine downstream effect is visible only in aggregate trade and price data with no named counterparty.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null is well supported for SEC filers (two clean full-text sweeps), but the most likely disclosers are Chinese A-share and Belgian issuers whose filings I could not search."
+    }
+  },
+  {
+    "event_id": "5_formosa_plastics_2021",
+    "status": "completed",
+    "seed_used": "formosa plastics",
+    "event_date": "2021-02-15",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 42,
+    "n_companies_in_coverage": 44,
+    "scoring_bucket": "C",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Nine named companies, of which five have their own SEC filings on the event and three (NXP, Infineon, Samsung) have dated, specific fab shutdowns in trade press with quantified impacts.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Previously rated low because the Pactiv Evergreen passage had been identified by phrase search but not read. The systematic sweep has now retrieved and confirmed the passage; it asserts a real operational impact."
+    }
+  },
+  {
+    "event_id": "8_exxon_mobil_2005",
+    "status": "completed",
+    "seed_used": "exxon mobil",
+    "event_date": "2005-08-29",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 76,
+    "n_companies_in_coverage": 78,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Four named companies: one evidenced by its own 8-K, three by a contemporaneous C&EN report that describes each firm's specific situation rather than generalising.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Dated first-party press release furnished as an 8-K one day after landfall, found via an exhaustive full-text sweep of the first three days of filings."
+    }
+  },
+  {
+    "event_id": "9_xinxiang_tianli_energy_2021",
+    "status": "completed",
+    "seed_used": "xinxiang tianli energy",
+    "event_date": "2021-07-20",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 24,
+    "n_companies_in_coverage": 27,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "medium",
+      "ground_truth_affected_reason": "Five named companies with specific, differentiated impacts from Reuters and CNBC, but none corroborated by a first-party document, and the Foxconn entry is partly a negative finding (main campus unaffected).",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Confident no US filing exists, but Chinese and Taiwanese exchange filings were outside my reach, and Yutong Bus in particular is likely to have filed something."
+    }
+  },
+  {
+    "event_id": "20_formosa_petrochemical_2019",
+    "status": "completed",
+    "seed_used": "formosa petrochemical",
+    "event_date": "2019-04-07",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 94,
+    "n_companies_in_coverage": 101,
+    "scoring_bucket": "C",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "The single entry is probably the directly affected operator rather than a downstream company, and no true downstream party could be named; treat this row as unresolved until the seed attribution is settled.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null reflects a tooling gap rather than an absence: a TWSE MOPS filing on 7 or 8 Apr 2019 is very likely to exist."
+    }
+  },
+  {
+    "event_id": "21_mitsubishi_materials_2014",
+    "status": "completed",
+    "seed_used": "mitsubishi materials",
+    "event_date": "2014-01-09",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 149,
+    "n_companies_in_coverage": 161,
+    "scoring_bucket": "C",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "One entry, resting on a Nikkei figure reached through secondary summaries and not confirmed by SUMCO; the supply link is well established but the magnitude of actual impact is not.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null reflects inability to search Japanese TDnet/EDINET rather than a demonstrated absence."
+    }
+  },
+  {
+    "event_id": "23_s_oil_2022",
+    "status": "completed",
+    "seed_used": "s-oil",
+    "event_date": "2022-05-19",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 40,
+    "n_companies_in_coverage": 45,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. The unit shutdowns are well documented but no source attributes an impact to any named customer, and I cannot rule out that Korean-language trade press did.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null follows mechanically from the empty affected list; the seed's own 2022-05-20 acknowledgement is well established if you decide to relax the downstream-only rule for this row."
+    }
+  },
+  {
+    "event_id": "35_gazprom_pjsc_2022",
+    "status": "completed",
+    "seed_used": "gazprom pjsc",
+    "event_date": "2022-09-02",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 26,
+    "n_companies_in_coverage": 28,
+    "scoring_bucket": "B",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Five named companies with dated, specific, quantified curtailments, all attributed by the companies themselves to European gas and power costs.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The date is right for ArcelorMittal but the citation is a news report rather than the primary release, and an earlier qualifying disclosure (Nyrstar, late August) exists inside the broader event window."
+    }
+  },
+  {
+    "event_id": "36_basf_se_2022",
+    "status": "completed",
+    "seed_used": "basf se",
+    "event_date": "2021-09-27",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 213,
+    "n_companies_in_coverage": 218,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list, and the row is unstable until the date question is resolved, because the 2021 and 2022 phases have different downstream populations.",
+      "date_first_disclosure": "low",
+      "date_first_disclosure_reason": "Null is driven partly by the event itself being poorly specified; I would not treat this row as scoreable until the date_news_first correction is adjudicated."
+    }
+  },
+  {
+    "event_id": "49_xiamen_tungsten_2010",
+    "status": "completed",
+    "seed_used": "xiamen tungsten",
+    "event_date": "2010-09-22",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 104,
+    "n_companies_in_coverage": 107,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list, and the underlying event is itself disputed in peer-reviewed and policy literature; I would not score precision or recall on this row without first deciding whether the embargo is treated as fact.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The zero-hit EDGAR sweep is clean and conclusive for US filers, though Japanese disclosure was outside my reach."
+    }
+  },
+  {
+    "event_id": "50_aneka_tambang_tbk_2020",
+    "status": "completed",
+    "seed_used": "aneka tambang tbk",
+    "event_date": "2019-08-30",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 99,
+    "n_companies_in_coverage": 103,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. The sector-level impact on Chinese NPI smelting is well established, but the affected firms are mostly unlisted or Chinese-listed and none was named in any source I could reach.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The EDGAR sweep is clean and its three hits are all producers or shippers rather than affected consumers; the real disclosure population sits on Chinese and Indonesian exchanges."
+    }
+  },
+  {
+    "event_id": "10_hesteel_2023",
+    "status": "completed",
+    "seed_used": "hesteel",
+    "event_date": "2023-07-29",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 146,
+    "n_companies_in_coverage": 152,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. The macro damage is well quantified but no English-language source names a company, and Chinese-language exchange filings were outside my reach.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null follows mechanically from the empty affected list."
+    }
+  },
+  {
+    "event_id": "11_aurizon_2010",
+    "status": "completed",
+    "seed_used": "aurizon",
+    "event_date": "2010-12-25",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 45,
+    "n_companies_in_coverage": 50,
+    "scoring_bucket": "B",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Nine entries, four of them evidenced by the companies' own SEC filings and the rest by a trade-press list that names each declarant individually.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Earliest hit in an exhaustive two-term full-text sweep of the whole window, and I read the document to confirm it asserts impact."
+    }
+  },
+  {
+    "event_id": "24_bp_2010",
+    "status": "completed",
+    "seed_used": "bp",
+    "event_date": "2010-04-20",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 151,
+    "n_companies_in_coverage": 152,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Three named companies, each evidenced by their own 8-K within ten days of the blowout.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Earliest document in an exhaustive full-text sweep of the first two weeks of 8-K filings, three days after the event."
+    }
+  },
+  {
+    "event_id": "25_petrochina_2005",
+    "status": "completed",
+    "seed_used": "petrochina",
+    "event_date": "2005-11-13",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 37,
+    "n_companies_in_coverage": 38,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. This event's documented harm is environmental and municipal rather than commercial, and I could not confirm the plausible benzene supply effect on any named buyer.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null follows from the empty affected list; the 2005 period is fully searchable on EDGAR so the absence of US downstream filings is a real finding."
+    }
+  },
+  {
+    "event_id": "38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019",
+    "status": "completed",
+    "seed_used": "perusahaan perseroan persero pt perusahaan listrik negara",
+    "event_date": "2019-08-04",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 0,
+    "n_companies_in_coverage": 0,
+    "scoring_bucket": "C",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "medium",
+      "ground_truth_affected_reason": "Sector-level naming (four named mobile operators, two named rail operators) with a government loss estimate and independent network measurement, but no company-specific quantification from the companies themselves.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "The EDGAR sweep is clean and conclusive for US filers; IDX disclosure was outside my reach."
+    }
+  },
+  {
+    "event_id": "40_state_grid_corp_of_china_2021",
+    "status": "completed",
+    "seed_used": "state grid corp of china",
+    "event_date": "2021-09-23",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 9,
+    "n_companies_in_coverage": 15,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Three Taiwanese suppliers named with exact shutdown windows in Reuters reporting of their own exchange filings, plus two US filers identified through their own SEC documents.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Previously rated low because the TTM Technologies passage had been identified by phrase search but not read. The systematic sweep has now retrieved and confirmed the passage; it asserts a real operational impact."
+    }
+  },
+  {
+    "event_id": "41_yunnan_aluminium_2022",
+    "status": "completed",
+    "seed_used": "yunnan aluminium",
+    "event_date": "2022-09-10",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 50,
+    "n_companies_in_coverage": 54,
+    "scoring_bucket": "A",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "low",
+      "ground_truth_affected_reason": "Empty list. The capacity impact is well quantified in aggregate but no downstream buyer is named anywhere I could reach.",
+      "date_first_disclosure": "medium",
+      "date_first_disclosure_reason": "Null follows from the empty affected list; Chinese exchange filings were outside my reach."
+    }
+  },
+  {
+    "event_id": "54_yunnan_chihong_zinc_germanium_2023",
+    "status": "completed",
+    "seed_used": "yunnan chihong zinc&germanium",
+    "event_date": "2023-07-03",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 0,
+    "n_companies_in_coverage": 0,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Single entry but exceptionally well evidenced: the company's own 8-K, two 10-Qs and two dated investor-relations releases, with a quantified revenue exposure and a documented seven-week shipment interruption.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Dated first-party 8-K two days after the announcement, found through an exhaustive entity-restricted full-text sweep."
+    }
+  },
+  {
+    "event_id": "57_united_co_rusal_international_pjsc_2018",
+    "status": "completed",
+    "seed_used": "united co rusal international pjsc",
+    "event_date": "2018-04-06",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 20,
+    "n_companies_in_coverage": 27,
+    "scoring_bucket": "D",
+    "score_for_recall": false,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "high",
+      "ground_truth_affected_reason": "Five named companies, all evidenced by their own SEC filings within four weeks of designation, and Rio Tinto's release names the exact contractual channels.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Earliest document in an exhaustive full-text sweep of the designation window, read in full and unambiguous."
+    }
+  },
+  {
+    "event_id": "59_coronado_global_resources_2020",
+    "status": "completed",
+    "seed_used": "coronado global resources",
+    "event_date": "2020-10-01",
+    "stop_reason": "hop_cap_reached",
+    "hop_count": 4,
+    "n_gap_flags": 13,
+    "n_companies_in_coverage": 15,
+    "scoring_bucket": "C",
+    "score_for_recall": true,
+    "score_for_precision": true,
+    "confidence": {
+      "ground_truth_affected": "medium",
+      "ground_truth_affected_reason": "Four entries, but only Aurizon is a clean downstream match and its evidence is a trade-press report rather than its own filing; the Genco entry is unverified for direction.",
+      "date_first_disclosure": "high",
+      "date_first_disclosure_reason": "Previously rated low because the Genco Shipping passage had been identified by phrase search but not read. The systematic sweep has now retrieved and confirmed the passage; it asserts a real operational impact."
+    }
+  }
+]

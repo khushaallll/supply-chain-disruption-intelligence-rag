@@ -27,12 +27,20 @@ re-derive that context -- it's real signal already sitting in your data
 that would otherwise get lost between this script's output and the
 ground-truth file.
 
-RATE LIMITS: if you're running this against a free hosted API (see
-llm_setup.py), you WILL plausibly hit 429 errors partway through 30
-events -- that's expected, not a bug (see llm_setup.py's token-budget
-math). Each event gets a small number of retries with backoff; an event
-that still fails after that is logged as an error and the batch continues
-with the next one, rather than the whole run dying on event 12 of 30.
+RATE LIMITS AND TRANSIENT GENERATION ERRORS: if you're running this against
+a free hosted API (see llm_setup.py), you WILL plausibly hit 429 errors
+partway through 30 events -- that's expected, not a bug (see llm_setup.py's
+token-budget math). Separately, the model itself can occasionally generate
+malformed JSON for a tool call's own arguments (confirmed on a real run --
+see run_event_with_retry's _looks_like_transient_generation_error) -- this
+is not a code bug either, just an LLM generation slip, and is retried
+short rather than with the long rate-limit backoff, since there's nothing
+to wait out. Each event gets a small number of retries for either case; an
+event that still fails after that is logged as an error and the batch
+continues with the next one, rather than the whole run dying partway
+through. Note: a retry re-runs the WHOLE event from hop 1, not just the
+failed hop -- simpler to reason about, at the cost of redoing any
+already-successful hops on a retry.
 """
 
 from __future__ import annotations
@@ -55,10 +63,22 @@ GROUND_TRUTH_PATHS = [
     "data/ground_truth/ground_truth_batch3_final.json",
 ]
 
-TRACE_DIR = Path("results/traces")
-SUMMARY_PATH = Path("results/run_all_events_summary.json")
+TRACE_DIR = Path("results/traces_4")
+SUMMARY_PATH = Path("results/run_all_events_summary_4.json")
 
 MAX_RETRIES = 3
+# For transient tool-call-generation errors specifically (see
+# _looks_like_transient_generation_error): confirmed on a second real run
+# that 3 total attempts is not always enough -- '40_state_grid_corp_of_china_2021'
+# hit the same malformed-JSON error class as '47_china_steel_2018' and
+# exhausted all 3 attempts, while china_steel's identical error class
+# recovered within 3 on its own run. This suggests the failure is not
+# purely random per-call noise for every query shape -- some queries may
+# trigger it closer to deterministically. More attempts is a cheap,
+# low-risk way to reduce (not guaranteed to eliminate) this residual
+# failure rate without the complexity of varying generation parameters
+# between retries.
+MAX_GENERATION_ERROR_RETRIES = 5
 RETRY_BACKOFF_SECONDS = 20  # doubled each retry -- 20s, 40s, 80s
 
 
@@ -67,6 +87,17 @@ RETRY_BACKOFF_SECONDS = 20  # doubled each retry -- 20s, 40s, 80s
 # --------------------------------------------------------------------------- #
 
 _EVENT_ID_PATTERN = re.compile(r"^\d+_(.+)_\d{4}$")
+
+# Manual overrides for events where the event_id-derived guess doesn't
+# resolve against the real graph. Confirmed directly against
+# company_nodes.txt (the real node list), not re-guessed -- same pattern
+# test_graph_tool.py's EVENT_SEED_GUESSES already uses for exactly this
+# kind of case. Add to this table as more get found; don't hand-edit
+# guess_seed_company()'s heuristic to special-case them.
+SEED_NAME_OVERRIDES = {
+    "23_s_oil_2022": "s-oil",                                             # heuristic guessed 's oil' (space); real node uses a hyphen
+    "54_yunnan_chihong_zinc_germanium_2023": "yunnan chihong zinc&germanium",  # real node has no spaces around '&', not "zinc and germanium"
+}
 
 
 def guess_seed_company(event_id: str) -> Optional[str]:
@@ -109,9 +140,28 @@ def _looks_like_rate_limit(exc: Exception) -> bool:
     return any(term in msg for term in ("429", "rate limit", "rate_limit", "too many requests"))
 
 
+def _looks_like_transient_generation_error(exc: Exception) -> bool:
+    """Confirmed on TWO independent real runs: '47_china_steel_2018' and
+    '40_state_grid_corp_of_china_2021' both failed with 'error parsing
+    tool call ... invalid character ... looking for beginning of object
+    key string' -- Ollama's own JSON parser rejecting tool-call arguments
+    the MODEL generated, not a bug in our dispatch code, which never even
+    ran here. china_steel recovered within 3 attempts; state_grid did not
+    -- evidence this is not purely random per-call noise for every query
+    shape, hence the larger MAX_GENERATION_ERROR_RETRIES budget and a
+    SHORT retry delay (there is nothing to wait out, unlike a rate
+    limit's long backoff)."""
+    msg = str(exc).lower()
+    return any(term in msg for term in (
+        "error parsing tool call", "invalid character", "invalid json",
+        "cannot unmarshal", "unexpected end of json",
+    ))
+
+
 def run_event_with_retry(app, company_name: str, event_date: str, event_id: str) -> dict:
     last_exc = None
-    for attempt in range(1, MAX_RETRIES + 1):
+    max_attempts = max(MAX_RETRIES, MAX_GENERATION_ERROR_RETRIES)
+    for attempt in range(1, max_attempts + 1):
         try:
             return run_one_event(app, company_name, event_date, event_id=event_id)
         except Exception as exc:
@@ -120,6 +170,13 @@ def run_event_with_retry(app, company_name: str, event_date: str, event_id: str)
                 wait = RETRY_BACKOFF_SECONDS * (2 ** (attempt - 1))
                 print(f"    rate-limit-shaped error on attempt {attempt}/{MAX_RETRIES}, "
                       f"waiting {wait}s before retry: {exc}")
+                time.sleep(wait)
+                continue
+            if attempt < MAX_GENERATION_ERROR_RETRIES and _looks_like_transient_generation_error(exc):
+                wait = 3
+                print(f"    transient tool-call-generation error on attempt "
+                      f"{attempt}/{MAX_GENERATION_ERROR_RETRIES}, "
+                      f"retrying in {wait}s (nothing to wait out, just trying again): {exc}")
                 time.sleep(wait)
                 continue
             break
@@ -147,7 +204,7 @@ def run_all_events(provider: str = "ollama", model: Optional[str] = None,
     for i, ev in enumerate(events, start=1):
         event_id = ev["event_id"]
         event_date = ev.get("date_news_first")
-        seed_guess = guess_seed_company(event_id)
+        seed_guess = SEED_NAME_OVERRIDES.get(event_id) or guess_seed_company(event_id)
 
         print(f"[{i}/{len(events)}] {event_id}")
 
@@ -160,6 +217,9 @@ def run_all_events(provider: str = "ollama", model: Optional[str] = None,
             print(f"    SKIPPED -- event_id doesn't match the expected naming pattern")
             summary.append({"event_id": event_id, "status": "skipped_bad_event_id"})
             continue
+
+        if event_id in SEED_NAME_OVERRIDES:
+            print(f"    using manual seed override: '{seed_guess}' (confirmed against company_nodes.txt)")
 
         resolved_seed = graph_store.find_company_node(seed_guess)
         if resolved_seed is None:

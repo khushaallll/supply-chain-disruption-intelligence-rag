@@ -1,0 +1,979 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "saudi arabian oil: no evidence gathered",
+    "grupo pochteca sab de cv: no evidence gathered",
+    "toray industries: no evidence gathered",
+    "samsung electronics: no evidence gathered",
+    "hyundai motor: no evidence gathered",
+    "formosa plastics: no evidence gathered",
+    "hdc hyundai engineering plastics: no evidence gathered",
+    "nan ya plastics: no evidence gathered",
+    "hansol chemical: no evidence gathered",
+    "great wall motor: no evidence gathered",
+    "axalta coating systems: no evidence gathered",
+    "tokai rika: no evidence gathered",
+    "valeo se: no evidence gathered",
+    "hyundai engineering & construction: no evidence gathered",
+    "renault: no evidence gathered",
+    "oci: no evidence gathered",
+    "formosa petrochemical: no evidence gathered",
+    "samsung sdi: no evidence gathered",
+    "nexteer automotive: no evidence gathered",
+    "toagosei: no evidence gathered",
+    "3m: no evidence gathered",
+    "nemak sab de cv: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "korea movenex: no evidence gathered",
+    "toyota industries: no evidence gathered",
+    "tesla: no evidence gathered",
+    "lg energy solution: no evidence gathered",
+    "alfa sab de cv: no evidence gathered",
+    "bridgestone: no evidence gathered",
+    "s-oil: no evidence gathered",
+    "lg chem: no evidence gathered",
+    "lanxess: no evidence gathered",
+    "posco international: no evidence gathered",
+    "panasonic: no evidence gathered",
+    "basf se: no evidence gathered",
+    "toyoda gosei: no evidence gathered",
+    "aptiv: no evidence gathered",
+    "robert bosch: no evidence gathered",
+    "mitsubishi heavy industries: no evidence gathered",
+    "arcelormittal: no evidence gathered",
+    "china steel: no evidence gathered",
+    "apple: no evidence gathered",
+    "formosa chemicals & fibre: no evidence gathered",
+    "baic bluepark new energy technology: no evidence gathered",
+    "denso: no evidence gathered",
+    "romeo power: no evidence gathered",
+    "harley-davidson: no evidence gathered",
+    "contemporary amperex technology: no evidence gathered",
+    "toyota motor: no evidence gathered",
+    "samsung c&t: no evidence gathered",
+    "toyota tsusho: no evidence gathered",
+    "jordan petroleum refinery: no evidence gathered",
+    "e1: no evidence gathered",
+    "china petroleum & chemical: no evidence gathered",
+    "nexen tire: no evidence gathered",
+    "kia: no evidence gathered",
+    "kyungchang industrial: no evidence gathered",
+    "daikin industries: no evidence gathered",
+    "shun on electronic: no evidence gathered",
+    "honda motor: no evidence gathered",
+    "dy: no evidence gathered",
+    "volkswagen: no evidence gathered",
+    "asahi kasei: no evidence gathered",
+    "triangle tyre: no evidence gathered",
+    "dl holdings co lirl: no evidence gathered",
+    "taita chemical: no evidence gathered",
+    "mitsui: no evidence gathered",
+    "mazda motor: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "ta yih industrial: no evidence gathered",
+    "saudi basic industries: no evidence gathered",
+    "stellantis: no evidence gathered",
+    "exxon mobil: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 Dow (disruption first reported\u202f\u2248\u202f25\u202fAug\u202f2017)**  \n\n| Tier | Company (sector) | Why it appears in the supply\u2011graph | Evidence found for a *downtime\u2011related impact* |\n|------|------------------|-----------------------------------|------------------------------------------------|\n| **Tier\u202f1** | **Saudi Arabian Oil** (Oil & Gas \u2013 crude & petroleum products) | Direct downstream customer of Dow\u2019s petrochemical feedstocks. | No filing or corpus mention linking the Aug\u20112017 outage to a supply shortfall for this company. |\n|  | **Grupo Pochteca SAB de CV** (Chemicals \u2013 industrial chemicals & raw\u2011material distribution, Mexico) | Receives intermediate chemicals from Dow. | No evidence of impact in any SEC filing or searchable text. |\n|  | **Toray Industries** (Chemicals \u2013 carbon\u2011fiber composites & engineering resins, Japan) | Uses Dow specialty polymers as feedstock. | No mention of a disruption in Toray\u2019s filings or in the corpus search. |\n|  | **Samsung Electronics** (Technology\u202fHardware \u2013 automotive electronics & semiconductors, South Korea) | Sources certain high\u2011performance plastics from Dow for electronic modules. | No filing or corpus hit that ties Samsung\u2019s operations to the Dow event. |\n|  | **Hyundai Motor** (Automotive, South\u202fKorea) | Major consumer of Dow\u2011produced polymers and coatings for vehicle bodies. | *get_supplier_info* returned \u201cNo filings on record\u201d. A corpus search for \u201cDow \u2026 Hyundai\u201d produced only unrelated text; no explicit reference to a supply interruption. |\n|  | **Formosa Plastics** (Chemicals, Taiwan) \u2013 PVC resin & epichlorohydrin | Direct buyer of Dow\u2019s chlor\u2011alkali and PVC intermediates. | No SEC filing or corpus excerpt mentioning the Aug\u202f2017 outage. |\n|  | **Avient** (Specialty polymers, USA) | Purchases specialty resins from Dow. | Corpus results are historical executive biographies; none refer to a 2017 supply issue. |\n|  | **HD\u202fHyundai Engineering Plastics**, **Nan Ya Plastics**, \u2026 (other Tier\u20111 chemicals) | All listed as downstream users of Dow\u2019s basic chemicals. | No specific evidence found linking them to the disruption. |\n| **Tier\u202f2** (selected notable downstreams) | **Hyundai Motor** \u2013 already noted above (also appears again in Tier\u202f2 via a different supply path). | Same as Tier\u20111. | Same lack of evidence. |\n|  | **Great Wall Motor**, **Renault**, **Stellantis**, **Volkswagen**, **Mercedes\u2011Benz**, **Toyota Industries**, **Tesla** \u2013 all automotive OEMs that use Dow\u2011derived polymers, coatings or battery\u2011related chemicals. | Appear as second\u2011order customers (e.g., through Tier\u20111 suppliers). | No filing or searchable text that explicitly cites a material impact from the Aug\u202f2017 Dow outage. |\n|  | **Valeo SE**, **Aptiv**, **ZF\u202fTRW Automotive**, **Robert\u202fBosch**, **Mitsubishi Heavy Industries**, **3M** \u2013 automotive\u2011components makers that source plastics, adhesives or specialty chemicals from Dow (or via Tier\u20111 distributors). | Same reasoning. | No direct evidence of disruption in their SEC filings or the corpus. |\n|  | **Shell**, **Exxon\u202fMobil**, **S\u2011Oil**, **Jordan Petroleum Refinery**, **China Petroleum & Chemical** \u2013 downstream oil\u2011refining and petrochemical firms that could be affected by a Dow plant outage (e.g., loss of intermediate aromatics). | Appear as Tier\u20112 because they buy from Tier\u20111 chemical distributors. | No explicit mention of the Aug\u202f2017 event in any filing or corpus result. |\n|  | **POSCO International**, **ArcelorMittal**, **China Steel** \u2013 steel producers that use Dow\u2019s specialty chemicals (e.g., coatings, lubricants). | Same. | No evidence found. |\n|  | **Apple**, **Samsung\u202fElectronics**, **Panasonic**, **LG\u202fChem**, **LG\u202fEnergy Solution**, **SK\u202fInnovation** \u2013 electronics/ battery makers that source polymeric materials from Dow. | Same. | No filing or corpus reference to a supply shock in Aug\u202f2017. |\n|  | **BASF SE**, **LANXESS**, **Dow\u202fCorning\u202fToray** (listed as \u201creachable but not enriched\u201d) \u2013 large chemical peers that could be indirect competitors or partners. | Appear only in the reachable\u2011but\u2011unenriched list; no enrichment means we have no confidence they are truly downstream of this specific Dow event. | No evidence at all. |\n\n### What the tools actually returned  \n\n1. **`traverse_supply_graph`** (downstream, max\u202ftier\u202f=\u202f2) gave a *structured* list of 79 enriched companies (Tier\u202f1\u202f+\u202fTier\u202f2). This is the only concrete source that tells us which firms are *structurally* at risk because they sit downstream of Dow or are linked through one intermediate supplier.  \n\n2. **`get_supplier_info`** was attempted for Hyundai Motor (a high\u2011profile Tier\u20111 customer) but returned \u201cNo filings on record\u201d. No other company\u2011specific filing could be retrieved within the remaining tool budget.  \n\n3. **`search_corpus`** queries for \u201cDow disruption August\u202f2017 \u2026\u201d and \u201cDow disruption August\u202f2017 Hyundai Motor\u201d produced ten result sets, none of which contained a clear statement that any downstream firm suffered a material impact from the Dow outage. The hits were either unrelated (e.g., historical corporate biographies, risk\u2011factor boilerplates, or older legal proceedings) or discussed generic supply\u2011chain risks without referencing the specific 2017 event.\n\n### What **cannot** be confirmed  \n\n* **No SEC filing or searchable corpus excerpt directly states that any of the downstream companies listed above experienced a production slowdown, material shortage, cost increase, or other operational impact because of Dow\u2019s August\u202f2017 disruption.**  \n* Consequently, while the supply\u2011graph shows *potential exposure* (i.e., these firms depend on chemicals, polymers, or intermediates that Dow produces), we have **no documented evidence**\u2014either from the companies\u2019 own filings or from the broader filing corpus\u2014that the outage actually translated into a realized disruption for them.  \n\n### Overall assessment  \n\n- The **structural risk map** is clear: dozens of major automotive OEMs (Hyundai, Toyota, Renault, Stellantis, Volkswagen, Mercedes\u2011Benz, Tesla), key Tier\u20111 chemical distributors (Grupo\u202fPochteca, Toray, Formosa Plastics, Avient, etc.), large oil & gas refiners (Shell, Exxon\u202fMobil, S\u2011Oil) and many component suppliers (Valeo, Aptiv, ZF\u202fTRW, 3M, Bosch) sit within two tiers of Dow\u2019s supply network.  \n- **Evidence of actual impact** on any of these firms for the specific August\u202f2017 Dow event is **absent** in the data we were able to retrieve before exhausting the four\u2011call limit.  \n\n### Bottom line  \n\n*The investigation identifies a broad set of companies that *could* be affected by a disruption at Dow, but with the limited tool budget and the available filings we could not verify that any of them suffered a concrete operational or financial impact from the August\u202f2017 incident.*  \n\n**This conclusion is therefore incomplete:** further research (e.g., deeper document review, news\u2011media searches outside the SEC filing corpus, or direct company disclosures after 2017) would be required to confirm whether the structural exposure translated into real\u2011world supply\u2011chain disruptions.\n\nCOVERAGE GAPS (73) -- reported explicitly, not omitted:\n  - saudi arabian oil: no evidence gathered\n  - grupo pochteca sab de cv: no evidence gathered\n  - toray industries: no evidence gathered\n  - samsung electronics: no evidence gathered\n  - hyundai motor: no evidence gathered\n  - formosa plastics: no evidence gathered\n  - hdc hyundai engineering plastics: no evidence gathered\n  - nan ya plastics: no evidence gathered\n  - hansol chemical: no evidence gathered\n  - great wall motor: no evidence gathered\n  - axalta coating systems: no evidence gathered\n  - tokai rika: no evidence gathered\n  - valeo se: no evidence gathered\n  - hyundai engineering & construction: no evidence gathered\n  - renault: no evidence gathered\n  - oci: no evidence gathered\n  - formosa petrochemical: no evidence gathered\n  - samsung sdi: no evidence gathered\n  - nexteer automotive: no evidence gathered\n  - toagosei: no evidence gathered\n  - 3m: no evidence gathered\n  - nemak sab de cv: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - korea movenex: no evidence gathered\n  - toyota industries: no evidence gathered\n  - tesla: no evidence gathered\n  - lg energy solution: no evidence gathered\n  - alfa sab de cv: no evidence gathered\n  - bridgestone: no evidence gathered\n  - s-oil: no evidence gathered\n  - lg chem: no evidence gathered\n  - lanxess: no evidence gathered\n  - posco international: no evidence gathered\n  - panasonic: no evidence gathered\n  - basf se: no evidence gathered\n  - toyoda gosei: no evidence gathered\n  - aptiv: no evidence gathered\n  - robert bosch: no evidence gathered\n  - mitsubishi heavy industries: no evidence gathered\n  - arcelormittal: no evidence gathered\n  - china steel: no evidence gathered\n  - apple: no evidence gathered\n  - formosa chemicals & fibre: no evidence gathered\n  - baic bluepark new energy technology: no evidence gathered\n  - denso: no evidence gathered\n  - romeo power: no evidence gathered\n  - harley-davidson: no evidence gathered\n  - contemporary amperex technology: no evidence gathered\n  - toyota motor: no evidence gathered\n  - samsung c&t: no evidence gathered\n  - toyota tsusho: no evidence gathered\n  - jordan petroleum refinery: no evidence gathered\n  - e1: no evidence gathered\n  - china petroleum & chemical: no evidence gathered\n  - nexen tire: no evidence gathered\n  - kia: no evidence gathered\n  - kyungchang industrial: no evidence gathered\n  - daikin industries: no evidence gathered\n  - shun on electronic: no evidence gathered\n  - honda motor: no evidence gathered\n  - dy: no evidence gathered\n  - volkswagen: no evidence gathered\n  - asahi kasei: no evidence gathered\n  - triangle tyre: no evidence gathered\n  - dl holdings co lirl: no evidence gathered\n  - taita chemical: no evidence gathered\n  - mitsui: no evidence gathered\n  - mazda motor: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - ta yih industrial: no evidence gathered\n  - saudi basic industries: no evidence gathered\n  - stellantis: no evidence gathered\n  - exxon mobil: no evidence gathered",
+  "coverage": {
+    "saudi arabian oil": {
+      "name": "saudi arabian oil",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "grupo pochteca sab de cv": {
+      "name": "grupo pochteca sab de cv",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toray industries": {
+      "name": "toray industries",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung electronics": {
+      "name": "samsung electronics",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai motor": {
+      "name": "hyundai motor",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa plastics": {
+      "name": "formosa plastics",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "avient": {
+      "name": "avient",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hdc hyundai engineering plastics": {
+      "name": "hdc hyundai engineering plastics",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nan ya plastics": {
+      "name": "nan ya plastics",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hansol chemical": {
+      "name": "hansol chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "great wall motor": {
+      "name": "great wall motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "axalta coating systems": {
+      "name": "axalta coating systems",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tokai rika": {
+      "name": "tokai rika",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "korea electric power": {
+      "name": "korea electric power",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "valeo se": {
+      "name": "valeo se",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai engineering & construction": {
+      "name": "hyundai engineering & construction",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "renault": {
+      "name": "renault",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "oci": {
+      "name": "oci",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa petrochemical": {
+      "name": "formosa petrochemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung sdi": {
+      "name": "samsung sdi",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nexteer automotive": {
+      "name": "nexteer automotive",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toagosei": {
+      "name": "toagosei",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "3m": {
+      "name": "3m",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nemak sab de cv": {
+      "name": "nemak sab de cv",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "korea movenex": {
+      "name": "korea movenex",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota industries": {
+      "name": "toyota industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tesla": {
+      "name": "tesla",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lg energy solution": {
+      "name": "lg energy solution",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "alfa sab de cv": {
+      "name": "alfa sab de cv",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bridgestone": {
+      "name": "bridgestone",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "s-oil": {
+      "name": "s-oil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lg chem": {
+      "name": "lg chem",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lanxess": {
+      "name": "lanxess",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco international": {
+      "name": "posco international",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "panasonic": {
+      "name": "panasonic",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "basf se": {
+      "name": "basf se",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyoda gosei": {
+      "name": "toyoda gosei",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aptiv": {
+      "name": "aptiv",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "robert bosch": {
+      "name": "robert bosch",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "zf trw automotive": {
+      "name": "zf trw automotive",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mitsubishi heavy industries": {
+      "name": "mitsubishi heavy industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "arcelormittal": {
+      "name": "arcelormittal",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "china steel": {
+      "name": "china steel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "apple": {
+      "name": "apple",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa chemicals & fibre": {
+      "name": "formosa chemicals & fibre",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "baic bluepark new energy technology": {
+      "name": "baic bluepark new energy technology",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "denso": {
+      "name": "denso",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "romeo power": {
+      "name": "romeo power",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "harley-davidson": {
+      "name": "harley-davidson",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "contemporary amperex technology": {
+      "name": "contemporary amperex technology",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung c&t": {
+      "name": "samsung c&t",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota tsusho": {
+      "name": "toyota tsusho",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jordan petroleum refinery": {
+      "name": "jordan petroleum refinery",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "e1": {
+      "name": "e1",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "china petroleum & chemical": {
+      "name": "china petroleum & chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nexen tire": {
+      "name": "nexen tire",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kia": {
+      "name": "kia",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kyungchang industrial": {
+      "name": "kyungchang industrial",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "daikin industries": {
+      "name": "daikin industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shun on electronic": {
+      "name": "shun on electronic",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "honda motor": {
+      "name": "honda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco": {
+      "name": "posco",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dy": {
+      "name": "dy",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volkswagen": {
+      "name": "volkswagen",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "asahi kasei": {
+      "name": "asahi kasei",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "triangle tyre": {
+      "name": "triangle tyre",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dl holdings co lirl": {
+      "name": "dl holdings co lirl",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "taita chemical": {
+      "name": "taita chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mitsui": {
+      "name": "mitsui",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mazda motor": {
+      "name": "mazda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ta yih industrial": {
+      "name": "ta yih industrial",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi basic industries": {
+      "name": "saudi basic industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "stellantis": {
+      "name": "stellantis",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "exxon mobil": {
+      "name": "exxon mobil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shell": {
+      "name": "shell",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "alcoa": {
+      "name": "alcoa",
+      "tier": null,
+      "first_seen_hop": 3,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eni": {
+      "name": "eni",
+      "tier": null,
+      "first_seen_hop": 3,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "vedanta": {
+      "name": "vedanta",
+      "tier": null,
+      "first_seen_hop": 3,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "american axle & manufacturing": {
+      "name": "american axle & manufacturing",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "brilliance china automotive": {
+      "name": "brilliance china automotive",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "general motors": {
+      "name": "general motors",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sony": {
+      "name": "sony",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Dow",
+      "summary": "[downstream of 'dow' | 79 enriched companies found, 320 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "get_supplier_info",
+      "status": "no_manifest_entry",
+      "company_name": "Hyundai Motor",
+      "summary": "No filings on record for 'Hyundai Motor'."
+    },
+    {
+      "hop": 3,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Dow disruption August 2017 chemical plant outage' | as of 2017-08-25 | 10 result(s) across 6 distinct companies]"
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'Dow disruption August 2017 Hyundai Motor' | as of 2017-08-25 | 10 result(s) across 8 distinct companies]"
+    }
+  ]
+}

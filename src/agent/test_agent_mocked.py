@@ -37,9 +37,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from langchain_core.messages import AIMessage
 
-from agent.tools.graph_tool import GraphTraversalResult
-from agent.tools.supplier_info_tool import SupplierInfoResult
-from agent.tools.search_corpus_tool import CorpusSearchResult
+from graph_tool import GraphTraversalResult
+from supplier_info_tool import SupplierInfoResult
+from search_corpus_tool import CorpusSearchResult
 
 from agent_state import make_initial_state
 from stopping_condition import (
@@ -319,6 +319,7 @@ llm_b1 = ScriptedLLM([
     ai_tool_call("traverse_supply_graph", {"company_name": "posco"}, "c1"),
     ai_tool_call("get_supplier_info", {"company_name": "hyundai motor", "event_date": "2022-09-06"}, "c2"),
     ai_tool_call("get_supplier_info", {"company_name": "kia", "event_date": "2022-09-06"}, "c3"),
+    ai_final_answer("Hyundai Motor and Kia are both confirmed at tier 1, backed by their own filings."),
 ])
 graph_store_b1 = FakeGraphStore([make_traverse_result([("hyundai motor", 1), ("kia", 1)])])
 supplier_store_b1 = FakeSupplierStore([
@@ -337,8 +338,10 @@ check("B1 hop_count == 3 (exactly the 3 scripted tool-calling turns)",
 check("B1 stop_reason == 'coverage_and_quality_met'",
       result_b1["stop_reason"] == "coverage_and_quality_met", result_b1["stop_reason"])
 check("B1 no gap flags on a genuinely complete run", result_b1["gap_flags"] == [], result_b1["gap_flags"])
-check("B1 ScriptedLLM was never asked for a 4th turn (graph didn't over-run)",
-      llm_b1.n_invocations == 3, llm_b1.n_invocations)
+check("B1 ScriptedLLM invoked 4 times: 3 tool-calling turns + 1 summarize wrap-up",
+      llm_b1.n_invocations == 4, llm_b1.n_invocations)
+check("B1 the wrap-up summary text made it into the final report",
+      "confirmed at tier 1" in result_b1["final_report"], result_b1["final_report"])
 check("B1 both tier-1 companies ended up in coverage",
       set(result_b1["coverage"].keys()) >= {"hyundai motor", "kia"}, result_b1["coverage"].keys())
 
@@ -353,9 +356,10 @@ llm_b2 = ScriptedLLM([
     ai_tool_call("get_supplier_info", {"company_name": "hyundai motor", "event_date": "2022-09-06"}, "c2"),
     ai_tool_call("search_corpus", {"query": "steel supply", "event_date": "2022-09-06"}, "c3"),
     ai_tool_call("get_supplier_info", {"company_name": "hyundai motor", "event_date": "2022-09-06"}, "c4"),
-    # a 5th response is deliberately included -- if the graph asks for it,
-    # that's a hop-cap bug, and llm_b2.n_invocations will read 5, not 4
-    ai_tool_call("get_supplier_info", {"company_name": "kia", "event_date": "2022-09-06"}, "c5"),
+    # consumed by the summarize wrap-up call after the hop cap forces a
+    # stop -- NOT a 5th real tool-calling turn (agent_node is never
+    # invoked a 5th time; only summarize_node is)
+    ai_final_answer("Hyundai Motor is confirmed; Kia could not be verified in time."),
 ])
 graph_store_b2 = FakeGraphStore([make_traverse_result([("hyundai motor", 1), ("kia", 1)])])
 supplier_store_b2 = FakeSupplierStore([
@@ -374,8 +378,10 @@ check("B2 hop_count is capped at exactly 4", result_b2["hop_count"] == 4, result
 check("B2 stop_reason == 'hop_cap_reached'", result_b2["stop_reason"] == "hop_cap_reached", result_b2["stop_reason"])
 check("B2 kia's gap is still reported, not silently dropped",
       any("kia" in g.lower() for g in result_b2["gap_flags"]), result_b2["gap_flags"])
-check("B2 ScriptedLLM was invoked exactly 4 times, never a 5th (hop cap is real, not advisory)",
-      llm_b2.n_invocations == 4, llm_b2.n_invocations)
+check("B2 ScriptedLLM invoked exactly 5 times: 4 real tool-calling turns "
+      "(never a 5th) + 1 summarize wrap-up -- the hop cap blocks agent_node, "
+      "not the wrap-up call",
+      llm_b2.n_invocations == 5, llm_b2.n_invocations)
 
 # --------------------------------------------------------------------------- #
 # B3 -- the model ends the loop on its own, before coverage is complete;
@@ -415,6 +421,7 @@ llm_b4 = ScriptedLLM([
         ("get_supplier_info", {"company_name": "hyundai motor", "event_date": "2022-09-06"}, "c2"),
         ("get_supplier_info", {"company_name": "kia", "event_date": "2022-09-06"}, "c3"),
     ]),
+    ai_final_answer("Both companies confirmed via their own filings."),
 ])
 graph_store_b4 = FakeGraphStore([make_traverse_result([("hyundai motor", 1), ("kia", 1)])])
 supplier_store_b4 = FakeSupplierStore([
@@ -489,6 +496,7 @@ llm_b6 = ScriptedLLM([
     ai_tool_call("search_corpus", {"query": "steel supply risk", "event_date": "2022-09-06",
                                     "company": "hyundai motor"}, "c3"),
     ai_tool_call("get_supplier_info", {"company_name": "kia", "event_date": "2022-09-06"}, "c4"),
+    ai_final_answer("Both hyundai motor and kia are confirmed with primary-source evidence."),
 ])
 graph_store_b6 = FakeGraphStore([make_traverse_result([("hyundai motor", 1), ("kia", 1)])])
 supplier_store_b6 = FakeSupplierStore([
@@ -541,6 +549,7 @@ llm_b7 = ScriptedLLM([
     ai_tool_call("get_supplier_info", {"company_name": "hyundai motor", "event_date": "2022-09-06"}, "c2"),
     ai_tool_call("get_supplier_info", {"company_name": "kia", "event_date": "2022-09-06"}, "c3"),
     ai_tool_call("get_supplier_info", {"company_name": "ford motor", "event_date": "2022-09-06"}, "c4"),
+    ai_final_answer("Hyundai, Kia, and Ford confirmed; GM and Tesla could not be reached in time."),
 ])
 graph_store_b7 = FakeGraphStore([make_traverse_result([
     ("hyundai motor", 1), ("kia", 1), ("ford motor", 2), ("gm", 2), ("tesla", 2),
@@ -573,6 +582,9 @@ check("B7 the 3 companies that DID get evidence are not also flagged as gaps",
       not any(name in " ".join(result_b7["gap_flags"]).lower()
               for name in ("hyundai", "kia", "ford")),
       result_b7["gap_flags"])
+check("B7 the report has a real analyst summary, not just a bare gap list "
+      "(the exact thing missing on the real Aurizon trace that prompted this fix)",
+      "Analyst summary" in result_b7["final_report"], result_b7["final_report"])
 
 # --------------------------------------------------------------------------- #
 # B8 -- a model that tries to request another tool call but emits it as
@@ -609,6 +621,104 @@ check("B8 the report explicitly notes the investigation did not actually finish"
       result_b8["final_report"])
 check("B8 both companies are still correctly flagged as gaps",
       len(result_b8["gap_flags"]) == 2, result_b8["gap_flags"])
+
+# --------------------------------------------------------------------------- #
+# B9 -- company-name canonicalization: reproduces the exact real-world bug
+#        found on the Nippon Steel / Toyota trace. traverse_supply_graph
+#        names a company "toyota motor" (tier 1); a later get_supplier_info
+#        call for the SAME real company, under a different string the model
+#        chose to type ("Toyota Motor Corporation"), must be recognized as
+#        the same coverage row -- not a second, disconnected one that
+#        leaves "toyota motor" falsely showing as having no evidence.
+# --------------------------------------------------------------------------- #
+print("\n--- B9: a real company found under two different name strings is one coverage row ---")
+
+llm_b9 = ScriptedLLM([
+    ai_tool_call("traverse_supply_graph", {"company_name": "nippon steel"}, "c1"),
+    # the model tries a name variant that doesn't exact-match the manifest...
+    ai_tool_call("get_supplier_info", {"company_name": "Toyota Motor Corp", "event_date": "2011-03-11"}, "c2"),
+    # ...then a second variant that DOES match, and succeeds
+    ai_tool_call("get_supplier_info", {"company_name": "Toyota Motor Corporation", "event_date": "2011-03-11"}, "c3"),
+    ai_final_answer("Toyota Motor is confirmed via its own 20-F filing."),
+])
+graph_store_b9 = FakeGraphStore([make_traverse_result([("toyota motor", 1)])])
+supplier_store_b9 = FakeSupplierStore([
+    SupplierInfoResult(status="no_manifest_entry", company="Toyota Motor Corp",
+                        event_id=None, event_date="2011-03-11"),
+    SupplierInfoResult(status="found", company="Toyota Motor Corporation",
+                        event_id=None, event_date="2011-03-11", doc_id="d1",
+                        published_date="2010-06-25", form="20-F", url="https://x",
+                        accession="a1", staleness_days=263, text="filing text",
+                        n_chunks_returned=3, n_chunks_total_in_doc=3, tag_mismatch=None,
+                        candidate_documents_considered=1),
+])
+corpus_store_b9 = FakeCorpusStore([])
+
+llm_tools9, raw_dispatch9 = build_tool_bindings(graph_store_b9, supplier_store_b9, corpus_store_b9)
+app_b9 = build_agent_graph(llm_b9, llm_tools9, raw_dispatch9)
+result_b9 = app_b9.invoke(make_initial_state("Investigate the Nippon Steel disruption.", max_hops=4))
+
+check("B9 only ONE coverage row exists for toyota, not two disconnected ones",
+      sum(1 for k in result_b9["coverage"] if "toyota" in k) == 1,
+      list(result_b9["coverage"].keys()))
+check("B9 the row is keyed under the graph's own name ('toyota motor'), "
+      "not the model's later variant",
+      "toyota motor" in result_b9["coverage"], list(result_b9["coverage"].keys()))
+check("B9 the real evidence (staleness_days=263) landed on that same row",
+      result_b9["coverage"]["toyota motor"]["best_staleness_days"] == 263,
+      result_b9["coverage"]["toyota motor"])
+check("B9 toyota motor is NOT falsely reported as a gap "
+      "(the exact bug found on the real Nippon Steel trace)",
+      "toyota motor" not in " ".join(result_b9["gap_flags"]).lower(),
+      result_b9["gap_flags"])
+check("B9 run finishes with coverage_and_quality_met, not a false gap",
+      result_b9["stop_reason"] == "coverage_and_quality_met", result_b9["stop_reason"])
+
+# --------------------------------------------------------------------------- #
+# B10 -- when the seed itself never resolves, zero significant companies
+#        are ever identified, and gap_flags is (correctly) empty. The
+#        report must NOT read this as a clean pass -- confirmed as a real,
+#        misleading message on two independent real traces
+#        ('38_perusahaan_..._2019' and '54_yunnan_chihong_..._2023') where
+#        the old unconditional "no coverage gaps" text made a total
+#        identification failure look like a successful, fully-covered run.
+# --------------------------------------------------------------------------- #
+print("\n--- B10: an unresolvable seed is reported as incomplete, not as a clean pass ---")
+
+llm_b10 = ScriptedLLM([
+    ai_tool_call("traverse_supply_graph", {"company_name": "some utility"}, "c1"),
+    ai_tool_call("traverse_supply_graph", {"company_name": "some utility corp"}, "c2"),
+    ai_tool_call("traverse_supply_graph", {"company_name": "utility co"}, "c3"),
+    ai_tool_call("search_corpus", {"query": "utility blackout", "event_date": "2019-08-04"}, "c4"),
+    ai_final_answer("The disrupted utility could not be located in the supply graph "
+                     "under any name variant tried."),
+])
+graph_store_b10 = FakeGraphStore([
+    GraphTraversalResult(status="not_resolved", mode="downstream", company_name="some utility"),
+    GraphTraversalResult(status="not_resolved", mode="downstream", company_name="some utility corp"),
+    GraphTraversalResult(status="not_resolved", mode="downstream", company_name="utility co"),
+])
+supplier_store_b10 = FakeSupplierStore([])
+corpus_store_b10 = FakeCorpusStore([
+    # search_corpus CAN succeed even when the seed never resolved (it
+    # doesn't require a company filter) -- but anything it finds has
+    # tier=None, since nothing was ever confirmed significant by a
+    # traversal. This is exactly what happened on the real PLN trace.
+    CorpusSearchResult(status="found", query="utility blackout", event_date="2019-08-04",
+                        hits=[], distinct_companies=["some unrelated company"],
+                        bm25_hit_count=1, semantic_hit_count=1, fused_hit_count=1),
+])
+
+llm_tools10, raw_dispatch10 = build_tool_bindings(graph_store_b10, supplier_store_b10, corpus_store_b10)
+app_b10 = build_agent_graph(llm_b10, llm_tools10, raw_dispatch10)
+result_b10 = app_b10.invoke(make_initial_state("Investigate the utility disruption.", max_hops=4))
+
+check("B10 gap_flags is empty (nothing significant was ever confirmed, so nothing to gap)",
+      result_b10["gap_flags"] == [], result_b10["gap_flags"])
+check("B10 the report explicitly says this is NOT a clean pass",
+      "NOT a clean pass" in result_b10["final_report"], result_b10["final_report"])
+check("B10 the report does NOT contain the old, misleading 'no coverage gaps' success wording",
+      "No coverage gaps: all" not in result_b10["final_report"], result_b10["final_report"])
 
 
 # ===========================================================================
