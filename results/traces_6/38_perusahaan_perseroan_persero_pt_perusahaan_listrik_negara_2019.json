@@ -1,0 +1,69 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 disruption at PT\u202fPerusahaan Listrik Negara (PLN)**  \n\n| Company / Entity | Why it appears in the data | Evidence found | Assessment of risk |\n|------------------|---------------------------|----------------|--------------------|\n| **PT\u202fPerusahaan Listrik Negara (PLN)** | The disrupted utility itself. | *search_corpus* result #6 (doc_id **trigger_38_perusahaan_perseroan_persero_pt_perus**) \u2013 \u201cA transmission failure on the Java\u2011Bali grid caused a mass blackout across Jakarta and West\u202fJava affecting tens of millions of people and halting industrial estates for up to nine hours. Date: 2019\u201108\u201104.\u201d | **Confirmed** \u2013 the event is real and severe; PLN\u2019s own operations were directly impacted. |\n| **PT\u202fCirebon Energi Prasarana** | Mentioned in several guarantee disclosures as a partner of PLN (electricity purchase contract). | *search_corpus* results #1, #3, #5 \u2013 multiple filings note that \u201cPLN provided performance guarantees \u2026 up to US$2.293\u202fmillion \u2026 in proportion to its ownership in the electricity purchase contract with PT\u202fCirebon Energi Prasarana.\u201d | **No direct evidence of impact** from the August\u20112019 blackout. The documents only show a financial relationship (guarantees) but do not state that Cirebon\u202fEnergi\u202fPrasarana\u2019s operations were disrupted. |\n| **PT\u202fWampu Electric Power** | Listed as an associate receiving guarantees from PLN\u2011related entities. | *search_corpus* results #1, #3 \u2013 \u201cPLN (through its associate) provided performance guarantees \u2026 for PT\u202fWampu Electric Power.\u201d | **No direct evidence of impact**; only a guarantee relationship is recorded. |\n| **PT\u202fMega\u202fPower\u202fMandiri** | Appears in guarantee disclosures linked to PLN\u2011related projects. | *search_corpus* results #1, #3 \u2013 \u201cGuarantee \u2026 equivalent to the ownership interest of PT\u202fMega\u202fPower\u202fMandiri.\u201d | **No direct evidence of impact**; relationship is financial, not operational. |\n| **PT\u202fBS\u202fEnergy** and **PT\u202fNusantara Hydro Alam** | Both appear in guarantee disclosures tied to PLN\u2011related hydro projects. | *search_corpus* results #1, #3 \u2013 \u201cGuarantee \u2026 equivalent to the ownership interest of PT\u202fBS\u202fEnergy and PT\u202fNusantara\u202fHydro\u202fAlam.\u201d | **No direct evidence of impact**; only a financial guarantee is mentioned. |\n| **Other entities (e.g., Central Power Purchasing Agency Guarantee Ltd., KEPCO, various Korean banks)** | Appear in the same guarantee\u2011related filings because they are co\u2011guarantors or counterparties to PLN\u2011linked projects. | *search_corpus* results #1\u2013#5 \u2013 multiple passages list these parties as guarantors of contracts that involve PLN. | **No direct evidence of impact**; they are mentioned only in the context of financial guarantees, not operational disruption. |\n\n### What could NOT be confirmed\n\n1. **Down\u2011stream customers or suppliers** \u2013 The supply\u2011chain graph lookup (`traverse_supply_graph`) returned \u201cCould not find \u2018PT\u202fPerusahaan Listrik Negara\u2019 \u2026\u201d for every name variant tried (full name, abbreviation \u201cPLN\u201d, etc.). Consequently we have **no structural downstream list** (e.g., industrial users, distribution utilities) that the graph identifies as directly at risk from PLN\u2019s outage.\n\n2. **Specific operational impact on any of the guarantee\u2011related companies** \u2013 The filings only disclose that PLN (or its affiliates) provided performance or borrowing guarantees to these entities. None of the documents mention that those entities suffered service interruptions, production losses, or financial strain because of the August\u202f2019 blackout.\n\n3. **Any additional downstream firms beyond those appearing in the guarantee disclosures** \u2013 Because the graph could not be queried successfully and no other unfiltered corpus searches were performed (the only relevant unfiltered search returned the event description itself), we cannot assert that any further companies are structurally exposed.\n\n### Overall conclusion\n\n- The **only confirmed affected party** is PT\u202fPerusahaan Listrik Negara itself, which experienced a major transmission failure on 4\u202fAugust\u202f2019 that caused a blackout affecting tens of millions of people and industrial estates for up to nine hours.  \n- A set of Indonesian power\u2011project companies (PT\u202fCirebon\u202fEnergi\u202fPrasarana, PT\u202fWampu\u202fElectric\u202fPower, PT\u202fMega\u202fPower\u202fMandiri, PT\u202fBS\u202fEnergy, PT\u202fNusantara\u202fHydro\u202fAlam) appear in the same filings because PLN provided them with performance or borrowing guarantees. **No evidence** from the available documents shows that these firms were operationally disrupted by the blackout.  \n- Because the supply\u2011chain graph could not locate PLN, we lack a definitive list of downstream customers or suppliers that might be at risk; this gap is explicitly noted.\n\n*The investigation therefore ends with a confirmed impact on PLN and no verifiable downstream ripple effects identified in the available data.*\n\nNO SIGNIFICANT COMPANIES WERE EVER IDENTIFIED -- this is NOT a clean pass. The investigation could not get past identifying the disrupted company itself (or its downstream connections) in the graph, so there was nothing to gather evidence about. Treat this as an incomplete result, not a success.",
+  "coverage": {
+    "korea electric power": {
+      "name": "korea electric power",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "perusahaan perseroan persero pt perusahaan listrik negara": {
+      "name": "perusahaan perseroan persero pt perusahaan listrik negara",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "vedanta": {
+      "name": "vedanta",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PT Perusahaan Listrik Negara",
+      "summary": "Could not find 'PT Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 2,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Perusahaan Listrik Negara",
+      "summary": "Could not find 'Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 3,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PLN",
+      "summary": "Could not find 'PLN' in the supply graph."
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'PT Perusahaan Listrik Negara disruption August 2019' | as of 2019-08-04 | 10 result(s) across 3 distinct companies]"
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "n_ground_truth_events": 30,
+  "n_traces_loaded": 26,
+  "n_events_scored": 26,
+  "trace_files_without_ground_truth": [],
+  "ground_truth_events_without_trace": [
+    "41_yunnan_aluminium_2022",
+    "54_yunnan_chihong_zinc_germanium_2023",
+    "57_united_co_rusal_international_pjsc_2018",
+    "59_coronado_global_resources_2020"
+  ],
+  "aggregate": {
+    "n_events_scored": 26,
+    "n_seed_unresolved": 0,
+    "seed_unresolved_event_ids": [],
+    "recall": {
+      "n_recall_eligible_events": 11,
+      "n_recall_eligible_excluding_seed_unresolved": 11,
+      "recall_all_micro": 0.05172413793103448,
+      "recall_all_tp": 3,
+      "recall_all_denominator": 58,
+      "recall_all_macro_mean_per_event": 0.02662993572084481,
+      "recall_reachable_micro": 0.1111111111111111,
+      "recall_reachable_tp": 3,
+      "recall_reachable_denominator": 27,
+      "recall_reachable_macro_mean_per_event": 0.0707070707070707
+    },
+    "precision": {
+      "n_precision_eligible_events": 26,
+      "n_events_with_zero_predictions": 3,
+      "n_events_scored_for_precision": 23,
+      "precision_micro": 0.05172413793103448,
+      "precision_tp": 3,
+      "precision_fp": 55,
+      "precision_denominator": 58,
+      "avg_fp_per_scored_event": 2.391304347826087,
+      "precision_macro_mean_per_event": 0.05797101449275362
+    }
+  },
+  "per_event": [
+    {
+      "event_id": "10_hesteel_2023",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 4,
+      "tp_precision": 0,
+      "fp_precision": 4,
+      "unmatched_predicted": [
+        "ford motor",
+        "general motors",
+        "tesla",
+        "toyota motor"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "11_aurizon_2010",
+      "seed_unresolved": false,
+      "scoring_bucket": "B",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 11,
+      "tp_all": 2,
+      "gt_reachable_n": 3,
+      "tp_reachable": 2,
+      "predicted_n": 6,
+      "tp_precision": 2,
+      "fp_precision": 4,
+      "unmatched_predicted": [
+        "apple",
+        "borgwarner",
+        "mitsui",
+        "panasonic"
+      ],
+      "gt_matches": [
+        {
+          "company": "Peabody Energy Corporation",
+          "graph_node": "peabody energy",
+          "graph_hop": 6,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Rio Tinto",
+          "graph_node": "rio tinto",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": true,
+          "matched_key": "rio tinto",
+          "method": "graph_node_exact"
+        },
+        {
+          "company": "BHP Billiton",
+          "graph_node": "bhp",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": true,
+          "matched_key": "bhp",
+          "method": "graph_node_exact"
+        },
+        {
+          "company": "Xstrata plc",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Vale S.A.",
+          "graph_node": "vale",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Anglo American plc",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Macarthur Coal Limited",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Aquila Resources",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Cockatoo Coal",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Ensham Resources",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "ArcelorMittal",
+          "graph_node": "arcelormittal",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "17_basf_se_2016",
+      "seed_unresolved": false,
+      "scoring_bucket": "C",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 1,
+      "tp_all": 0,
+      "gt_reachable_n": 1,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "general motors"
+      ],
+      "gt_matches": [
+        {
+          "company": "The Dow Chemical Company",
+          "graph_node": "dow",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "18_chevron_2012",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "toyota motor"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "19_cpc_corp_taiwan_2014",
+      "seed_unresolved": false,
+      "scoring_bucket": "C",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 3,
+      "tp_all": 0,
+      "gt_reachable_n": 2,
+      "tp_reachable": 0,
+      "predicted_n": 0,
+      "tp_precision": 0,
+      "fp_precision": 0,
+      "unmatched_predicted": [],
+      "gt_matches": [
+        {
+          "company": "LCY Chemical Corp.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Taiwan Power Company (Taipower)",
+          "graph_node": "taiwan power",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "China Petrochemical Development Corporation",
+          "graph_node": "china petrochemical development",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "1_posco_2022",
+      "seed_unresolved": false,
+      "scoring_bucket": "D",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 1,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "posco future m"
+      ],
+      "gt_matches": [
+        {
+          "company": "Korinox Co., Ltd. (\ucf54\ub9ac\ub179\uc2a4)",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "20_formosa_petrochemical_2019",
+      "seed_unresolved": false,
+      "scoring_bucket": "C",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 1,
+      "tp_all": 0,
+      "gt_reachable_n": 1,
+      "tp_reachable": 0,
+      "predicted_n": 2,
+      "tp_precision": 0,
+      "fp_precision": 2,
+      "unmatched_predicted": [
+        "petrochina",
+        "shell"
+      ],
+      "gt_matches": [
+        {
+          "company": "Formosa Chemicals & Fibre Corp (FCFC)",
+          "graph_node": "formosa chemicals & fibre",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "21_mitsubishi_materials_2014",
+      "seed_unresolved": false,
+      "scoring_bucket": "C",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 1,
+      "tp_all": 0,
+      "gt_reachable_n": 1,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "toyota motor"
+      ],
+      "gt_matches": [
+        {
+          "company": "SUMCO Corporation",
+          "graph_node": "sumco",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "23_s_oil_2022",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 7,
+      "tp_precision": 0,
+      "fp_precision": 7,
+      "unmatched_predicted": [
+        "bp",
+        "brilliance china automotive",
+        "eni",
+        "holley",
+        "korea electric power",
+        "posco",
+        "shell"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "24_bp_2010",
+      "seed_unresolved": false,
+      "scoring_bucket": "D",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 3,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 3,
+      "tp_precision": 0,
+      "fp_precision": 3,
+      "unmatched_predicted": [
+        "ford motor",
+        "general motors",
+        "toyota motor"
+      ],
+      "gt_matches": [
+        {
+          "company": "Transocean Ltd.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Anadarko Petroleum Corporation",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Omega Protein Corporation",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "25_petrochina_2005",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 3,
+      "tp_precision": 0,
+      "fp_precision": 3,
+      "unmatched_predicted": [
+        "akzo nobel",
+        "bp",
+        "china petroleum & chemical"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "2_nippon_steel_2011",
+      "seed_unresolved": false,
+      "scoring_bucket": "B",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 9,
+      "tp_all": 1,
+      "gt_reachable_n": 9,
+      "tp_reachable": 1,
+      "predicted_n": 1,
+      "tp_precision": 1,
+      "fp_precision": 0,
+      "unmatched_predicted": [],
+      "gt_matches": [
+        {
+          "company": "Toyota Motor Corporation",
+          "graph_node": "toyota motor",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": true,
+          "matched_key": "toyota motor",
+          "method": "graph_node_exact"
+        },
+        {
+          "company": "Sony Corporation",
+          "graph_node": "sony",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Hitachi, Ltd.",
+          "graph_node": "hitachi",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Panasonic Corporation",
+          "graph_node": "panasonic",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Komatsu Ltd.",
+          "graph_node": "komatsu",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Honda Motor Co., Ltd.",
+          "graph_node": "honda motor",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Nissan Motor Co., Ltd.",
+          "graph_node": "nissan motor",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "General Motors Company",
+          "graph_node": "general motors",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Ford Motor Company",
+          "graph_node": "ford motor",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "33_kyushu_electric_power_2018",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "toyota motor"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "34_korea_electric_power_2011",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "posco"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "35_gazprom_pjsc_2022",
+      "seed_unresolved": false,
+      "scoring_bucket": "B",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 6,
+      "tp_all": 0,
+      "gt_reachable_n": 2,
+      "tp_reachable": 0,
+      "predicted_n": 2,
+      "tp_precision": 0,
+      "fp_precision": 2,
+      "unmatched_predicted": [
+        "eni",
+        "shell"
+      ],
+      "gt_matches": [
+        {
+          "company": "ArcelorMittal S.A.",
+          "graph_node": "arcelormittal",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Nyrstar (Trafigura group)",
+          "graph_node": "nyrstar",
+          "graph_hop": 5,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Norsk Hydro ASA",
+          "graph_node": "norsk hydro asa",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Slovalco a.s.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Alcoa Corporation",
+          "graph_node": "alcoa",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Yara International ASA",
+          "graph_node": "yara international asa",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "36_basf_se_2022",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 3,
+      "tp_precision": 0,
+      "fp_precision": 3,
+      "unmatched_predicted": [
+        "ford motor",
+        "general motors",
+        "toyota motor"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "38_perusahaan_perseroan_persero_pt_perusahaan_listrik_negara_2019",
+      "seed_unresolved": false,
+      "scoring_bucket": "C",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 6,
+      "tp_all": 0,
+      "gt_reachable_n": 1,
+      "tp_reachable": 0,
+      "predicted_n": 3,
+      "tp_precision": 0,
+      "fp_precision": 3,
+      "unmatched_predicted": [
+        "korea electric power",
+        "perusahaan perseroan persero pt perusahaan listrik negara",
+        "vedanta"
+      ],
+      "gt_matches": [
+        {
+          "company": "Telkomsel",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Indosat Ooredoo",
+          "graph_node": "indosat tbk pt",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "XL Axiata",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Hutchison 3 Indonesia",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "MRT Jakarta",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "KAI Commuter",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "40_state_grid_corp_of_china_2021",
+      "seed_unresolved": false,
+      "scoring_bucket": "D",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 5,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 2,
+      "tp_precision": 0,
+      "fp_precision": 2,
+      "unmatched_predicted": [
+        "posco",
+        "toyota motor"
+      ],
+      "gt_matches": [
+        {
+          "company": "Unimicron Technology Corp.",
+          "graph_node": "unimicron technology",
+          "graph_hop": 5,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Eson Precision Industry Co., Ltd.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Concraft Holding Co., Ltd.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "TTM Technologies, Inc.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Diodes Incorporated",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "47_china_steel_2018",
+      "seed_unresolved": false,
+      "scoring_bucket": "B",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 2,
+      "tp_all": 0,
+      "gt_reachable_n": 2,
+      "tp_reachable": 0,
+      "predicted_n": 6,
+      "tp_precision": 0,
+      "fp_precision": 6,
+      "unmatched_predicted": [
+        "aluminum corp of china",
+        "arcelormittal",
+        "bhp",
+        "mitsui",
+        "posco",
+        "tesla"
+      ],
+      "gt_matches": [
+        {
+          "company": "General Motors Company",
+          "graph_node": "general motors",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Ford Motor Company",
+          "graph_node": "ford motor",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "48_glencore_2025",
+      "seed_unresolved": false,
+      "scoring_bucket": "D",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 1,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "alcoa"
+      ],
+      "gt_matches": [
+        {
+          "company": "Eurasian Resources Group (ERG)",
+          "graph_node": "eurasian resources",
+          "graph_hop": 4,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "49_xiamen_tungsten_2010",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 0,
+      "tp_precision": 0,
+      "fp_precision": 0,
+      "unmatched_predicted": [],
+      "gt_matches": []
+    },
+    {
+      "event_id": "4_dow_2017",
+      "seed_unresolved": false,
+      "scoring_bucket": "B",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 9,
+      "tp_all": 0,
+      "gt_reachable_n": 3,
+      "tp_reachable": 0,
+      "predicted_n": 4,
+      "tp_precision": 0,
+      "fp_precision": 4,
+      "unmatched_predicted": [
+        "apple",
+        "avient",
+        "ford motor",
+        "tesla"
+      ],
+      "gt_matches": [
+        {
+          "company": "Univar Inc. (now Univar Solutions)",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Exxon Mobil Corporation",
+          "graph_node": "exxon mobil",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Shell (Royal Dutch Shell / Shell Oil)",
+          "graph_node": "shell",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Formosa Plastics Corp., U.S.A.",
+          "graph_node": "formosa plastics",
+          "graph_hop": 1,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Ascend Performance Materials",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "INEOS",
+          "graph_node": "ineos",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "INVISTA",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Occidental Chemical (OxyChem)",
+          "graph_node": "occidental petroleum",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Ashland Global Holdings Inc.",
+          "graph_node": "ashland",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "50_aneka_tambang_tbk_2020",
+      "seed_unresolved": false,
+      "scoring_bucket": "A",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 0,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "posco"
+      ],
+      "gt_matches": []
+    },
+    {
+      "event_id": "5_formosa_plastics_2021",
+      "seed_unresolved": false,
+      "scoring_bucket": "C",
+      "score_for_recall": true,
+      "score_for_precision": true,
+      "gt_all_n": 9,
+      "tp_all": 0,
+      "gt_reachable_n": 2,
+      "tp_reachable": 0,
+      "predicted_n": 1,
+      "tp_precision": 0,
+      "fp_precision": 1,
+      "unmatched_predicted": [
+        "dow"
+      ],
+      "gt_matches": [
+        {
+          "company": "NXP Semiconductors N.V.",
+          "graph_node": "nxp semiconductors",
+          "graph_hop": 4,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Infineon Technologies AG",
+          "graph_node": "infineon technologies",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Samsung Electronics Co., Ltd.",
+          "graph_node": "samsung electronics",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Olin Corporation",
+          "graph_node": "olin",
+          "graph_hop": 2,
+          "reachable": true,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "LyondellBasell Industries N.V.",
+          "graph_node": "lyondellbasell industries",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Celanese Corporation",
+          "graph_node": "celanese",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Pactiv Evergreen Inc.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "W. R. Grace & Co.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Core Molding Technologies, Inc.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "8_exxon_mobil_2005",
+      "seed_unresolved": false,
+      "scoring_bucket": "D",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 4,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 0,
+      "tp_precision": 0,
+      "fp_precision": 0,
+      "unmatched_predicted": [],
+      "gt_matches": [
+        {
+          "company": "The Dixie Group, Inc.",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Air Products and Chemicals, Inc.",
+          "graph_node": "air products and chemicals",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Nalco Holding Company",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "CF Industries Holdings, Inc.",
+          "graph_node": "cf industries",
+          "graph_hop": 4,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    },
+    {
+      "event_id": "9_xinxiang_tianli_energy_2021",
+      "seed_unresolved": false,
+      "scoring_bucket": "D",
+      "score_for_recall": false,
+      "score_for_precision": true,
+      "gt_all_n": 5,
+      "tp_all": 0,
+      "gt_reachable_n": 0,
+      "tp_reachable": 0,
+      "predicted_n": 3,
+      "tp_precision": 0,
+      "fp_precision": 3,
+      "unmatched_predicted": [
+        "aluminum corp of china",
+        "korea electric power",
+        "xinxiang tianli energy"
+      ],
+      "gt_matches": [
+        {
+          "company": "Nissan Motor Co., Ltd.",
+          "graph_node": "nissan motor",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "Hon Hai Precision Industry Co., Ltd. (Foxconn)",
+          "graph_node": "hon hai precision industry",
+          "graph_hop": 5,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "SAIC Motor Corporation Limited",
+          "graph_node": "saic motor",
+          "graph_hop": 4,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "IKEA (Inter IKEA / Ingka Group)",
+          "graph_node": null,
+          "graph_hop": null,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        },
+        {
+          "company": "FedEx Corporation",
+          "graph_node": "fedex",
+          "graph_hop": 3,
+          "reachable": false,
+          "matched": false,
+          "matched_key": null,
+          "method": "unmatched"
+        }
+      ]
+    }
+  ]
+}

@@ -249,6 +249,56 @@ def make_tools_node(raw_dispatch: dict):
                 })
                 continue
 
+            # Confirmed on a real trace (4_dow_2017): the batching guidance
+            # in the system prompt ("check multiple companies in one turn")
+            # can be misapplied as "pass a LIST of company names as the
+            # value of one call's company_name/company argument" instead of
+            # the correct mechanism (several separate tool_calls entries in
+            # the same turn). get_supplier_info/search_corpus expect a
+            # single string; passing a list previously crashed the whole
+            # call (caught, but wasted the entire hop -- on that real trace,
+            # 9 companies got zero evidence-gathering because of it).
+            # Real-world evidence throughout this project shows prompt
+            # wording alone doesn't reliably prevent every misinterpretation
+            # -- so instead of only relying on the prompt, tolerate this
+            # shape directly: run the tool once per name in the list, and
+            # combine the results into ONE ToolMessage (a single
+            # tool_call_id can only receive one reply), rather than losing
+            # the whole hop to an error. This converts a previously wasted
+            # hop into the same real evidence multiple separate tool_calls
+            # would have produced.
+            name_arg_key = "company_name" if "company_name" in args else (
+                "company" if "company" in args else None
+            )
+            if name_arg_key and isinstance(args.get(name_arg_key), list):
+                names = args[name_arg_key]
+                sub_observations = []
+                for single_name in names:
+                    sub_args = {**args, name_arg_key: single_name}
+                    try:
+                        sub_result = dispatch_fn(**sub_args)
+                    except Exception as exc:
+                        sub_observations.append(f"[{single_name}] error: {exc}")
+                        evidence_log.append({
+                            "hop": hop, "tool": name, "status": "error",
+                            "company_name": single_name, "summary": f"error: {exc}",
+                        })
+                        continue
+                    sub_obs_text = sub_result.as_observation()
+                    sub_observations.append(f"[{single_name}]\n{sub_obs_text}")
+                    absorber = _ABSORBERS.get(name)
+                    if absorber is not None:
+                        absorber(sub_result, coverage, hop)
+                    evidence_log.append({
+                        "hop": hop, "tool": name,
+                        "status": getattr(sub_result, "status", "unknown"),
+                        "company_name": single_name,
+                        "summary": sub_obs_text.splitlines()[0] if sub_obs_text else "",
+                    })
+                combined = "\n\n---\n\n".join(sub_observations)
+                new_messages.append(ToolMessage(content=combined, tool_call_id=call_id))
+                continue
+
             try:
                 result = dispatch_fn(**args)
             except Exception as exc:

@@ -45,6 +45,30 @@ has "for free."
 Neither change touches the hop cap, the evidence-tool gate, or anything
 that would affect A/B/C fairness -- both are wording-only changes to how
 the SAME budget and the SAME tools are described.
+
+REVISION 2 (post-26-event real-batch review, run after the above two
+changes were already live): two more changes, both grounded in this
+second real batch, not the first.
+
+3. HAS_MANIFEST_FILING LABEL. graph_tool.py's traverse_supply_graph now
+   labels each candidate company with whether it has a real filing on
+   record, and sorts "has a filing" candidates ahead of "doesn't" (see
+   graph_tool.py's own revision notes for the full reasoning). Added one
+   paragraph to requirement 1 below telling the model what this label
+   means and to prefer it over familiarity -- the label is new
+   information the model has no other way to know how to use.
+
+4. NO-REPEAT REMINDER. Checked against the 26-event batch: 5 of 26 events
+   (19%) had the model call the exact same tool on the exact same company
+   more than once in a single investigation -- e.g. 48_glencore_2025 spent
+   2 of its only 4 total tool calls on two identical get_supplier_info
+   calls for "Umicore." Since every tool here is deterministic (same
+   event_date, same leakage guard), a repeat call can never return new
+   information -- it just spends a turn the agent could have used on an
+   unchecked company instead. The model already has its own prior calls
+   visible in the conversation; this appears to be an attention/planning
+   gap, not a missing-information one, so the fix is a direct reminder,
+   not new state-tracking.
 --------------------------------------------------------------------------
 """
 
@@ -71,12 +95,19 @@ Follow this process, in order:
    deeper traversal can return hundreds of extra companies that just
    compete with your real evidence-gathering hops for attention.
 
-   Results within each tier are already ordered strongest-candidate-first
-   (highest confidence first). When you have more candidates than you can
-   individually verify, work down that order rather than picking
-   arbitrarily or defaulting to whichever company names happen to be most
-   familiar to you -- the ordering reflects the graph's own confidence in
-   each connection, which is a better signal than familiarity.
+   Results within each tier are already ordered strongest-candidate-first:
+   companies with a real filing on record come first (highest confidence
+   first within that group), THEN companies with no filing on record.
+   Each company is also labeled directly with whether it has a filing.
+   When deciding who to check with get_supplier_info, prefer companies
+   labeled "HAS a filing on record" -- a company labeled "NO filing on
+   record" will simply return nothing from get_supplier_info, wasting a
+   turn you could spend elsewhere (search_corpus may still be worth
+   trying for such a company, since it draws on a different, broader set
+   of documents). Work down this order rather than picking arbitrarily or
+   defaulting to whichever company names happen to be most familiar to
+   you -- the ordering reflects real information about what evidence is
+   actually available, which is a better signal than familiarity.
 
 2. GATHER EVIDENCE FROM AT LEAST TWO SOURCES WHERE AVAILABLE. For each
    significant affected company you find, try to back it with evidence from
@@ -117,6 +148,14 @@ Follow this process, in order:
    Once you have identified several significant companies you want
    evidence for, prefer requesting them together in the same turn over
    checking them one at a time.
+
+   DO NOT repeat a tool call you have already made with the same company
+   and the same query in this investigation. Results are deterministic --
+   calling get_supplier_info on a company you already checked, or
+   search_corpus with the same query and company filter you already used,
+   will return the exact same result again, not new information. Before
+   deciding what to check next, look back at what you have already called
+   in this conversation.
 
 3. STATE EXPLICITLY WHAT COULD NOT BE FOUND. If a company has no evidence,
    or only stale or questionable evidence, say so directly in your final

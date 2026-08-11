@@ -1,0 +1,1218 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "vedanta: no evidence gathered",
+    "bp: no evidence gathered",
+    "chevron: no evidence gathered",
+    "china petroleum & chemical: no evidence gathered",
+    "nexen: no evidence gathered",
+    "general motors: no evidence gathered",
+    "ford motor: no evidence gathered",
+    "exxon mobil: no evidence gathered",
+    "nippon steel: no evidence gathered",
+    "shell: no evidence gathered",
+    "apple: no evidence gathered",
+    "ls electric: no evidence gathered",
+    "hyundai rotem: no evidence gathered",
+    "sk: no evidence gathered",
+    "kumho petrochemical: no evidence gathered",
+    "lucky cement: no evidence gathered",
+    "perusahaan perseroan persero pt perusahaan listrik negara: no evidence gathered",
+    "hyundai engineering & construction: no evidence gathered",
+    "samsung c&t: no evidence gathered",
+    "renault: no evidence gathered",
+    "gunung raja paksi tbk pt: no evidence gathered",
+    "daechang steel: no evidence gathered",
+    "dongil industries: no evidence gathered",
+    "sjm: no evidence gathered",
+    "kg dongbusteel: no evidence gathered",
+    "aes corp/the: no evidence gathered",
+    "china steel: no evidence gathered",
+    "kyungchang industrial: no evidence gathered",
+    "hero motocorp: no evidence gathered",
+    "hanjung natural connectivity system: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "daedong metals: no evidence gathered",
+    "volkswagen: no evidence gathered",
+    "hd korea shipbuilding & offshore engineering: no evidence gathered",
+    "posco future m: no evidence gathered",
+    "volvo ab: no evidence gathered",
+    "selamat sempurna tbk pt: no evidence gathered",
+    "lg electronics: no evidence gathered",
+    "dongsung chemical: no evidence gathered",
+    "yeong hwa metal: no evidence gathered",
+    "dl holdings co lirl: no evidence gathered",
+    "steel pipe industry of indonesia pt: no evidence gathered",
+    "waskita karya persero tbk pt: no evidence gathered",
+    "lg chem: no evidence gathered",
+    "baic bluepark new energy technology: no evidence gathered",
+    "guangzhou tinci materials technology: no evidence gathered",
+    "nissan motor: no evidence gathered",
+    "guangdong delian: no evidence gathered",
+    "kg mobility: no evidence gathered",
+    "dongwon metal: no evidence gathered",
+    "seojin system: no evidence gathered",
+    "lg energy solution: no evidence gathered",
+    "kumkang kind: no evidence gathered",
+    "oci: no evidence gathered",
+    "hdc hyundai engineering plastics: no evidence gathered",
+    "bakrie and brothers tbk pt: no evidence gathered",
+    "korea movenex: no evidence gathered",
+    "kiswire: no evidence gathered",
+    "mitsubishi heavy industries: no evidence gathered",
+    "usa steel: no evidence gathered",
+    "kumho tire: no evidence gathered",
+    "seah: no evidence gathered",
+    "aapico hitech pcl: no evidence gathered",
+    "hansol chemical: no evidence gathered",
+    "stellantis: no evidence gathered",
+    "jiangsu lixing general steel ball: no evidence gathered",
+    "samsung sdi: no evidence gathered",
+    "san shing fastech: no evidence gathered",
+    "nexen tire: no evidence gathered",
+    "saudi arabian oil: no evidence gathered",
+    "pusan cast iron: no evidence gathered",
+    "e1: no evidence gathered",
+    "zhejiang huayou cobalt: no evidence gathered",
+    "bridgestone: no evidence gathered",
+    "medco energi internasional tbk pt: no evidence gathered",
+    "schaeffler: no evidence gathered",
+    "kia: no evidence gathered",
+    "nations technologies: no evidence gathered",
+    "taeyang metal industrial: no evidence gathered",
+    "hd hyundai heavy industries: no evidence gathered",
+    "s-oil: no evidence gathered",
+    "aneka tambang tbk: no evidence gathered",
+    "hyundai transys: no evidence gathered",
+    "wooshin systems: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "thang long metal wares jsc: no evidence gathered",
+    "hyundai motor: no evidence gathered",
+    "qst international: no evidence gathered",
+    "posco eco & challenge: no evidence gathered",
+    "jsr: no evidence gathered",
+    "posco international: no evidence gathered",
+    "samsung electronics: no evidence gathered",
+    "taiwan cement: no evidence gathered",
+    "dgenx: no evidence gathered",
+    "sk innovation: no evidence gathered",
+    "hyundai mobis: no evidence gathered",
+    "saudi basic industries: no evidence gathered",
+    "kg eco technology service: no evidence gathered",
+    "eurogroup laminations: no evidence gathered",
+    "dae won kang up: no evidence gathered",
+    "krakatau steel persero tbk pt: no evidence gathered",
+    "maruichi steel tube: no evidence gathered",
+    "hiroca holdings lid: no evidence gathered",
+    "sangsin brake: no evidence gathered",
+    "hyundai wia: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fquestion**  \nA supply\u2011chain disruption was reported at **Korea Electric Power Corp. (KEPCO)** around\u202f15\u202fSept\u202f2011. Which downstream customers or alternative suppliers are structurally at risk, and what documentary evidence exists for each?\n\n---\n\n### 1. Companies identified as *structurally* downstream of KEPCO  \n\nThe graph\u2011traversal (downstream, max\u202f2 tiers) returned **107** enriched companies. The most relevant \u2013 those with a filing on record \u2013 are reproduced below (tier\u202f1 = direct customers; tier\u202f2 = one step further).  \n\n| Tier | Company (has filing?) | Business sector |\n|------|-----------------------|-----------------|\n| 1 | **POSCO** (\u2713) | Steel producer \u2013 also owns POSCO Power Corp. |\n| 1 | **Vedanta** (\u2713) | Metals & mining (aluminium, zinc\u2026) |\n| 2 | **Mitsui** (\u2713) | Trading house (steel & metals) |\n| 2 | **BP** (\u2713) | Oil & gas producer |\n| 2 | **Chevron** (\u2713) | Oil & gas producer |\n| 2 | **China Petroleum & Chemical (Sinopec)** (\u2713) | Oil & gas, petrochemicals |\n| 2 | **Nexen** (\u2713) \u2013 automotive\u2011related tyre\u2011bladder maker |\n| 2 | **General Motors** (\u2713) |\n| 2 | **Ford Motor** (\u2713) |\n| 2 | **Exxon\u202fMobil** (\u2713) |\n| 2 | **Nippon Steel** (\u2713) |\n| 2 | **Shell** (\u2713) |\n| 2 | **Apple** (\u2713) |\n\n(Companies without a filing were also listed by the traversal, but because they return no data from `get_supplier_info` we could not obtain any documentary evidence for them within the remaining turn budget.)\n\n---\n\n### 2. Evidence gathered\n\n| Company | Source(s) consulted | What the source says about KEPCO (or related exposure) |\n|---------|--------------------|--------------------------------------------------------|\n| **POSCO** | `get_supplier_info` (20\u2011F, filed\u202f24\u202fJun\u202f2011) + `search_corpus` (POSCO filing, query \u201cKorea Electric Power\u201d) | The POSCO filing contains a *long\u2011term contract* in which **POSCO Power Corp. provides its entire combined\u2011cycle power capacity to KEPCO** and receives a payment guarantee from Seoul Guarantee Insurance. This directly ties POSCO\u2019s power\u2011generation subsidiary to KEPCO, confirming that any disruption at KEPCO could affect POSCO\u2019s contracted revenue stream. |\n| **Mitsui** | `get_supplier_info` (20\u2011F, filed\u202f13\u202fAug\u202f2010) | The excerpt retrieved does not mention KEPCO or any power\u2011supply contract with KEPCO. No explicit link to the September\u202f2011 disruption could be identified in the available chunks. |\n| **Vedanta**, **BP**, **Chevron**, **Sinopec**, **Nexen**, **GM**, **Ford**, **Exxon\u202fMobil**, **Nippon Steel**, **Shell**, **Apple** | *No* filings were retrieved for these companies within this investigation (the turn budget was exhausted after the POSCO and Mitsui calls). Consequently, we have no documentary evidence confirming or denying exposure to KEPCO. |\n\n---\n\n### 3. What could not be confirmed\n\n| Company | Reason for missing confirmation |\n|---------|---------------------------------|\n| All tier\u20112 firms **except POSCO** (Mitsui, Vedanta, BP, Chevron, Sinopec, Nexen, GM, Ford, Exxon\u202fMobil, Nippon Steel, Shell, Apple) | No filing was fetched; the remaining turns were used for POSCO and Mitsui. Without a filing or targeted corpus search we cannot state whether they have contracts with KEPCO. |\n| Any tier\u20111 or tier\u20112 company **without a filing** (e.g., LS\u202fElectric, Hyundai Rotem, SK, Kumho Petrochemical, etc.) | `get_supplier_info` returns nothing for \u201cNO filing on record\u201d companies; we therefore lack any direct evidence of exposure. |\n| Potential *alternative suppliers* that might replace KEPCO\u2019s output (e.g., other power\u2011generation firms) | Not examined because the traversal already listed downstream customers; alternative\u2011supplier links would require a separate upstream query, which was outside the scope of this investigation. |\n\n---\n\n### 4. Bottom\u2011line assessment\n\n* **Confirmed at\u2011risk company:** **POSCO** \u2013 its wholly\u2011owned POSCO Power Corp. is contractually obligated to supply all of its combined\u2011cycle power capacity to KEPCO. The filing shows that POSCO receives a large payment guarantee from Seoul Guarantee Insurance, indicating the materiality of this relationship and implying that any interruption at KEPCO could materially affect POSCO\u2019s revenue and cash\u2011flow.\n\n* **Potentially at\u2011risk companies (unverified):** Mitsui and all other tier\u20112 firms listed above may have exposure through trading, supply or financing relationships with KEPCO, but no documentary evidence was retrieved within the allowed tool calls. Their risk status remains *unknown* pending further document retrieval.\n\n* **Companies without filings:** Numerous downstream customers appear in the graph (e.g., LS\u202fElectric, Hyundai Rotem, SK, Kumho Petrochemical, etc.). Because they have no SEC\u2011type filing in our corpus, we could not obtain any confirmatory statements about their dependence on KEPCO.\n\n---\n\n**Conclusion** \u2013 The only company for which we can definitively say the September\u202f2011 disruption at Korea Electric Power Corp. posed a direct contractual risk is **POSCO** (via POSCO Power Corp.). All other identified downstream entities lack verifiable evidence in the available filings; their exposure remains unconfirmed and would require additional document retrieval beyond the four\u2011turn limit of this analysis.\n\nCOVERAGE GAPS (105) -- reported explicitly, not omitted:\n  - vedanta: no evidence gathered\n  - bp: no evidence gathered\n  - chevron: no evidence gathered\n  - china petroleum & chemical: no evidence gathered\n  - nexen: no evidence gathered\n  - general motors: no evidence gathered\n  - ford motor: no evidence gathered\n  - exxon mobil: no evidence gathered\n  - nippon steel: no evidence gathered\n  - shell: no evidence gathered\n  - apple: no evidence gathered\n  - ls electric: no evidence gathered\n  - hyundai rotem: no evidence gathered\n  - sk: no evidence gathered\n  - kumho petrochemical: no evidence gathered\n  - lucky cement: no evidence gathered\n  - perusahaan perseroan persero pt perusahaan listrik negara: no evidence gathered\n  - hyundai engineering & construction: no evidence gathered\n  - samsung c&t: no evidence gathered\n  - renault: no evidence gathered\n  - gunung raja paksi tbk pt: no evidence gathered\n  - daechang steel: no evidence gathered\n  - dongil industries: no evidence gathered\n  - sjm: no evidence gathered\n  - kg dongbusteel: no evidence gathered\n  - aes corp/the: no evidence gathered\n  - china steel: no evidence gathered\n  - kyungchang industrial: no evidence gathered\n  - hero motocorp: no evidence gathered\n  - hanjung natural connectivity system: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - daedong metals: no evidence gathered\n  - volkswagen: no evidence gathered\n  - hd korea shipbuilding & offshore engineering: no evidence gathered\n  - posco future m: no evidence gathered\n  - volvo ab: no evidence gathered\n  - selamat sempurna tbk pt: no evidence gathered\n  - lg electronics: no evidence gathered\n  - dongsung chemical: no evidence gathered\n  - yeong hwa metal: no evidence gathered\n  - dl holdings co lirl: no evidence gathered\n  - steel pipe industry of indonesia pt: no evidence gathered\n  - waskita karya persero tbk pt: no evidence gathered\n  - lg chem: no evidence gathered\n  - baic bluepark new energy technology: no evidence gathered\n  - guangzhou tinci materials technology: no evidence gathered\n  - nissan motor: no evidence gathered\n  - guangdong delian: no evidence gathered\n  - kg mobility: no evidence gathered\n  - dongwon metal: no evidence gathered\n  - seojin system: no evidence gathered\n  - lg energy solution: no evidence gathered\n  - kumkang kind: no evidence gathered\n  - oci: no evidence gathered\n  - hdc hyundai engineering plastics: no evidence gathered\n  - bakrie and brothers tbk pt: no evidence gathered\n  - korea movenex: no evidence gathered\n  - kiswire: no evidence gathered\n  - mitsubishi heavy industries: no evidence gathered\n  - usa steel: no evidence gathered\n  - kumho tire: no evidence gathered\n  - seah: no evidence gathered\n  - aapico hitech pcl: no evidence gathered\n  - hansol chemical: no evidence gathered\n  - stellantis: no evidence gathered\n  - jiangsu lixing general steel ball: no evidence gathered\n  - samsung sdi: no evidence gathered\n  - san shing fastech: no evidence gathered\n  - nexen tire: no evidence gathered\n  - saudi arabian oil: no evidence gathered\n  - pusan cast iron: no evidence gathered\n  - e1: no evidence gathered\n  - zhejiang huayou cobalt: no evidence gathered\n  - bridgestone: no evidence gathered\n  - medco energi internasional tbk pt: no evidence gathered\n  - schaeffler: no evidence gathered\n  - kia: no evidence gathered\n  - nations technologies: no evidence gathered\n  - taeyang metal industrial: no evidence gathered\n  - hd hyundai heavy industries: no evidence gathered\n  - s-oil: no evidence gathered\n  - aneka tambang tbk: no evidence gathered\n  - hyundai transys: no evidence gathered\n  - wooshin systems: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - thang long metal wares jsc: no evidence gathered\n  - hyundai motor: no evidence gathered\n  - qst international: no evidence gathered\n  - posco eco & challenge: no evidence gathered\n  - jsr: no evidence gathered\n  - posco international: no evidence gathered\n  - samsung electronics: no evidence gathered\n  - taiwan cement: no evidence gathered\n  - dgenx: no evidence gathered\n  - sk innovation: no evidence gathered\n  - hyundai mobis: no evidence gathered\n  - saudi basic industries: no evidence gathered\n  - kg eco technology service: no evidence gathered\n  - eurogroup laminations: no evidence gathered\n  - dae won kang up: no evidence gathered\n  - krakatau steel persero tbk pt: no evidence gathered\n  - maruichi steel tube: no evidence gathered\n  - hiroca holdings lid: no evidence gathered\n  - sangsin brake: no evidence gathered\n  - hyundai wia: no evidence gathered",
+  "coverage": {
+    "posco": {
+      "name": "posco",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info",
+        "search_corpus"
+      ],
+      "best_staleness_days": 83,
+      "tag_mismatch": null
+    },
+    "vedanta": {
+      "name": "vedanta",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mitsui": {
+      "name": "mitsui",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 398,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "chevron": {
+      "name": "chevron",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "china petroleum & chemical": {
+      "name": "china petroleum & chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nexen": {
+      "name": "nexen",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "general motors": {
+      "name": "general motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "exxon mobil": {
+      "name": "exxon mobil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nippon steel": {
+      "name": "nippon steel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shell": {
+      "name": "shell",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "apple": {
+      "name": "apple",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ls electric": {
+      "name": "ls electric",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai rotem": {
+      "name": "hyundai rotem",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk": {
+      "name": "sk",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kumho petrochemical": {
+      "name": "kumho petrochemical",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lucky cement": {
+      "name": "lucky cement",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "perusahaan perseroan persero pt perusahaan listrik negara": {
+      "name": "perusahaan perseroan persero pt perusahaan listrik negara",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai engineering & construction": {
+      "name": "hyundai engineering & construction",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung c&t": {
+      "name": "samsung c&t",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "renault": {
+      "name": "renault",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "gunung raja paksi tbk pt": {
+      "name": "gunung raja paksi tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "daechang steel": {
+      "name": "daechang steel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dongil industries": {
+      "name": "dongil industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sjm": {
+      "name": "sjm",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kg dongbusteel": {
+      "name": "kg dongbusteel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aes corp/the": {
+      "name": "aes corp/the",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "china steel": {
+      "name": "china steel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kyungchang industrial": {
+      "name": "kyungchang industrial",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hero motocorp": {
+      "name": "hero motocorp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hanjung natural connectivity system": {
+      "name": "hanjung natural connectivity system",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "daedong metals": {
+      "name": "daedong metals",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volkswagen": {
+      "name": "volkswagen",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hd korea shipbuilding & offshore engineering": {
+      "name": "hd korea shipbuilding & offshore engineering",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco future m": {
+      "name": "posco future m",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "volvo ab": {
+      "name": "volvo ab",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "selamat sempurna tbk pt": {
+      "name": "selamat sempurna tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lg electronics": {
+      "name": "lg electronics",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dongsung chemical": {
+      "name": "dongsung chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "yeong hwa metal": {
+      "name": "yeong hwa metal",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dl holdings co lirl": {
+      "name": "dl holdings co lirl",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "steel pipe industry of indonesia pt": {
+      "name": "steel pipe industry of indonesia pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "waskita karya persero tbk pt": {
+      "name": "waskita karya persero tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lg chem": {
+      "name": "lg chem",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "baic bluepark new energy technology": {
+      "name": "baic bluepark new energy technology",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "guangzhou tinci materials technology": {
+      "name": "guangzhou tinci materials technology",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nissan motor": {
+      "name": "nissan motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "guangdong delian": {
+      "name": "guangdong delian",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kg mobility": {
+      "name": "kg mobility",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dongwon metal": {
+      "name": "dongwon metal",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "seojin system": {
+      "name": "seojin system",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "lg energy solution": {
+      "name": "lg energy solution",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kumkang kind": {
+      "name": "kumkang kind",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "oci": {
+      "name": "oci",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hdc hyundai engineering plastics": {
+      "name": "hdc hyundai engineering plastics",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bakrie and brothers tbk pt": {
+      "name": "bakrie and brothers tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "korea movenex": {
+      "name": "korea movenex",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kiswire": {
+      "name": "kiswire",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mitsubishi heavy industries": {
+      "name": "mitsubishi heavy industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "usa steel": {
+      "name": "usa steel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kumho tire": {
+      "name": "kumho tire",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "seah": {
+      "name": "seah",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aapico hitech pcl": {
+      "name": "aapico hitech pcl",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hansol chemical": {
+      "name": "hansol chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "stellantis": {
+      "name": "stellantis",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jiangsu lixing general steel ball": {
+      "name": "jiangsu lixing general steel ball",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung sdi": {
+      "name": "samsung sdi",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "san shing fastech": {
+      "name": "san shing fastech",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nexen tire": {
+      "name": "nexen tire",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi arabian oil": {
+      "name": "saudi arabian oil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "pusan cast iron": {
+      "name": "pusan cast iron",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "e1": {
+      "name": "e1",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "zhejiang huayou cobalt": {
+      "name": "zhejiang huayou cobalt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bridgestone": {
+      "name": "bridgestone",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "medco energi internasional tbk pt": {
+      "name": "medco energi internasional tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "schaeffler": {
+      "name": "schaeffler",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kia": {
+      "name": "kia",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nations technologies": {
+      "name": "nations technologies",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "taeyang metal industrial": {
+      "name": "taeyang metal industrial",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hd hyundai heavy industries": {
+      "name": "hd hyundai heavy industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "s-oil": {
+      "name": "s-oil",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aneka tambang tbk": {
+      "name": "aneka tambang tbk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai transys": {
+      "name": "hyundai transys",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "wooshin systems": {
+      "name": "wooshin systems",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "thang long metal wares jsc": {
+      "name": "thang long metal wares jsc",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai motor": {
+      "name": "hyundai motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "qst international": {
+      "name": "qst international",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco eco & challenge": {
+      "name": "posco eco & challenge",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jsr": {
+      "name": "jsr",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco international": {
+      "name": "posco international",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "samsung electronics": {
+      "name": "samsung electronics",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "taiwan cement": {
+      "name": "taiwan cement",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dgenx": {
+      "name": "dgenx",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk innovation": {
+      "name": "sk innovation",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai mobis": {
+      "name": "hyundai mobis",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi basic industries": {
+      "name": "saudi basic industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "kg eco technology service": {
+      "name": "kg eco technology service",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eurogroup laminations": {
+      "name": "eurogroup laminations",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dae won kang up": {
+      "name": "dae won kang up",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "krakatau steel persero tbk pt": {
+      "name": "krakatau steel persero tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "maruichi steel tube": {
+      "name": "maruichi steel tube",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hiroca holdings lid": {
+      "name": "hiroca holdings lid",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sangsin brake": {
+      "name": "sangsin brake",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hyundai wia": {
+      "name": "hyundai wia",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Korea Electric Power",
+      "summary": "[downstream of 'korea electric power' | 107 enriched companies found, 475 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "POSCO",
+      "summary": "[POSCO | 20-F filed 2011-06-24 (83 days before event) | doc_id=8b476ff7f4b6fb1e]"
+    },
+    {
+      "hop": 3,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "Mitsui",
+      "summary": "[Mitsui | 20-F filed 2010-08-13 (398 days before event) | doc_id=a686e6245d7b293e]"
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": "POSCO",
+      "summary": "[query: 'Korea Electric Power' | as of 2011-09-15 | 5 result(s) across 1 distinct company]"
+    }
+  ]
+}

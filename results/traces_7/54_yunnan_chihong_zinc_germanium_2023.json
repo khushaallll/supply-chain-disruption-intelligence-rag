@@ -1,0 +1,38 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation Summary \u2013 Disruption at Yunnan\u202fChihong\u202fZinc\u202f&\u202fGermanium**\n\n**What was done**\n1. I attempted to locate *Yunnan\u202fChihong\u202fZinc\u202f&\u202fGermanium* (and several close name variations) in the supply\u2011chain graph using the **traverse_supply_graph** tool, requesting downstream customers up to two tiers away.  \n2. All four calls returned \u201cCould not find \u2026 in the supply graph,\u201d meaning that the company is not present in the underlying supply\u2011chain database.\n\nBecause no downstream entities could be identified, there were no candidate companies on which to run **get_supplier_info** or **search_corpus** for corroborating evidence. Consequently, I have no filings, press releases, or other SEC\u2011type documents that mention a disruption at Yunnan\u202fChihong\u202fZinc\u202f&\u202fGermanium or its potential impact on other firms.\n\n**Findings**\n\n| Company examined | Evidence found | Interpretation |\n|------------------|----------------|----------------|\n| *Yunnan\u202fChihong\u202fZinc\u202f&\u202fGermanium* (any name variant) | None \u2013 the company does not appear in the supply\u2011chain graph, so no downstream customers or alternative suppliers could be retrieved. | No structural risk can be quantified from the available data. |\n| Potential downstream firms (none identified) | N/A | Because the traversal returned no results, I was unable to locate any specific companies that might be affected. |\n\n**What remains unconfirmed**\n\n- **Which companies (if any) rely on Yunnan\u202fChihong\u202fZinc\u202f&\u202fGermanium for zinc or germanium supplies**, either directly or through intermediate tiers.  \n- **Whether the reported disruption (first noted around 3\u202fJuly\u202f2023) has been disclosed in SEC filings, press releases, or other public documents** by any downstream parties.  \n\n**Conclusion**\n\nBased on the tools and data available to me, I could not identify any structurally at\u2011risk companies linked to Yunnan\u202fChihong\u202fZinc\u202f&\u202fGermanium. The supply\u2011chain graph does not contain this entity, so no downstream relationships were retrieved, and consequently there is no documentary evidence (SEC filings or corpus mentions) to confirm impacts on other firms.\n\n**Next steps for a more complete assessment (outside the current tool limits)**  \n\n1. **Manual research** \u2013 search news databases, company press releases, and industry reports for any mention of Yunnan\u202fChihong\u202fZinc\u202f&\u202fGermanium\u2019s disruption and its customers.  \n2. **Alternative data sources** \u2013 consult customs/import\u2011export records, commodity trade statistics, or third\u2011party supply\u2011chain mapping services that may capture Chinese mining and processing firms not present in the current graph.  \n\nUntil such external information is gathered, the extent of downstream risk remains unknown.\n\nNO SIGNIFICANT COMPANIES WERE EVER IDENTIFIED -- this is NOT a clean pass. The investigation could not get past identifying the disrupted company itself (or its downstream connections) in the graph, so there was nothing to gather evidence about. Treat this as an incomplete result, not a success.",
+  "coverage": {},
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Yunnan Chihong Zinc & Germanium",
+      "summary": "Could not find 'Yunnan Chihong Zinc & Germanium' in the supply graph."
+    },
+    {
+      "hop": 2,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Yunnan Chihong Zinc",
+      "summary": "Could not find 'Yunnan Chihong Zinc' in the supply graph."
+    },
+    {
+      "hop": 3,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Yunnan Chihong Zinc & Germanium Co., Ltd.",
+      "summary": "Could not find 'Yunnan Chihong Zinc & Germanium Co., Ltd.' in the supply graph."
+    },
+    {
+      "hop": 4,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Yunnan Chihong",
+      "summary": "Could not find 'Yunnan Chihong' in the supply graph."
+    }
+  ]
+}

@@ -133,8 +133,15 @@ class GraphTraversalResult:
             for tier in sorted(by_tier):
                 lines.append(f"\nTier {tier}:")
                 for r in by_tier[tier]:
+                    filing = r.get("has_manifest_filing")
+                    if filing is True:
+                        filing_note = " | HAS a filing on record (get_supplier_info will work)"
+                    elif filing is False:
+                        filing_note = " | NO filing on record (get_supplier_info will return nothing -- consider search_corpus instead, or skip)"
+                    else:
+                        filing_note = ""
                     lines.append(f"  - {r['name']} ({r['industry']}, {r['country']}) "
-                                 f"makes {r['component']}, confidence={r['confidence']}")
+                                 f"makes {r['component']}, confidence={r['confidence']}{filing_note}")
             if self.dropped_unenriched:
                 dropped_names = ", ".join(d["name"] for d in self.dropped_unenriched)
                 lines.append(f"\nReachable but not enriched (no basis to reason "
@@ -162,11 +169,26 @@ class GraphStore:
     file was merely imported, using a hardcoded path with no caller control.
     """
 
-    def __init__(self, graph_path: str | Path = GRAPH_PATH, phonebook=None):
+    def __init__(self, graph_path: str | Path = GRAPH_PATH, phonebook=None, corpus_companies=None):
         with open(graph_path, "rb") as f:
             self.G: nx.DiGraph = pickle.load(f)
 
         self.phonebook = phonebook  # optional Phonebook -- see phonebook.py
+
+        # NEW, optional: a set of lowercased company names known to have a
+        # real, usable filing in the manifest (see supplier_info_tool.py's
+        # load_corpus_companies()). Purely additive -- None (the default)
+        # means "we don't know," and traverse_supply_graph() falls back to
+        # its previous confidence-only ordering exactly as before. When
+        # provided, it lets the agent see, on the SAME free hop-1
+        # traversal call it already makes, which of its candidates are
+        # actually worth a get_supplier_info() call versus which ones will
+        # just burn a turn on "no filings on record." This does not touch
+        # which companies traverse_supply_graph FINDS -- only the order
+        # they're presented in and one extra label per company -- so it
+        # cannot remove a true positive from the results, only help the
+        # agent spend its evidence-gathering turns more efficiently.
+        self.corpus_companies = corpus_companies
 
         if self.G.number_of_nodes() == 0:
             raise RuntimeError(
@@ -334,6 +356,17 @@ class GraphStore:
                     if attrs.get("component") is None:
                         dropped.append({"name": c, "tier": tier})
                         continue
+                    # has_manifest_filing: True/False if we were given a
+                    # corpus_companies set to check against, else None
+                    # ("unknown" -- e.g. old callers/tests that don't pass
+                    # one, or unit tests with no real manifest at hand).
+                    # None deliberately does NOT mean "no filing" -- see
+                    # the sort key below, which treats None as
+                    # "unknown, don't punish or reward it."
+                    has_filing = (
+                        c.strip().lower() in self.corpus_companies
+                        if self.corpus_companies is not None else None
+                    )
                     results.append({
                         "name": c,
                         "tier": tier,
@@ -341,6 +374,7 @@ class GraphStore:
                         "country": attrs.get("country"),
                         "component": attrs.get("component"),
                         "confidence": attrs.get("confidence"),
+                        "has_manifest_filing": has_filing,
                     })
 
             # REVISION (post-30-event real-batch review): sort by
@@ -373,7 +407,52 @@ class GraphStore:
             # None-confidence entries sort last within their tier (via the
             # `is None` primary key), not first and not scattered randomly
             # among the real, scored entries.
-            results.sort(key=lambda r: (r["confidence"] is None, -(r["confidence"] or 0)))
+            # REVISION 2 (real-run bug, caught same day): the first version
+            # of this fix assumed `confidence` was always a real number and
+            # wrote `-(r["confidence"] or 0)` to sort descending. That
+            # crashed on the real graph with "bad operand type for unary
+            # -: 'str'" -- confidence is stored as a STRING in this graph
+            # (e.g. "85", not 85), so Python can't negate it directly.
+            # Confirmed directly from a real failed run's evidence_log
+            # (4/4 hops errored on this exact TypeError, every one of
+            # them). Fixed below with a small helper that converts to
+            # float safely and falls back to "sorts last" for anything
+            # that isn't a usable number (None, missing, or genuinely
+            # malformed text) -- so a bad/missing confidence value can
+            # never crash the tool, it just sorts to the bottom of its
+            # tier instead.
+            # REVISION 3: has_manifest_filing, when known, is now the
+            # PRIMARY sort key -- ahead of confidence. Reasoning: within a
+            # 4-turn budget, a company we already know has a real filing
+            # is strictly more valuable to check than one that doesn't,
+            # REGARDLESS of graph confidence -- checking a company with no
+            # filing wastes a whole turn on a guaranteed
+            # "no_manifest_entry," no matter how confident the graph is
+            # about the structural connection. Confidence remains the
+            # secondary key, so within the "has a filing" group and within
+            # the "doesn't" group, strongest candidates still come first.
+            #
+            # has_manifest_filing=None (unknown -- no corpus_companies set
+            # was supplied) sorts in its own middle group, between "known
+            # to have a filing" and "known not to" -- neither rewarded nor
+            # punished, so behavior for any caller that doesn't pass
+            # corpus_companies is EXACTLY the old confidence-only ordering.
+            def _priority_sort_key(r):
+                filing = r.get("has_manifest_filing")
+                filing_rank = 0 if filing is True else (1 if filing is None else 2)
+
+                c = r["confidence"]
+                if c is None:
+                    conf_rank = (True, 0.0)
+                else:
+                    try:
+                        conf_rank = (False, -float(c))
+                    except (TypeError, ValueError):
+                        conf_rank = (True, 0.0)
+
+                return (filing_rank,) + conf_rank
+
+            results.sort(key=_priority_sort_key)
 
             status = "found" if results else "no_results"
             return GraphTraversalResult(

@@ -1,0 +1,195 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "skf ab: only stale evidence (5293 days old)",
+    "toyota motor: no evidence gathered",
+    "bhp: no evidence gathered",
+    "bp: no evidence gathered",
+    "aurizon: no evidence gathered",
+    "tata steel: no evidence gathered",
+    "glencore: no evidence gathered",
+    "honda motor: no evidence gathered",
+    "renault: no evidence gathered",
+    "eicher motors: no evidence gathered",
+    "mercedes-benz: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nCOVERAGE GAPS (12) -- reported explicitly, not omitted:\n  - skf ab: only stale evidence (5293 days old)\n  - toyota motor: no evidence gathered\n  - bhp: no evidence gathered\n  - bp: no evidence gathered\n  - aurizon: no evidence gathered\n  - tata steel: no evidence gathered\n  - glencore: no evidence gathered\n  - honda motor: no evidence gathered\n  - renault: no evidence gathered\n  - eicher motors: no evidence gathered\n  - mercedes-benz: no evidence gathered\n  - bayerische motoren werke: no evidence gathered",
+  "coverage": {
+    "rio tinto": {
+      "name": "rio tinto",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 216,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 239,
+      "tag_mismatch": null
+    },
+    "skf ab": {
+      "name": "skf ab",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 5293,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bhp": {
+      "name": "bhp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aurizon": {
+      "name": "aurizon",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tata steel": {
+      "name": "tata steel",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "glencore": {
+      "name": "glencore",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "honda motor": {
+      "name": "honda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "renault": {
+      "name": "renault",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eicher motors": {
+      "name": "eicher motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Coronado Global Resources",
+      "summary": "[downstream of 'coronado global resources' | 14 enriched companies found, 19 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "Rio Tinto",
+      "summary": "[Rio Tinto | 20-F filed 2020-02-28 (216 days before event) | doc_id=4792669c1659921c]"
+    },
+    {
+      "hop": 3,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "Ford Motor",
+      "summary": "[Ford Motor | 10-K filed 2020-02-05 (239 days before event) | doc_id=e290da1e7ecf6c76]"
+    },
+    {
+      "hop": 4,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "SKF AB",
+      "summary": "[SKF AB | 20-F filed 2006-04-05 (5293 days before event) | doc_id=20268ac8c071fa21]"
+    }
+  ]
+}

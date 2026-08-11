@@ -37,9 +37,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from langchain_core.messages import AIMessage
 
-from graph_tool import GraphTraversalResult
-from supplier_info_tool import SupplierInfoResult
-from search_corpus_tool import CorpusSearchResult
+from agent.tools.graph_tool import GraphTraversalResult
+from agent.tools.supplier_info_tool import SupplierInfoResult
+from agent.tools.search_corpus_tool import CorpusSearchResult
 
 from agent_state import make_initial_state
 from stopping_condition import (
@@ -719,6 +719,52 @@ check("B10 the report explicitly says this is NOT a clean pass",
       "NOT a clean pass" in result_b10["final_report"], result_b10["final_report"])
 check("B10 the report does NOT contain the old, misleading 'no coverage gaps' success wording",
       "No coverage gaps: all" not in result_b10["final_report"], result_b10["final_report"])
+
+# --------------------------------------------------------------------------- #
+# B11 -- a model that misapplies the batching guidance by passing a LIST of
+#        company names as one call's company_name argument, instead of
+#        issuing several separate tool_calls. Confirmed on a real trace
+#        ('4_dow_2017'): this previously errored out the entire hop,
+#        losing evidence-gathering for every name in the list. Must now be
+#        tolerated: run once per name, combine into one ToolMessage.
+# --------------------------------------------------------------------------- #
+print("\n--- B11: a list passed as company_name is handled, not lost to an error ---")
+
+def ai_tool_call_with_list_arg(tool_name, list_arg_key, names, extra_args, call_id):
+    args = {list_arg_key: names, **extra_args}
+    return AIMessage(content="", tool_calls=[{"name": tool_name, "args": args, "id": call_id}])
+
+llm_b11 = ScriptedLLM([
+    ai_tool_call("traverse_supply_graph", {"company_name": "dow"}, "c1"),
+    ai_tool_call_with_list_arg(
+        "get_supplier_info", "company_name",
+        ["hyundai motor", "ford motor"],
+        {"event_date": "2017-08-25"}, "c2",
+    ),
+    ai_final_answer("Both companies checked via a single batched (list-shaped) request."),
+])
+graph_store_b11 = FakeGraphStore([make_traverse_result([("hyundai motor", 1), ("ford motor", 1)])])
+supplier_store_b11 = FakeSupplierStore([
+    make_supplier_found("hyundai motor", staleness_days=50),
+    make_supplier_found("ford motor", staleness_days=60),
+])
+corpus_store_b11 = FakeCorpusStore([])
+
+llm_tools11, raw_dispatch11 = build_tool_bindings(graph_store_b11, supplier_store_b11, corpus_store_b11)
+app_b11 = build_agent_graph(llm_b11, llm_tools11, raw_dispatch11)
+result_b11 = app_b11.invoke(make_initial_state("Investigate the Dow disruption.", max_hops=4))
+
+check("B11 both companies from the list-shaped call are covered, not lost to an error",
+      result_b11["coverage"]["hyundai motor"]["evidence_sources"] == ["traverse_supply_graph", "get_supplier_info"]
+      and result_b11["coverage"]["ford motor"]["evidence_sources"] == ["traverse_supply_graph", "get_supplier_info"],
+      {k: v["evidence_sources"] for k, v in result_b11["coverage"].items()})
+check("B11 only 2 hops were used total (the list-shaped call still cost exactly 1 hop)",
+      result_b11["hop_count"] == 2, result_b11["hop_count"])
+check("B11 evidence_log has one entry per company, not one entry for the whole list",
+      sum(1 for e in result_b11["evidence_log"] if e["tool"] == "get_supplier_info") == 2,
+      [e for e in result_b11["evidence_log"] if e["tool"] == "get_supplier_info"])
+check("B11 run finishes with coverage_and_quality_met, not stuck on a false error",
+      result_b11["stop_reason"] == "coverage_and_quality_met", result_b11["stop_reason"])
 
 
 # ===========================================================================
