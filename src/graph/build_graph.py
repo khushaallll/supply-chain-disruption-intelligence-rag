@@ -17,7 +17,7 @@ import pandas as pd
 from graph.clean import RAW_CSV, clean_countries, normalize_company_name
 
 DECISIONS_CSV = Path("data/review/merge_decisions.csv")
-GRAPH_PKL = Path("data/processed/graph_clean.pkl")
+GRAPH_PKL = Path("data/processed/graph_clean_for_instance.pkl")
 
 
 def build_merge_map(decisions_csv):
