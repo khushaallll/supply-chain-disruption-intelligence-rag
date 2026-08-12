@@ -103,6 +103,39 @@ def load_manifest(manifest_path: str | Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def load_corpus_companies(manifest_path: str | Path) -> set[str]:
+    """
+    NEW: returns the set of lowercased company names that get_supplier_info
+    can actually return real text for -- i.e. every unique 'company' value
+    in the manifest that has AT LEAST ONE row that is NOT status=='FAILED'.
+
+    This is meant to be handed to GraphStore (see graph_tool.py's
+    `corpus_companies` parameter) so the traversal step -- which already
+    runs on hop 1 of every event, for free -- can tell the agent UP FRONT
+    which of its candidate companies are actually worth spending a
+    get_supplier_info call on, instead of the agent finding out only after
+    burning a real turn on a guess.
+
+    Confirmed directly against the real manifest (605 rows, 64 unique
+    companies): of 72 get_supplier_info calls across a real 26-event
+    batch, 36 failed with no_manifest_entry, and the repeat offenders
+    (Volkswagen x3, Hyundai Motor x2, Samsung Electronics x2, Umicore x2...)
+    are ALL companies genuinely absent from the manifest -- not spelling
+    issues, not the FAILED-row issue Step 2 of get_supplier_info() already
+    handles, just companies with no filing on file at all. Those are
+    exactly the guesses this function lets the agent avoid making in the
+    first place.
+
+    FAILED rows are excluded from this set so a company whose ONLY
+    manifest row is a known-failed fetch (see get_supplier_info's Step 2
+    fix) doesn't get marked "has a filing" when, functionally, it
+    doesn't -- same reasoning as that fix, applied here so both places
+    agree on what "has a filing" means.
+    """
+    rows = load_manifest(manifest_path)
+    return {row["company"].strip().lower() for row in rows if row.get("status") != "FAILED"}
+
+
 def build_chunk_index(chunks_path: str | Path) -> dict[str, list[dict]]:
     """
     doc_id -> list of chunk dicts, sorted by their chunk_id sequence number
@@ -208,9 +241,40 @@ class SupplierInfoStore:
                 company=company_name, event_id=event_id, event_date=event_date,
             )
 
-        # --- Step 2: leakage guard -- keep only docs dated on/before event -
+        # --- Step 2: leakage guard -- keep only docs dated on/before event,
+        # AND only docs that actually have real text behind them.
+        #
+        # REVISION (post-30-event real-batch review): added the
+        # status != "FAILED" condition below. The manifest can contain
+        # rows for documents whose original SEC fetch failed at
+        # corpus-build time -- status == 'FAILED', n_chunks == '0',
+        # chars == '0' -- while still looking like an ordinary,
+        # selectable row otherwise. Confirmed on the real manifest: 8 of
+        # 605 rows are FAILED this way, across 4 companies (ENI x3, Korea
+        # Electric Power x3, Shell x1, Rio Tinto x1).
+        #
+        # Before this fix, Step 3 below (pick the single most recent
+        # qualifying document) could still select a FAILED row purely
+        # because of its date, then this call would report
+        # "chunks_missing" -- which reads as a data-join bug, when the
+        # real story is simpler: the source document itself never
+        # successfully downloaded. Confirmed concretely on two real
+        # events: Korea Electric Power's and ENI's most-recent
+        # pre-event filing were BOTH their FAILED 2022 row, while a
+        # perfectly good, fully-chunked filing from the year before sat
+        # right behind it, unconsidered, for both companies.
+        #
+        # Filtering FAILED rows out HERE, at the same step as the
+        # existing leakage-guard date filter, means Step 3's "most
+        # recent" selection naturally falls through to the next real,
+        # working filing instead -- no other logic needs to change. If
+        # every predating filing for a company happens to be FAILED,
+        # this now correctly reports "no_predating_document" (an honest
+        # description) rather than "chunks_missing" (which implies a
+        # join bug that isn't actually what happened in that case).
         predating = [row for row in candidates
-                     if _to_date(row["published_date"]) <= event_dt]
+                     if _to_date(row["published_date"]) <= event_dt
+                     and row.get("status") != "FAILED"]
 
         if not predating:
             return SupplierInfoResult(

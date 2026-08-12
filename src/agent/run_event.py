@@ -31,7 +31,7 @@ from typing import Optional
 sys.path.insert(0, str(Path(__file__).parent))
 
 from agent.tools.graph_tool import GraphStore
-from agent.tools.supplier_info_tool import SupplierInfoStore
+from agent.tools.supplier_info_tool import SupplierInfoStore, load_corpus_companies
 from agent.tools.search_corpus_tool import CorpusSearchStore
 from phonebook import Phonebook
 
@@ -62,7 +62,16 @@ def build_real_stores():
     pre-reviewed fast path for names inside it.
     """
     phonebook = Phonebook(PHONEBOOK_PATH)
-    graph_store = GraphStore(GRAPH_PATH, phonebook=phonebook)
+
+    # NEW: read once, up front -- the set of companies that actually have
+    # a usable filing in the manifest (see supplier_info_tool.py's
+    # load_corpus_companies() for the exact definition -- excludes
+    # FAILED-status rows, matching get_supplier_info's own Step 2 fix).
+    # Handed to GraphStore so traverse_supply_graph's hop-1 call can flag,
+    # per candidate company, whether get_supplier_info is even worth
+    # trying -- for free, since that call happens regardless.
+    corpus_companies = load_corpus_companies(MANIFEST_PATH)
+    graph_store = GraphStore(GRAPH_PATH, phonebook=phonebook, corpus_companies=corpus_companies)
     supplier_store = SupplierInfoStore(MANIFEST_PATH, CHUNKS_PATH, phonebook=phonebook)
     corpus_store = CorpusSearchStore(
         chunks_path=CHUNKS_PATH,
