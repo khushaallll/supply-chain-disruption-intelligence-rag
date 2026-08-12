@@ -1,0 +1,13 @@
+event_id,category,date_news_first,date_first_disclosure,date_first_sec_filing,lag_days,disclosure_confidence
+2_nippon_steel_2011,natural_disaster,2011-03-11,2011-03-11,2011-03-14,0,high
+4_dow_2017,natural_disaster,2017-08-25,2017-08-29,2017-08-29,4,medium
+47_china_steel_2018,geopolitical_policy,2018-03-01,2018-04-26,2018-04-26,56,high
+5_formosa_plastics_2021,natural_disaster,2021-02-15,2021-02-24,2021-02-24,9,high
+8_exxon_mobil_2005,natural_disaster,2005-08-29,2005-08-30,2005-08-30,1,high
+35_gazprom_pjsc_2022,geopolitical_policy,2022-09-02,2022-09-02,2022-10-19,0,medium
+11_aurizon_2010,natural_disaster,2010-12-25,2011-01-07,2011-01-07,13,high
+24_bp_2010,industrial_accident,2010-04-20,2010-04-21,2010-04-23,1,high
+40_state_grid_corp_of_china_2021,energy,2021-09-23,2021-10-27,2021-10-27,34,high
+54_yunnan_chihong_zinc_germanium_2023,geopolitical_policy,2023-07-03,2023-07-05,2023-07-05,2,high
+57_united_co_rusal_international_pjsc_2018,geopolitical_policy,2018-04-06,2018-04-13,2018-04-13,7,high
+59_coronado_global_resources_2020,geopolitical_policy,2020-10-01,2020-11-04,2020-11-04,34,high

@@ -1,0 +1,58 @@
+{
+  "n_events_total": 30,
+  "n_events_with_lag": 12,
+  "overall": {
+    "high_only": {
+      "n": 10,
+      "median": 8.0,
+      "mean": 15.7,
+      "min": 0,
+      "max": 56
+    },
+    "high_and_medium": {
+      "n": 12,
+      "median": 5.5,
+      "mean": 13.4,
+      "min": 0,
+      "max": 56
+    },
+    "all": {
+      "n": 12,
+      "median": 5.5,
+      "mean": 13.4,
+      "min": 0,
+      "max": 56
+    }
+  },
+  "by_category_high_only": {
+    "energy": {
+      "n": 1,
+      "median": 34,
+      "mean": 34,
+      "min": 34,
+      "max": 34
+    },
+    "geopolitical_policy": {
+      "n": 4,
+      "median": 20.5,
+      "mean": 24.8,
+      "min": 2,
+      "max": 56
+    },
+    "industrial_accident": {
+      "n": 1,
+      "median": 1,
+      "mean": 1,
+      "min": 1,
+      "max": 1
+    },
+    "natural_disaster": {
+      "n": 4,
+      "median": 5.0,
+      "mean": 5.8,
+      "min": 0,
+      "max": 13
+    }
+  },
+  "caveat": "High-confidence disclosure dates are not evenly distributed across event categories (Events_Limitation.md 1.2). Report medians only for categories with n>=3 at your chosen confidence threshold; list individual cases otherwise. Frame RQ1 as a case-based finding with primary-source citations per event, not as a statistical distribution -- the underlying sample (30 events, ~12 with any disclosure date) is too small to support confidence intervals (Events_Limitation.md 7.1)."
+}
