@@ -42,10 +42,10 @@ from system_c import extract_system_c_predictions, is_seed_unresolved
 # `python evaluate_system_c.py` with no arguments.
 # --------------------------------------------------------------------------- #
 
-TRACES_DIR = "results/traces_7"                 # the 30 real System C trace JSON files
+TRACES_DIR = "results/traces_8"                 # the 30 real System C trace JSON files
 GT_DIR = "data/ground_truth"                                   # directory containing ground_truth_batch{1,2,3}_final.json
 PHONEBOOK_PATH = "data/company_phonebook.csv"
-OUT_PATH = "results/system_c/system_c_eval_7.json"        # set to None to skip writing a file and only print the report
+OUT_PATH = "results/system_c/system_c_eval_8.json"        # set to None to skip writing a file and only print the report
 
 
 def load_traces(traces_dir: str) -> dict:

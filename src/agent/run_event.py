@@ -150,6 +150,15 @@ def save_trace(state: dict, out_path: str | Path) -> None:
         "final_report": state["final_report"],
         "coverage": state["coverage"],
         "evidence_log": state["evidence_log"],
+        # NEW: token usage -- see agent_state.py's AgentState docstring
+        # and agent_graph.py's _accumulate_tokens() for how these are
+        # built. Included here unconditionally (not behind a flag) so
+        # every trace saved from now on carries this for free, the same
+        # way hop_count/evidence_log already are.
+        "prompt_tokens": state["prompt_tokens"],
+        "completion_tokens": state["completion_tokens"],
+        "total_tokens": state["total_tokens"],
+        "token_usage_log": state["token_usage_log"],
     }
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)

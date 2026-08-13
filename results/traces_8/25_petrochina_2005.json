@@ -1,0 +1,492 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "china petroleum & chemical: no evidence gathered",
+    "corteva: no evidence gathered",
+    "bp: no evidence gathered",
+    "dow: no evidence gathered",
+    "posco: no evidence gathered",
+    "mitsui: no evidence gathered",
+    "xpeng: no evidence gathered",
+    "toyota motor: no evidence gathered",
+    "akzo nobel: no evidence gathered",
+    "formosa plastics: no evidence gathered",
+    "shanghai huayi: no evidence gathered",
+    "guangzhou development: no evidence gathered",
+    "perusahaan perseroan persero pt perusahaan listrik negara: no evidence gathered",
+    "aneka tambang tbk: no evidence gathered",
+    "sk: no evidence gathered",
+    "guangzhou automobile: no evidence gathered",
+    "gb corp/eg: no evidence gathered",
+    "gunung raja paksi tbk pt: no evidence gathered",
+    "basf se: no evidence gathered",
+    "saudi basic industries: no evidence gathered",
+    "triangle tyre: no evidence gathered",
+    "jfe: no evidence gathered",
+    "medco energi internasional tbk pt: no evidence gathered",
+    "state grid corp of china: no evidence gathered",
+    "krakatau steel persero tbk pt: no evidence gathered",
+    "taiwan cement: no evidence gathered",
+    "nan ya plastics: no evidence gathered",
+    "nexen tire: no evidence gathered",
+    "hesteel: no evidence gathered",
+    "zhejiang juhua: no evidence gathered",
+    "waskita karya persero tbk pt: no evidence gathered",
+    "formosa chemicals & fibre: no evidence gathered",
+    "taita chemical: no evidence gathered",
+    "sk innovation: no evidence gathered",
+    "great wall motor: no evidence gathered",
+    "gac toyota motor: no evidence gathered",
+    "formosa petrochemical: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 Disruption at PetroChina (first reported\u202f\u2248\u202f13\u202fNov\u202f2005)**  \n\n---\n\n### 1. Companies that are *structurally* downstream or otherwise linked to PetroChina  \n(derived from the **down\u2011stream supply\u2011graph**, max\u2011tier\u202f=\u202f2)\n\n| Tier | Company (sector) | Filing status in our database |\n|------|------------------|--------------------------------|\n| **Tier\u202f1** (direct customers / immediate partners) | China Petroleum & Chemical Corp. (Sinopec \u2013 Oil\u202f&\u202fGas) | **HAS a filing** (but no filing was returned when queried) |\n|  | Formosa Plastics (Chemicals, Taiwan) | NO filing |\n|  | Shanghai Huayi (Chemicals, China) | NO filing |\n|  | Guangzhou Development (Electric\u2011Utilities, China) | NO filing |\n|  | PT Perusahaan Listrik Negara (Electric\u2011Utilities, Indonesia) | NO filing |\n| **Tier\u202f2** (customers of Tier\u202f1 or alternative suppliers) | Corteva (Chemicals, USA) \u2013 HAS a filing |\n|  | BP (Oil\u202f&\u202fGas, UK) \u2013 HAS a filing |\n|  | Dow (Chemicals, USA) \u2013 HAS a filing |\n|  | POSCO (Steel, South Korea) \u2013 HAS a filing |\n|  | Mitsui (Metals & Trading, Japan) \u2013 HAS a filing |\n|  | Xpeng (Automotive, Cayman Islands) \u2013 HAS a filing |\n|  | Toyota Motor (Automotive, Japan) \u2013 HAS a filing |\n|  | Akzo\u202fNobel (Chemicals, Netherlands) \u2013 HAS a filing |\n|  | \u2026 *(additional Tier\u20112 firms listed in the graph but not reproduced here for brevity)* | \u2026 |\n\n> **Note:** The graph contains many more \u201creachable but not enriched\u201d companies (\u2248\u202f350). Those have no concrete link to a filing or any other evidence and are therefore omitted from the concise list above.\n\n---\n\n### 2. Evidence that *directly* mentions PetroChina (the disrupted firm)\n\n| Source | Date / Document | Key excerpt(s) |\n|--------|-----------------|----------------|\n| **SEC filing \u2013 Form\u202f20\u2011F (PetroChina Company Limited)** \u2013 filed\u202f29\u202fJun\u202f2005 (covering FY\u202f2004) | 2005\u201106\u201129 | \u2022 Lists the corporate organization, major subsidiaries and the share\u2011holding structure (CNPC owns ~90\u202f%).<br>\u2022 Describes the acquisition of CNPC\u2019s refining & petrochemical assets (Ningxia Dayuan Refinery, Qingyang Refinery) completed **April\u202f1\u202f2005**.<br>\u2022 Details a purchase agreement dated **6\u202fAug\u202f2005** to acquire 50\u202f% of Zhong\u202fYou\u202fKan\u202fTan\u202fKai\u202fFa Co. (Newco). |\n| Same filing \u2013 \u201cMaterial Contracts\u201d section | 2005\u201106\u201129 | \u2022 Shows numerous transfer, supplementary and non\u2011competition agreements between PetroChina and CNPC dated **9\u202fJun\u202f2005** (e.g., Comprehensive Products & Services Agreement, Transfer Agreement). |\n| Same filing \u2013 \u201cNotes to Consolidated Financial Statements\u201d | 2005\u201106\u201129 | \u2022 Provides quantitative data on crude oil imports, natural\u2011gas delivery commitments, and the scale of PetroChina\u2019s upstream/downstream operations in 2004. |\n| Same filing \u2013 \u201cRisk Factors / Key Information\u201d | 2005\u201106\u201129 | \u2022 Explains that PetroChina holds import/export quotas for crude oil and refined products, and that its pricing is tied to the National Development & Reform Commission\u2019s median guidance prices. |\n\nThese excerpts confirm **PetroChina\u2019s operational scope in 2004\u20112005** (exploration, production, refining, chemicals, natural\u2011gas pipelines) and show a series of **major contracts and acquisitions that were being executed around mid\u20112005**, i.e., the period when the disruption was first reported.\n\n---\n\n### 3. Evidence for *down\u2011stream* companies\n\n| Company | Evidence found? |\n|---------|-----------------|\n| China Petroleum & Chemical Corp. (Sinopec) | **No filing returned** when queried; no specific mention of PetroChina\u2019s disruption in the corpus. |\n| Formosa Plastics, Shanghai\u202fHuayi, Guangzhou\u202fDevelopment, PT\u202fPerusahaan\u202fListrik\u202fNegara | No filings on record; no targeted mentions in the corpus. |\n| Corteva, BP, Dow, POSCO, Mitsui, Xpeng, Toyota, Akzo\u202fNobel (Tier\u20112) | All have filings in our database **but we did not issue additional tool calls** before the turn limit was reached, so no excerpts were retrieved for them. Consequently we cannot confirm whether they referenced PetroChina\u2019s 2005 disruption. |\n\n---\n\n### 4. What could **not** be confirmed\n\n* **Direct impact on any downstream customer or alternative supplier** \u2013 none of the companies listed above (Sinopec, Formosa Plastics, BP, Dow, etc.) have a filing or corpus mention that explicitly ties them to the November\u202f2005 disruption at PetroChina.\n* **Operational interruptions, supply\u2011chain delays, or financial losses** for those downstream firms \u2013 no evidence was found in the available filings or corpus excerpts.\n* **Status of \u201creachable but not enriched\u201d companies** (\u2248\u202f350 entities) \u2013 they were identified by the graph but lack any filing or searchable mention; therefore we cannot assess their exposure.\n\n---\n\n### 5. Bottom\u2011line assessment\n\n*The only concrete, source\u2011backed information we have is the set of PetroChina SEC filings that describe its own operations, contracts and acquisitions around mid\u20112005.*  \nThese documents confirm that PetroChina was actively expanding its refining, petrochemical and international upstream assets at the time of the reported disruption.  \n\nAll other companies identified by the supply\u2011graph are **structurally exposed** (they are downstream customers or potential alternative suppliers), but **no documentary evidence** (SEC filings or corpus mentions) was available within our limited tool budget to verify that they actually experienced any operational, financial, or supply\u2011chain impact from PetroChina\u2019s November\u202f2005 disruption.  \n\nAccordingly, the investigation can state with confidence that:\n\n1. **PetroChina itself** was undergoing significant contractual activity in 2005 (as shown by its Form\u202f20\u2011F).  \n2. **Downstream firms** such as Sinopec, Formosa Plastics, BP, Dow, Toyota, etc., are *potentially at risk* based on the graph, but we lack direct evidence of any realized disruption to them.  \n\nFurther research would require additional tool calls (e.g., retrieving the filings for the Tier\u20112 companies or performing targeted corpus searches with those company names) to determine whether any of them disclosed a material impact from PetroChina\u2019s 2005 event.\n\nCOVERAGE GAPS (37) -- reported explicitly, not omitted:\n  - china petroleum & chemical: no evidence gathered\n  - corteva: no evidence gathered\n  - bp: no evidence gathered\n  - dow: no evidence gathered\n  - posco: no evidence gathered\n  - mitsui: no evidence gathered\n  - xpeng: no evidence gathered\n  - toyota motor: no evidence gathered\n  - akzo nobel: no evidence gathered\n  - formosa plastics: no evidence gathered\n  - shanghai huayi: no evidence gathered\n  - guangzhou development: no evidence gathered\n  - perusahaan perseroan persero pt perusahaan listrik negara: no evidence gathered\n  - aneka tambang tbk: no evidence gathered\n  - sk: no evidence gathered\n  - guangzhou automobile: no evidence gathered\n  - gb corp/eg: no evidence gathered\n  - gunung raja paksi tbk pt: no evidence gathered\n  - basf se: no evidence gathered\n  - saudi basic industries: no evidence gathered\n  - triangle tyre: no evidence gathered\n  - jfe: no evidence gathered\n  - medco energi internasional tbk pt: no evidence gathered\n  - state grid corp of china: no evidence gathered\n  - krakatau steel persero tbk pt: no evidence gathered\n  - taiwan cement: no evidence gathered\n  - nan ya plastics: no evidence gathered\n  - nexen tire: no evidence gathered\n  - hesteel: no evidence gathered\n  - zhejiang juhua: no evidence gathered\n  - waskita karya persero tbk pt: no evidence gathered\n  - formosa chemicals & fibre: no evidence gathered\n  - taita chemical: no evidence gathered\n  - sk innovation: no evidence gathered\n  - great wall motor: no evidence gathered\n  - gac toyota motor: no evidence gathered\n  - formosa petrochemical: no evidence gathered",
+  "coverage": {
+    "china petroleum & chemical": {
+      "name": "china petroleum & chemical",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "corteva": {
+      "name": "corteva",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "dow": {
+      "name": "dow",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "posco": {
+      "name": "posco",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mitsui": {
+      "name": "mitsui",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "xpeng": {
+      "name": "xpeng",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "akzo nobel": {
+      "name": "akzo nobel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa plastics": {
+      "name": "formosa plastics",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "shanghai huayi": {
+      "name": "shanghai huayi",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "guangzhou development": {
+      "name": "guangzhou development",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "perusahaan perseroan persero pt perusahaan listrik negara": {
+      "name": "perusahaan perseroan persero pt perusahaan listrik negara",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aneka tambang tbk": {
+      "name": "aneka tambang tbk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk": {
+      "name": "sk",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "guangzhou automobile": {
+      "name": "guangzhou automobile",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "gb corp/eg": {
+      "name": "gb corp/eg",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "gunung raja paksi tbk pt": {
+      "name": "gunung raja paksi tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "basf se": {
+      "name": "basf se",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "saudi basic industries": {
+      "name": "saudi basic industries",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "triangle tyre": {
+      "name": "triangle tyre",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "jfe": {
+      "name": "jfe",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "medco energi internasional tbk pt": {
+      "name": "medco energi internasional tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "state grid corp of china": {
+      "name": "state grid corp of china",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "krakatau steel persero tbk pt": {
+      "name": "krakatau steel persero tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "taiwan cement": {
+      "name": "taiwan cement",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nan ya plastics": {
+      "name": "nan ya plastics",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "nexen tire": {
+      "name": "nexen tire",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "hesteel": {
+      "name": "hesteel",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "zhejiang juhua": {
+      "name": "zhejiang juhua",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "waskita karya persero tbk pt": {
+      "name": "waskita karya persero tbk pt",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa chemicals & fibre": {
+      "name": "formosa chemicals & fibre",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "taita chemical": {
+      "name": "taita chemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "sk innovation": {
+      "name": "sk innovation",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "great wall motor": {
+      "name": "great wall motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "gac toyota motor": {
+      "name": "gac toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "formosa petrochemical": {
+      "name": "formosa petrochemical",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "petrochina": {
+      "name": "petrochina",
+      "tier": null,
+      "first_seen_hop": 4,
+      "evidence_sources": [
+        "search_corpus"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "PetroChina",
+      "summary": "[downstream of 'petrochina' | 37 enriched companies found, 354 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "get_supplier_info",
+      "status": "no_manifest_entry",
+      "company_name": "China Petroleum & Chemical Corp",
+      "summary": "No filings on record for 'China Petroleum & Chemical Corp'."
+    },
+    {
+      "hop": 3,
+      "tool": "get_supplier_info",
+      "status": "no_manifest_entry",
+      "company_name": "SINOPEC CORP",
+      "summary": "No filings on record for 'SINOPEC CORP'."
+    },
+    {
+      "hop": 4,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": null,
+      "summary": "[query: 'PetroChina' | as of 2005-11-13 | 15 result(s) across 1 distinct company]"
+    }
+  ],
+  "prompt_tokens": 38699,
+  "completion_tokens": 3105,
+  "total_tokens": 41804,
+  "token_usage_log": [
+    {
+      "node": "agent",
+      "hop": 0,
+      "prompt_tokens": 2000,
+      "completion_tokens": 162
+    },
+    {
+      "node": "agent",
+      "hop": 1,
+      "prompt_tokens": 5990,
+      "completion_tokens": 563
+    },
+    {
+      "node": "agent",
+      "hop": 2,
+      "prompt_tokens": 6059,
+      "completion_tokens": 135
+    },
+    {
+      "node": "agent",
+      "hop": 3,
+      "prompt_tokens": 6125,
+      "completion_tokens": 488
+    },
+    {
+      "node": "summarize",
+      "hop": 4,
+      "prompt_tokens": 18525,
+      "completion_tokens": 1757
+    }
+  ]
+}

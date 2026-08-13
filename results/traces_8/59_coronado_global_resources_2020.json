@@ -1,0 +1,230 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [
+    "rio tinto: no evidence gathered",
+    "ford motor: no evidence gathered",
+    "bp: no evidence gathered",
+    "skf ab: no evidence gathered",
+    "aurizon: no evidence gathered",
+    "tata steel: no evidence gathered",
+    "bayerische motoren werke: no evidence gathered",
+    "glencore: no evidence gathered",
+    "honda motor: no evidence gathered",
+    "renault: no evidence gathered",
+    "eicher motors: no evidence gathered",
+    "mercedes-benz: no evidence gathered"
+  ],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation\u202fsummary \u2013 disruption at *Coronado Global Resources* (first reported\u202f\u2248\u202f2020\u201110\u201101)**  \n\n| Tier | Company (down\u2011stream or alternative supplier) | Filing status | Evidence gathered | Verdict on impact |\n|------|----------------------------------------------|---------------|-------------------|-------------------|\n| 1 | **Aurizon** (rail\u2011freight hauler, Australia) | *No filing* \u2013 get_supplier_info would return nothing | \u2013 (no targeted search was run for this name) | No documentary evidence of any effect from the Coronado event. |\n| 1 | **Tata\u202fSteel** (flat\u2011rolled automotive steel, India) | *No filing* | \u2013 | No documentary evidence of any effect. |\n| 2 | **BHP Group Ltd/PLC** (metals & mining, Australia/UK) | *Has a filing* | \u2022 20\u2011F filed\u202f2020\u201109\u201122 (9\u202fdays before the reported event) \u2013 full text retrieved.<br>\u2022 A separate corpus search for \u201cCoronado\u201d limited to BHP returned only historic copper\u2011mine discussion from 2004; no mention of Coronado Global Resources or any related supply\u2011chain issue. | The filing contains no reference to Coronado, nor does the corpus hit link the two entities. **No confirmed impact** can be demonstrated. |\n| 2 | **Toyota\u202fMotor Corp.** (automotive, Japan) | *Has a filing* | \u2022 20\u2011F filed\u202f2020\u201106\u201124 (\u2248\u202f99\u202fdays before the event). The excerpt retrieved discusses share\u2011repurchase and corporate structure; no reference to Coronado or any supply\u2011chain disruption. | **No confirmed impact** can be demonstrated. |\n| 2 | **Rio\u202fTinto plc** (metals & mining, UK) | *Has a filing* | \u2013 No filing was requested for Rio\u202fTinto in this round. Consequently there is no direct evidence from its own reports. A corpus search without a company filter was not performed, so we have no indication that Rio\u202fTinto mentions Coronado. | **Unconfirmed** \u2013 no evidence found. |\n| 2 | **Ford\u202fMotor Co.** (automotive, USA) | *Has a filing* | \u2013 No filing was requested for Ford; no corpus search was run with \u201cFord\u201d as filter. Hence we have no documentary link to the Coronado event. | **Unconfirmed** \u2013 no evidence found. |\n| 2 | **BP plc** (oil & gas, UK) | *Has a filing* | \u2013 No filing or targeted search performed for BP; therefore no evidence of impact. | **Unconfirmed** \u2013 no evidence found. |\n| 2 | **SKF\u202fAB** (industrial bearings, Sweden) | *Has a filing* | \u2013 No filing was requested and no corpus query run for SKF; no evidence obtained. | **Unconfirmed** \u2013 no evidence found. |\n| 2 | **Bayerische Motoren Werke AG (BMW)** | *No filing* | \u2013 Not examined with search_corpus; no evidence collected. | No documentary evidence of impact. |\n| 2 | **Glencore plc** | *No filing* | \u2013 Not examined with search_corpus; no evidence collected. | No documentary evidence of impact. |\n| 2 | **Honda\u202fMotor Co.** | *No filing* | \u2013 Not examined with search_corpus; no evidence collected. | No documentary evidence of impact. |\n| 2 | **Renault SA** | *No filing* | \u2013 Not examined with search_corpus; no evidence collected. | No documentary evidence of impact. |\n| 2 | **Eicher\u202fMotors Ltd. (Royal\u202fEnfield)** | *No filing* | \u2013 Not examined with search_corpus; no evidence collected. | No documentary evidence of impact. |\n| 2 | **Mercedes\u2011Benz Group AG** | *No filing* | \u2013 Not examined with search_corpus; no evidence collected. | No documentary evidence of impact. |\n\n### What was done\n1. **Structural identification** \u2013 a downstream traversal (max\u202ftier\u202f=\u202f2) from Coronado Global Resources produced 14 \u201cenriched\u201d companies (those with known SEC filings) and a longer list of reachable but unenriched firms.\n2. **Evidence gathering** \u2013 for every enriched company that *has* an SEC filing we attempted to retrieve its most recent filing around the event date:\n   - BHP\u202fGroup (20\u2011F, 2020\u201109\u201122)  \n   - Toyota\u202fMotor (20\u2011F, 2020\u201106\u201124)  \n3. **Targeted corpus checks** \u2013 a search for the keyword *\u201cCoronado\u201d* limited to BHP returned only unrelated historical copper\u2011mine text; no mention of Coronado Global Resources was found.\n4. No further tool calls were available, and we did not repeat any call with identical parameters.\n\n### What could NOT be confirmed\n- **Direct linkage** between the disruption at *Coronado Global Resources* and any downstream customer or alternative supplier in the list above.  \n- For all companies without a filing (Aurizon, Tata\u202fSteel, BMW, Glencore, Honda, Renault, Eicher\u202fMotors, Mercedes\u2011Benz) we have no documentary evidence because `get_supplier_info` would return nothing and we did not run unfiltered corpus searches for them.  \n- For enriched firms with filings that were *not* queried (Rio\u202fTinto, Ford, BP, SKF) we lack any confirmation; the investigation stopped before those could be examined.\n\n### Bottom\u2011line assessment\nThe structural analysis shows a sizable set of downstream and alternative\u2011supplier companies that **could** be exposed to supply\u2011chain effects from a disruption at Coronado Global Resources. However, within the limited tool budget used for this investigation we were only able to retrieve filings for BHP and Toyota Motor, and neither document contains any reference to Coronado or indicates an impact. No other company in the downstream list yielded corroborating evidence.\n\n**Therefore, based on the available evidence, no specific downstream customer or supplier can be confirmed as materially affected by the October\u202f2020 disruption at Coronado Global Resources.** Further investigation (e.g., broader corpus searches, direct filings for Rio\u202fTinto, Ford, BP, SKF, and targeted searches for the \u201cno\u2011filing\u201d companies) would be required to determine whether any of these entities experienced operational or financial consequences from the event.\n\nCOVERAGE GAPS (12) -- reported explicitly, not omitted:\n  - rio tinto: no evidence gathered\n  - ford motor: no evidence gathered\n  - bp: no evidence gathered\n  - skf ab: no evidence gathered\n  - aurizon: no evidence gathered\n  - tata steel: no evidence gathered\n  - bayerische motoren werke: no evidence gathered\n  - glencore: no evidence gathered\n  - honda motor: no evidence gathered\n  - renault: no evidence gathered\n  - eicher motors: no evidence gathered\n  - mercedes-benz: no evidence gathered",
+  "coverage": {
+    "bhp": {
+      "name": "bhp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info",
+        "search_corpus"
+      ],
+      "best_staleness_days": 9,
+      "tag_mismatch": null
+    },
+    "toyota motor": {
+      "name": "toyota motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph",
+        "get_supplier_info"
+      ],
+      "best_staleness_days": 99,
+      "tag_mismatch": null
+    },
+    "rio tinto": {
+      "name": "rio tinto",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "ford motor": {
+      "name": "ford motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bp": {
+      "name": "bp",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "skf ab": {
+      "name": "skf ab",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "aurizon": {
+      "name": "aurizon",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "tata steel": {
+      "name": "tata steel",
+      "tier": 1,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "bayerische motoren werke": {
+      "name": "bayerische motoren werke",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "glencore": {
+      "name": "glencore",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "honda motor": {
+      "name": "honda motor",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "renault": {
+      "name": "renault",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "eicher motors": {
+      "name": "eicher motors",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    },
+    "mercedes-benz": {
+      "name": "mercedes-benz",
+      "tier": 2,
+      "first_seen_hop": 1,
+      "evidence_sources": [
+        "traverse_supply_graph"
+      ],
+      "best_staleness_days": null,
+      "tag_mismatch": null
+    }
+  },
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "found",
+      "company_name": "Coronado Global Resources",
+      "summary": "[downstream of 'coronado global resources' | 14 enriched companies found, 19 reachable but unenriched]"
+    },
+    {
+      "hop": 2,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "BHP",
+      "summary": "[BHP | 20-F filed 2020-09-22 (9 days before event) | doc_id=ea82075b4c3f1fad]"
+    },
+    {
+      "hop": 3,
+      "tool": "search_corpus",
+      "status": "found",
+      "company_name": "BHP",
+      "summary": "[query: 'Coronado' | as of 2020-10-01 | 5 result(s) across 1 distinct company]"
+    },
+    {
+      "hop": 4,
+      "tool": "get_supplier_info",
+      "status": "found",
+      "company_name": "Toyota Motor",
+      "summary": "[Toyota Motor | 20-F filed 2020-06-24 (99 days before event) | doc_id=2791f524395f8ce5]"
+    }
+  ],
+  "prompt_tokens": 51132,
+  "completion_tokens": 2511,
+  "total_tokens": 53643,
+  "token_usage_log": [
+    {
+      "node": "agent",
+      "hop": 0,
+      "prompt_tokens": 2002,
+      "completion_tokens": 166
+    },
+    {
+      "node": "agent",
+      "hop": 1,
+      "prompt_tokens": 2765,
+      "completion_tokens": 430
+    },
+    {
+      "node": "agent",
+      "hop": 2,
+      "prompt_tokens": 6848,
+      "completion_tokens": 96
+    },
+    {
+      "node": "agent",
+      "hop": 3,
+      "prompt_tokens": 11123,
+      "completion_tokens": 226
+    },
+    {
+      "node": "summarize",
+      "hop": 4,
+      "prompt_tokens": 28394,
+      "completion_tokens": 1593
+    }
+  ]
+}
