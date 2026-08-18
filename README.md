@@ -1,36 +1,4 @@
-# Multi-Hop Agentic RAG for Supply Chain Disruption Monitoring in the Semiconductor Industry
+# Multi-Hop Agentic RAG for Supply Chain Disruption Monitoring in the Automobile Industry
 
-Disruptions like natural disasters or industrial accidents at a single supplier in a supply chain 
-network can have catastrophic downstream exposure for several consumer companies, with no 
-direct visibility into that exposure. The information to foresee these disruptions is available 
-weeks in advance through the media, but the consuming companies only discover their financial 
-damage when shipments are delayed. Current monitoring relies on manual analyst review, 
-keyword-based alerts, or single-step retrieval from very few sources. It not only fails to surface 
-the consequences of a disruption in time but also hinders tracing supplier dependencies at 
-multiple levels, causing the supply chain to fail. Moreover, the disclosure lag between the 
-occurrence of a disruption and the affected company's own regulatory acknowledgment of it has 
-been observed anecdotally but not measured systematically at scale. 
-
-This study proposes a six-layer multi-hop agentic RAG pipeline that monitors the world for 
-supply-chain disruption in the semiconductor sector and identifies and quantifies supply-chain 
-risk for downstream companies. A structured supplier knowledge graph is constructed from SEC 
-EDGAR filings and public trade datasets. It is paired with a document store that contains 
-historical incident reports (past disruption news, analyst reports) and supplier-specific documents 
-(10-K filings, earnings transcripts, press releases). Disruption events are monitored through 
-GDELT and filtered for supply chain relevance using a fine-tuned DeBERTa classifier. A 
-ReAct-based LLM agent iteratively traverses the supplier graphs and retrieves evidence from the 
-document store, which is synthesised into structured, citation-grounded risk alerts. Generated 
-risk alerts are verified for factual faithfulness using NLI-based entailment checking. The system 
-is evaluated on 50 historical disruption events from 2020–2024, comparing the proposed system 
-against two baselines: keyword-only retrieval and single-hop graph lookup. 
-
-This work is expected to demonstrate that multi-hop agentic reasoning outperforms baselines on 
-recall and precision, particularly recall in cases of indirect downstream exposure not mentioned 
-explicitly in the news event. Additionally, this study contributes one of the first systematic 
-measurements of the disclosure lag between a public news event of a disruption and its 
-acknowledgment by the affected company — hypothesised to span from weeks to months and 
-vary by event type and supply concentration. These findings are expected to demonstrate the 
-advantage of multi-hop reasoning over heterogeneous sources in high-stakes, domain-specific 
-retrieval tasks, and to indicate that publicly available information is sufficient to surface supply 
-chain risk ahead of formal corporate disclosure.
+Supply chains are hard to monitor. A disruption at one supplier can hurt companies several tiers downstream. Those companies often only find out when a shipment is already late. The information needed to see this coming is usually already public. It sits scattered across news reports, filings, and supplier relationships. No human analyst can piece this together fast enough by hand. This dissertation builds and evaluates a system that automates this task. It combines three components: a supplier knowledge graph, a searchable corpus of company filings, and a large language model agent. The agent moves through the graph one hop at a time. It gathers evidence before naming a company as affected. This approach is known as multi-hop agentic retrieval-augmented generation, or RAG. The system was tested on 30 real historical disruption events. The supplier network is automotive-anchored but spans multiple industries. Performance was compared against two simpler baselines: keyword matching and single-hop graph lookup. The multi-hop agent reached recall close to the single-hop baseline, 50.0% against 55.6% of everything the graph could reach. It did this with far fewer wrong answers: 95 false positives against 390. Adding the graph to keyword search alone raised recall from zero to over half of everything reachable. This shows the graph itself, not the reasoning layered on top of it, unlocks most of the achievable recall. Reasoning is what turns that recall into something usable, by cutting false positives sharply. A second, smaller study measured the gap between a disruption being reported and a company formally confirming it in a regulatory filing. For a small set of high-confidence cases, the median gap was 8 days. Policy-driven disruptions took roughly four times longer to surface in a filing than natural disasters did. Across both studies, one finding stands out. Most of what limits this system's performance comes from the data it was given, not from how it reasons. Where the graph reaches a company and a document confirms it, the system performs well. Where either is missing, no amount of reasoning can make up the gap.
  
