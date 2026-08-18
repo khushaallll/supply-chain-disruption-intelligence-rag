@@ -1,0 +1,31 @@
+**1. Event Summary**  
+- Alert identifier: *nippon steel (2_nippon_steel_2011)*  
+- Event date: 2011‑03‑11  
+- Investigation details: used 2 of a possible 4 turns; the investigation stopped because the agent ended early.  
+
+**2. Affected Suppliers**  
+- Ford Motor – direct (tier 1) supplier *(get_supplier_info)*  
+- General Motors – direct (tier 1) supplier *(get_supplier_info)*  
+- Komatsu – direct (tier 1) supplier *(get_supplier_info)*  
+- Panasonic – direct (tier 1) supplier *(get_supplier_info)*  
+- Toyota Motor – direct (tier 1) supplier *(get_supplier_info)*  
+
+**3. Severity (per‑dimension)**  
+
+| Supplier | Proximity | Evidence | Freshness |
+|----------|-----------|----------|-----------|
+| Ford Motor | direct (tier 1) | single‑sourced | recent (32 days old) |
+| General Motors | direct (tier 1) | single‑sourced | recent (31 days old) |
+| Komatsu | direct (tier 1) | single‑sourced | recent (276 days old) |
+| Panasonic | direct (tier 1) | single‑sourced | recent (275 days old) |
+| Toyota Motor | direct (tier 1) | single‑sourced | recent (280 days old) |
+
+**4. Historical Precedent**  
+No historical precedent database exists for this system. This section intentionally does not compare this event to past disruptions, since no verified repository of prior events is available outside this project's own evaluation set, and using that set here would be circular for any event contained in it.
+
+**5. Uncertainty Flags (tier ≤ 2 significance only)**  
+The following entities have **no evidence gathered**:  
+
+Mitsui; Minebea Mitsumi; Sony; SKF AB; Apple; Hitachi; Korea Electric Power; Nio; American Axle & Manufacturing; Holley; Tesla; Chevron; Adient; Dow; Tenaris; Li Auto; ENI; BHP; POSCO; Harley‑Davidson; Dana; Axalta Coating Systems; Exxon Mobil; Garrett Motion; Shell; TDK; BP; Aptiv; Nexen; Corteva; Autoliv; Stanley Black & Decker; Magna International; Akzo Nobel; Mobileye Global; Brilliance China Automotive; 3M; BorgWarner; Cummins; Canoo; Polestar Automotive Holding UK; Lucid; Rio Tinto; ArcelorMittal; Volvo AB; Konica Minolta; Mitsubishi Steel Manufacturing; Subaru; Daikin Industries; Denso; Asahi Kasei; Sanoh Industrial; Hino Motors; Toyota Industries; SNT; Baoshan Iron & Steel; Kawasaki Heavy Industries; Mitsubishi Electric; Topre; Nichias; Tokyo Rope Manufacturing; IJTT; Thang Long Metal Wares JSC; Kukdo Chemical; Mitsubishi Motors; Yorozu; Hyundai Motor; QST International; Daido Metal; Nissan Motor; Yokohama Rubber Co Ltd/The; Air Water; Tokyo Nissan Computer System; Topy Industries; KG Dongbusteel; San Shing Fastech; China Steel; Mazda Motor; Nippon Steel Trading; Kian Shen; Yokogawa Bridge; Press Kogyo; Toyota Tsusho; BH; Futaba Industrial; NSK; NTN; Honda Motor; Iron Force Industrial; Okaya; Hanwa; Kobe Steel; Obayashi; China Motor; NHK Spring; Schaeffler; Suzuki Motor; Aichi Steel; Volkswagen; HD Korea Shipbuilding & Offshore Engineering; KG Eco Technology Service; Unipres; JTEKT; Vallourec SACA; Eurogroup Laminations; Maruichi Steel Tube; Kiswire; Kyowakogyosyo; Mitsubishi Heavy Industries; Sumitomo Electric Industries; GMB; Kyushu Electric Power; Mitsubishi Chemical; UBE; Honda Atlas Cars Pakistan; Changchun Yidong Clutch; Renault; Gunung Raja Paksi TBK PT; Valeo SE; IAV Automotive Engineering; Toyota Boshoku; JUI LI Enterprise; Hero Motocorp; ASTI; Daido Steel; Perusahaan Perseroan Persero PT Perusahaan Listrik Negara; CX Technology; Beijing Shougang; Globaltek Fabrication; Hyundai Engineering & Construction; Right Way Industrial; LG Chem; Guangzhou Tinci Materials Technology; Guangzhou Automobile; Formosa Chemicals & Fibre; China South Industries; Mahle; OCI; H‑One; Rivian Automotive; USA Steel; Gotion High‑Tech; AAPICO HiTech PCL; Ternium; Daimler Truck Holding; Shanghai Jiao Yun; FAWER Automotive Parts; China Fineblanking Technology; Nexteer Automotive; Chuo Spring; Gazprom PJSC; Medco Energi Internasional TBK PT; Bosch; Hudaco Industries; Geely Automobile; SK; POSCO Eco & Challenge; POSCO International; SAIC Motor; SERES; NOK; Chery Automobile; Xiamen Tungsten; Jardine Strategic; Shun On Electronic; Nagase; KYB; Kyungchang Industrial; Sumitomo Chemical; Bayerische Motoren Werke; Ford Otomotiv Sanayi AS; Toray Industries; HL Mando; Vitesco Technologies; Waskita Karya Persero TBK PT; BASF SE; DY; Forvia SE; Astra Otoparts TBK PT; Beijing Hyundai Motor; Kajima; Hunan Corun New Energy; Sichuan FAW Toyota Motor; Luminar Technologies; Gestamp Automocion; Maruti Suzuki India; Zotye Automobile; Hitachi Astemo; Samsung C&T; Kumho Tire; SAIC Volkswagen Automotive; Dongfeng Motor; Sumitomo Rubber Industries; UACJ; Eicher Motors; Nisshinbo; ZF Friedrichshafen; Sichuan Haowu Electromechanical; Koito Manufacturing; Kia; Dongfeng Honda Automobile; Formosa Petrochemical; Wooshin Systems; Rohm; Audi; JSR; Keihin; J‑MAX; DGENX; SK Innovation; Robert Bosch; TA YIH Industrial; Dr Ing HC F Porsche; BYD; Triangle Tyre; Mitsubishi Materials; CNC Driveline Technology; LG Electronics; KG Mobility; FAW Volkswagen Automotive; Tata Motors; China FAW; Dangfeng Electronic Technology Co LB; CIA Siderurgica Nacional; Zhejiang Leapmotor Technology; Shenyang Jinbei Automotive; Sanyang Motor; Bakrie and Brothers TBK PT; Jay Ushin; Fev; Aisin; Korea Movenex; Zeon; SEAH; HOTA Industrial Manufacturing; Stellantis; Toyoda Gosei; Bridgestone; Aisan Industry; Tokai Rika; Jordan Petroleum Refinery; Zhejiang Geely Holding; Sapura Industrial BHD; GB Corp/EG; Chongqing Changan Automobile; Tokai Carbon; Tieliu; Taeyang Metal Industrial; Mercedes‑Benz; Fisker; PATEC Precision Industry; Formosa Plastics; Volvo Car AB; Samsung Electronics; Taiwan Cement; Haima Automobile; Hyundai Powertech; Toagosei; Dae Won Kang Up; Krakatau Steel Persero TBK PT; Hiroca Holdings LID; G‑Tekt Corporation; Wanxiang Qianchao; Mahindra & Mahindra; Neooto; Getrag Jiangxi Transmission; NVH Korea; Nissin Kogyo; Umicore; Piaggio & C; CPC Corp/Taiwan; DL Holdings Co LIRL; Steel Pipe Industry of Indonesia PT; Nemak SAB DE CV; Seojin System; LG Energy Solution; Kumkang Kind; Great Wall Motor; Thyssenkrupp; Tong Yang Industry; Indian Oil; Hansol Chemical; Jiangsu Lixing General Steel Ball; Samsung SDI; Atlas Honda; IAT Automobile Technology; JFE; Nexen Tire; Saudi Arabian Oil; Guangzhou H
+
+(Each entry reflects the “no evidence gathered” flag as provided.)

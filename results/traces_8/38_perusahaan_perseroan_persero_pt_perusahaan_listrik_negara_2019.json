@@ -1,0 +1,73 @@
+{
+  "hop_count": 4,
+  "max_hops": 4,
+  "stop_reason": "hop_cap_reached",
+  "gap_flags": [],
+  "final_report": "[stop_reason: hop_cap_reached | hops used: 4/4]\n\nAnalyst summary:\n**Investigation Summary \u2013 Disruption at PT\u202fPerusahaan Listrik Negara (PLN)**  \n\n**1. Structural\u2011risk assessment**  \n- I attempted to locate PT\u202fPerusahaan Listrik Negara (also known as PLN) in the supply\u2011graph database and request a downstream traversal (max\u202f2 tiers). All four attempts returned *\u201cCould not find \u2026 in the supply graph.\u201d*  \n- Because the company does not appear in the graph, no downstream customers or alternative suppliers could be identified. Consequently there are **no specific companies** that can be listed as \u201cstructurally at risk\u201d based on the available graph data.\n\n**2. Evidence gathered**  \n- No downstream entities were returned, so no further evidence (SEC\u2011style filings via `get_supplier_info` nor corpus mentions via `search_corpus`) could be collected for any candidate companies.  \n\n**3. Gaps / Unconfirmed items**  \n- The supply\u2011graph database does not contain an entry for PT\u202fPerusahaan Listrik Negara under the names tried (\u201cPT Perusahaan Listrik Negara\u201d, \u201cPerusahaan Listrik Negara\u201d, \u201cPLN\u201d, \u201cPT PLN (Persero)\u201d).  \n- Because of this missing node, I was unable to verify any downstream relationships, and therefore could not confirm which other firms might be impacted by the reported disruption in August\u202f2019.  \n\n**Conclusion**  \nBased on the tools and data available in this investigation, **no concrete list of affected companies can be provided**. The primary limitation is the absence of PT\u202fPerusahaan Listrik Negara from the supply\u2011graph dataset; without that entry, downstream risk cannot be quantified or corroborated with filing or corpus evidence. Further analysis would require either (a) a corrected/expanded supply\u2011graph that includes PLN, or (b) external data sources outside the current toolset to map PLN\u2019s customer and supplier network.\n\nNO SIGNIFICANT COMPANIES WERE EVER IDENTIFIED -- this is NOT a clean pass. The investigation could not get past identifying the disrupted company itself (or its downstream connections) in the graph, so there was nothing to gather evidence about. Treat this as an incomplete result, not a success.",
+  "coverage": {},
+  "evidence_log": [
+    {
+      "hop": 1,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PT Perusahaan Listrik Negara",
+      "summary": "Could not find 'PT Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 2,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "Perusahaan Listrik Negara",
+      "summary": "Could not find 'Perusahaan Listrik Negara' in the supply graph."
+    },
+    {
+      "hop": 3,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PLN",
+      "summary": "Could not find 'PLN' in the supply graph."
+    },
+    {
+      "hop": 4,
+      "tool": "traverse_supply_graph",
+      "status": "not_resolved",
+      "company_name": "PT PLN (Persero)",
+      "summary": "Could not find 'PT PLN (Persero)' in the supply graph."
+    }
+  ],
+  "prompt_tokens": 10385,
+  "completion_tokens": 949,
+  "total_tokens": 11334,
+  "token_usage_log": [
+    {
+      "node": "agent",
+      "hop": 0,
+      "prompt_tokens": 2008,
+      "completion_tokens": 190
+    },
+    {
+      "node": "agent",
+      "hop": 1,
+      "prompt_tokens": 2083,
+      "completion_tokens": 96
+    },
+    {
+      "node": "agent",
+      "hop": 2,
+      "prompt_tokens": 2156,
+      "completion_tokens": 97
+    },
+    {
+      "node": "agent",
+      "hop": 3,
+      "prompt_tokens": 2223,
+      "completion_tokens": 100
+    },
+    {
+      "node": "summarize",
+      "hop": 4,
+      "prompt_tokens": 1915,
+      "completion_tokens": 466
+    }
+  ]
+}

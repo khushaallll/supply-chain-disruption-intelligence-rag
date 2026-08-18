@@ -63,8 +63,8 @@ GROUND_TRUTH_PATHS = [
     "data/ground_truth/ground_truth_batch3_final.json",
 ]
 
-TRACE_DIR = Path("results/traces_7")
-SUMMARY_PATH = Path("results/run_all_events_summary_7.json")
+TRACE_DIR = Path("results/traces_8")
+SUMMARY_PATH = Path("results/run_all_events_summary_8.json")
 
 MAX_RETRIES = 3
 # For transient tool-call-generation errors specifically (see

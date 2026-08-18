@@ -65,6 +65,8 @@ individual tool invocations.
 
 from __future__ import annotations
 
+from typing import Optional
+
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage, ToolMessage
 from langgraph.graph import END, START, StateGraph
 
@@ -79,6 +81,73 @@ from system_prompt import render_system_prompt
 
 
 # --------------------------------------------------------------------------- #
+# Token usage -- shared by every node that actually calls the LLM (agent_node
+# and summarize_node; tools_node and finalize_node never do). Added to
+# measure real LLM cost per event, alongside hop_count's existing measure
+# of real LLM CALL COUNT. See agent_state.py's own AgentState docstring for
+# why these are cumulative fields with no reducer, same pattern as
+# coverage/evidence_log.
+# --------------------------------------------------------------------------- #
+
+def _extract_token_usage(response) -> tuple[Optional[int], Optional[int]]:
+    """Returns (prompt_tokens, completion_tokens) for one LLM response.
+
+    Tries LangChain's own standardized `usage_metadata` first (the
+    input_tokens/output_tokens shape most current chat-model integrations,
+    including recent langchain-ollama versions, populate). Falls back to
+    Ollama's raw `response_metadata` keys (`prompt_eval_count`/
+    `eval_count`) for older integrations that don't populate
+    usage_metadata yet -- confirmed by direct inspection of what
+    langchain-ollama actually returns as of Day 9's model-selection work
+    (see llm_setup.py), not assumed to be one shape or the other in
+    advance.
+
+    Returns (None, None), NOT (0, 0), if neither is found. A real
+    zero-token response and "the model/provider never reported usage at
+    all" are different facts -- collapsing them to 0 would make a missing
+    measurement silently indistinguishable from a genuinely free call,
+    which would corrupt any total built from it without any visible sign
+    that had happened.
+    """
+    usage = getattr(response, "usage_metadata", None)
+    if usage:
+        return usage.get("input_tokens"), usage.get("output_tokens")
+
+    meta = getattr(response, "response_metadata", None) or {}
+    prompt = meta.get("prompt_eval_count")
+    completion = meta.get("eval_count")
+    if prompt is not None or completion is not None:
+        return prompt, completion
+
+    return None, None
+
+
+def _accumulate_tokens(state: AgentState, node: str, response) -> dict:
+    """Returns the token-tracking fields to merge into a node's return
+    dict. Called from both agent_node and summarize_node -- the only two
+    places in the whole graph that invoke the LLM. `None` usage values
+    are treated as 0 for the RUNNING TOTAL specifically (a total has to
+    be a number to stay useful), but the raw None is still preserved,
+    per-call, in token_usage_log -- so "this call's usage was unknown" is
+    never lost, only excluded from the sum."""
+    prompt_tokens, completion_tokens = _extract_token_usage(response)
+    log_entry = {
+        "node": node,
+        "hop": state["hop_count"],
+        "prompt_tokens": prompt_tokens,
+        "completion_tokens": completion_tokens,
+    }
+    new_prompt_total = state["prompt_tokens"] + (prompt_tokens or 0)
+    new_completion_total = state["completion_tokens"] + (completion_tokens or 0)
+    return {
+        "prompt_tokens": new_prompt_total,
+        "completion_tokens": new_completion_total,
+        "total_tokens": new_prompt_total + new_completion_total,
+        "token_usage_log": state["token_usage_log"] + [log_entry],
+    }
+
+
+# --------------------------------------------------------------------------- #
 # Node: agent (the LLM turn)
 # --------------------------------------------------------------------------- #
 
@@ -90,7 +159,7 @@ def make_agent_node(llm, llm_tools):
     def agent_node(state: AgentState) -> dict:
         system = SystemMessage(content=render_system_prompt(state["max_hops"]))
         response = bound_llm.invoke([system, *state["messages"]])
-        return {"messages": [response]}
+        return {"messages": [response], **_accumulate_tokens(state, "agent", response)}
 
     return agent_node
 
@@ -367,7 +436,7 @@ def make_summarize_node(llm):
             "and what you were unable to confirm."
         ))
         response = llm.invoke([system, *state["messages"], wrapup])
-        return {"messages": [response]}
+        return {"messages": [response], **_accumulate_tokens(state, "summarize", response)}
 
     return summarize_node
 

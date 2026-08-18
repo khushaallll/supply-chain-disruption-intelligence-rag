@@ -1,0 +1,239 @@
+**1. Event Summary**  
+The alert concerns the “china steel” disruption (identifier 47_china_steel_2018). The exact event date is unknown. The investigation employed three‑quarters of a turn and was terminated early by the agent (“agent_ended_early”).
+
+**2. Affected Suppliers**  
+- **Ford Motor** – direct (tier 1) supplier (source: get_supplier_info)  
+- **General Motors** – direct (tier 1) supplier (source: get_supplier_info)  
+- **Tesla** – direct (tier 1) supplier (source: get_supplier_info)  
+- **Toyota Motor** – direct (tier 1) supplier (source: get_supplier_info)  
+- **BP** – indirect (tier 2) supplier (source: get_supplier_info)  
+- **Exxon Mobil** – indirect (tier 2) supplier (source: get_supplier_info)  
+- **Panasonic** – indirect (tier 2) supplier (source: get_supplier_info)  
+- **POSCO** – indirect (tier 2) supplier (source: get_supplier_info)  
+- **ZF TRW Automotive** – indirect (tier 2) supplier (source: get_supplier_info)
+
+**3. Severity (per‑dimension)**  
+
+| Supplier | Proximity | Evidence | Freshness |
+|----------|-----------|----------|-----------|
+| Ford Motor | direct (tier 1) | single‑sourced | recent (21 days old) |
+| General Motors | direct (tier 1) | single‑sourced | recent (23 days old) |
+| Tesla | direct (tier 1) | single‑sourced | recent (6 days old) |
+| Toyota Motor | direct (tier 1) | single‑sourced | recent (251 days old) |
+| BP | indirect (tier 2) | single‑sourced | recent (329 days old) |
+| Exxon Mobil | indirect (tier 2) | single‑sourced | recent (1 day old) |
+| Panasonic | indirect (tier 2) | single‑sourced | stale (2,072 days old, exceeds the 730‑day threshold) |
+| POSCO | indirect (tier 2) | single‑sourced | recent (308 days old) |
+| ZF TRW Automotive | indirect (tier 2) | single‑sourced | stale (1,112 days old, exceeds the 730‑day threshold) |
+
+**4. Historical Precedent**  
+No historical precedent database exists for this system. This section intentionally does not compare this event to past disruptions, since no verified repository of prior events is available outside this project's own evaluation set, and using that set here would be circular for any event contained in it.
+
+**5. Uncertainty Flags (tier ≤ 2 significance only)**  
+- Nippon Steel: no evidence gathered  
+- Korea Electric Power: no evidence gathered  
+- ZF TRW Automotive: only stale evidence (1,112 days old)  
+- Aluminum Corp of China: no evidence gathered  
+- Mitsui: no evidence gathered  
+- Minebea Mitsumi: no evidence gathered  
+- NIO: no evidence gathered  
+- Holley: no evidence gathered  
+- Panasonic: only stale evidence (2,072 days old)  
+- BorgWarner: no evidence gathered  
+- Harley‑Davidson: no evidence gathered  
+- China Petroleum & Chemical: no evidence gathered  
+- Cummins: no evidence gathered  
+- Corteva: no evidence gathered  
+- XPeng: no evidence gathered  
+- Sony: no evidence gathered  
+- SKF AB: no evidence gathered  
+- Hitachi: no evidence gathered  
+- Autoliv: no evidence gathered  
+- Komatsu: no evidence gathered  
+- Li Auto: no evidence gathered  
+- Shell: no evidence gathered  
+- Magna International: no evidence gathered  
+- Apple: no evidence gathered  
+- Tokai Carbon: no evidence gathered  
+- Gunung Raja Paksi TBK PT: no evidence gathered  
+- CPC Corp/Taiwan: no evidence gathered  
+- HOTA Industrial Manufacturing: no evidence gathered  
+- PATEC Precision Industry: no evidence gathered  
+- QST International: no evidence gathered  
+- Nissan Motor: no evidence gathered  
+- San Shing Fastech: no evidence gathered  
+- Nippon Steel Trading: no evidence gathered  
+- Kian Shen: no evidence gathered  
+- Jui Li Enterprise: no evidence gathered  
+- Kajima: no evidence gathered  
+- Taiwan Cement: no evidence gathered  
+- China Fineblanking Technology: no evidence gathered  
+- Tong Yang Industry: no evidence gathered  
+- Volkswagen: no evidence gathered  
+- Eurocharm: no evidence gathered  
+- Garuda Metalindo TBK PT: no evidence gathered  
+- Eurogroup Laminations: no evidence gathered  
+- CX Technology: no evidence gathered  
+- Maruichi Steel Tube: no evidence gathered  
+- Mitsubishi Heavy Industries: no evidence gathered  
+- Globaltek Fabrication: no evidence gathered  
+- Right Way Industrial: no evidence gathered  
+- Jardine Strategic: no evidence gathered  
+- Renault: no evidence gathered  
+- Sanoh Industrial: no evidence gathered  
+- Kawasaki Heavy Industries: no evidence gathered  
+- Wanxiang Qianchao: no evidence gathered  
+- Valeo SE: no evidence gathered  
+- Taita Chemical: no evidence gathered  
+- Dr Ing HC F Porsche: no evidence gathered  
+- Air Water: no evidence gathered  
+- Tokyo Nissan Computer System: no evidence gathered  
+- KG Dongbusteel: no evidence gathered  
+- Toyota Boshoku: no evidence gathered  
+- Nagase: no evidence gathered  
+- Mahindra & Mahindra: no evidence gathered  
+- KYB: no evidence gathered  
+- SAIC‑GM‑Wuling Automobile: no evidence gathered  
+- Press Kogyo: no evidence gathered  
+- NTN: no evidence gathered  
+- Obayashi: no evidence gathered  
+- BYD: no evidence gathered  
+- BAIC Motor: no evidence gathered  
+- GAC Fiat Chrysler Automobiles: no evidence gathered  
+- Bayerische Motoren Werke: no evidence gathered  
+- Ford Otomotiv Sanayi AS: no evidence gathered  
+- HD Korea Shipbuilding & Offshore Engineering: no evidence gathered  
+- Daido Steel: no evidence gathered  
+- Vallourec SACA: no evidence gathered  
+- Mitsubishi Materials: no evidence gathered  
+- POSCO Future M: no evidence gathered  
+- Nissin Kogyo: no evidence gathered  
+- Volvo AB: no evidence gathered  
+- Konica Minolta: no evidence gathered  
+- Mitsubishi Steel Manufacturing: no evidence gathered  
+- Subaru: no evidence gathered  
+- Daikin Industries: no evidence gathered  
+- Piaggio & C: no evidence gathered  
+- Dongfeng Automobile: no evidence gathered  
+- Mitsubishi Electric: no evidence gathered  
+- TOPRE: no evidence gathered  
+- Hyundai Rotem: no evidence gathered  
+- Nichias: no evidence gathered  
+- IJTT: no evidence gathered  
+- Kukdo Chemical: no evidence gathered  
+- BASF SE: no evidence gathered  
+- Yokohama Rubber Co Ltd/The: no evidence gathered  
+- Formosa Chemicals & Fibre: no evidence gathered  
+- Forvia SE: no evidence gathered  
+- FAW Volkswagen Automotive: no evidence gathered  
+- Mazda Motor: no evidence gathered  
+- Astra Otoparts TBK PT: no evidence gathered  
+- Tata Motors: no evidence gathered  
+- Dangfeng Electronic Technology Co LB: no evidence gathered  
+- Mahle: no evidence gathered  
+- Iron Force Industrial: no evidence gathered  
+- Changan Ford Automobile: no evidence gathered  
+- OCI: no evidence gathered  
+- Sanyang Motor: no evidence gathered  
+- China Motor: no evidence gathered  
+- Sichuan FAW Toyota Motor: no evidence gathered  
+- NHK Spring: no evidence gathered  
+- Great Wall Motor: no evidence gathered  
+- Luminar Technologies: no evidence gathered  
+- Bakrie and Brothers TBK PT: no evidence gathered  
+- Thyssenkrupp: no evidence gathered  
+- Suzuki Motor: no evidence gathered  
+- Gestamp Automocion: no evidence gathered  
+- Aisin: no evidence gathered  
+- JTEKT: no evidence gathered  
+- Kiswire: no evidence gathered  
+- Sumitomo Electric Industries: no evidence gathered  
+- Kyowakogyosyo: no evidence gathered  
+- Indian Oil: no evidence gathered  
+- Zeon: no evidence gathered  
+- Zotye Automobile: no evidence gathered  
+- USA Steel: no evidence gathered  
+- Hitachi Astemo: no evidence gathered  
+- Samsung C&T: no evidence gathered  
+- GMB: no evidence gathered  
+- UBE: no evidence gathered  
+- GotIon High‑Tech: no evidence gathered  
+- SAIC Volkswagen Automotive: no evidence gathered  
+- Denso: no evidence gathered  
+- Asahi Kasei: no evidence gathered  
+- Hino Motors: no evidence gathered  
+- Toyota Industries: no evidence gathered  
+- Dongfeng Motor: no evidence gathered  
+- SNT: no evidence gathered  
+- Sumitomo Rubber Industries: no evidence gathered  
+- AAPICO Hi‑Tech PCL: no evidence gathered  
+- Shanghai Jiao Yun: no evidence gathered  
+- Stellantis: no evidence gathered  
+- Toyoda Gosei: no evidence gathered  
+- Daido Metal: no evidence gathered  
+- Topy Industries: no evidence gathered  
+- FAWER Automotive Parts: no evidence gathered  
+- Nisshinbo: no evidence gathered  
+- JFE: no evidence gathered  
+- Saudi Arabian Oil: no evidence gathered  
+- Guangqi Honda Automobile: no evidence gathered  
+- Toyota Tsusho: no evidence gathered  
+- Futaba Industrial: no evidence gathered  
+- PP Persero TBK PT: no evidence gathered  
+- Okaya: no evidence gathered  
+- ZF Friedrichshafen: no evidence gathered  
+- Bridgestone: no evidence gathered  
+- Aisan Industry: no evidence gathered  
+- Nexteer Automotive: no evidence gathered  
+- Grupo Simec SAB de CV: no evidence gathered  
+- Tokai Rika: no evidence gathered  
+- Chuo Spring: no evidence gathered  
+- Jordan Petroleum Refinery: no evidence gathered  
+- Zhejiang Geely Holding: no evidence gathered  
+- Schaeffler: no evidence gathered  
+- Aichi Steel: no evidence gathered  
+- Sichuan Haowu Electromechanical: no evidence gathered  
+- Koito Manufacturing: no evidence gathered  
+- Unipres: no evidence gathered  
+- Bosch: no evidence gathered  
+- Dongfeng Honda Automobile: no evidence gathered  
+- Kyushu Electric Power: no evidence gathered  
+- Mitsubishi Chemical: no evidence gathered  
+- Chongqing Changan Automobile: no evidence gathered  
+- Formosa Petrochemical: no evidence gathered  
+- UMW Holdings BHD: no evidence gathered  
+- Geely Automobile: no evidence gathered  
+- Wooshin Systems: no evidence gathered  
+- Baoshan Iron & Steel: no evidence gathered  
+- Mercedes‑Benz: no evidence gathered  
+- Tokyo Rope Manufacturing: no evidence gathered  
+- Contemporary Amperex Technology: no evidence gathered  
+- Thang Long Metal Wares JSC: no evidence gathered  
+- SK: no evidence gathered  
+- Formosa Plastics: no evidence gathered  
+- Mitsubishi Motors: no evidence gathered  
+- Yorozu: no evidence gathered  
+- Hyundai Motor: no evidence gathered  
+- Audi: no evidence gathered  
+- Volvo Car AB: no evidence gathered  
+- Yokogawa Bridge: no evidence gathered  
+- Grupo Pochteca SAB de CV: no evidence gathered  
+- BH: no evidence gathered  
+- POSCO International: no evidence gathered  
+- NSK: no evidence gathered  
+- SAIC Motor: no evidence gathered  
+- Honda Motor: no evidence gathered  
+- Tianjin FAW Toyota Engine: no evidence gathered  
+- Samsung Electronics: no evidence gathered  
+- Hanwa: no evidence gathered  
+- Kobe Steel: no evidence gathered  
+- Haima Automobile: no evidence gathered  
+- SERES: no evidence gathered  
+- GAC Toyota Motor: no evidence gathered  
+- Cars, Motorcycles and Marine Engine Trade and Import: no evidence gathered  
+- Saudi Basic Industries: no evidence gathered  
+- Toagosei: no evidence gathered  
+- KG Eco Technology Service: no evidence gathered  
+- NOK: no evidence gathered  
+- Chery Automobile: no evidence gathered  
+- Hiroca Holdings Lid: no evidence gathered.
