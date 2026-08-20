@@ -1,29 +1,3 @@
-"""
-phonebook_lite.py -- a minimal, compatible stand-in for your real
-phonebook.py, built directly from the actual company_phonebook.csv you
-uploaded (confirmed structure: 111 rows, columns including
-ground_truth_name, graph_name, corpus_name -- 74/111 rows have a
-non-empty, pre-reviewed graph_name).
-
-*** I do NOT have your real phonebook.py, only the CSV it produces. ***
-Your existing tools (graph_tool.py, supplier_info_tool.py,
-search_corpus_tool.py) all accept an optional `phonebook` object with
-`.graph_name(name)` / `.corpus_name(name)` methods -- "a pre-reviewed
-answer for a known set of 111 companies... a phonebook miss falls
-straight through" per supplier_info_tool.py's own docstring. This class
-implements that exact contract (exact match, case/whitespace-normalised,
-against the ground_truth_name column; a miss returns None, not a guess)
-so it's usable anywhere your real code expects a phonebook object. If
-your real phonebook.py does anything more (fuzzy fallback, alias lists),
-swap that in instead -- this is deliberately the simplest thing that
-satisfies the contract, not a reimplementation of logic I can't see.
-
-Used by name_resolution_audit.py to answer: "would resolution have
-worked if the phonebook had been wired in?" None of your other scripts
-(baseline_b.py, evaluate.py) currently pass a phonebook to GraphStore --
-that's not a bug, just a choice nobody has revisited yet. See this
-audit's own output for whether it's worth revisiting.
-"""
 
 from __future__ import annotations
 

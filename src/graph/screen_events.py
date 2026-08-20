@@ -1,7 +1,7 @@
 """
 screen_events.py
 
-Day 2 visibility test. For a given company (or list of companies affected
+For a given company (or list of companies affected
 by an event), checks whether the supplier graph has enough structure around
 that company to be useful for the agent later:
 

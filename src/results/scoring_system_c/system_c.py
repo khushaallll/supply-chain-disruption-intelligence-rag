@@ -1,11 +1,3 @@
-"""
-system_c.py -- the ONLY file in this evaluation package that knows
-anything about System C's trace JSON shape. Baselines A and B will each
-get their own small sibling module (baseline_a.py, baseline_b.py) instead
-of this file growing branches -- scoring.py and name_resolution.py stay
-untouched either way.
-"""
-
 from __future__ import annotations
 
 EVIDENCE_TOOLS = {"get_supplier_info", "search_corpus"}  # from stopping_condition.py

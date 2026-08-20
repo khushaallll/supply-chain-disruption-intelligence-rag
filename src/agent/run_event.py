@@ -1,5 +1,5 @@
 """
-run_event.py -- Day 9: the real runner.
+run_event.py -- the real runner.
 
 This is the file Day 8 deliberately left unwritten. Everything up to now
 (agent_state.py, stopping_condition.py, agent_tools.py, system_prompt.py,

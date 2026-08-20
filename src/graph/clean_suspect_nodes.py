@@ -1,5 +1,4 @@
-"""Review-before-removal workflow for extraction-noise nodes in graph_clean.pkl.
-
+"""
 Two modes, run via CLI:
     python src/clean_suspect_nodes.py detect --min-total-degree 2
     python src/clean_suspect_nodes.py apply

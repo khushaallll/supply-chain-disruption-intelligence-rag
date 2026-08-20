@@ -1,5 +1,5 @@
 """
-agent_state.py -- Day 8: shared LangGraph state for the multi-hop agent.
+agent_state.py --shared LangGraph state for the multi-hop agent.
 
 WHY hop-count and coverage/evidence tracking live here, in agent state, and
 not inside any of the three tools: graph_tool.py, supplier_info_tool.py, and

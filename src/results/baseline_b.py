@@ -1,30 +1,5 @@
 """
 baseline_b.py -- System B: single-hop supplier graph lookup.
-
-Per the implementation plan: "Baseline B adds the supplier graph traversal
-but uses only single-hop retrieval -- it finds direct suppliers in the
-affected region but does not reason about downstream exposure or
-alternative suppliers."
-
-There is no new retrieval logic to write here. Your Day 7.1 log already
-says traverse_supply_graph() was designed to "serve double duty as
-Baseline B" -- this file is a thin wrapper that calls it with
-mode="downstream", max_tier=1, and formats the result the way
-evaluate.py needs (a plain set of predicted company names per event),
-nothing more.
-
-Uses GraphStore exactly as it exists in graph_tool.py -- no changes to
-that file. Confirmed directly by reading graph_tool.py's real source
-before writing this:
-  - GraphStore(graph_path=...).traverse_supply_graph(company_name,
-    mode="downstream", max_tier=1) returns a GraphTraversalResult
-  - .status in {"found", "no_results", "not_resolved", "invalid_mode"}
-  - .results is a list of dicts with a "name" key -- ALREADY filtered to
-    tier <= max_tier by downstream_from(), and already excludes
-    structurally-reachable-but-unenriched companies (those land in
-    .dropped_unenriched instead, kept here as a diagnostic, not scored,
-    since Baseline B has no basis to output them -- no component/industry
-    data means nothing to reason from)
 """
 
 from __future__ import annotations

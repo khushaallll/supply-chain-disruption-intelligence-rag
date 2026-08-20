@@ -1,5 +1,5 @@
 """
-llm_setup.py -- Day 9: builds the LangChain chat-model object the agent
+llm_setup.py -- builds the LangChain chat-model object the agent
 graph actually binds to.
 
 Kept as its own tiny file, separate from agent_graph.py, for one reason:

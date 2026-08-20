@@ -1,5 +1,5 @@
 """
-system_prompt.py -- Day 8 cross-tool STRATEGY prompt.
+system_prompt.py -- cross-tool STRATEGY prompt.
 
 Deliberately separate from each tool's own LLM-facing docstring
 (agent_tools.py) -- see graph_tool.py's revision note #3. A tool's

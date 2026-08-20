@@ -1,10 +1,3 @@
-"""
-Run this ONCE to produce the corrected graph. After this, all tools
-(graph_tool.py, Day 10's impact assessment, etc.) load
-graph_enriched_corrected.pkl directly - no override function needed at load time.
-
-graph_enriched.pkl is left untouched, as the Day 3 checkpoint.
-"""
 import pickle
 from datetime import date
 from coordinate_overrides import apply_coordinate_overrides

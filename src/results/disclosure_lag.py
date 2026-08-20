@@ -1,32 +1,5 @@
 """
 disclosure_lag.py -- RQ1: disclosure lag analysis.
-
-For each event, lag = date_first_disclosure - date_news_first. This is
-pure date arithmetic over fields your ground truth already carries
-(date_news_first, date_first_disclosure, confidence.date_first_disclosure)
--- confirmed directly against your uploaded files before writing this, not
-guessed. No agent, no graph, no corpus, no retrieval of any kind is
-involved in this file. It could have been run the day the enumeration
-sweep (enumerate_disclosures.py) finished.
-
-Uses date_first_disclosure, NOT date_first_sec_filing, as the primary
-lag figure -- confirmed by direct inspection that these differ for at
-least one event (2_nippon_steel_2011: disclosure 2011-03-11, same-day
-company press release; sec_filing 2011-03-14, the formal 6-K three days
-later). date_first_disclosure is the broader, correct field per the
-project's own definition of disclosure ("an SEC filing, an earnings call,
-or a press release"); date_first_sec_filing is kept in the output purely
-as a secondary diagnostic column.
-
-*** READ Events_Limitation.md Section 1.2 BEFORE TRUSTING THE PER-CATEGORY
-TABLE ***
-That section already found: high-confidence disclosure dates are NOT
-evenly spread across categories (natural disasters and geopolitical events
-have most of them; energy events currently have none at high confidence).
-This script prints a warning and the actual per-category N so that gap is
-visible in the output itself, not just in prose you have to remember to
-add later -- but it does not paper over it. If a category shows N=0 or
-N=1 in the printed table, do not report a median for it.
 """
 
 from __future__ import annotations

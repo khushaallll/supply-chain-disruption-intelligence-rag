@@ -35,10 +35,6 @@ files before writing this (not guessed):
     across all 30 events for any remaining comma-joined `company` value:
     none found.
 
-NOT executed against your real files in this environment. Run this
-directly (`python event_loader.py`) against your real
-data/ground_truth/*.json first and read the printed summary before
-trusting evaluate.py or disclosure_lag.py's output.
 """
 
 from __future__ import annotations

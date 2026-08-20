@@ -1,20 +1,3 @@
-"""
-Manual coordinate corrections for companies whose raw geocode
-(from data/processed/locations.csv) landed somewhere wrong.
-
-Background: Day 3's implementation log documented a planned
-`location_overrides.csv` for 9 companies whose city/country text was
-narrative rather than a real address (e.g. "USA / global", "China /
-Japan"). That file was never actually created — confirmed on Day 7 by
-searching the project tree. As a result, graph_enriched.pkl carries the
-raw, unfixed geocode for all 9 companies. Two happened to land correctly
-anyway; seven did not, two of them by an entire continent
-(china steel -> Connecticut, USA; xiamen tungsten -> Uganda).
-
-This table applies the corrections from the Day 3 log directly, without
-modifying graph_enriched.pkl on disk. Verified against locations.csv and
-the Day 3 log on [today's date].
-"""
 
 COORDINATE_OVERRIDES = {
     "china steel":          (22.6273, 120.3014),   # Kaohsiung, Taiwan

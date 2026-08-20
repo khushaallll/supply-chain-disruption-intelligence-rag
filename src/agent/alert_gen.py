@@ -1,5 +1,5 @@
 """
-alert_gen.py -- Day 11, Layer 5: the alert generator.
+alert_gen.py -- Layer 4: the alert generator.
 
 --------------------------------------------------------------------------
 SCOPE CHANGE FROM THE ORIGINAL DAY 11 PLAN -- read this before using this

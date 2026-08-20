@@ -2,25 +2,6 @@
 tier_depth_sweep.py -- Evaluation #2: what happens to Baseline B as you
 let it search further from the disruption?
 
-This is the graph-only preview of the implementation plan's "System C
-capped at Tier 1-4" experiment -- same question (does precision collapse
-with depth?), asked of the plain graph traversal instead of the agent,
-because the agent doesn't exist yet and this does. When System C's own
-version of this experiment runs later, this table is the baseline it
-should be compared against: how much of the precision collapse is just
-"the graph fans out" versus how much the agent's reasoning actually holds
-back?
-
-Reuses run_baseline_b_for_all_events() and metrics.score_event/aggregate()
-completely unchanged -- this file contains zero new scoring logic, only a
-loop over max_tier. If evaluate.py's numbers are trustworthy, this sweep's
-tier-1 row will exactly match evaluate.py's Baseline B row; that's a
-built-in consistency check, not a coincidence.
-
-Files used: event_loader.py, metrics.py, graph_tool.py, baseline_b.py.
-
-NOT executed against your real graph in this environment. Run:
-    python tier_depth_sweep.py
 """
 
 from __future__ import annotations

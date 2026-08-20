@@ -1,51 +1,6 @@
 """
 baseline_a.py -- System A: naive keyword co-occurrence baseline.
 
-Per the implementation plan: "Baseline A is the simplest possible approach
--- a keyword search that flags any company whose name or location appears
-in the same GDELT article as the disruption event." Since the full GDELT
-pipeline was descoped (implementation_plan.md's scope decisions -- "~30-40
-events... not full GDELT pipeline"), the natural stand-in is the one
-synthetic TRIGGER document per event that Day 5's corpus build created
-specifically to play this role: "one document per event: the event
-description, location, category and directly-affected company," dated on
-the event date (day4-5_implementation_log.md, Section 2.2). Scanning that
-document for known company names is the same operation Baseline A is
-supposed to perform on a real news article -- just against your project's
-actual data source instead of a GDELT article that was never built.
-
-*** ONE GENUINE UNKNOWN IN THIS FILE -- READ THIS BEFORE RUNNING ***
-I do not have direct access to your corpus chunks file
-(chunks_600_80_fulltext_sentence_tagged.jsonl) or a manifest that lists
-the 30 trigger documents specifically -- the manifest_fulltext_sentence.csv
-you uploaded contains only the 605 SEC annual-report documents (source_type
-"annual_report" throughout, confirmed by direct inspection), not the
-triggers. So `load_trigger_texts()` below has to GUESS which field
-identifies a trigger chunk in the real chunks file. It tries three
-heuristics in order and tells you on stdout which one worked, or if none
-did. Run `python baseline_a.py` and read that output FIRST -- if it says
-"0 trigger documents found," open the chunks file yourself and check what
-actually marks a trigger doc (likely candidates: a `form` value like
-"trigger" or "event_trigger", or a `source_type` field, or a `doc_id`
-pattern), then fix the one function `load_trigger_texts()` -- nothing
-else in this file depends on how that lookup works internally.
-
-If you'd rather not chase that down right now, `run_baseline_a()` will
-accept a plain dict you build by hand ({event_id: trigger_text}) instead
-of calling the loader -- see the `trigger_texts` parameter.
-
-DELIBERATELY NOT using ground_truth_affected[].impact text as a stand-in
-for the trigger document, even though it was tempting and would have
-worked without any file-path guessing at all: that text was written BY
-the ground-truth researcher, describing exactly which companies were
-affected. Scanning it for company names doesn't test whether Baseline A
-can find companies from a news-like description -- it tests whether
-Baseline A can find companies whose names are ALREADY IN the answer key,
-which would make Baseline A trivially close to 100% recall for the wrong
-reason. This is the same circularity risk your project's own memory
-already flags for Cowork-sourced ground truth, and grading Baseline A
-against its own answer key would be a worse version of exactly that
-problem.
 """
 
 from __future__ import annotations

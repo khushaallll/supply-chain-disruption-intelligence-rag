@@ -1,43 +1,6 @@
 """
 graph_reach_analysis.py -- Evaluation #1: the graph's recall ceiling.
 
-Answers: of every REAL affected company across your 30 events, how many
-hops away from the disruption is it actually sitting in the graph -- and
-how many are not reachable downstream from the seed at all, however far
-you're willing to look? This is the maximum recall ANY downstream-graph-
-based system (Baseline B, or your agent) could ever achieve, independent
-of how good its reasoning is. State this number before any recall
-percentage in the dissertation, so a reader can tell "the system missed
-it" apart from "the system was never able to see it."
-
-One graph call per event, not four: traverse_supply_graph(seed,
-mode="downstream", max_tier=4) already returns every tier 1-4 company in
-one pass, each tagged with its own "tier" -- see graph_tool.py's
-downstream_from(), which walks tier by tier and would have returned this
-either way. Calling it four times (once per max_tier) would just throw
-away three of those passes' work for nothing.
-
-Two independent sources of "how far away is this company" get compared
-here, on purpose, not just one:
-  1. LIVE: recomputed right now via GraphStore.traverse_supply_graph(),
-     using this project's seed-derivation (event_loader.seed_company,
-     including the manual SEED_OVERRIDES fix) and the CURRENT graph file
-     (graph_enriched_corrected.pkl -- the Day 7 coordinate-corrected one).
-  2. STATED: the graph_hop value already sitting in your ground truth
-     JSON, computed earlier via a separate script against
-     graph_enriched.pkl (the pre-correction file), per each entry's own
-     graph_note field.
-  A mismatch between the two doesn't necessarily mean either one is
-  wrong -- but it's worth knowing about, since it means recall_all
-  numbers computed against the STATED hop and numbers computed against
-  the LIVE graph aren't quite measuring the same thing. This script
-  flags every mismatch explicitly rather than silently trusting one.
-
-Files used: event_loader.py (events + ground truth), graph_tool.py
-(unchanged, your real GraphStore).
-
-NOT executed against your real graph in this environment. Run:
-    python graph_reach_analysis.py
 """
 
 from __future__ import annotations

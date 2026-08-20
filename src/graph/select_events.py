@@ -1,7 +1,5 @@
 """
-select_events.py
-
-Day 2, final step: pick 30 events out of the 60 candidates, split 8/8/7/7
+pick 30 events out of the 60 candidates, split 8/8/7/7
 across categories (Natural disaster / Industrial accident / Energy-utility /
 Geopolitical-policy), following two rules:
 

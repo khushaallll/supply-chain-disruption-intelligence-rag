@@ -1,5 +1,5 @@
 """
-agent_tools.py -- Day 8: binds the three existing Layer 3 tools
+agent_tools.py -- binds the three existing Layer 3 tools
 (graph_tool.py, supplier_info_tool.py, search_corpus_tool.py) into the two
 shapes the agent loop needs:
 

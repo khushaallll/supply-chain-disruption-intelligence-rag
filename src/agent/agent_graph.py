@@ -1,21 +1,6 @@
 """
-agent_graph.py -- Day 8: the LangGraph ReAct scaffold.
+agent_graph.py -- the LangGraph ReAct scaffold.
 
-Graph shape:
-
-               +---------+   tool_calls?   +-------+
-    START ---> | agent   | --------------> | tools | --+
-               +---------+                 +-------+   |
-                    ^                          |        | should_stop?
-                    |            continue       |        |
-                    +---------------------------+        v
-                                                    +-----------+
-                        (no tool_calls) ----------> | finalize  | <--+
-                                                    +-----------+    |
-                                                          ^          |
-                                                          |    +-----------+
-                                                          +----| summarize |
-                                                               +-----------+
 
 Three places decide when to stop, and none of them is "trust the LLM's own
 judgement" alone:

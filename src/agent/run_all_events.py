@@ -1,5 +1,5 @@
 """
-run_all_events.py -- Day 9: runs System C across all 30 ground-truth events
+run_all_events.py -- runs System C across all 30 ground-truth events
 in one pass, reusing a single built app (see run_event.build_app()) rather
 than reloading the graph/corpus/embedding model 30 times.
 

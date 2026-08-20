@@ -25,7 +25,7 @@ Reasoning: stopping_condition.py's own module docstring draws this exact
 line for a reason directly relevant to evaluation, not just to the
 stopping logic -- "structural adjacency in the graph is not itself a
 grounded claim about impact." A single traverse_supply_graph(max_tier=2)
-call can name anywhere from 15 to over 300 companies (day8_9 log §8.1) as
+call can name anywhere from 15 to over 300 companies as
 merely "significant" (tier <= 2); treating ALL of those as "the agent's
 prediction" would make precision measure the graph's own branching factor
 for a given seed company, not anything about the agent's reasoning --

@@ -1,41 +1,5 @@
 """
 metrics.py -- pure recall/precision/false-positive scoring functions.
-
-No networkx/rapidfuzz/geopy/chromadb imports here on purpose, same reason
-search_corpus_tool.py defers its heavy imports to inside __init__: this
-lets test_evaluation_logic.py exercise the actual scoring math in an
-environment that doesn't have your real graph/corpus libraries installed
-at all, and lets you hand-verify the numbers against the real
-ground-truth JSON without loading anything expensive.
-
-Metric definitions used throughout (state these explicitly in the
-methodology chapter, exact wording below):
-
-  recall_all       = TP / (every recorded affected company, whether or
-                      not it has a graph_node) -- summed only over events
-                      where score_for_recall is True.
-  recall_reachable = TP / (affected companies tagged hop1 or hop2 in the
-                      ground truth) -- same event pool. This decomposition
-                      is not new -- it's the Day 4-5 log's D4.2/D4.3
-                      decision, carried over unchanged: recall_all is
-                      bounded above by how much of the real world your
-                      graph covers at all (~30% per Events_Limitation.md
-                      4.1); recall_reachable asks the fairer question of
-                      how well the SYSTEM does on the subset it could
-                      possibly reach.
-  precision         = TP / (TP + FP) -- summed only over events where
-                      score_for_precision is True.
-  false positives   = reported as a raw total AND as an average per
-                      scored event, NOT as a classical rate with a fixed
-                      negative-class denominator. There is no natural
-                      fixed universe of "companies that were definitely
-                      NOT affected" to divide by in this open, thousands-
-                      of-nodes graph -- picking one (e.g. "every node in
-                      the graph") would be an arbitrary modelling choice
-                      dressed up as a rate. Total and per-event-average FP
-                      counts are the honest, defensible version of the
-                      "false positive rate" the implementation plan asks
-                      for; say so explicitly wherever this number appears.
 """
 
 from __future__ import annotations

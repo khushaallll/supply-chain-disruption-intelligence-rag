@@ -2,8 +2,6 @@
 select_final_enrichment_targets.py
 
 Builds the final list of companies to enrich (city, lat/lon, component label)
-for Day 3, targeting what the Day 7-9 agent would actually find useful --
-not a generic "everyone nearby" list.
 
 Selection logic:
   1. MANDATORY  - the 29 real event epicenters. Non-negotiable.

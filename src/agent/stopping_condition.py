@@ -1,5 +1,5 @@
 """
-stopping_condition.py -- Day 8: the two-check stopping condition
+stopping_condition.py -- the two-check stopping condition
 (Coverage, Evidence quality), plus the significance/recency defaults it
 needs to actually evaluate those checks.
 

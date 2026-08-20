@@ -2,36 +2,6 @@
 name_resolution_audit.py -- Evaluation #3: is missed recall a graph
 problem or a name-matching problem?
 
-Two separate things get checked against store.find_company_node(), for
-every event seed AND every ground-truth-affected company name across all
-30 events:
-
-  1. Does it resolve WITHOUT a phonebook (i.e. exactly what baseline_b.py
-     and evaluate.py have been doing this whole time)?
-  2. Does it resolve WITH the phonebook attached (phonebook_lite.py,
-     built from your real company_phonebook.csv -- 74/111 known names
-     already have a pre-reviewed graph match)?
-  3. Where ground truth ALREADY recorded a graph_node for this company,
-     does either resolution agree with it?
-
-This directly follows up on two things already found:
-  - baseline_b.py's real run reported 2/30 seeds not resolving at all
-  - event 19's seed ("cpc corp/taiwan") turned out to need a manual fix
-    because the naive event_id-derived guess didn't match the graph's
-    real node name
-
-This script checks whether the phonebook -- which is NOT currently
-plugged into baseline_b.py or evaluate.py's GraphStore calls -- would
-have caught cases like that automatically, and whether any of the
-CURRENT (phonebook-less) resolutions might be silently landing on the
-wrong node compared to what ground truth already recorded.
-
-Files used: event_loader.py (events + ground truth), graph_tool.py
-(unchanged, your real GraphStore.find_company_node), phonebook_lite.py
-(new, built from your real company_phonebook.csv).
-
-NOT executed against your real graph/phonebook in this environment. Run:
-    python name_resolution_audit.py
 """
 
 from __future__ import annotations

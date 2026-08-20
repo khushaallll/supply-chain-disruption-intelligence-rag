@@ -1,21 +1,3 @@
-"""
-test_evaluation_logic.py
-
-Tests the parts of the Day 12-13 evaluation pipeline that involve no
-file I/O and no heavy dependency (networkx/rapidfuzz/geopy/chromadb) --
-the scoring math in metrics.py, the seed-derivation and exclusion logic
-in event_loader.py, and the keyword scanner in baseline_a.py. Same
-"pure functions, no model/DB dependency, directly testable" pattern as
-test_search_corpus_logic.py.
-
-This does NOT validate your real numbers -- it validates that the
-ARITHMETIC is right, using small, hand-constructed fixtures where the
-correct answer was worked out by hand before the test was written. Run
-this once, before trusting evaluate.py's real-data output, the same way
-test_search_corpus_logic.py was run before test_search_corpus_real.py.
-
-Run: python test_evaluation_logic.py
-"""
 
 import sys
 from pathlib import Path
